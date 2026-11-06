@@ -43,6 +43,7 @@ data/dragon/cdn/16.21.1/
 docs/BUILD_ENGINE_V4_RESULTS.md
 docs/RANKED_GENERALIZATION_REPORT.md
 
+# Local package, private notes, and stale generated material
 *.zip
 data/dragon/cdn/16.21.1/
 docs/BUILD_ENGINE_V4_RESULTS.md
