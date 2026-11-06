@@ -1,0 +1,33 @@
+{
+  "name": "rift-companion",
+  "version": "0.1.0",
+  "description": "Asistente local de builds para League of Legends",
+  "main": "src/main.js",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "check": "node scripts/check.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "test:ci": "node scripts/test-ci.cjs",
+    "test:opgg:integration": "node scripts/test-opgg-integration.cjs",
+    "validate:data": "node scripts/validate-data.cjs",
+    "validate:aram-mayhem": "node scripts/validate-aram-mayhem-data.cjs",
+    "diagnose:mayhem-local": "node scripts/diagnose-mayhem-local.cjs",
+    "diagnose:mayhem-local:watch": "node scripts/diagnose-mayhem-local.cjs --watch",
+    "test:electron": "electron scripts/smoke-electron.cjs && electron scripts/test-overlay-tooltip.cjs",
+    "capture:readme-screenshots": "electron scripts/capture-readme-screenshots.cjs",
+    "test:tooltip": "electron scripts/test-overlay-tooltip.cjs",
+    "report:ranked-coverage": "node scripts/ranked-coverage-report.cjs",
+    "report:ranked-generalization": "node scripts/ranked-generalization-report.cjs",
+    "report:champion-intelligence": "node scripts/champion-intelligence-report.cjs",
+    "audit:opgg:ranked": "node scripts/opgg-ranked-audit.cjs",
+    "report:champion-certification": "node scripts/champion-strategic-certification-report.cjs",
+    "audit:ranked-items": "node scripts/build-item-purpose-catalog.cjs",
+    "report:ranked-v4": "node scripts/ranked-v4-report.cjs"
+  },
+  "devDependencies": {
+    "electron": "^45.2.1"
+  }
+}

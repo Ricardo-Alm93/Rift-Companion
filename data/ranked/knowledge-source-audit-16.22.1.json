@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-11-04T22:32:19.000Z",
+  "expectedDataDragonPatch": "16.22.1",
+  "sources": [
+    {
+      "id": "riot-data-dragon",
+      "status": "primary-official-source",
+      "patch": "16.22.1",
+      "use": "Champion descriptions, explicit markup tags and vars when present"
+    },
+    {
+      "id": "meraki-lolstaticdata",
+      "status": "queried-stale-excluded",
+      "observedChampion": "Ahri",
+      "observedChampionIconVersion": "15.15.1",
+      "lastModified": "2025-08-01T08:37:37.000Z",
+      "httpDate": "2026-11-04T22:32:19.000Z",
+      "expectedPatch": "16.22.1",
+      "usableForCurrentPatch": false,
+      "notes": "Direct GET of the only documented latest combined endpoint returned HTTP 200, Last-Modified 2025-08-01T08:37:37Z; Ahri icon points to Data Dragon 15.15.1 and patchLastChanged is 25.13. Direct latest champion endpoint returned HTTP 200 but Last-Modified 2025-04-30. Probed both patch-versioned 16.22.1 paths and received HTTP 404. No compatible versioned endpoint or 16.22.1 snapshot found; all Meraki values remain excluded from current-patch facts. No Meraki records bundled.",
+      "lastVerifiedAt": "2026-11-05T01:07:00.326Z",
+      "latestCombinedUrl": "https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/champions.json",
+      "observedIcon": "http://ddragon.leagueoflegends.com/cdn/15.15.1/img/champion/Ahri.png",
+      "observedPatchLastChanged": "25.13",
+      "versionedEndpointProbes": [
+        {
+          "url": "https://cdn.merakianalytics.com/riot/lol/resources/16.22.1/en-US/champions.json",
+          "httpStatus": 404
+        },
+        {
+          "url": "https://cdn.merakianalytics.com/riot/lol/resources/16.22.1/en-US/champions/Ahri.json",
+          "httpStatus": 404
+        }
+      ]
+    },
+    {
+      "id": "communitydragon",
+      "status": "not-ingested-license-unverified",
+      "usableForCurrentPatch": false,
+      "notes": "Public docs describe detailed champion data as BIN-derived with no unified interpretation. No license covering the extracted game-data dataset was verified; code licenses are not treated as licenses for game data."
+    },
+    {
+      "id": "editorial-profiles",
+      "status": "candidate-unless-explicitly-reviewed",
+      "use": "No profile is treated as a verified mechanical fact solely because it exists in the seed."
+    }
+  ]
+}

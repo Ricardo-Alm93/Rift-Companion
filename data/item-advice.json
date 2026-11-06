@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "description": "Consejos editoriales locales por objeto para Rift Companion. Revisa el parche y adapta la compra a la partida.",
+  "items": [
+    {
+      "ids": [
+        6616,
+        226616
+      ],
+      "aliases": [
+        "Staff of Flowing Water",
+        "Bastón de aguas fluidas"
+      ],
+      "advice": {
+        "es": "Elígelo si tu campeón cura o escuda aliados con frecuencia. Cada activación potencia temporalmente el poder de habilidad y la velocidad de habilidades tuyos y del aliado, mejorando el siguiente intercambio o pelea de ambos.",
+        "en": "Choose it when your champion frequently heals or shields allies. Each activation temporarily boosts both your and the ally’s ability power and ability haste, improving your next trade or team fight."
+      }
+    },
+    {
+      "ids": [
+        6617,
+        226617
+      ],
+      "aliases": [
+        "Moonstone Renewer",
+        "Renovación de piedra lunar"
+      ],
+      "advice": {
+        "es": "Cómprala cuando puedas curar o aplicar escudos repetidamente en peleas de equipo. Gracia estelar transmite parte de la curación o del escudo a otro aliado, así que cada activación ayuda a mantener con vida a más de un compañero. Su valor principal es aumentar la supervivencia del equipo, no el daño propio.",
+        "en": "Buy it when you can heal or shield repeatedly in team fights. Starlit Grace passes part of the heal or shield to another ally, so each activation helps keep more than one teammate alive. Its main value is team durability, not personal damage."
+      }
+    },
+    {
+      "ids": [
+        2420
+      ],
+      "aliases": [
+        "Seeker's Armguard",
+        "Brazalete de buscadora",
+        "Brazalete del buscador",
+        "Armguard of the Seeker"
+      ],
+      "advice": {
+        "es": "Buena respuesta contra asesinos de daño de ataque como Zed o Talon: aporta armadura para reducir su daño físico y poder sobrevivir a la entrada. Completa Zhonya si necesitas parar una definitiva o una ráfaga; no lo compres solo por daño.",
+        "en": "A useful answer to attack-damage assassins such as Zed or Talon: its armor helps you survive their physical burst. Upgrade to Zhonya's when you need to stop an ultimate or all-in; do not buy it for damage alone."
+      }
+    },
+    {
+      "ids": [
+        3157
+      ],
+      "aliases": [
+        "Zhonya's Hourglass",
+        "Reloj de arena de Zhonya",
+        "Reloj de arena de zhonya"
+      ],
+      "advice": {
+        "es": "Compra Zhonya contra una entrada o definitiva que puedas evitar con estasis: por ejemplo, para ganar tiempo frente a una ráfaga de asesino o esperar a que tu equipo te cubra. Actívalo cuando el rival ya se comprometió, no antes.",
+        "en": "Buy Zhonya's when stasis can deny an engage or ultimate, such as an assassin's committed burst or to buy time for your team. Activate it after the opponent commits, not before."
+      }
+    },
+    {
+      "ids": [
+        3102
+      ],
+      "aliases": [
+        "Banshee's Veil",
+        "Velo de la banshee",
+        "Velo de Banshee"
+      ],
+      "advice": {
+        "es": "Elígelo contra iniciaciones o habilidades mágicas decisivas que debas bloquear antes de entrar, como un control de alcance. La protección pierde valor si recibes primero daño menor; evita gastarla con poke fácil de esquivar.",
+        "en": "Choose it against decisive magic engage or crowd control that you need to block before entering. Its spell shield loses value to minor poke, so avoid wasting it on easy-to-dodge damage."
+      }
+    },
+    {
+      "ids": [
+        3139
+      ],
+      "aliases": [
+        "Mercurial Scimitar",
+        "Cimitarra mercurial",
+        "Cimitarra mercurial"
+      ],
+      "advice": {
+        "es": "Considera este objeto si un control concreto te impide atacar o escapar. Guarda la activa para la inmovilización o supresión peligrosa y úsala para reposicionarte; no reemplaza esquivar la habilidad.",
+        "en": "Consider it when a specific crowd-control effect prevents you from attacking or escaping. Save the active for the dangerous root or suppression and use the movement speed to reposition; it does not replace dodging."
+      }
+    },
+    {
+      "ids": [
+        3033
+      ],
+      "aliases": [
+        "Mortal Reminder",
+        "Recuerdo mortal"
+      ],
+      "advice": {
+        "es": "Úsalo contra campeones que se curan mucho o acumulan armadura. La penetración ayuda contra defensas físicas y las heridas graves reducen la curación; prioriza la compra cuando ese efecto responda a una amenaza real.",
+        "en": "Use it against heavy healing or armor stacking. Armor penetration helps against physical defenses and Grievous Wounds cuts healing; prioritize it when those effects answer a real threat."
+      }
+    },
+    {
+      "ids": [
+        6695
+      ],
+      "aliases": [
+        "Serpent's Fang",
+        "Colmillo de serpiente"
+      ],
+      "advice": {
+        "es": "Cómpralo si los escudos del equipo rival protegen repetidamente a sus carries o sostienen a sus tanques. Su efecto reduce escudos; pierde prioridad cuando el rival apenas depende de ellos.",
+        "en": "Buy it when enemy shields repeatedly protect carries or keep frontliners alive. Its effect reduces shields; it is a lower priority when the enemy barely relies on them."
+      }
+    },
+    {
+      "ids": [
+        3135
+      ],
+      "aliases": [
+        "Void Staff",
+        "Bastón del Vacío"
+      ],
+      "advice": {
+        "es": "Elígelo cuando los rivales ya compraron resistencia mágica y tu daño mágico dejó de ser efectivo. La penetración porcentual rinde más contra defensas acumuladas que contra objetivos sin resistencia.",
+        "en": "Choose it when opponents have bought magic resistance and your magic damage is being reduced. Percentage penetration is more valuable against stacked resistance than against low-resistance targets."
+      }
+    },
+    {
+      "ids": [
+        3036
+      ],
+      "aliases": [
+        "Lord Dominik's Regards",
+        "Recuerdos de Lord Dominik"
+      ],
+      "advice": {
+        "es": "Priorízalo si los rivales acumulan armadura o tienen mucha vida y necesitas atravesar su primera línea para seguir dañando a los objetivos prioritarios.",
+        "en": "Prioritize it when opponents stack armor or health and you need to get through the frontline to keep damaging priority targets."
+      }
+    },
+    {
+      "ids": [
+        3075
+      ],
+      "aliases": [
+        "Thornmail",
+        "Malla de espinas"
+      ],
+      "advice": {
+        "es": "Es una opción defensiva contra campeones que te golpean de cerca y dependen de curación. Aprovechas la armadura al recibir ataques y aplicas heridas graves; no sustituye una respuesta de daño si tu equipo necesita cerrar la pelea.",
+        "en": "A defensive option against nearby attackers who rely on healing. You use its armor while being hit and apply Grievous Wounds; it does not replace damage when your team needs to finish fights."
+      }
+    },
+    {
+      "ids": [
+        3143
+      ],
+      "aliases": [
+        "Randuin's Omen",
+        "Presagio de Randuin"
+      ],
+      "advice": {
+        "es": "Úsalo contra campeones de golpes críticos o cuando necesites frenar una entrada física. La activa ayuda a ralentizar a quienes están cerca para proteger a tus carries o cortar una persecución.",
+        "en": "Use it against critical-strike attackers or when you need to slow a physical engage. Its active helps slow nearby enemies to protect your carries or stop a chase."
+      }
+    },
+    {
+      "ids": [
+        3109
+      ],
+      "aliases": [
+        "Knight's Vow",
+        "Juramento del caballero"
+      ],
+      "advice": {
+        "es": "Elígelo como apoyo si un aliado que debe sobrevivir —normalmente tu carry— recibe el foco. Su valor depende de proteger a ese aliado y pelear cerca de él.",
+        "en": "Choose it as a support item when a key ally, usually your carry, is being focused. Its value comes from protecting that ally and fighting near them."
+      }
+    },
+    {
+      "ids": [
+        4633
+      ],
+      "aliases": [
+        "Riftmaker",
+        "Creagrietas"
+      ],
+      "advice": {
+        "es": "Rinde en peleas prolongadas donde puedes mantenerte cerca del rival y aprovechar daño sostenido. Evítalo como respuesta a una amenaza que te elimina de una sola ráfaga antes de acumular valor.",
+        "en": "It suits extended fights where you can stay near opponents and deal sustained damage. It is not a good answer to a threat that kills you in one burst before you can benefit from it."
+      }
+    },
+    {
+      "ids": [
+        3115
+      ],
+      "aliases": [
+        "Nashor's Tooth",
+        "Diente de Nashor"
+      ],
+      "advice": {
+        "es": "Cómpralo en campeones que aprovechan poder de habilidad y ataques básicos, especialmente si pueden golpear repetidamente. Es menos eficaz si no puedes acercarte o mantener ataques durante la pelea.",
+        "en": "Buy it on champions that scale with ability power and basic attacks, especially when they can hit repeatedly. It is less effective if you cannot stay in range and keep attacking."
+      }
+    },
+    {
+      "ids": [
+        6333
+      ],
+      "aliases": [
+        "Death's Dance",
+        "Baile de la muerte"
+      ],
+      "advice": {
+        "es": "Buena defensa para luchadores que reciben daño físico en peleas prolongadas: amortigua parte de la ráfaga y recompensa participar en derribos. No es una respuesta suficiente contra daño mágico dominante.",
+        "en": "A strong defense for fighters taking physical damage in extended fights: it delays part of burst and rewards takedowns. It is not enough against predominantly magic damage."
+      }
+    },
+    {
+      "ids": [
+        3110
+      ],
+      "aliases": [
+        "Frozen Heart",
+        "Corazón de hielo"
+      ],
+      "advice": {
+        "es": "Elígelo contra equipos que dependen de ataques básicos y velocidad de ataque, sobre todo si tu campeón puede mantenerse cerca. La armadura también ayuda contra su daño físico; contra magos, prioriza resistencia mágica.",
+        "en": "Choose it against teams that rely on basic attacks and attack speed, especially if your champion can stay nearby. Its armor also helps against physical damage; prioritize magic resistance against mages."
+      }
+    },
+    {
+      "ids": [
+        4401
+      ],
+      "aliases": [
+        "Force of Nature",
+        "Fuerza de la naturaleza"
+      ],
+      "advice": {
+        "es": "Compra esta resistencia contra daño mágico repetido y ralentizaciones cuando necesitas llegar hasta el rival o sostener una pelea. Su valor cae frente a equipos cuyo daño principal es físico.",
+        "en": "Buy this resistance against repeated magic damage and slows when you need to reach opponents or survive a long fight. It is less valuable against primarily physical teams."
+      }
+    },
+    {
+      "ids": [
+        3026
+      ],
+      "aliases": [
+        "Guardian Angel",
+        "Ángel de la guarda"
+      ],
+      "advice": {
+        "es": "Úsalo cuando seas un objetivo prioritario y la reanimación pueda dar tiempo a tu equipo para responder. Es más valioso antes de objetivos importantes; no evita que el rival controle tu reaparición.",
+        "en": "Use it when you are a priority target and the revive gives your team time to respond. It is most valuable before major objectives; it does not stop enemies from controlling your revive."
+      }
+    },
+    {
+      "ids": [
+        3089
+      ],
+      "aliases": [
+        "Rabadon's Deathcap",
+        "Sombrero mortal de Rabadon",
+        "Sombrero mortal de Rabadón"
+      ],
+      "advice": {
+        "es": "Gran compra ofensiva para campeones que ya escalan con poder de habilidad y pueden sobrevivir a la pelea. Si estás muriendo antes de lanzar tus habilidades, primero resuelve la amenaza o compra defensa.",
+        "en": "A strong offensive purchase for champions that already scale with ability power and can survive fights. If you die before casting, answer the threat or buy defense first."
+      }
+    },
+    {
+      "ids": [
+        3165
+      ],
+      "aliases": [
+        "Morellonomicon",
+        "Morellonomicón"
+      ],
+      "advice": {
+        "es": "Cómpralo cuando el equipo rival dependa de curación y tu campeón pueda aplicar heridas graves de forma fiable con habilidades. Si otro aliado ya cubre anti-curación, prioriza una opción que mejore tu daño o supervivencia.",
+        "en": "Buy it when the enemy relies on healing and your champion can reliably apply Grievous Wounds with abilities. If an ally already covers anti-heal, prioritize damage or survival instead."
+      }
+    }
+  ],
+  "rules": [
+    {
+      "any": [
+        "grievous wounds",
+        "heridas graves",
+        "reduce healing",
+        "reduce healing"
+      ],
+      "tagsAny": [
+        "GrievousWounds"
+      ],
+      "advice": {
+        "es": "Úsalo cuando el equipo rival dependa de curación o robo de vida; su efecto anti-curación reduce ese sustain.",
+        "en": "Buy it when the enemy team relies on healing or life steal; its anti-heal effect cuts that sustain."
+      }
+    },
+    {
+      "any": [
+        "magic penetration",
+        "penetración mágica",
+        "magic resist reduction"
+      ],
+      "advice": {
+        "es": "Priorízalo cuando los rivales compren resistencia mágica; la penetración reduce la eficacia de esa defensa.",
+        "en": "Prioritize it when opponents buy magic resistance; penetration reduces the value of that defense."
+      }
+    },
+    {
+      "any": [
+        "armor penetration",
+        "penetración de armadura",
+        "lethality",
+        "letalidad"
+      ],
+      "advice": {
+        "es": "Priorízalo contra objetivos que acumulan armadura o que necesitas eliminar con daño físico.",
+        "en": "Prioritize it against targets stacking armor or targets you need to remove with physical damage."
+      }
+    },
+    {
+      "tagsAny": [
+        "Armor"
+      ],
+      "advice": {
+        "es": "Buena respuesta contra daño físico y asesinos de daño de ataque: la armadura reduce el daño físico recibido. Si el peligro principal es mágico, busca resistencia mágica.",
+        "en": "A useful answer to physical damage and attack-damage assassins: armor reduces incoming physical damage. If magic is the main threat, look for magic resistance instead."
+      }
+    },
+    {
+      "tagsAny": [
+        "SpellBlock"
+      ],
+      "advice": {
+        "es": "Buena respuesta contra campeones de daño mágico: la resistencia mágica reduce su daño. Si la amenaza principal es física, busca armadura.",
+        "en": "A useful answer to magic-damage champions: magic resistance reduces their damage. If the main threat is physical, look for armor instead."
+      }
+    },
+    {
+      "tagsAny": [
+        "Health"
+      ],
+      "advice": {
+        "es": "Elígelo si necesitas más vida para sobrevivir a ráfagas o aguantar peleas largas; combínalo con resistencias si el rival concentra un tipo de daño.",
+        "en": "Choose it when you need health to survive burst or extended fights; pair it with resistances when opponents concentrate one damage type."
+      }
+    }
+  ]
+}

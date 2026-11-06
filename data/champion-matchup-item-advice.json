@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "source": "Rift Companion · reglas editoriales sobre objetos y amenazas visibles; sin estadísticas de matchup",
+  "patch": "16.21.1",
+  "matchups": {
+    "Jinx": {
+      "MasterYi": [
+        {
+          "itemId": "3026",
+          "enemyName": { "es": "Maestro Yi", "en": "Master Yi" },
+          "reason": {
+            "es": "Muy bueno contra Maestro Yi: la resurrección puede castigar una entrada directa sobre Jinx y dar tiempo a sus aliados para protegerla.",
+            "en": "Very good against Master Yi: the revive can punish a direct dive onto Jinx and give allies time to protect her."
+          },
+          "source": "Rift Companion · efecto del objeto y perfil editorial del campeón"
+        },
+        {
+          "itemId": "6673",
+          "enemyName": { "es": "Maestro Yi", "en": "Master Yi" },
+          "reason": {
+            "es": "Opción contra la entrada de Maestro Yi: el escudo puede absorber parte del daño concentrado cuando Jinx queda por debajo del umbral de vida.",
+            "en": "Option against Master Yi's dive: the shield can absorb part of his focused damage when Jinx falls below its health threshold."
+          },
+          "source": "Rift Companion · efecto del objeto y perfil editorial del campeón"
+        },
+        {
+          "itemId": "3046",
+          "enemyName": { "es": "Maestro Yi", "en": "Master Yi" },
+          "reason": {
+            "es": "Alternativa de kiteo contra Maestro Yi: velocidad de movimiento y estado fantasmal ayudan a reposicionarse mientras Jinx mantiene distancia.",
+            "en": "Kiting option against Master Yi: movement speed and ghosting help Jinx reposition while keeping distance."
+          },
+          "source": "Rift Companion · efecto del objeto y perfil editorial del campeón"
+        }
+      ]
+    }
+  }
+}

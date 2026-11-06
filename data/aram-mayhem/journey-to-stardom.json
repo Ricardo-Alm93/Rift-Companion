@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "patch": "26.22",
+  "source": "https://support.riotgames.com/en-us/league-of-legends/events/aram-mayhem-journey-to-stardom",
+  "verification": "official-support-page",
+  "progression": [
+    { "status": "Newbie", "fame": 0, "unlocks": ["Pentakill Band Track", "Pentakill Audition Missions"] },
+    { "status": "Recognized", "fame": 1000, "unlocks": ["HEARTSTEEL Band Track", "HEARTSTEEL Audition Missions"] },
+    { "status": "Lowkey Famous", "fame": 3200, "unlocks": ["True Damage Band Track", "True Damage Audition Missions"] },
+    { "status": "Icon", "fame": 5800, "unlocks": ["K/DA Band Track", "K/DA Audition Missions"] },
+    { "status": "Legend", "fame": 8800, "unlocks": ["Worlds Band Track", "Worlds Audition Missions"], "availablePatch": "26.22" },
+    { "status": "Superstar", "fame": 14000, "unlocks": ["Bouncer Poro Emote", "Superstar title"] }
+  ],
+  "bands": ["Pentakill", "HEARTSTEEL", "True Damage", "K/DA", "Worlds"],
+  "augmentMilestones": {
+    "Pentakill": ["Fruitify", "No Mana, No Problem", "Hands Off The Talent"],
+    "HEARTSTEEL": ["Lich Brain", "Sap Magic", "Upgrade: Stormsurge"],
+    "True Damage": ["Lonely Warrior", "Weapon of Destiny", "Third Times The Harm"],
+    "K/DA": ["Sound Barrier", "Gift of the Drowned", "Arcane Axiom"],
+    "Worlds": null
+  },
+  "note": "Progression unlocks, event rewards, Headliners, and gameplay augments are separate catalogs. World track details are not fully published in the cited support page."
+}

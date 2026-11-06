@@ -1,0 +1,55 @@
+.env
+.env.*
+!.env.example
+
+# Installed dependencies and generated builds
+node_modules/
+dist/
+release/
+outputs/
+work/
+coverage/
+*.zip
+
+# Local secrets, caches, diagnostics, and generated artifacts
+*.log
+*.traineddata
+.cache/
+.parcel-cache/
+*.tmp
+*.db
+*.sqlite
+*.sqlite3
+
+# Personal/editor/OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# OP.GG MCP response snapshots and reports embedding live third-party data.
+# These remain local until redistribution terms are confirmed.
+data/ranked/opgg-live-audit*.json
+data/ranked/pilot-build-profiles-*.json
+data/ranked/coverage-report-*.json
+data/ranked/champion-intelligence-report-*.json
+data/ranked/champion-strategic-certification-report-*.json
+data/ranked/champion-strategic-certification-report-*.md
+data/ranked/audit-*-cases-*.md
+data/dragon/cdn/16.21.1/
+
+# Generated implementation/audit reports kept local during development.
+docs/BUILD_ENGINE_V4_RESULTS.md
+docs/RANKED_GENERALIZATION_REPORT.md
+
+*.zip
+data/dragon/cdn/16.21.1/
+docs/BUILD_ENGINE_V4_RESULTS.md
+docs/RANKED_GENERALIZATION_REPORT.md
+
+# Generated/debug screenshots. Keep only the two reviewed synthetic README examples.
+docs/assets/screenshots/*.png
+!docs/assets/screenshots/ranked-v41-ahri-zed-slot2-app-final.png
+!docs/assets/screenshots/ranked-v41-ahri-zed-slot2-overlay-final.png
+data/ranked/generalization-report-*.json

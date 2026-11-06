@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "mode": "ARAM Mayhem",
+  "patch": "26.22",
+  "status": "separate-mayhem-validation",
+  "source": "https://arammayhem.com/data/ plus Data Dragon 16.22.1 item map and purchase fields",
+  "statsCatalogPatch": "26.21",
+  "rules": [
+    "Do not apply the Ranked/Summoner's Rift map-11 validator or Ranked editorial taxonomy.",
+    "Final inventory choices must exist in the Mayhem item snapshot or have explicit Data Dragon map-12 availability and be purchasable.",
+    "Transformation targets may be shown as final inventory items only when their acquisition path is recorded; the consumed component is not a second inventory slot.",
+    "Unknown item metadata is treated as unknown, never as proof of incompatibility.",
+    "Arena-exclusive items are not included by using Mayhem map-12 eligibility; do not infer Arena eligibility from generic damage tags."
+  ],
+  "limitations": "The reusable Mayhem item statistics snapshot is 26.21. 26.22 item availability changes are not enumerated in Riot's patch notes; where no 26.22 mode-specific source confirms availability, the UI must expose the snapshot patch and avoid claiming current-patch statistical support."
+}

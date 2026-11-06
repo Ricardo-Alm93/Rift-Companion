@@ -1,0 +1,868 @@
+{
+  "schemaVersion": 1,
+  "patch": "16.22.1",
+  "reviewedAt": "2026-11-04",
+  "sourcePolicy": "Data Dragon is the patch-specific primary source. Wiki mechanics are editorially reviewed with a source URL and must not be represented as Data Dragon facts. Unknown means no sufficiently specific interaction has been established.",
+  "interactions": [
+    {
+      "id": "ahri-malignance-r-burn",
+      "championId": "Ahri",
+      "abilityKeys": [
+        "R"
+      ],
+      "itemIds": [
+        "3118"
+      ],
+      "interactionType": "passive-trigger",
+      "evidenceLevel": "documented",
+      "patch": "16.22.1",
+      "confidence": 0.96,
+      "verified": true,
+      "claim": "Riot's item text says champion damage with the ultimate triggers Malignance's ground effect; Ahri's R deals champion damage.",
+      "source": {
+        "name": "Riot Data Dragon 16.22.1 item.json + Ahri.json",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json",
+        "abilityUrl": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Ahri.json",
+        "sourcePatch": "16.22.1"
+      }
+    },
+    {
+      "id": "ahri-magic-damage-shadowflame",
+      "championId": "Ahri",
+      "abilityKeys": [
+        "Q",
+        "W",
+        "E",
+        "R"
+      ],
+      "itemIds": [
+        "4645"
+      ],
+      "interactionType": "damage-condition",
+      "evidenceLevel": "documented",
+      "patch": "16.22.1",
+      "confidence": 0.91,
+      "verified": true,
+      "claim": "Shadowflame explicitly affects magic and true damage against low-health enemies; Ahri's current Data Dragon spell descriptions identify magic/true damage. This is a conditional damage effect, not a general spell proc.",
+      "source": {
+        "name": "Riot Data Dragon 16.22.1 item.json + Ahri.json",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json",
+        "abilityUrl": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Ahri.json",
+        "sourcePatch": "16.22.1"
+      }
+    },
+    {
+      "id": "ahri-onhit-not-established",
+      "championId": "Ahri",
+      "abilityKeys": [
+        "Q",
+        "W",
+        "E",
+        "R"
+      ],
+      "itemIds": [],
+      "itemTags": [
+        "onhit"
+      ],
+      "interactionType": "unknown",
+      "evidenceLevel": "unknown",
+      "patch": "16.22.1",
+      "confidence": 0.12,
+      "verified": false,
+      "claim": "Current Data Dragon ability text does not establish that Ahri's spells trigger item on-hit effects. Do not infer this from repeated magic damage.",
+      "source": {
+        "name": "Riot Data Dragon 16.22.1 Ahri.json",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Ahri.json",
+        "sourcePatch": "16.22.1"
+      }
+    },
+    {
+      "id": "ryze-mana-items-stat-only",
+      "championId": "Ryze",
+      "abilityKeys": [
+        "Q",
+        "W",
+        "E",
+        "R"
+      ],
+      "itemIds": [
+        "6657",
+        "3040",
+        "2522"
+      ],
+      "interactionType": "stat-compatibility",
+      "evidenceLevel": "editorial-reviewed",
+      "patch": "16.22.1",
+      "confidence": 0.63,
+      "verified": false,
+      "claim": "These items provide mana/AP and/or mana utility that fit Ryze's resource-heavy spell pattern. The bundled Data Dragon profile contains no explicit mana-scaling coefficient, so this is not a verified mana-to-damage formula or item proc.",
+      "source": {
+        "name": "Riot Data Dragon 16.22.1 Ryze.json + item.json; editorial review",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Ryze.json",
+        "itemUrl": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json",
+        "sourcePatch": "16.22.1"
+      }
+    },
+    {
+      "id": "cassiopeia-liandry-dot-spells",
+      "championId": "Cassiopeia",
+      "abilityKeys": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "itemIds": [
+        "6653"
+      ],
+      "interactionType": "passive-trigger",
+      "evidenceLevel": "documented",
+      "patch": "16.22.1",
+      "confidence": 0.9,
+      "verified": true,
+      "claim": "Liandry's text triggers its burn from damaging abilities and Cassiopeia's current Q/W/E descriptions deal spell damage. The source does not establish an exact damage multiplier for each spell.",
+      "source": {
+        "name": "Riot Data Dragon 16.22.1 Cassiopeia.json + item.json",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Cassiopeia.json",
+        "itemUrl": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json",
+        "sourcePatch": "16.22.1"
+      }
+    },
+    {
+      "id": "cassiopeia-rylai-damaging-abilities",
+      "championId": "Cassiopeia",
+      "abilityKeys": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "itemIds": [
+        "3116"
+      ],
+      "interactionType": "passive-trigger",
+      "evidenceLevel": "documented",
+      "patch": "16.22.1",
+      "confidence": 0.91,
+      "verified": true,
+      "claim": "Rylai's text says damaging abilities slow. Cassiopeia's Q/W/E are damage abilities in current Data Dragon descriptions. This establishes the trigger category, not per-tick proc rules.",
+      "source": {
+        "name": "Riot Data Dragon 16.22.1 Cassiopeia.json + item.json",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Cassiopeia.json",
+        "itemUrl": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json",
+        "sourcePatch": "16.22.1"
+      }
+    },
+    {
+      "id": "azir-soldier-primary-onhit",
+      "championId": "Azir",
+      "abilityKeys": [
+        "W"
+      ],
+      "itemIds": [
+        "3115"
+      ],
+      "interactionType": "passive-trigger",
+      "evidenceLevel": "editorial-reviewed",
+      "patch": "16.22.1",
+      "confidence": 0.79,
+      "verified": false,
+      "claim": "Azir's Sand Soldier primary-target attack applies on-hit and on-attack effects at reduced effectiveness; repeated soldier hits do not. Nashor's Tooth has an on-hit attack effect. This does not imply every Azir spell or soldier hit applies it.",
+      "source": {
+        "name": "League of Legends Wiki · Azir / Sand Soldiers; Riot Data Dragon item text",
+        "url": "https://wiki.leagueoflegends.com/en-us/Azir",
+        "itemUrl": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json",
+        "sourcePatch": "16.22.1",
+        "reviewedAt": "2026-11-04"
+      }
+    },
+    {
+      "id": "jinx-basic-attack-crit",
+      "championId": "Jinx",
+      "abilityKeys": [
+        "Q"
+      ],
+      "itemIds": [
+        "3031",
+        "3036",
+        "2523"
+      ],
+      "interactionType": "stat-compatibility",
+      "evidenceLevel": "editorial-reviewed",
+      "patch": "16.22.1",
+      "confidence": 0.78,
+      "verified": false,
+      "claim": "Jinx Q changes her basic-attack modes; critical chance/damage and attack damage support those basic attacks. This is an attack-stat interaction, not evidence that her W/E/R trigger on-hit effects.",
+      "source": {
+        "name": "League of Legends Wiki · Jinx; Riot Data Dragon 16.22.1 item.json",
+        "url": "https://wiki.leagueoflegends.com/en-us/Jinx",
+        "itemUrl": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json",
+        "sourcePatch": "16.22.1",
+        "reviewedAt": "2026-11-04"
+      }
+    },
+    {
+      "id": "jinx-runaan-bolts",
+      "championId": "Jinx",
+      "abilityKeys": [
+        "Q"
+      ],
+      "itemIds": [
+        "3085"
+      ],
+      "interactionType": "passive-trigger",
+      "evidenceLevel": "editorial-reviewed",
+      "patch": "16.22.1",
+      "confidence": 0.74,
+      "verified": false,
+      "claim": "Runaan's explicitly says its bolts apply on-hit effects. Jinx's Q attacks are basic attacks, but this record does not claim rockets create extra bolts or that W/E/R are on-hit attacks.",
+      "source": {
+        "name": "Riot Data Dragon 16.22.1 item.json + League of Legends Wiki Jinx",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json",
+        "abilityUrl": "https://wiki.leagueoflegends.com/en-us/Jinx",
+        "sourcePatch": "16.22.1",
+        "reviewedAt": "2026-11-04"
+      }
+    },
+    {
+      "id": "jinx-spells-onhit-unknown",
+      "championId": "Jinx",
+      "abilityKeys": [
+        "W",
+        "E",
+        "R"
+      ],
+      "itemIds": [],
+      "itemTags": [
+        "onhit"
+      ],
+      "interactionType": "unknown",
+      "evidenceLevel": "unknown",
+      "patch": "16.22.1",
+      "confidence": 0.1,
+      "verified": false,
+      "claim": "Do not assume Jinx's non-basic-attack abilities apply item on-hit effects.",
+      "source": {
+        "name": "Riot Data Dragon 16.22.1 Jinx.json",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Jinx.json",
+        "sourcePatch": "16.22.1"
+      }
+    },
+    {
+      "id": "kaisa-attacks-onhit",
+      "championId": "Kaisa",
+      "abilityKeys": [
+        "P"
+      ],
+      "itemIds": [
+        "6672",
+        "3124",
+        "3302",
+        "3153"
+      ],
+      "interactionType": "passive-trigger",
+      "evidenceLevel": "editorial-reviewed",
+      "patch": "16.22.1",
+      "confidence": 0.72,
+      "verified": false,
+      "claim": "Kai'Sa's reviewed on-hit core is tied to basic attacks and her passive Plasma stacking. This does not claim that Q's missiles, W, or other ability-generated damage apply every item on-hit effect; per-ability application is not established by the bundled Data Dragon text.",
+      "source": {
+        "name": "League of Legends Wiki · Kai'Sa; Riot Data Dragon 16.22.1 item.json",
+        "url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa",
+        "itemUrl": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json",
+        "sourcePatch": "16.22.1",
+        "reviewedAt": "2026-11-04"
+      }
+    },
+    {
+      "id": "ornn-tank-resist-compatibility",
+      "championId": "Ornn",
+      "abilityKeys": [
+        "P",
+        "Q",
+        "W",
+        "E",
+        "R"
+      ],
+      "itemIds": [
+        "3068",
+        "3075",
+        "6665",
+        "3047",
+        "4401",
+        "3143",
+        "3111",
+        "2504"
+      ],
+      "interactionType": "stat-compatibility",
+      "evidenceLevel": "editorial-reviewed",
+      "patch": "16.22.1",
+      "confidence": 0.69,
+      "verified": false,
+      "claim": "Health and resistances support Ornn's front-line role and his kit's close-range combat. Thornmail is conditional on being hit by attacks and should be justified by enemy attack/healing context rather than treated as a universal best-in-slot.",
+      "source": {
+        "name": "Riot Data Dragon 16.22.1 Ornn.json + item.json; editorial review",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Ornn.json",
+        "itemUrl": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json",
+        "sourcePatch": "16.22.1",
+        "reviewedAt": "2026-11-04"
+      }
+    },
+    {
+      "id": "soraka-heal-trigger-items",
+      "championId": "Soraka",
+      "abilityKeys": [
+        "W",
+        "R"
+      ],
+      "itemIds": [
+        "6617",
+        "3107",
+        "6621",
+        "3504",
+        "6616"
+      ],
+      "interactionType": "passive-trigger",
+      "evidenceLevel": "documented",
+      "patch": "16.22.1",
+      "confidence": 0.94,
+      "verified": true,
+      "claim": "Data Dragon explicitly identifies Soraka W/R as healing and these items state healing or shielding an ally as their trigger. Staff/Ardent/Moonstone effects trigger through ally healing; Redemption is an active heal rather than a Soraka spell proc.",
+      "source": {
+        "name": "Riot Data Dragon 16.22.1 Soraka.json + item.json",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Soraka.json",
+        "itemUrl": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json",
+        "sourcePatch": "16.22.1"
+      }
+    },
+    {
+      "id": "soraka-dawncore-heal-shield-stat",
+      "championId": "Soraka",
+      "abilityKeys": [
+        "W",
+        "R"
+      ],
+      "itemIds": [
+        "6621"
+      ],
+      "interactionType": "stat-compatibility",
+      "evidenceLevel": "documented",
+      "patch": "16.22.1",
+      "confidence": 0.9,
+      "verified": true,
+      "claim": "Dawncore provides heal-and-shield power and mana regeneration; Soraka's current W/R are explicitly healing effects. This is stat/effect compatibility, distinct from an item passive trigger.",
+      "source": {
+        "name": "Riot Data Dragon 16.22.1 Soraka.json + item.json",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Soraka.json",
+        "itemUrl": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json",
+        "sourcePatch": "16.22.1"
+      }
+    }
+  ],
+  "buildReviews": [
+    {
+      "championId": "Ahri",
+      "role": "mid",
+      "buildId": "observed-core-completion",
+      "patch": "16.22.1",
+      "itemIds": [
+        "3118",
+        "4645",
+        "3157",
+        "3020",
+        "3089",
+        "3135"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "requires-runtime-validation",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "OP.GG published core + local completion; item and ability text from Data Dragon",
+        "url": "https://op.gg/lol/champions/ahri/build/mid",
+        "sourcePatch": "16.22"
+      },
+      "findings": [
+        "Malignance has a documented ultimate-damage trigger; Shadowflame is conditional against low-health targets.",
+        "Shadowflame plus Void Staff combine flat and percent magic penetration; not automatically redundant, but both occupy offensive slots and should be compared against survivability or sustained-damage options.",
+        "The published three-item nucleus and editorial completion are distinct evidence; the six-item set was not observed as one combination."
+      ],
+      "alternativeContext": "Against durable frontline, retain percent penetration only when magic resistance is material; Liandry is an alternative for extended fights, at the cost of burst/penetration."
+    },
+    {
+      "championId": "Ryze",
+      "role": "mid",
+      "buildId": "mana-scaling",
+      "patch": "16.22.1",
+      "itemIds": [
+        "6657",
+        "3040",
+        "2522",
+        "3111",
+        "3089",
+        "3157"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "requires-runtime-validation",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "OP.GG + local editorial completion; Data Dragon item/ability text",
+        "url": "https://op.gg/lol/champions/ryze/build/mid",
+        "sourcePatch": "16.22"
+      },
+      "findings": [
+        "Rod of Ages and Seraph provide mana/resource utility; Data Dragon bundle exposes no explicit mana-to-damage coefficient, so exact scaling is not certified here.",
+        "Actualizer's empowered-mana effect is thematically aligned but increases mana cost; this is a meaningful resource tradeoff.",
+        "Mercury's Treads and Zhonya answer different threats and should be chosen by composition; the six-item completion is not an observed combination."
+      ],
+      "alternativeContext": "Against heavy physical dive, Frozen Heart may replace a damage slot; against magic burst, preserve a dedicated defensive option. No composition was supplied, so no threat-specific swap is asserted."
+    },
+    {
+      "championId": "Cassiopeia",
+      "role": "mid",
+      "buildId": "sustained-mana",
+      "patch": "16.22.1",
+      "itemIds": [
+        "6657",
+        "3040",
+        "3116",
+        "3009",
+        "6653",
+        "3157"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "requires-runtime-validation",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "OP.GG + local editorial completion; Data Dragon item/ability text; Riot Patch 26.1 notes confirm the passive change",
+        "url": "https://op.gg/lol/champions/cassiopeia/build/mid",
+        "sourcePatch": "16.22",
+        "passivePatch": "26.1",
+        "patchNotesUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-26-1-notes/"
+      },
+      "findings": [
+        "Liandry and Rylai have documented damaging-ability triggers matching Cassiopeia's spell damage; exact repeat/tick proc behavior is not inferred.",
+        "Cassiopeia can buy boots in the current patch: Riot reworked Serpentine Grace in 26.1, replacing the cannot-purchase-boots restriction with increased effectiveness of movement-speed buffs. Swifties are therefore legal; whether the slot is optimal depends on the game.",
+        "Rod + Seraph overlap resource investment; its value depends on game length and mana demand. The full set is an editorial completion."
+      ],
+      "alternativeContext": "Against engage/burst, replace a lower-priority damage/utility slot with Banshee or Zhonya; opportunity cost is sustained damage or control."
+    },
+    {
+      "championId": "Azir",
+      "role": "mid",
+      "buildId": "soldier-dps",
+      "patch": "16.22.1",
+      "itemIds": [
+        "3115",
+        "4645",
+        "3157",
+        "3020",
+        "3089",
+        "3135"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "requires-runtime-validation",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "OP.GG + local editorial completion; Riot Data Dragon and reviewed Azir mechanics",
+        "url": "https://op.gg/lol/champions/azir/build/mid",
+        "sourcePatch": "16.22"
+      },
+      "findings": [
+        "Nashor is editorially linked to Azir soldier primary-target on-hit at reduced effectiveness; repeat hits do not apply on-hit effects. This is not a universal spell proc.",
+        "The build combines attack-speed/on-hit with AP and penetration, so it is a coherent DPS-to-magic-damage direction, but the remaining AP burst items are not individually proven optimal.",
+        "Shadowflame plus Void Staff may be justified against low-health and MR-stacking targets, but takes two offensive slots."
+      ],
+      "alternativeContext": "Against frontline, compare Liandry for sustained combat; against dive, retain Zhonya over an additional damage slot."
+    },
+    {
+      "championId": "Jinx",
+      "role": "adc",
+      "buildId": "published-crit-core",
+      "patch": "16.22.1",
+      "itemIds": [
+        "2523",
+        "3085",
+        "3031",
+        "3006",
+        "3036",
+        "3026"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "requires-runtime-validation",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "OP.GG published core + local completion; Riot Data Dragon and reviewed Jinx mechanics",
+        "url": "https://op.gg/lol/champions/jinx/build/adc",
+        "sourcePatch": "16.22"
+      },
+      "findings": [
+        "Jinx Q changes basic attacks; critical chance, AD, and attack speed support that attack pattern. Runaan's bolts explicitly apply on-hit effects.",
+        "Infinity Edge and Lord Dominik support crit/physical damage; Guardian Angel trades another offensive spike for survival.",
+        "Do not attribute item procs to W/E/R. Six items were not observed together in this local completion."
+      ],
+      "alternativeContext": "Against frontline, preserve LDR; against lethal dive, GA may be appropriate but delays damage. Runaan should be compared with single-target range/damage options based on teamfight needs."
+    },
+    {
+      "championId": "Kaisa",
+      "role": "adc",
+      "buildId": "published-onhit-core",
+      "patch": "16.22.1",
+      "itemIds": [
+        "6672",
+        "3124",
+        "3302",
+        "3006",
+        "3153",
+        "3026"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "requires-runtime-validation",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "OP.GG published core + local completion; Data Dragon item text and reviewed Kai'Sa mechanics",
+        "url": "https://op.gg/lol/champions/kaisa/build/adc",
+        "sourcePatch": "16.22"
+      },
+      "findings": [
+        "Kraken, Guinsoo, Terminus and Blade of the Ruined King share an attack/on-hit direction; the relationship to Kai'Sa's basic attacks is editorially reviewed, not extended to every Q/W missile.",
+        "The six-piece set has no separate magic-penetration/AP continuation despite a hybrid alternative existing in another profile; this build is the on-hit variant.",
+        "Guardian Angel gives survivability but costs another attack-synergy slot."
+      ],
+      "alternativeContext": "Against high-health frontline, retain BORK; against burst/dive, GA can replace offensive tempo. Do not label this as Kai'Sa's only viable build."
+    },
+    {
+      "championId": "Ornn",
+      "role": "top",
+      "buildId": "published-tank-core",
+      "patch": "16.22.1",
+      "itemIds": [
+        "3068",
+        "3075",
+        "6665",
+        "3047",
+        "4401",
+        "3143"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "requires-runtime-validation",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "OP.GG published tank core + local completion; Riot Data Dragon item text",
+        "url": "https://op.gg/lol/champions/ornn/build/top",
+        "sourcePatch": "16.22"
+      },
+      "findings": [
+        "Sunfire, Jak'Sho, Force of Nature and Randuin produce a health/resistance frontline profile.",
+        "Thornmail is conditional: it responds to being hit by attacks and is most useful against attack-heavy/healing contexts; this record does not establish those threats, so default inclusion is not fully justified.",
+        "The set contains both Plated Steelcaps and multiple armor sources; this may be reasonable against physical teams but is not a universal completion."
+      ],
+      "alternativeContext": "Against predominantly magic damage, replace Thornmail or Randuin with additional MR/health; against crit/attack-heavy threats, preserve Randuin/Thornmail as appropriate. Exact swap requires composition evidence."
+    },
+    {
+      "championId": "Soraka",
+      "role": "support",
+      "buildId": "published-enchanter-core",
+      "patch": "16.22.1",
+      "itemIds": [
+        "6617",
+        "3107",
+        "6621",
+        "3158",
+        "3504",
+        "6616"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "requires-runtime-validation",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "OP.GG published enchanter core + local completion; Riot Data Dragon item/ability text",
+        "url": "https://op.gg/lol/champions/soraka/build/support",
+        "sourcePatch": "16.22"
+      },
+      "findings": [
+        "W/R are healing in current Data Dragon; Moonstone, Ardent, Staff, and Redemption explicitly reference ally heal/shield effects. Dawncore adds heal/shield power and mana regeneration.",
+        "Ardent and Staff both reward ally healing but their buff beneficiaries differ by team composition; buying both is plausible, not automatically redundant.",
+        "The full six-item set was not measured as a combination. Against hard crowd control, Mikael's is an alternative with a team-utility slot cost."
+      ],
+      "alternativeContext": "Against hard CC, compare Mikael's; against burst, compare Locket. Each replaces a healing/ability-power slot and changes team utility."
+    },
+    {
+      "championId": "Ahri",
+      "role": "mid",
+      "buildId": "mobile-ap",
+      "patch": "16.22.1",
+      "itemIds": [
+        "3118",
+        "3100",
+        "3089",
+        "3020",
+        "4645",
+        "3157"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "validated-by-data-catalog-check",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "Rift Companion editorial review, current-patch Data Dragon item/ability text",
+        "url": "https://op.gg/lol/champions/ahri/build/mid",
+        "sourcePatch": "16.22",
+        "reviewedPatch": "16.22.1"
+      },
+      "findings": [
+        "Lich Bane adds an attack-linked component, but no item-proc claim is made here without confirming the exact combat pattern.",
+        "The rest of the set remains AP/penetration with Zhonya; the build is structurally compatible but its mobility label alone does not establish superiority."
+      ],
+      "alternativeContext": "Use this when Ahri can safely weave attacks after spells; it gives up a more persistent damage or defensive item slot."
+    },
+    {
+      "championId": "Ahri",
+      "role": "mid",
+      "buildId": "anti-tank-frontline",
+      "patch": "16.22.1",
+      "itemIds": [
+        "3118",
+        "4645",
+        "3157",
+        "3020",
+        "3135",
+        "6653"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "validated-by-data-catalog-check",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "Rift Companion editorial review, current-patch Data Dragon item/ability text",
+        "url": "https://op.gg/lol/champions/ahri/build/mid",
+        "sourcePatch": "16.22",
+        "reviewedPatch": "16.22.1"
+      },
+      "findings": [
+        "Keeps percent magic penetration and adds Liandry for longer fights; Shadowflame is conditional against low-health targets.",
+        "Void Staff and Shadowflame use two offensive slots for penetration/conditional damage. The set trades Rabadon’s broad AP amplification for sustained-frontline tools."
+      ],
+      "alternativeContext": "Consider this only when confirmed durable targets make fights extended; keep a defensive slot if enemy dive is the greater threat."
+    },
+    {
+      "championId": "Ryze",
+      "role": "mid",
+      "buildId": "mana-survival",
+      "patch": "16.22.1",
+      "itemIds": [
+        "6657",
+        "3040",
+        "2522",
+        "3111",
+        "3110",
+        "3089"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "validated-by-data-catalog-check",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "Rift Companion editorial review, current-patch Data Dragon item/ability text",
+        "url": "https://op.gg/lol/champions/ryze/build/mid",
+        "sourcePatch": "16.22",
+        "reviewedPatch": "16.22.1"
+      },
+      "findings": [
+        "Frozen Heart is a physical-defense option; it is justified against attack-heavy physical threats, not by Ryze’s kit alone.",
+        "The set combines three mana/resource items and defensive boots/armor, but does not include Zhonya’s active. Its value is composition-dependent."
+      ],
+      "alternativeContext": "Use against sustained physical attacks; the armor slot delays AP and does not solve magic burst."
+    },
+    {
+      "championId": "Cassiopeia",
+      "role": "mid",
+      "buildId": "anti-burst-magic",
+      "patch": "16.22.1",
+      "itemIds": [
+        "6657",
+        "3040",
+        "3116",
+        "3009",
+        "3102",
+        "6653"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "validated-by-data-catalog-check",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "Rift Companion editorial review, current-patch Data Dragon item/ability text",
+        "url": "https://op.gg/lol/champions/cassiopeia/build/mid",
+        "sourcePatch": "16.22",
+        "reviewedPatch": "16.22.1"
+      },
+      "findings": [
+        "Banshee supplies a spell shield against a qualifying enemy spell; Liandry/Rylai retain the documented damaging-ability effects.",
+        "This is a conditional defensive variant. Swifties are legal in current 26.22 after the 26.1 passive rework, but they do not provide magic penetration."
+      ],
+      "alternativeContext": "Against magic burst or one decisive spell, Banshee replaces a damage slot; against physical dive, evaluate Zhonya instead."
+    },
+    {
+      "championId": "Azir",
+      "role": "mid",
+      "buildId": "soldier-dps-survival",
+      "patch": "16.22.1",
+      "itemIds": [
+        "3115",
+        "4645",
+        "3157",
+        "3020",
+        "3102",
+        "3089"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "validated-by-data-catalog-check",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "Rift Companion editorial review, current-patch Data Dragon item/ability text",
+        "url": "https://op.gg/lol/champions/azir/build/mid",
+        "sourcePatch": "16.22",
+        "reviewedPatch": "16.22.1"
+      },
+      "findings": [
+        "Retains the reviewed soldier/Nashor relationship, with Banshee added against spell engage.",
+        "Banshee replaces percent penetration, so this set may lose damage against MR stacking. It is a survival alternative, not a universal upgrade."
+      ],
+      "alternativeContext": "Use when spell engage is confirmed and survival prevents sustained soldier damage; otherwise keep a damage slot."
+    },
+    {
+      "championId": "Jinx",
+      "role": "adc",
+      "buildId": "crit-lifesteal",
+      "patch": "16.22.1",
+      "itemIds": [
+        "2523",
+        "3085",
+        "3031",
+        "3006",
+        "3036",
+        "3072"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "validated-by-data-catalog-check",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "Rift Companion editorial review, current-patch Data Dragon item/ability text",
+        "url": "https://op.gg/lol/champions/jinx/build/adc",
+        "sourcePatch": "16.22",
+        "reviewedPatch": "16.22.1"
+      },
+      "findings": [
+        "Bloodthirster adds lifesteal and a shield effect; it trades Guardian Angel’s resurrection for ongoing sustain.",
+        "Retains the crit/attack direction and LDR against armor/bonus-health targets; no win-rate transfer from the other set."
+      ],
+      "alternativeContext": "Choose for repeated fights where healing can be applied; choose GA when one lethal engage is the main risk."
+    },
+    {
+      "championId": "Jinx",
+      "role": "adc",
+      "buildId": "anti-heal-crit",
+      "patch": "16.22.1",
+      "itemIds": [
+        "2523",
+        "3085",
+        "3031",
+        "3006",
+        "3033",
+        "3026"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "validated-by-data-catalog-check",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "Rift Companion editorial review, current-patch Data Dragon item/ability text",
+        "url": "https://op.gg/lol/champions/jinx/build/adc",
+        "sourcePatch": "16.22",
+        "reviewedPatch": "16.22.1"
+      },
+      "findings": [
+        "Mortal Reminder is an anti-heal/crit/armor-penetration option; it replaces LDR, so compare their target-specific effect and do not assume both are needed.",
+        "Maintains crit and GA defense; the set is only justified when enemy healing matters."
+      ],
+      "alternativeContext": "Use when healing reduction is a real team need; otherwise LDR can be the more direct damage choice into armor."
+    },
+    {
+      "championId": "Kaisa",
+      "role": "adc",
+      "buildId": "hybrid-ap-evolution",
+      "patch": "16.22.1",
+      "itemIds": [
+        "6672",
+        "3124",
+        "3115",
+        "3020",
+        "3089",
+        "3040"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "validated-by-data-catalog-check",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "Rift Companion editorial review, current-patch Data Dragon item/ability text",
+        "url": "https://op.gg/lol/champions/kaisa/build/adc",
+        "sourcePatch": "16.22",
+        "reviewedPatch": "16.22.1"
+      },
+      "findings": [
+        "The AP items support Kai’Sa’s magic-damage/passive pattern; Nashor also provides attack speed/on-hit stats.",
+        "Kraken and Guinsoo preserve an attack/on-hit base, so this is hybrid rather than full AP. Seraph’s AP/mana utility should not be described as a verified Kai’Sa mana scaling."
+      ],
+      "alternativeContext": "Use the hybrid route only when the AP side is useful for the game; it gives up a more sustained physical/on-hit item and has different penetration needs."
+    },
+    {
+      "championId": "Ornn",
+      "role": "top",
+      "buildId": "tank-magic-resistance",
+      "patch": "16.22.1",
+      "itemIds": [
+        "3068",
+        "3075",
+        "6665",
+        "3111",
+        "4401",
+        "2504"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "validated-by-data-catalog-check",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "Rift Companion editorial review, current-patch Data Dragon item/ability text",
+        "url": "https://op.gg/lol/champions/ornn/build/top",
+        "sourcePatch": "16.22",
+        "reviewedPatch": "16.22.1"
+      },
+      "findings": [
+        "The set stacks substantial magic resistance and health; Thornmail still adds armor and is conditional against attacks/healing.",
+        "Multiple MR sources may be redundant if enemy magic damage is not high, while Thornmail may be low value against a spell-heavy team."
+      ],
+      "alternativeContext": "Use when confirmed magic threats dominate; consider replacing Thornmail with an item that answers the actual damage profile."
+    },
+    {
+      "championId": "Soraka",
+      "role": "support",
+      "buildId": "enchanter-protection",
+      "patch": "16.22.1",
+      "itemIds": [
+        "6617",
+        "3107",
+        "6621",
+        "3158",
+        "3190",
+        "3222"
+      ],
+      "reviewStatus": "partial-strategic-review",
+      "technicalStatus": "validated-by-data-catalog-check",
+      "strategicStatus": "partial",
+      "source": {
+        "name": "Rift Companion editorial review, current-patch Data Dragon item/ability text",
+        "url": "https://op.gg/lol/champions/soraka/build/support",
+        "sourcePatch": "16.22",
+        "reviewedPatch": "16.22.1"
+      },
+      "findings": [
+        "Mikael and Locket add protective active effects; they do not trigger from Soraka healing but can protect allies from CC/burst.",
+        "The pair gives up Ardent’s attack-speed/on-hit ally buff and Staff’s AP/haste buff. Item actives require timely use."
+      ],
+      "alternativeContext": "Use against hard crowd control and burst; preserve the healing-buff set when allies can convert it to more value."
+    }
+  ]
+}

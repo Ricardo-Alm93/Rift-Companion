@@ -1,0 +1,3565 @@
+{
+  "schemaVersion": 1,
+  "attribution": "Data: arammayhem.com",
+  "source": "https://arammayhem.com/data/",
+  "license": "CC BY 4.0: free to use, copy and republish, including commercially, with attribution.",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "dataSource": "ARAM: Mayhem match statistics from a limited sample. Not worldwide data.",
+  "meta": {
+    "patch": "26.21",
+    "patchReleaseDate": "2026-10-21",
+    "statsDate": "2026-11-01",
+    "statsDateSource": "release",
+    "comparedTo": {
+      "patch": "26.20",
+      "patchReleaseDate": "2026-10-07",
+      "statsDate": "2026-10-20",
+      "statsDateSource": "estimated"
+    },
+    "releaseId": "website:20261101_155626:312303056369"
+  },
+  "fields": [
+    {
+      "field": "patch",
+      "type": "string",
+      "description": "Game patch the stats describe: the patch live on statsDate."
+    },
+    {
+      "field": "patchReleaseDate",
+      "type": "date",
+      "description": "Release date of that patch."
+    },
+    {
+      "field": "statsDate",
+      "type": "date",
+      "description": "Day of play the aggregate covers."
+    },
+    {
+      "field": "statsDateSource",
+      "type": "release | estimated",
+      "description": "Whether the statistics date is recorded with the release or estimated."
+    },
+    {
+      "field": "comparedTo",
+      "type": "object | null",
+      "description": "The previous patch snapshot the change columns compare against."
+    },
+    {
+      "field": "releaseId",
+      "type": "string",
+      "description": "Site data release the file was generated from."
+    },
+    {
+      "field": "championId",
+      "type": "string",
+      "description": "Riot champion key, e.g. TahmKench."
+    },
+    {
+      "field": "slug",
+      "type": "string",
+      "description": "URL slug used on arammayhem.com."
+    },
+    {
+      "field": "name / name_<locale>",
+      "type": "string",
+      "description": "Champion name per site locale."
+    },
+    {
+      "field": "pickRate",
+      "type": "number (%)",
+      "description": "Share of games the champion appeared in, in percent."
+    },
+    {
+      "field": "pickRateRank",
+      "type": "integer",
+      "description": "Rank by pickRate, 1 = most picked. Ties share a rank."
+    },
+    {
+      "field": "previousPickRate",
+      "type": "number | null",
+      "description": "pickRate in the previous patch snapshot."
+    },
+    {
+      "field": "pickRateChange",
+      "type": "number | null",
+      "description": "pickRate minus previousPickRate, in percentage points."
+    },
+    {
+      "field": "previousPickRateRank",
+      "type": "integer | null",
+      "description": "pickRateRank in the previous patch snapshot."
+    },
+    {
+      "field": "pickRateRankChange",
+      "type": "integer | null",
+      "description": "Places moved in the pick-rate ranking. Positive = more popular."
+    },
+    {
+      "field": "url",
+      "type": "string",
+      "description": "Champion page on arammayhem.com."
+    }
+  ],
+  "rows": [
+    {
+      "championId": "Ashe",
+      "slug": "ashe",
+      "name": {
+        "en": "Ashe",
+        "zh-CN": "寒冰射手",
+        "ja-JP": "アッシュ",
+        "ko-KR": "애쉬",
+        "es-MX": "Ashe",
+        "zh-TW": "艾希",
+        "vi-VN": "Ashe"
+      },
+      "pickRate": 14.02,
+      "pickRateRank": 1,
+      "previousPickRate": 14.5,
+      "pickRateChange": -0.48,
+      "previousPickRateRank": 1,
+      "pickRateRankChange": 0,
+      "url": "https://arammayhem.com/build/ashe/"
+    },
+    {
+      "championId": "MissFortune",
+      "slug": "missfortune",
+      "name": {
+        "en": "Miss Fortune",
+        "zh-CN": "赏金猎人",
+        "ja-JP": "ミス・フォーチュン",
+        "ko-KR": "미스 포츈",
+        "es-MX": "Miss Fortune",
+        "zh-TW": "好運姐",
+        "vi-VN": "Miss Fortune"
+      },
+      "pickRate": 13.87,
+      "pickRateRank": 2,
+      "previousPickRate": 13.91,
+      "pickRateChange": -0.04,
+      "previousPickRateRank": 2,
+      "pickRateRankChange": 0,
+      "url": "https://arammayhem.com/build/missfortune/"
+    },
+    {
+      "championId": "Teemo",
+      "slug": "teemo",
+      "name": {
+        "en": "Teemo",
+        "zh-CN": "迅捷斥候",
+        "ja-JP": "ティーモ",
+        "ko-KR": "티모",
+        "es-MX": "Teemo",
+        "zh-TW": "提摩",
+        "vi-VN": "Teemo"
+      },
+      "pickRate": 13.82,
+      "pickRateRank": 3,
+      "previousPickRate": 13.83,
+      "pickRateChange": -0.01,
+      "previousPickRateRank": 3,
+      "pickRateRankChange": 0,
+      "url": "https://arammayhem.com/build/teemo/"
+    },
+    {
+      "championId": "Kaisa",
+      "slug": "kaisa",
+      "name": {
+        "en": "Kai'Sa",
+        "zh-CN": "虚空之女",
+        "ja-JP": "カイ＝サ",
+        "ko-KR": "카이사",
+        "es-MX": "Kai'Sa",
+        "zh-TW": "凱莎",
+        "vi-VN": "Kai'Sa"
+      },
+      "pickRate": 13.76,
+      "pickRateRank": 4,
+      "previousPickRate": 11.64,
+      "pickRateChange": 2.12,
+      "previousPickRateRank": 12,
+      "pickRateRankChange": 8,
+      "url": "https://arammayhem.com/build/kaisa/"
+    },
+    {
+      "championId": "Caitlyn",
+      "slug": "caitlyn",
+      "name": {
+        "en": "Caitlyn",
+        "zh-CN": "皮城女警",
+        "ja-JP": "ケイトリン",
+        "ko-KR": "케이틀린",
+        "es-MX": "Caitlyn",
+        "zh-TW": "凱特琳",
+        "vi-VN": "Caitlyn"
+      },
+      "pickRate": 13.08,
+      "pickRateRank": 5,
+      "previousPickRate": 12.94,
+      "pickRateChange": 0.14,
+      "previousPickRateRank": 5,
+      "pickRateRankChange": 0,
+      "url": "https://arammayhem.com/build/caitlyn/"
+    },
+    {
+      "championId": "Lucian",
+      "slug": "lucian",
+      "name": {
+        "en": "Lucian",
+        "zh-CN": "圣枪游侠",
+        "ja-JP": "ルシアン",
+        "ko-KR": "루시안",
+        "es-MX": "Lucian",
+        "zh-TW": "路西恩",
+        "vi-VN": "Lucian"
+      },
+      "pickRate": 13.03,
+      "pickRateRank": 6,
+      "previousPickRate": 12.8,
+      "pickRateChange": 0.23,
+      "previousPickRateRank": 7,
+      "pickRateRankChange": 1,
+      "url": "https://arammayhem.com/build/lucian/"
+    },
+    {
+      "championId": "TahmKench",
+      "slug": "tahmkench",
+      "name": {
+        "en": "Tahm Kench",
+        "zh-CN": "河流之王",
+        "ja-JP": "タム・ケンチ",
+        "ko-KR": "탐 켄치",
+        "es-MX": "Tahm Kench",
+        "zh-TW": "貪啃奇",
+        "vi-VN": "Tahm Kench"
+      },
+      "pickRate": 12.88,
+      "pickRateRank": 7,
+      "previousPickRate": 12.93,
+      "pickRateChange": -0.05,
+      "previousPickRateRank": 6,
+      "pickRateRankChange": -1,
+      "url": "https://arammayhem.com/build/tahmkench/"
+    },
+    {
+      "championId": "Brand",
+      "slug": "brand",
+      "name": {
+        "en": "Brand",
+        "zh-CN": "复仇焰魂",
+        "ja-JP": "ブランド",
+        "ko-KR": "브랜드",
+        "es-MX": "Brand",
+        "zh-TW": "布蘭德",
+        "vi-VN": "Brand"
+      },
+      "pickRate": 12.67,
+      "pickRateRank": 8,
+      "previousPickRate": 13.51,
+      "pickRateChange": -0.84,
+      "previousPickRateRank": 4,
+      "pickRateRankChange": -4,
+      "url": "https://arammayhem.com/build/brand/"
+    },
+    {
+      "championId": "Ryze",
+      "slug": "ryze",
+      "name": {
+        "en": "Ryze",
+        "zh-CN": "符文法师",
+        "ja-JP": "ライズ",
+        "ko-KR": "라이즈",
+        "es-MX": "Ryze",
+        "zh-TW": "雷茲",
+        "vi-VN": "Ryze"
+      },
+      "pickRate": 11.84,
+      "pickRateRank": 9,
+      "previousPickRate": 11.07,
+      "pickRateChange": 0.77,
+      "previousPickRateRank": 20,
+      "pickRateRankChange": 11,
+      "url": "https://arammayhem.com/build/ryze/"
+    },
+    {
+      "championId": "Smolder",
+      "slug": "smolder",
+      "name": {
+        "en": "Smolder",
+        "zh-CN": "炽炎雏龙",
+        "ja-JP": "スモルダー",
+        "ko-KR": "스몰더",
+        "es-MX": "Smolder",
+        "zh-TW": "史矛德",
+        "vi-VN": "Smolder"
+      },
+      "pickRate": 11.82,
+      "pickRateRank": 10,
+      "previousPickRate": 12.62,
+      "pickRateChange": -0.8,
+      "previousPickRateRank": 8,
+      "pickRateRankChange": -2,
+      "url": "https://arammayhem.com/build/smolder/"
+    },
+    {
+      "championId": "Jhin",
+      "slug": "jhin",
+      "name": {
+        "en": "Jhin",
+        "zh-CN": "戏命师",
+        "ja-JP": "ジン",
+        "ko-KR": "진",
+        "es-MX": "Jhin",
+        "zh-TW": "燼",
+        "vi-VN": "Jhin"
+      },
+      "pickRate": 11.79,
+      "pickRateRank": 11,
+      "previousPickRate": 11.2,
+      "pickRateChange": 0.59,
+      "previousPickRateRank": 17,
+      "pickRateRankChange": 6,
+      "url": "https://arammayhem.com/build/jhin/"
+    },
+    {
+      "championId": "Karthus",
+      "slug": "karthus",
+      "name": {
+        "en": "Karthus",
+        "zh-CN": "死亡颂唱者",
+        "ja-JP": "カーサス",
+        "ko-KR": "카서스",
+        "es-MX": "Karthus",
+        "zh-TW": "卡爾瑟斯",
+        "vi-VN": "Karthus"
+      },
+      "pickRate": 11.63,
+      "pickRateRank": 12,
+      "previousPickRate": 11.76,
+      "pickRateChange": -0.13,
+      "previousPickRateRank": 11,
+      "pickRateRankChange": -1,
+      "url": "https://arammayhem.com/build/karthus/"
+    },
+    {
+      "championId": "Ezreal",
+      "slug": "ezreal",
+      "name": {
+        "en": "Ezreal",
+        "zh-CN": "探险家",
+        "ja-JP": "エズリアル",
+        "ko-KR": "이즈리얼",
+        "es-MX": "Ezreal",
+        "zh-TW": "伊澤瑞爾",
+        "vi-VN": "Ezreal"
+      },
+      "pickRate": 11.62,
+      "pickRateRank": 13,
+      "previousPickRate": 11.26,
+      "pickRateChange": 0.36,
+      "previousPickRateRank": 16,
+      "pickRateRankChange": 3,
+      "url": "https://arammayhem.com/build/ezreal/"
+    },
+    {
+      "championId": "Yasuo",
+      "slug": "yasuo",
+      "name": {
+        "en": "Yasuo",
+        "zh-CN": "疾风剑豪",
+        "ja-JP": "ヤスオ",
+        "ko-KR": "야스오",
+        "es-MX": "Yasuo",
+        "zh-TW": "犽宿",
+        "vi-VN": "Yasuo"
+      },
+      "pickRate": 11.54,
+      "pickRateRank": 14,
+      "previousPickRate": 10.85,
+      "pickRateChange": 0.69,
+      "previousPickRateRank": 22,
+      "pickRateRankChange": 8,
+      "url": "https://arammayhem.com/build/yasuo/"
+    },
+    {
+      "championId": "Graves",
+      "slug": "graves",
+      "name": {
+        "en": "Graves",
+        "zh-CN": "法外狂徒",
+        "ja-JP": "グレイブス",
+        "ko-KR": "그레이브즈",
+        "es-MX": "Graves",
+        "zh-TW": "葛雷夫",
+        "vi-VN": "Graves"
+      },
+      "pickRate": 11.21,
+      "pickRateRank": 15,
+      "previousPickRate": 11.39,
+      "pickRateChange": -0.18,
+      "previousPickRateRank": 13,
+      "pickRateRankChange": -2,
+      "url": "https://arammayhem.com/build/graves/"
+    },
+    {
+      "championId": "Malphite",
+      "slug": "malphite",
+      "name": {
+        "en": "Malphite",
+        "zh-CN": "熔岩巨兽",
+        "ja-JP": "マルファイト",
+        "ko-KR": "말파이트",
+        "es-MX": "Malphite",
+        "zh-TW": "墨菲特",
+        "vi-VN": "Malphite"
+      },
+      "pickRate": 11.18,
+      "pickRateRank": 16,
+      "previousPickRate": 10.09,
+      "pickRateChange": 1.09,
+      "previousPickRateRank": 27,
+      "pickRateRankChange": 11,
+      "url": "https://arammayhem.com/build/malphite/"
+    },
+    {
+      "championId": "AurelionSol",
+      "slug": "aurelionsol",
+      "name": {
+        "en": "Aurelion Sol",
+        "zh-CN": "铸星龙王",
+        "ja-JP": "オレリオン・ソル",
+        "ko-KR": "아우렐리온 솔",
+        "es-MX": "Aurelion Sol",
+        "zh-TW": "翱銳龍獸",
+        "vi-VN": "Aurelion Sol"
+      },
+      "pickRate": 10.91,
+      "pickRateRank": 17,
+      "previousPickRate": 12.15,
+      "pickRateChange": -1.24,
+      "previousPickRateRank": 9,
+      "pickRateRankChange": -8,
+      "url": "https://arammayhem.com/build/aurelionsol/"
+    },
+    {
+      "championId": "TwistedFate",
+      "slug": "twistedfate",
+      "name": {
+        "en": "Twisted Fate",
+        "zh-CN": "卡牌大师",
+        "ja-JP": "ツイステッド・フェイト",
+        "ko-KR": "트위스티드 페이트",
+        "es-MX": "Twisted Fate",
+        "zh-TW": "逆命",
+        "vi-VN": "Twisted Fate"
+      },
+      "pickRate": 10.84,
+      "pickRateRank": 18,
+      "previousPickRate": 11.19,
+      "pickRateChange": -0.35,
+      "previousPickRateRank": 18,
+      "pickRateRankChange": 0,
+      "url": "https://arammayhem.com/build/twistedfate/"
+    },
+    {
+      "championId": "Hecarim",
+      "slug": "hecarim",
+      "name": {
+        "en": "Hecarim",
+        "zh-CN": "战争之影",
+        "ja-JP": "ヘカリム",
+        "ko-KR": "헤카림",
+        "es-MX": "Hecarim",
+        "zh-TW": "赫克林",
+        "vi-VN": "Hecarim"
+      },
+      "pickRate": 10.61,
+      "pickRateRank": 19,
+      "previousPickRate": 11.79,
+      "pickRateChange": -1.18,
+      "previousPickRateRank": 10,
+      "pickRateRankChange": -9,
+      "url": "https://arammayhem.com/build/hecarim/"
+    },
+    {
+      "championId": "MasterYi",
+      "slug": "masteryi",
+      "name": {
+        "en": "Master Yi",
+        "zh-CN": "无极剑圣",
+        "ja-JP": "マスター・イー",
+        "ko-KR": "마스터 이",
+        "es-MX": "Maestro Yi",
+        "zh-TW": "易大師",
+        "vi-VN": "Master Yi"
+      },
+      "pickRate": 10.56,
+      "pickRateRank": 20,
+      "previousPickRate": 10.72,
+      "pickRateChange": -0.16,
+      "previousPickRateRank": 23,
+      "pickRateRankChange": 3,
+      "url": "https://arammayhem.com/build/masteryi/"
+    },
+    {
+      "championId": "Sett",
+      "slug": "sett",
+      "name": {
+        "en": "Sett",
+        "zh-CN": "腕豪",
+        "ja-JP": "セト",
+        "ko-KR": "세트",
+        "es-MX": "Sett",
+        "zh-TW": "賽特",
+        "vi-VN": "Sett"
+      },
+      "pickRate": 10.43,
+      "pickRateRank": 21,
+      "previousPickRate": 11.3,
+      "pickRateChange": -0.87,
+      "previousPickRateRank": 15,
+      "pickRateRankChange": -6,
+      "url": "https://arammayhem.com/build/sett/"
+    },
+    {
+      "championId": "Morgana",
+      "slug": "morgana",
+      "name": {
+        "en": "Morgana",
+        "zh-CN": "堕落天使",
+        "ja-JP": "モルガナ",
+        "ko-KR": "모르가나",
+        "es-MX": "Morgana",
+        "zh-TW": "魔甘娜",
+        "vi-VN": "Morgana"
+      },
+      "pickRate": 10.42,
+      "pickRateRank": 22,
+      "previousPickRate": 11.13,
+      "pickRateChange": -0.71,
+      "previousPickRateRank": 19,
+      "pickRateRankChange": -3,
+      "url": "https://arammayhem.com/build/morgana/"
+    },
+    {
+      "championId": "Vayne",
+      "slug": "vayne",
+      "name": {
+        "en": "Vayne",
+        "zh-CN": "暗夜猎手",
+        "ja-JP": "ヴェイン",
+        "ko-KR": "베인",
+        "es-MX": "Vayne",
+        "zh-TW": "汎",
+        "vi-VN": "Vayne"
+      },
+      "pickRate": 9.86,
+      "pickRateRank": 23,
+      "previousPickRate": 11.33,
+      "pickRateChange": -1.47,
+      "previousPickRateRank": 14,
+      "pickRateRankChange": -9,
+      "url": "https://arammayhem.com/build/vayne/"
+    },
+    {
+      "championId": "Shaco",
+      "slug": "shaco",
+      "name": {
+        "en": "Shaco",
+        "zh-CN": "恶魔小丑",
+        "ja-JP": "シャコ",
+        "ko-KR": "샤코",
+        "es-MX": "Shaco",
+        "zh-TW": "薩科",
+        "vi-VN": "Shaco"
+      },
+      "pickRate": 9.83,
+      "pickRateRank": 24,
+      "previousPickRate": 10.86,
+      "pickRateChange": -1.03,
+      "previousPickRateRank": 21,
+      "pickRateRankChange": -3,
+      "url": "https://arammayhem.com/build/shaco/"
+    },
+    {
+      "championId": "Varus",
+      "slug": "varus",
+      "name": {
+        "en": "Varus",
+        "zh-CN": "惩戒之箭",
+        "ja-JP": "ヴァルス",
+        "ko-KR": "바루스",
+        "es-MX": "Varus",
+        "zh-TW": "法洛士",
+        "vi-VN": "Varus"
+      },
+      "pickRate": 9.56,
+      "pickRateRank": 25,
+      "previousPickRate": 7.96,
+      "pickRateChange": 1.6,
+      "previousPickRateRank": 50,
+      "pickRateRankChange": 25,
+      "url": "https://arammayhem.com/build/varus/"
+    },
+    {
+      "championId": "Senna",
+      "slug": "senna",
+      "name": {
+        "en": "Senna",
+        "zh-CN": "涤魂圣枪",
+        "ja-JP": "セナ",
+        "ko-KR": "세나",
+        "es-MX": "Senna",
+        "zh-TW": "姍娜",
+        "vi-VN": "Senna"
+      },
+      "pickRate": 9.41,
+      "pickRateRank": 26,
+      "previousPickRate": 8.98,
+      "pickRateChange": 0.43,
+      "previousPickRateRank": 31,
+      "pickRateRankChange": 5,
+      "url": "https://arammayhem.com/build/senna/"
+    },
+    {
+      "championId": "Yone",
+      "slug": "yone",
+      "name": {
+        "en": "Yone",
+        "zh-CN": "封魔剑魂",
+        "ja-JP": "ヨネ",
+        "ko-KR": "요네",
+        "es-MX": "Yone",
+        "zh-TW": "犽凝",
+        "vi-VN": "Yone"
+      },
+      "pickRate": 9.3,
+      "pickRateRank": 27,
+      "previousPickRate": 8.45,
+      "pickRateChange": 0.85,
+      "previousPickRateRank": 34,
+      "pickRateRankChange": 7,
+      "url": "https://arammayhem.com/build/yone/"
+    },
+    {
+      "championId": "Swain",
+      "slug": "swain",
+      "name": {
+        "en": "Swain",
+        "zh-CN": "诺克萨斯统领",
+        "ja-JP": "スウェイン",
+        "ko-KR": "스웨인",
+        "es-MX": "Swain",
+        "zh-TW": "斯溫",
+        "vi-VN": "Swain"
+      },
+      "pickRate": 9.25,
+      "pickRateRank": 28,
+      "previousPickRate": 10.51,
+      "pickRateChange": -1.26,
+      "previousPickRateRank": 26,
+      "pickRateRankChange": -2,
+      "url": "https://arammayhem.com/build/swain/"
+    },
+    {
+      "championId": "Trundle",
+      "slug": "trundle",
+      "name": {
+        "en": "Trundle",
+        "zh-CN": "巨魔之王",
+        "ja-JP": "トランドル",
+        "ko-KR": "트런들",
+        "es-MX": "Trundle",
+        "zh-TW": "特朗德",
+        "vi-VN": "Trundle"
+      },
+      "pickRate": 9.22,
+      "pickRateRank": 29,
+      "previousPickRate": 10.56,
+      "pickRateChange": -1.34,
+      "previousPickRateRank": 25,
+      "pickRateRankChange": -4,
+      "url": "https://arammayhem.com/build/trundle/"
+    },
+    {
+      "championId": "Jinx",
+      "slug": "jinx",
+      "name": {
+        "en": "Jinx",
+        "zh-CN": "暴走萝莉",
+        "ja-JP": "ジンクス",
+        "ko-KR": "징크스",
+        "es-MX": "Jinx",
+        "zh-TW": "吉茵珂絲",
+        "vi-VN": "Jinx"
+      },
+      "pickRate": 9.14,
+      "pickRateRank": 30,
+      "previousPickRate": 9.28,
+      "pickRateChange": -0.14,
+      "previousPickRateRank": 29,
+      "pickRateRankChange": -1,
+      "url": "https://arammayhem.com/build/jinx/"
+    },
+    {
+      "championId": "JarvanIV",
+      "slug": "jarvaniv",
+      "name": {
+        "en": "Jarvan IV",
+        "zh-CN": "德玛西亚皇子",
+        "ja-JP": "ジャーヴァンⅣ",
+        "ko-KR": "자르반 4세",
+        "es-MX": "Jarvan IV",
+        "zh-TW": "嘉文四世",
+        "vi-VN": "Jarvan IV"
+      },
+      "pickRate": 9.13,
+      "pickRateRank": 31,
+      "previousPickRate": 9.21,
+      "pickRateChange": -0.08,
+      "previousPickRateRank": 30,
+      "pickRateRankChange": -1,
+      "url": "https://arammayhem.com/build/jarvaniv/"
+    },
+    {
+      "championId": "XinZhao",
+      "slug": "xinzhao",
+      "name": {
+        "en": "Xin Zhao",
+        "zh-CN": "德邦总管",
+        "ja-JP": "シン・ジャオ",
+        "ko-KR": "신 짜오",
+        "es-MX": "Xin Zhao",
+        "zh-TW": "趙信",
+        "vi-VN": "Xin Zhao"
+      },
+      "pickRate": 9.04,
+      "pickRateRank": 32,
+      "previousPickRate": 8.29,
+      "pickRateChange": 0.75,
+      "previousPickRateRank": 38,
+      "pickRateRankChange": 6,
+      "url": "https://arammayhem.com/build/xinzhao/"
+    },
+    {
+      "championId": "Zed",
+      "slug": "zed",
+      "name": {
+        "en": "Zed",
+        "zh-CN": "影流之主",
+        "ja-JP": "ゼド",
+        "ko-KR": "제드",
+        "es-MX": "Zed",
+        "zh-TW": "劫",
+        "vi-VN": "Zed"
+      },
+      "pickRate": 9.02,
+      "pickRateRank": 33,
+      "previousPickRate": 8.17,
+      "pickRateChange": 0.85,
+      "previousPickRateRank": 40,
+      "pickRateRankChange": 7,
+      "url": "https://arammayhem.com/build/zed/"
+    },
+    {
+      "championId": "Ekko",
+      "slug": "ekko",
+      "name": {
+        "en": "Ekko",
+        "zh-CN": "时间刺客",
+        "ja-JP": "エコー",
+        "ko-KR": "에코",
+        "es-MX": "Ekko",
+        "zh-TW": "艾克",
+        "vi-VN": "Ekko"
+      },
+      "pickRate": 8.89,
+      "pickRateRank": 34,
+      "previousPickRate": 7.24,
+      "pickRateChange": 1.65,
+      "previousPickRateRank": 55,
+      "pickRateRankChange": 21,
+      "url": "https://arammayhem.com/build/ekko/"
+    },
+    {
+      "championId": "Fizz",
+      "slug": "fizz",
+      "name": {
+        "en": "Fizz",
+        "zh-CN": "潮汐海灵",
+        "ja-JP": "フィズ",
+        "ko-KR": "피즈",
+        "es-MX": "Fizz",
+        "zh-TW": "飛斯",
+        "vi-VN": "Fizz"
+      },
+      "pickRate": 8.86,
+      "pickRateRank": 35,
+      "previousPickRate": 8,
+      "pickRateChange": 0.86,
+      "previousPickRateRank": 46,
+      "pickRateRankChange": 11,
+      "url": "https://arammayhem.com/build/fizz/"
+    },
+    {
+      "championId": "Sylas",
+      "slug": "sylas",
+      "name": {
+        "en": "Sylas",
+        "zh-CN": "解脱者",
+        "ja-JP": "サイラス",
+        "ko-KR": "사일러스",
+        "es-MX": "Sylas",
+        "zh-TW": "賽勒斯",
+        "vi-VN": "Sylas"
+      },
+      "pickRate": 8.63,
+      "pickRateRank": 36,
+      "previousPickRate": 7.98,
+      "pickRateChange": 0.65,
+      "previousPickRateRank": 48,
+      "pickRateRankChange": 12,
+      "url": "https://arammayhem.com/build/sylas/"
+    },
+    {
+      "championId": "Lillia",
+      "slug": "lillia",
+      "name": {
+        "en": "Lillia",
+        "zh-CN": "含羞蓓蕾",
+        "ja-JP": "リリア",
+        "ko-KR": "릴리아",
+        "es-MX": "Lillia",
+        "zh-TW": "莉莉亞",
+        "vi-VN": "Lillia"
+      },
+      "pickRate": 8.61,
+      "pickRateRank": 37,
+      "previousPickRate": 9.79,
+      "pickRateChange": -1.18,
+      "previousPickRateRank": 28,
+      "pickRateRankChange": -9,
+      "url": "https://arammayhem.com/build/lillia/"
+    },
+    {
+      "championId": "Jayce",
+      "slug": "jayce",
+      "name": {
+        "en": "Jayce",
+        "zh-CN": "未来守护者",
+        "ja-JP": "ジェイス",
+        "ko-KR": "제이스",
+        "es-MX": "Jayce",
+        "zh-TW": "杰西",
+        "vi-VN": "Jayce"
+      },
+      "pickRate": 8.48,
+      "pickRateRank": 38,
+      "previousPickRate": 8.64,
+      "pickRateChange": -0.16,
+      "previousPickRateRank": 32,
+      "pickRateRankChange": -6,
+      "url": "https://arammayhem.com/build/jayce/"
+    },
+    {
+      "championId": "Gangplank",
+      "slug": "gangplank",
+      "name": {
+        "en": "Gangplank",
+        "zh-CN": "海洋之灾",
+        "ja-JP": "ガングプランク",
+        "ko-KR": "갱플랭크",
+        "es-MX": "Gangplank",
+        "zh-TW": "剛普朗克",
+        "vi-VN": "Gangplank"
+      },
+      "pickRate": 8.26,
+      "pickRateRank": 39,
+      "previousPickRate": 8.38,
+      "pickRateChange": -0.12,
+      "previousPickRateRank": 35,
+      "pickRateRankChange": -4,
+      "url": "https://arammayhem.com/build/gangplank/"
+    },
+    {
+      "championId": "DrMundo",
+      "slug": "drmundo",
+      "name": {
+        "en": "Dr. Mundo",
+        "zh-CN": "祖安狂人",
+        "ja-JP": "ドクター・ムンド",
+        "ko-KR": "문도 박사",
+        "es-MX": "Dr. Mundo",
+        "zh-TW": "蒙多醫生",
+        "vi-VN": "Dr. Mundo"
+      },
+      "pickRate": 8.23,
+      "pickRateRank": 40,
+      "previousPickRate": 10.67,
+      "pickRateChange": -2.44,
+      "previousPickRateRank": 24,
+      "pickRateRankChange": -16,
+      "url": "https://arammayhem.com/build/drmundo/"
+    },
+    {
+      "championId": "Twitch",
+      "slug": "twitch",
+      "name": {
+        "en": "Twitch",
+        "zh-CN": "瘟疫之源",
+        "ja-JP": "トゥイッチ",
+        "ko-KR": "트위치",
+        "es-MX": "Twitch",
+        "zh-TW": "圖奇",
+        "vi-VN": "Twitch"
+      },
+      "pickRate": 8.17,
+      "pickRateRank": 41,
+      "previousPickRate": 8.25,
+      "pickRateChange": -0.08,
+      "previousPickRateRank": 39,
+      "pickRateRankChange": -2,
+      "url": "https://arammayhem.com/build/twitch/"
+    },
+    {
+      "championId": "Xerath",
+      "slug": "xerath",
+      "name": {
+        "en": "Xerath",
+        "zh-CN": "远古巫灵",
+        "ja-JP": "ゼラス",
+        "ko-KR": "제라스",
+        "es-MX": "Xerath",
+        "zh-TW": "齊勒斯",
+        "vi-VN": "Xerath"
+      },
+      "pickRate": 7.73,
+      "pickRateRank": 42,
+      "previousPickRate": 6.69,
+      "pickRateChange": 1.04,
+      "previousPickRateRank": 62,
+      "pickRateRankChange": 20,
+      "url": "https://arammayhem.com/build/xerath/"
+    },
+    {
+      "championId": "Kayn",
+      "slug": "kayn",
+      "name": {
+        "en": "Kayn",
+        "zh-CN": "影流之镰",
+        "ja-JP": "ケイン",
+        "ko-KR": "케인",
+        "es-MX": "Kayn",
+        "zh-TW": "慨影",
+        "vi-VN": "Kayn"
+      },
+      "pickRate": 7.5,
+      "pickRateRank": 43,
+      "previousPickRate": 8,
+      "pickRateChange": -0.5,
+      "previousPickRateRank": 46,
+      "pickRateRankChange": 3,
+      "url": "https://arammayhem.com/build/kayn/"
+    },
+    {
+      "championId": "Maokai",
+      "slug": "maokai",
+      "name": {
+        "en": "Maokai",
+        "zh-CN": "扭曲树精",
+        "ja-JP": "マオカイ",
+        "ko-KR": "마오카이",
+        "es-MX": "Maokai",
+        "zh-TW": "茂凱",
+        "vi-VN": "Maokai"
+      },
+      "pickRate": 7.4,
+      "pickRateRank": 44,
+      "previousPickRate": 8.17,
+      "pickRateChange": -0.77,
+      "previousPickRateRank": 40,
+      "pickRateRankChange": -4,
+      "url": "https://arammayhem.com/build/maokai/"
+    },
+    {
+      "championId": "Katarina",
+      "slug": "katarina",
+      "name": {
+        "en": "Katarina",
+        "zh-CN": "不祥之刃",
+        "ja-JP": "カタリナ",
+        "ko-KR": "카타리나",
+        "es-MX": "Katarina",
+        "zh-TW": "卡特蓮娜",
+        "vi-VN": "Katarina"
+      },
+      "pickRate": 7.32,
+      "pickRateRank": 45,
+      "previousPickRate": 8.02,
+      "pickRateChange": -0.7,
+      "previousPickRateRank": 44,
+      "pickRateRankChange": -1,
+      "url": "https://arammayhem.com/build/katarina/"
+    },
+    {
+      "championId": "Tristana",
+      "slug": "tristana",
+      "name": {
+        "en": "Tristana",
+        "zh-CN": "麦林炮手",
+        "ja-JP": "トリスターナ",
+        "ko-KR": "트리스타나",
+        "es-MX": "Tristana",
+        "zh-TW": "崔絲塔娜",
+        "vi-VN": "Tristana"
+      },
+      "pickRate": 7.32,
+      "pickRateRank": 45,
+      "previousPickRate": 8.47,
+      "pickRateChange": -1.15,
+      "previousPickRateRank": 33,
+      "pickRateRankChange": -12,
+      "url": "https://arammayhem.com/build/tristana/"
+    },
+    {
+      "championId": "Chogath",
+      "slug": "chogath",
+      "name": {
+        "en": "Cho'Gath",
+        "zh-CN": "虚空恐惧",
+        "ja-JP": "チョ＝ガス",
+        "ko-KR": "초가스",
+        "es-MX": "Cho'Gath",
+        "zh-TW": "科加斯",
+        "vi-VN": "Cho'Gath"
+      },
+      "pickRate": 7.13,
+      "pickRateRank": 47,
+      "previousPickRate": 8.3,
+      "pickRateChange": -1.17,
+      "previousPickRateRank": 37,
+      "pickRateRankChange": -10,
+      "url": "https://arammayhem.com/build/chogath/"
+    },
+    {
+      "championId": "Mel",
+      "slug": "mel",
+      "name": {
+        "en": "Mel",
+        "zh-CN": "流光镜影",
+        "ja-JP": "メル",
+        "ko-KR": "멜",
+        "es-MX": "Mel",
+        "zh-TW": "梅爾",
+        "vi-VN": "Mel"
+      },
+      "pickRate": 7.13,
+      "pickRateRank": 47,
+      "previousPickRate": 8.38,
+      "pickRateChange": -1.25,
+      "previousPickRateRank": 35,
+      "pickRateRankChange": -12,
+      "url": "https://arammayhem.com/build/mel/"
+    },
+    {
+      "championId": "Garen",
+      "slug": "garen",
+      "name": {
+        "en": "Garen",
+        "zh-CN": "德玛西亚之力",
+        "ja-JP": "ガレン",
+        "ko-KR": "가렌",
+        "es-MX": "Garen",
+        "zh-TW": "蓋倫",
+        "vi-VN": "Garen"
+      },
+      "pickRate": 7.1,
+      "pickRateRank": 49,
+      "previousPickRate": 7.7,
+      "pickRateChange": -0.6,
+      "previousPickRateRank": 51,
+      "pickRateRankChange": 2,
+      "url": "https://arammayhem.com/build/garen/"
+    },
+    {
+      "championId": "Darius",
+      "slug": "darius",
+      "name": {
+        "en": "Darius",
+        "zh-CN": "诺克萨斯之手",
+        "ja-JP": "ダリウス",
+        "ko-KR": "다리우스",
+        "es-MX": "Darius",
+        "zh-TW": "達瑞斯",
+        "vi-VN": "Darius"
+      },
+      "pickRate": 7.04,
+      "pickRateRank": 50,
+      "previousPickRate": 7.45,
+      "pickRateChange": -0.41,
+      "previousPickRateRank": 53,
+      "pickRateRankChange": 3,
+      "url": "https://arammayhem.com/build/darius/"
+    },
+    {
+      "championId": "Seraphine",
+      "slug": "seraphine",
+      "name": {
+        "en": "Seraphine",
+        "zh-CN": "星籁歌姬",
+        "ja-JP": "セラフィーン",
+        "ko-KR": "세라핀",
+        "es-MX": "Seraphine",
+        "zh-TW": "瑟菈紛",
+        "vi-VN": "Seraphine"
+      },
+      "pickRate": 7.04,
+      "pickRateRank": 50,
+      "previousPickRate": 6.97,
+      "pickRateChange": 0.07,
+      "previousPickRateRank": 56,
+      "pickRateRankChange": 6,
+      "url": "https://arammayhem.com/build/seraphine/"
+    },
+    {
+      "championId": "Nidalee",
+      "slug": "nidalee",
+      "name": {
+        "en": "Nidalee",
+        "zh-CN": "狂野女猎手",
+        "ja-JP": "ニダリー",
+        "ko-KR": "니달리",
+        "es-MX": "Nidalee",
+        "zh-TW": "奈德麗",
+        "vi-VN": "Nidalee"
+      },
+      "pickRate": 7.03,
+      "pickRateRank": 52,
+      "previousPickRate": 6.71,
+      "pickRateChange": 0.32,
+      "previousPickRateRank": 61,
+      "pickRateRankChange": 9,
+      "url": "https://arammayhem.com/build/nidalee/"
+    },
+    {
+      "championId": "Mordekaiser",
+      "slug": "mordekaiser",
+      "name": {
+        "en": "Mordekaiser",
+        "zh-CN": "铁铠冥魂",
+        "ja-JP": "モルデカイザー",
+        "ko-KR": "모데카이저",
+        "es-MX": "Mordekaiser",
+        "zh-TW": "魔鬥凱薩",
+        "vi-VN": "Mordekaiser"
+      },
+      "pickRate": 7,
+      "pickRateRank": 53,
+      "previousPickRate": 8.08,
+      "pickRateChange": -1.08,
+      "previousPickRateRank": 43,
+      "pickRateRankChange": -10,
+      "url": "https://arammayhem.com/build/mordekaiser/"
+    },
+    {
+      "championId": "Vladimir",
+      "slug": "vladimir",
+      "name": {
+        "en": "Vladimir",
+        "zh-CN": "猩红收割者",
+        "ja-JP": "ブラッドミア",
+        "ko-KR": "블라디미르",
+        "es-MX": "Vladimir",
+        "zh-TW": "弗拉迪米爾",
+        "vi-VN": "Vladimir"
+      },
+      "pickRate": 6.98,
+      "pickRateRank": 54,
+      "previousPickRate": 6.89,
+      "pickRateChange": 0.09,
+      "previousPickRateRank": 57,
+      "pickRateRankChange": 3,
+      "url": "https://arammayhem.com/build/vladimir/"
+    },
+    {
+      "championId": "Blitzcrank",
+      "slug": "blitzcrank",
+      "name": {
+        "en": "Blitzcrank",
+        "zh-CN": "蒸汽机器人",
+        "ja-JP": "ブリッツクランク",
+        "ko-KR": "블리츠크랭크",
+        "es-MX": "Blitzcrank",
+        "zh-TW": "布里茨",
+        "vi-VN": "Blitzcrank"
+      },
+      "pickRate": 6.95,
+      "pickRateRank": 55,
+      "previousPickRate": 8.16,
+      "pickRateChange": -1.21,
+      "previousPickRateRank": 42,
+      "pickRateRankChange": -13,
+      "url": "https://arammayhem.com/build/blitzcrank/"
+    },
+    {
+      "championId": "Veigar",
+      "slug": "veigar",
+      "name": {
+        "en": "Veigar",
+        "zh-CN": "邪恶小法师",
+        "ja-JP": "ベイガー",
+        "ko-KR": "베이가",
+        "es-MX": "Veigar",
+        "zh-TW": "維迦",
+        "vi-VN": "Veigar"
+      },
+      "pickRate": 6.85,
+      "pickRateRank": 56,
+      "previousPickRate": 7.56,
+      "pickRateChange": -0.71,
+      "previousPickRateRank": 52,
+      "pickRateRankChange": -4,
+      "url": "https://arammayhem.com/build/veigar/"
+    },
+    {
+      "championId": "Thresh",
+      "slug": "thresh",
+      "name": {
+        "en": "Thresh",
+        "zh-CN": "魂锁典狱长",
+        "ja-JP": "スレッシュ",
+        "ko-KR": "쓰레쉬",
+        "es-MX": "Thresh",
+        "zh-TW": "瑟雷西",
+        "vi-VN": "Thresh"
+      },
+      "pickRate": 6.81,
+      "pickRateRank": 57,
+      "previousPickRate": 6,
+      "pickRateChange": 0.81,
+      "previousPickRateRank": 73,
+      "pickRateRankChange": 16,
+      "url": "https://arammayhem.com/build/thresh/"
+    },
+    {
+      "championId": "Singed",
+      "slug": "singed",
+      "name": {
+        "en": "Singed",
+        "zh-CN": "炼金术士",
+        "ja-JP": "シンジド",
+        "ko-KR": "신지드",
+        "es-MX": "Singed",
+        "zh-TW": "辛吉德",
+        "vi-VN": "Singed"
+      },
+      "pickRate": 6.7,
+      "pickRateRank": 58,
+      "previousPickRate": 8.01,
+      "pickRateChange": -1.31,
+      "previousPickRateRank": 45,
+      "pickRateRankChange": -13,
+      "url": "https://arammayhem.com/build/singed/"
+    },
+    {
+      "championId": "LeeSin",
+      "slug": "leesin",
+      "name": {
+        "en": "Lee Sin",
+        "zh-CN": "盲僧",
+        "ja-JP": "リー・シン",
+        "ko-KR": "리 신",
+        "es-MX": "Lee Sin",
+        "zh-TW": "李星",
+        "vi-VN": "Lee Sin"
+      },
+      "pickRate": 6.66,
+      "pickRateRank": 59,
+      "previousPickRate": 6.53,
+      "pickRateChange": 0.13,
+      "previousPickRateRank": 66,
+      "pickRateRankChange": 7,
+      "url": "https://arammayhem.com/build/leesin/"
+    },
+    {
+      "championId": "Lux",
+      "slug": "lux",
+      "name": {
+        "en": "Lux",
+        "zh-CN": "光辉女郎",
+        "ja-JP": "ラックス",
+        "ko-KR": "럭스",
+        "es-MX": "Lux",
+        "zh-TW": "拉克絲",
+        "vi-VN": "Lux"
+      },
+      "pickRate": 6.63,
+      "pickRateRank": 60,
+      "previousPickRate": 6,
+      "pickRateChange": 0.63,
+      "previousPickRateRank": 73,
+      "pickRateRankChange": 13,
+      "url": "https://arammayhem.com/build/lux/"
+    },
+    {
+      "championId": "Nautilus",
+      "slug": "nautilus",
+      "name": {
+        "en": "Nautilus",
+        "zh-CN": "深海泰坦",
+        "ja-JP": "ノーチラス",
+        "ko-KR": "노틸러스",
+        "es-MX": "Nautilus",
+        "zh-TW": "納帝魯斯",
+        "vi-VN": "Nautilus"
+      },
+      "pickRate": 6.62,
+      "pickRateRank": 61,
+      "previousPickRate": 6.28,
+      "pickRateChange": 0.34,
+      "previousPickRateRank": 70,
+      "pickRateRankChange": 9,
+      "url": "https://arammayhem.com/build/nautilus/"
+    },
+    {
+      "championId": "Yunara",
+      "slug": "yunara",
+      "name": {
+        "en": "Yunara",
+        "zh-CN": "不破之誓",
+        "ja-JP": "ユナラ",
+        "ko-KR": "유나라",
+        "es-MX": "Yunara",
+        "zh-TW": "尤娜拉",
+        "vi-VN": "Yunara"
+      },
+      "pickRate": 6.62,
+      "pickRateRank": 61,
+      "previousPickRate": 6.77,
+      "pickRateChange": -0.15,
+      "previousPickRateRank": 60,
+      "pickRateRankChange": -1,
+      "url": "https://arammayhem.com/build/yunara/"
+    },
+    {
+      "championId": "Aurora",
+      "slug": "aurora",
+      "name": {
+        "en": "Aurora",
+        "zh-CN": "双界灵兔",
+        "ja-JP": "オーロラ",
+        "ko-KR": "오로라",
+        "es-MX": "Aurora",
+        "zh-TW": "歐羅拉",
+        "vi-VN": "Aurora"
+      },
+      "pickRate": 6.61,
+      "pickRateRank": 63,
+      "previousPickRate": 6.43,
+      "pickRateChange": 0.18,
+      "previousPickRateRank": 67,
+      "pickRateRankChange": 4,
+      "url": "https://arammayhem.com/build/aurora/"
+    },
+    {
+      "championId": "Kayle",
+      "slug": "kayle",
+      "name": {
+        "en": "Kayle",
+        "zh-CN": "正义天使",
+        "ja-JP": "ケイル",
+        "ko-KR": "케일",
+        "es-MX": "Kayle",
+        "zh-TW": "凱爾",
+        "vi-VN": "Kayle"
+      },
+      "pickRate": 6.55,
+      "pickRateRank": 64,
+      "previousPickRate": 6.85,
+      "pickRateChange": -0.3,
+      "previousPickRateRank": 58,
+      "pickRateRankChange": -6,
+      "url": "https://arammayhem.com/build/kayle/"
+    },
+    {
+      "championId": "Tryndamere",
+      "slug": "tryndamere",
+      "name": {
+        "en": "Tryndamere",
+        "zh-CN": "蛮族之王",
+        "ja-JP": "トリンダメア",
+        "ko-KR": "트린다미어",
+        "es-MX": "Tryndamere",
+        "zh-TW": "泰達米爾",
+        "vi-VN": "Tryndamere"
+      },
+      "pickRate": 6.55,
+      "pickRateRank": 64,
+      "previousPickRate": 7.44,
+      "pickRateChange": -0.89,
+      "previousPickRateRank": 54,
+      "pickRateRankChange": -10,
+      "url": "https://arammayhem.com/build/tryndamere/"
+    },
+    {
+      "championId": "Rengar",
+      "slug": "rengar",
+      "name": {
+        "en": "Rengar",
+        "zh-CN": "傲之追猎者",
+        "ja-JP": "レンガー",
+        "ko-KR": "렝가",
+        "es-MX": "Rengar",
+        "zh-TW": "雷葛爾",
+        "vi-VN": "Rengar"
+      },
+      "pickRate": 6.54,
+      "pickRateRank": 66,
+      "previousPickRate": 6.04,
+      "pickRateChange": 0.5,
+      "previousPickRateRank": 72,
+      "pickRateRankChange": 6,
+      "url": "https://arammayhem.com/build/rengar/"
+    },
+    {
+      "championId": "Rumble",
+      "slug": "rumble",
+      "name": {
+        "en": "Rumble",
+        "zh-CN": "机械公敌",
+        "ja-JP": "ランブル",
+        "ko-KR": "럼블",
+        "es-MX": "Rumble",
+        "zh-TW": "藍寶",
+        "vi-VN": "Rumble"
+      },
+      "pickRate": 6.53,
+      "pickRateRank": 67,
+      "previousPickRate": 5.71,
+      "pickRateChange": 0.82,
+      "previousPickRateRank": 80,
+      "pickRateRankChange": 13,
+      "url": "https://arammayhem.com/build/rumble/"
+    },
+    {
+      "championId": "Malzahar",
+      "slug": "malzahar",
+      "name": {
+        "en": "Malzahar",
+        "zh-CN": "虚空先知",
+        "ja-JP": "マルザハール",
+        "ko-KR": "말자하",
+        "es-MX": "Malzahar",
+        "zh-TW": "馬爾札哈",
+        "vi-VN": "Malzahar"
+      },
+      "pickRate": 6.5,
+      "pickRateRank": 68,
+      "previousPickRate": 6.8,
+      "pickRateChange": -0.3,
+      "previousPickRateRank": 59,
+      "pickRateRankChange": -9,
+      "url": "https://arammayhem.com/build/malzahar/"
+    },
+    {
+      "championId": "Corki",
+      "slug": "corki",
+      "name": {
+        "en": "Corki",
+        "zh-CN": "英勇投弹手",
+        "ja-JP": "コーキ",
+        "ko-KR": "코르키",
+        "es-MX": "Corki",
+        "zh-TW": "庫奇",
+        "vi-VN": "Corki"
+      },
+      "pickRate": 6.46,
+      "pickRateRank": 69,
+      "previousPickRate": 6.54,
+      "pickRateChange": -0.08,
+      "previousPickRateRank": 65,
+      "pickRateRankChange": -4,
+      "url": "https://arammayhem.com/build/corki/"
+    },
+    {
+      "championId": "MonkeyKing",
+      "slug": "monkeyking",
+      "name": {
+        "en": "Wukong",
+        "zh-CN": "齐天大圣",
+        "ja-JP": "ウーコン",
+        "ko-KR": "오공",
+        "es-MX": "Wukong",
+        "zh-TW": "悟空",
+        "vi-VN": "Ngộ Không"
+      },
+      "pickRate": 6.46,
+      "pickRateRank": 69,
+      "previousPickRate": 4.86,
+      "pickRateChange": 1.6,
+      "previousPickRateRank": 95,
+      "pickRateRankChange": 26,
+      "url": "https://arammayhem.com/build/monkeyking/"
+    },
+    {
+      "championId": "Jax",
+      "slug": "jax",
+      "name": {
+        "en": "Jax",
+        "zh-CN": "武器大师",
+        "ja-JP": "ジャックス",
+        "ko-KR": "잭스",
+        "es-MX": "Jax",
+        "zh-TW": "賈克斯",
+        "vi-VN": "Jax"
+      },
+      "pickRate": 6.24,
+      "pickRateRank": 71,
+      "previousPickRate": 5.55,
+      "pickRateChange": 0.69,
+      "previousPickRateRank": 82,
+      "pickRateRankChange": 11,
+      "url": "https://arammayhem.com/build/jax/"
+    },
+    {
+      "championId": "Draven",
+      "slug": "draven",
+      "name": {
+        "en": "Draven",
+        "zh-CN": "荣耀行刑官",
+        "ja-JP": "ドレイヴン",
+        "ko-KR": "드레이븐",
+        "es-MX": "Draven",
+        "zh-TW": "達瑞文",
+        "vi-VN": "Draven"
+      },
+      "pickRate": 6.23,
+      "pickRateRank": 72,
+      "previousPickRate": 5.72,
+      "pickRateChange": 0.51,
+      "previousPickRateRank": 79,
+      "pickRateRankChange": 7,
+      "url": "https://arammayhem.com/build/draven/"
+    },
+    {
+      "championId": "Udyr",
+      "slug": "udyr",
+      "name": {
+        "en": "Udyr",
+        "zh-CN": "兽灵行者",
+        "ja-JP": "ウディア",
+        "ko-KR": "우디르",
+        "es-MX": "Udyr",
+        "zh-TW": "烏迪爾",
+        "vi-VN": "Udyr"
+      },
+      "pickRate": 6.22,
+      "pickRateRank": 73,
+      "previousPickRate": 6.67,
+      "pickRateChange": -0.45,
+      "previousPickRateRank": 63,
+      "pickRateRankChange": -10,
+      "url": "https://arammayhem.com/build/udyr/"
+    },
+    {
+      "championId": "Pantheon",
+      "slug": "pantheon",
+      "name": {
+        "en": "Pantheon",
+        "zh-CN": "不屈之枪",
+        "ja-JP": "パンテオン",
+        "ko-KR": "판테온",
+        "es-MX": "Pantheon",
+        "zh-TW": "潘森",
+        "vi-VN": "Pantheon"
+      },
+      "pickRate": 6.09,
+      "pickRateRank": 74,
+      "previousPickRate": 5.66,
+      "pickRateChange": 0.43,
+      "previousPickRateRank": 81,
+      "pickRateRankChange": 7,
+      "url": "https://arammayhem.com/build/pantheon/"
+    },
+    {
+      "championId": "Leona",
+      "slug": "leona",
+      "name": {
+        "en": "Leona",
+        "zh-CN": "曙光女神",
+        "ja-JP": "レオナ",
+        "ko-KR": "레오나",
+        "es-MX": "Leona",
+        "zh-TW": "雷歐娜",
+        "vi-VN": "Leona"
+      },
+      "pickRate": 6.01,
+      "pickRateRank": 75,
+      "previousPickRate": 5.55,
+      "pickRateChange": 0.46,
+      "previousPickRateRank": 82,
+      "pickRateRankChange": 7,
+      "url": "https://arammayhem.com/build/leona/"
+    },
+    {
+      "championId": "Ziggs",
+      "slug": "ziggs",
+      "name": {
+        "en": "Ziggs",
+        "zh-CN": "爆破鬼才",
+        "ja-JP": "ジグス",
+        "ko-KR": "직스",
+        "es-MX": "Ziggs",
+        "zh-TW": "希格斯",
+        "vi-VN": "Ziggs"
+      },
+      "pickRate": 6,
+      "pickRateRank": 76,
+      "previousPickRate": 5.18,
+      "pickRateChange": 0.82,
+      "previousPickRateRank": 90,
+      "pickRateRankChange": 14,
+      "url": "https://arammayhem.com/build/ziggs/"
+    },
+    {
+      "championId": "Khazix",
+      "slug": "khazix",
+      "name": {
+        "en": "Kha'Zix",
+        "zh-CN": "虚空掠夺者",
+        "ja-JP": "カ＝ジックス",
+        "ko-KR": "카직스",
+        "es-MX": "Kha'Zix",
+        "zh-TW": "卡力斯",
+        "vi-VN": "Kha'Zix"
+      },
+      "pickRate": 5.96,
+      "pickRateRank": 77,
+      "previousPickRate": 6.32,
+      "pickRateChange": -0.36,
+      "previousPickRateRank": 69,
+      "pickRateRankChange": -8,
+      "url": "https://arammayhem.com/build/khazix/"
+    },
+    {
+      "championId": "Sion",
+      "slug": "sion",
+      "name": {
+        "en": "Sion",
+        "zh-CN": "亡灵战神",
+        "ja-JP": "サイオン",
+        "ko-KR": "사이온",
+        "es-MX": "Sion",
+        "zh-TW": "賽恩",
+        "vi-VN": "Sion"
+      },
+      "pickRate": 5.96,
+      "pickRateRank": 77,
+      "previousPickRate": 7.98,
+      "pickRateChange": -2.02,
+      "previousPickRateRank": 48,
+      "pickRateRankChange": -29,
+      "url": "https://arammayhem.com/build/sion/"
+    },
+    {
+      "championId": "Fiora",
+      "slug": "fiora",
+      "name": {
+        "en": "Fiora",
+        "zh-CN": "无双剑姬",
+        "ja-JP": "フィオラ",
+        "ko-KR": "피오라",
+        "es-MX": "Fiora",
+        "zh-TW": "菲歐拉",
+        "vi-VN": "Fiora"
+      },
+      "pickRate": 5.86,
+      "pickRateRank": 79,
+      "previousPickRate": 5.11,
+      "pickRateChange": 0.75,
+      "previousPickRateRank": 91,
+      "pickRateRankChange": 12,
+      "url": "https://arammayhem.com/build/fiora/"
+    },
+    {
+      "championId": "Ahri",
+      "slug": "ahri",
+      "name": {
+        "en": "Ahri",
+        "zh-CN": "九尾妖狐",
+        "ja-JP": "アーリ",
+        "ko-KR": "아리",
+        "es-MX": "Ahri",
+        "zh-TW": "阿璃",
+        "vi-VN": "Ahri"
+      },
+      "pickRate": 5.85,
+      "pickRateRank": 80,
+      "previousPickRate": 5.19,
+      "pickRateChange": 0.66,
+      "previousPickRateRank": 89,
+      "pickRateRankChange": 9,
+      "url": "https://arammayhem.com/build/ahri/"
+    },
+    {
+      "championId": "Aatrox",
+      "slug": "aatrox",
+      "name": {
+        "en": "Aatrox",
+        "zh-CN": "暗裔剑魔",
+        "ja-JP": "エイトロックス",
+        "ko-KR": "아트록스",
+        "es-MX": "Aatrox",
+        "zh-TW": "厄薩斯",
+        "vi-VN": "Aatrox"
+      },
+      "pickRate": 5.84,
+      "pickRateRank": 81,
+      "previousPickRate": 5.92,
+      "pickRateChange": -0.08,
+      "previousPickRateRank": 76,
+      "pickRateRankChange": -5,
+      "url": "https://arammayhem.com/build/aatrox/"
+    },
+    {
+      "championId": "KogMaw",
+      "slug": "kogmaw",
+      "name": {
+        "en": "Kog'Maw",
+        "zh-CN": "深渊巨口",
+        "ja-JP": "コグ＝マウ",
+        "ko-KR": "코그모",
+        "es-MX": "Kog'Maw",
+        "zh-TW": "寇格魔",
+        "vi-VN": "Kog'Maw"
+      },
+      "pickRate": 5.67,
+      "pickRateRank": 82,
+      "previousPickRate": 4.75,
+      "pickRateChange": 0.92,
+      "previousPickRateRank": 96,
+      "pickRateRankChange": 14,
+      "url": "https://arammayhem.com/build/kogmaw/"
+    },
+    {
+      "championId": "Alistar",
+      "slug": "alistar",
+      "name": {
+        "en": "Alistar",
+        "zh-CN": "牛头酋长",
+        "ja-JP": "アリスター",
+        "ko-KR": "알리스타",
+        "es-MX": "Alistar",
+        "zh-TW": "亞歷斯塔",
+        "vi-VN": "Alistar"
+      },
+      "pickRate": 5.66,
+      "pickRateRank": 83,
+      "previousPickRate": 6,
+      "pickRateChange": -0.34,
+      "previousPickRateRank": 73,
+      "pickRateRankChange": -10,
+      "url": "https://arammayhem.com/build/alistar/"
+    },
+    {
+      "championId": "Viktor",
+      "slug": "viktor",
+      "name": {
+        "en": "Viktor",
+        "zh-CN": "奥术先驱",
+        "ja-JP": "ビクター",
+        "ko-KR": "빅토르",
+        "es-MX": "Viktor",
+        "zh-TW": "維克特",
+        "vi-VN": "Viktor"
+      },
+      "pickRate": 5.58,
+      "pickRateRank": 84,
+      "previousPickRate": 5.04,
+      "pickRateChange": 0.54,
+      "previousPickRateRank": 94,
+      "pickRateRankChange": 10,
+      "url": "https://arammayhem.com/build/viktor/"
+    },
+    {
+      "championId": "Velkoz",
+      "slug": "velkoz",
+      "name": {
+        "en": "Vel'Koz",
+        "zh-CN": "虚空之眼",
+        "ja-JP": "ヴェル＝コズ",
+        "ko-KR": "벨코즈",
+        "es-MX": "Vel'Koz",
+        "zh-TW": "威寇茲",
+        "vi-VN": "Vel'Koz"
+      },
+      "pickRate": 5.52,
+      "pickRateRank": 85,
+      "previousPickRate": 6.43,
+      "pickRateChange": -0.91,
+      "previousPickRateRank": 67,
+      "pickRateRankChange": -18,
+      "url": "https://arammayhem.com/build/velkoz/"
+    },
+    {
+      "championId": "Galio",
+      "slug": "galio",
+      "name": {
+        "en": "Galio",
+        "zh-CN": "正义巨像",
+        "ja-JP": "ガリオ",
+        "ko-KR": "갈리오",
+        "es-MX": "Galio",
+        "zh-TW": "加里歐",
+        "vi-VN": "Galio"
+      },
+      "pickRate": 5.47,
+      "pickRateRank": 86,
+      "previousPickRate": 6.65,
+      "pickRateChange": -1.18,
+      "previousPickRateRank": 64,
+      "pickRateRankChange": -22,
+      "url": "https://arammayhem.com/build/galio/"
+    },
+    {
+      "championId": "Nasus",
+      "slug": "nasus",
+      "name": {
+        "en": "Nasus",
+        "zh-CN": "沙漠死神",
+        "ja-JP": "ナサス",
+        "ko-KR": "나서스",
+        "es-MX": "Nasus",
+        "zh-TW": "納瑟斯",
+        "vi-VN": "Nasus"
+      },
+      "pickRate": 5.44,
+      "pickRateRank": 87,
+      "previousPickRate": 6.26,
+      "pickRateChange": -0.82,
+      "previousPickRateRank": 71,
+      "pickRateRankChange": -16,
+      "url": "https://arammayhem.com/build/nasus/"
+    },
+    {
+      "championId": "Syndra",
+      "slug": "syndra",
+      "name": {
+        "en": "Syndra",
+        "zh-CN": "暗黑元首",
+        "ja-JP": "シンドラ",
+        "ko-KR": "신드라",
+        "es-MX": "Syndra",
+        "zh-TW": "星朵拉",
+        "vi-VN": "Syndra"
+      },
+      "pickRate": 5.43,
+      "pickRateRank": 88,
+      "previousPickRate": 5.55,
+      "pickRateChange": -0.12,
+      "previousPickRateRank": 82,
+      "pickRateRankChange": -6,
+      "url": "https://arammayhem.com/build/syndra/"
+    },
+    {
+      "championId": "Hwei",
+      "slug": "hwei",
+      "name": {
+        "en": "Hwei",
+        "zh-CN": "异画师",
+        "ja-JP": "フェイ",
+        "ko-KR": "흐웨이",
+        "es-MX": "Hwei",
+        "zh-TW": "赫威",
+        "vi-VN": "Hwei"
+      },
+      "pickRate": 5.09,
+      "pickRateRank": 89,
+      "previousPickRate": 5.06,
+      "pickRateChange": 0.03,
+      "previousPickRateRank": 92,
+      "pickRateRankChange": 3,
+      "url": "https://arammayhem.com/build/hwei/"
+    },
+    {
+      "championId": "Pyke",
+      "slug": "pyke",
+      "name": {
+        "en": "Pyke",
+        "zh-CN": "血港鬼影",
+        "ja-JP": "パイク",
+        "ko-KR": "파이크",
+        "es-MX": "Pyke",
+        "zh-TW": "派克",
+        "vi-VN": "Pyke"
+      },
+      "pickRate": 5.09,
+      "pickRateRank": 89,
+      "previousPickRate": 5.05,
+      "pickRateChange": 0.04,
+      "previousPickRateRank": 93,
+      "pickRateRankChange": 4,
+      "url": "https://arammayhem.com/build/pyke/"
+    },
+    {
+      "championId": "Talon",
+      "slug": "talon",
+      "name": {
+        "en": "Talon",
+        "zh-CN": "刀锋之影",
+        "ja-JP": "タロン",
+        "ko-KR": "탈론",
+        "es-MX": "Talon",
+        "zh-TW": "塔隆",
+        "vi-VN": "Talon"
+      },
+      "pickRate": 5.08,
+      "pickRateRank": 91,
+      "previousPickRate": 4.56,
+      "pickRateChange": 0.52,
+      "previousPickRateRank": 103,
+      "pickRateRankChange": 12,
+      "url": "https://arammayhem.com/build/talon/"
+    },
+    {
+      "championId": "Volibear",
+      "slug": "volibear",
+      "name": {
+        "en": "Volibear",
+        "zh-CN": "不灭狂雷",
+        "ja-JP": "ボリベア",
+        "ko-KR": "볼리베어",
+        "es-MX": "Volibear",
+        "zh-TW": "弗力貝爾",
+        "vi-VN": "Volibear"
+      },
+      "pickRate": 4.9,
+      "pickRateRank": 92,
+      "previousPickRate": 4.2,
+      "pickRateChange": 0.7,
+      "previousPickRateRank": 106,
+      "pickRateRankChange": 14,
+      "url": "https://arammayhem.com/build/volibear/"
+    },
+    {
+      "championId": "Gragas",
+      "slug": "gragas",
+      "name": {
+        "en": "Gragas",
+        "zh-CN": "酒桶",
+        "ja-JP": "グラガス",
+        "ko-KR": "그라가스",
+        "es-MX": "Gragas",
+        "zh-TW": "古拉格斯",
+        "vi-VN": "Gragas"
+      },
+      "pickRate": 4.83,
+      "pickRateRank": 93,
+      "previousPickRate": 5.47,
+      "pickRateChange": -0.64,
+      "previousPickRateRank": 87,
+      "pickRateRankChange": -6,
+      "url": "https://arammayhem.com/build/gragas/"
+    },
+    {
+      "championId": "Viego",
+      "slug": "viego",
+      "name": {
+        "en": "Viego",
+        "zh-CN": "破败之王",
+        "ja-JP": "ヴィエゴ",
+        "ko-KR": "비에고",
+        "es-MX": "Viego",
+        "zh-TW": "維爾戈",
+        "vi-VN": "Viego"
+      },
+      "pickRate": 4.8,
+      "pickRateRank": 94,
+      "previousPickRate": 4.63,
+      "pickRateChange": 0.17,
+      "previousPickRateRank": 99,
+      "pickRateRankChange": 5,
+      "url": "https://arammayhem.com/build/viego/"
+    },
+    {
+      "championId": "Samira",
+      "slug": "samira",
+      "name": {
+        "en": "Samira",
+        "zh-CN": "沙漠玫瑰",
+        "ja-JP": "サミーラ",
+        "ko-KR": "사미라",
+        "es-MX": "Samira",
+        "zh-TW": "煞蜜拉",
+        "vi-VN": "Samira"
+      },
+      "pickRate": 4.79,
+      "pickRateRank": 95,
+      "previousPickRate": 5.91,
+      "pickRateChange": -1.12,
+      "previousPickRateRank": 77,
+      "pickRateRankChange": -18,
+      "url": "https://arammayhem.com/build/samira/"
+    },
+    {
+      "championId": "Sivir",
+      "slug": "sivir",
+      "name": {
+        "en": "Sivir",
+        "zh-CN": "战争女神",
+        "ja-JP": "シヴィア",
+        "ko-KR": "시비르",
+        "es-MX": "Sivir",
+        "zh-TW": "希維爾",
+        "vi-VN": "Sivir"
+      },
+      "pickRate": 4.7,
+      "pickRateRank": 96,
+      "previousPickRate": 5.42,
+      "pickRateChange": -0.72,
+      "previousPickRateRank": 88,
+      "pickRateRankChange": -8,
+      "url": "https://arammayhem.com/build/sivir/"
+    },
+    {
+      "championId": "Rell",
+      "slug": "rell",
+      "name": {
+        "en": "Rell",
+        "zh-CN": "镕铁少女",
+        "ja-JP": "レル",
+        "ko-KR": "렐",
+        "es-MX": "Rell",
+        "zh-TW": "銳兒",
+        "vi-VN": "Rell"
+      },
+      "pickRate": 4.62,
+      "pickRateRank": 97,
+      "previousPickRate": 5.51,
+      "pickRateChange": -0.89,
+      "previousPickRateRank": 86,
+      "pickRateRankChange": -11,
+      "url": "https://arammayhem.com/build/rell/"
+    },
+    {
+      "championId": "Zyra",
+      "slug": "zyra",
+      "name": {
+        "en": "Zyra",
+        "zh-CN": "荆棘之兴",
+        "ja-JP": "ザイラ",
+        "ko-KR": "자이라",
+        "es-MX": "Zyra",
+        "zh-TW": "枷蘿",
+        "vi-VN": "Zyra"
+      },
+      "pickRate": 4.61,
+      "pickRateRank": 98,
+      "previousPickRate": 4.6,
+      "pickRateChange": 0.01,
+      "previousPickRateRank": 101,
+      "pickRateRankChange": 3,
+      "url": "https://arammayhem.com/build/zyra/"
+    },
+    {
+      "championId": "Amumu",
+      "slug": "amumu",
+      "name": {
+        "en": "Amumu",
+        "zh-CN": "殇之木乃伊",
+        "ja-JP": "アムム",
+        "ko-KR": "아무무",
+        "es-MX": "Amumu",
+        "zh-TW": "阿姆姆",
+        "vi-VN": "Amumu"
+      },
+      "pickRate": 4.53,
+      "pickRateRank": 99,
+      "previousPickRate": 5.73,
+      "pickRateChange": -1.2,
+      "previousPickRateRank": 78,
+      "pickRateRankChange": -21,
+      "url": "https://arammayhem.com/build/amumu/"
+    },
+    {
+      "championId": "Ambessa",
+      "slug": "ambessa",
+      "name": {
+        "en": "Ambessa",
+        "zh-CN": "铁血狼母",
+        "ja-JP": "アンベッサ",
+        "ko-KR": "암베사",
+        "es-MX": "Ambessa",
+        "zh-TW": "安比薩",
+        "vi-VN": "Ambessa"
+      },
+      "pickRate": 4.5,
+      "pickRateRank": 100,
+      "previousPickRate": 3.82,
+      "pickRateChange": 0.68,
+      "previousPickRateRank": 112,
+      "pickRateRankChange": 12,
+      "url": "https://arammayhem.com/build/ambessa/"
+    },
+    {
+      "championId": "Ornn",
+      "slug": "ornn",
+      "name": {
+        "en": "Ornn",
+        "zh-CN": "山隐之焰",
+        "ja-JP": "オーン",
+        "ko-KR": "오른",
+        "es-MX": "Ornn",
+        "zh-TW": "鄂爾",
+        "vi-VN": "Ornn"
+      },
+      "pickRate": 4.48,
+      "pickRateRank": 101,
+      "previousPickRate": 5.53,
+      "pickRateChange": -1.05,
+      "previousPickRateRank": 85,
+      "pickRateRankChange": -16,
+      "url": "https://arammayhem.com/build/ornn/"
+    },
+    {
+      "championId": "Xayah",
+      "slug": "xayah",
+      "name": {
+        "en": "Xayah",
+        "zh-CN": "逆羽",
+        "ja-JP": "ザヤ",
+        "ko-KR": "자야",
+        "es-MX": "Xayah",
+        "zh-TW": "剎雅",
+        "vi-VN": "Xayah"
+      },
+      "pickRate": 4.43,
+      "pickRateRank": 102,
+      "previousPickRate": 4.61,
+      "pickRateChange": -0.18,
+      "previousPickRateRank": 100,
+      "pickRateRankChange": -2,
+      "url": "https://arammayhem.com/build/xayah/"
+    },
+    {
+      "championId": "Aphelios",
+      "slug": "aphelios",
+      "name": {
+        "en": "Aphelios",
+        "zh-CN": "残月之肃",
+        "ja-JP": "アフェリオス",
+        "ko-KR": "아펠리오스",
+        "es-MX": "Aphelios",
+        "zh-TW": "亞菲利歐",
+        "vi-VN": "Aphelios"
+      },
+      "pickRate": 4.38,
+      "pickRateRank": 103,
+      "previousPickRate": 4.37,
+      "pickRateChange": 0.01,
+      "previousPickRateRank": 104,
+      "pickRateRankChange": 1,
+      "url": "https://arammayhem.com/build/aphelios/"
+    },
+    {
+      "championId": "Zilean",
+      "slug": "zilean",
+      "name": {
+        "en": "Zilean",
+        "zh-CN": "时光守护者",
+        "ja-JP": "ジリアン",
+        "ko-KR": "질리언",
+        "es-MX": "Zilean",
+        "zh-TW": "極靈",
+        "vi-VN": "Zilean"
+      },
+      "pickRate": 4.38,
+      "pickRateRank": 103,
+      "previousPickRate": 4.74,
+      "pickRateChange": -0.36,
+      "previousPickRateRank": 98,
+      "pickRateRankChange": -5,
+      "url": "https://arammayhem.com/build/zilean/"
+    },
+    {
+      "championId": "Gwen",
+      "slug": "gwen",
+      "name": {
+        "en": "Gwen",
+        "zh-CN": "灵罗娃娃",
+        "ja-JP": "グウェン",
+        "ko-KR": "그웬",
+        "es-MX": "Gwen",
+        "zh-TW": "關",
+        "vi-VN": "Gwen"
+      },
+      "pickRate": 4.37,
+      "pickRateRank": 105,
+      "previousPickRate": 3.82,
+      "pickRateChange": 0.55,
+      "previousPickRateRank": 112,
+      "pickRateRankChange": 7,
+      "url": "https://arammayhem.com/build/gwen/"
+    },
+    {
+      "championId": "Belveth",
+      "slug": "belveth",
+      "name": {
+        "en": "Bel'Veth",
+        "zh-CN": "虚空女皇",
+        "ja-JP": "ベル＝ヴェス",
+        "ko-KR": "벨베스",
+        "es-MX": "Bel'Veth",
+        "zh-TW": "貝爾薇斯",
+        "vi-VN": "Bel'Veth"
+      },
+      "pickRate": 4.31,
+      "pickRateRank": 106,
+      "previousPickRate": 4.09,
+      "pickRateChange": 0.22,
+      "previousPickRateRank": 109,
+      "pickRateRankChange": 3,
+      "url": "https://arammayhem.com/build/belveth/"
+    },
+    {
+      "championId": "Shen",
+      "slug": "shen",
+      "name": {
+        "en": "Shen",
+        "zh-CN": "暮光之眼",
+        "ja-JP": "シェン",
+        "ko-KR": "쉔",
+        "es-MX": "Shen",
+        "zh-TW": "慎",
+        "vi-VN": "Shen"
+      },
+      "pickRate": 4.3,
+      "pickRateRank": 107,
+      "previousPickRate": 4.75,
+      "pickRateChange": -0.45,
+      "previousPickRateRank": 96,
+      "pickRateRankChange": -11,
+      "url": "https://arammayhem.com/build/shen/"
+    },
+    {
+      "championId": "Nocturne",
+      "slug": "nocturne",
+      "name": {
+        "en": "Nocturne",
+        "zh-CN": "永恒梦魇",
+        "ja-JP": "ノクターン",
+        "ko-KR": "녹턴",
+        "es-MX": "Nocturne",
+        "zh-TW": "夜曲",
+        "vi-VN": "Nocturne"
+      },
+      "pickRate": 4.2,
+      "pickRateRank": 108,
+      "previousPickRate": 3.22,
+      "pickRateChange": 0.98,
+      "previousPickRateRank": 119,
+      "pickRateRankChange": 11,
+      "url": "https://arammayhem.com/build/nocturne/"
+    },
+    {
+      "championId": "Poppy",
+      "slug": "poppy",
+      "name": {
+        "en": "Poppy",
+        "zh-CN": "圣锤之毅",
+        "ja-JP": "ポッピー",
+        "ko-KR": "뽀삐",
+        "es-MX": "Poppy",
+        "zh-TW": "波比",
+        "vi-VN": "Poppy"
+      },
+      "pickRate": 4.07,
+      "pickRateRank": 109,
+      "previousPickRate": 3.7,
+      "pickRateChange": 0.37,
+      "previousPickRateRank": 114,
+      "pickRateRankChange": 5,
+      "url": "https://arammayhem.com/build/poppy/"
+    },
+    {
+      "championId": "Irelia",
+      "slug": "irelia",
+      "name": {
+        "en": "Irelia",
+        "zh-CN": "刀锋舞者",
+        "ja-JP": "イレリア",
+        "ko-KR": "이렐리아",
+        "es-MX": "Irelia",
+        "zh-TW": "伊瑞莉雅",
+        "vi-VN": "Irelia"
+      },
+      "pickRate": 3.87,
+      "pickRateRank": 110,
+      "previousPickRate": 1.85,
+      "pickRateChange": 2.02,
+      "previousPickRateRank": 156,
+      "pickRateRankChange": 46,
+      "url": "https://arammayhem.com/build/irelia/"
+    },
+    {
+      "championId": "Fiddlesticks",
+      "slug": "fiddlesticks",
+      "name": {
+        "en": "Fiddlesticks",
+        "zh-CN": "远古恐惧",
+        "ja-JP": "フィドルスティックス",
+        "ko-KR": "피들스틱",
+        "es-MX": "Fiddlesticks",
+        "zh-TW": "費德提克",
+        "vi-VN": "Fiddlesticks"
+      },
+      "pickRate": 3.83,
+      "pickRateRank": 111,
+      "previousPickRate": 4.18,
+      "pickRateChange": -0.35,
+      "previousPickRateRank": 107,
+      "pickRateRankChange": -4,
+      "url": "https://arammayhem.com/build/fiddlesticks/"
+    },
+    {
+      "championId": "Sona",
+      "slug": "sona",
+      "name": {
+        "en": "Sona",
+        "zh-CN": "琴瑟仙女",
+        "ja-JP": "ソナ",
+        "ko-KR": "소나",
+        "es-MX": "Sona",
+        "zh-TW": "索娜",
+        "vi-VN": "Sona"
+      },
+      "pickRate": 3.82,
+      "pickRateRank": 112,
+      "previousPickRate": 3.02,
+      "pickRateChange": 0.8,
+      "previousPickRateRank": 125,
+      "pickRateRankChange": 13,
+      "url": "https://arammayhem.com/build/sona/"
+    },
+    {
+      "championId": "Shyvana",
+      "slug": "shyvana",
+      "name": {
+        "en": "Shyvana",
+        "zh-CN": "龙血武姬",
+        "ja-JP": "シヴァーナ",
+        "ko-KR": "쉬바나",
+        "es-MX": "Shyvana",
+        "zh-TW": "希瓦娜",
+        "vi-VN": "Shyvana"
+      },
+      "pickRate": 3.8,
+      "pickRateRank": 113,
+      "previousPickRate": 3.83,
+      "pickRateChange": -0.03,
+      "previousPickRateRank": 111,
+      "pickRateRankChange": -2,
+      "url": "https://arammayhem.com/build/shyvana/"
+    },
+    {
+      "championId": "Gnar",
+      "slug": "gnar",
+      "name": {
+        "en": "Gnar",
+        "zh-CN": "迷失之牙",
+        "ja-JP": "ナー",
+        "ko-KR": "나르",
+        "es-MX": "Gnar",
+        "zh-TW": "吶兒",
+        "vi-VN": "Gnar"
+      },
+      "pickRate": 3.79,
+      "pickRateRank": 114,
+      "previousPickRate": 3.09,
+      "pickRateChange": 0.7,
+      "previousPickRateRank": 122,
+      "pickRateRankChange": 8,
+      "url": "https://arammayhem.com/build/gnar/"
+    },
+    {
+      "championId": "Karma",
+      "slug": "karma",
+      "name": {
+        "en": "Karma",
+        "zh-CN": "天启者",
+        "ja-JP": "カルマ",
+        "ko-KR": "카르마",
+        "es-MX": "Karma",
+        "zh-TW": "卡瑪",
+        "vi-VN": "Karma"
+      },
+      "pickRate": 3.73,
+      "pickRateRank": 115,
+      "previousPickRate": 3.94,
+      "pickRateChange": -0.21,
+      "previousPickRateRank": 110,
+      "pickRateRankChange": -5,
+      "url": "https://arammayhem.com/build/karma/"
+    },
+    {
+      "championId": "Sejuani",
+      "slug": "sejuani",
+      "name": {
+        "en": "Sejuani",
+        "zh-CN": "北地之怒",
+        "ja-JP": "セジュアニ",
+        "ko-KR": "세주아니",
+        "es-MX": "Sejuani",
+        "zh-TW": "史瓦妮",
+        "vi-VN": "Sejuani"
+      },
+      "pickRate": 3.64,
+      "pickRateRank": 116,
+      "previousPickRate": 4.14,
+      "pickRateChange": -0.5,
+      "previousPickRateRank": 108,
+      "pickRateRankChange": -8,
+      "url": "https://arammayhem.com/build/sejuani/"
+    },
+    {
+      "championId": "Rammus",
+      "slug": "rammus",
+      "name": {
+        "en": "Rammus",
+        "zh-CN": "披甲龙龟",
+        "ja-JP": "ラムス",
+        "ko-KR": "람머스",
+        "es-MX": "Rammus",
+        "zh-TW": "拉姆斯",
+        "vi-VN": "Rammus"
+      },
+      "pickRate": 3.6,
+      "pickRateRank": 117,
+      "previousPickRate": 2.13,
+      "pickRateChange": 1.47,
+      "previousPickRateRank": 151,
+      "pickRateRankChange": 34,
+      "url": "https://arammayhem.com/build/rammus/"
+    },
+    {
+      "championId": "Locke",
+      "slug": "locke",
+      "name": {
+        "en": "Locke",
+        "zh-CN": "灰烬驱魔人",
+        "ja-JP": "ロック",
+        "ko-KR": "로크",
+        "es-MX": "Locke",
+        "zh-TW": "洛克",
+        "vi-VN": "Locke"
+      },
+      "pickRate": 3.59,
+      "pickRateRank": 118,
+      "previousPickRate": 2.74,
+      "pickRateChange": 0.85,
+      "previousPickRateRank": 131,
+      "pickRateRankChange": 13,
+      "url": "https://arammayhem.com/build/locke/"
+    },
+    {
+      "championId": "Diana",
+      "slug": "diana",
+      "name": {
+        "en": "Diana",
+        "zh-CN": "皎月女神",
+        "ja-JP": "ダイアナ",
+        "ko-KR": "다이애나",
+        "es-MX": "Diana",
+        "zh-TW": "黛安娜",
+        "vi-VN": "Diana"
+      },
+      "pickRate": 3.58,
+      "pickRateRank": 119,
+      "previousPickRate": 3.67,
+      "pickRateChange": -0.09,
+      "previousPickRateRank": 115,
+      "pickRateRankChange": -4,
+      "url": "https://arammayhem.com/build/diana/"
+    },
+    {
+      "championId": "Illaoi",
+      "slug": "illaoi",
+      "name": {
+        "en": "Illaoi",
+        "zh-CN": "海兽祭司",
+        "ja-JP": "イラオイ",
+        "ko-KR": "일라오이",
+        "es-MX": "Illaoi",
+        "zh-TW": "伊羅旖",
+        "vi-VN": "Illaoi"
+      },
+      "pickRate": 3.58,
+      "pickRateRank": 119,
+      "previousPickRate": 4.59,
+      "pickRateChange": -1.01,
+      "previousPickRateRank": 102,
+      "pickRateRankChange": -17,
+      "url": "https://arammayhem.com/build/illaoi/"
+    },
+    {
+      "championId": "Qiyana",
+      "slug": "qiyana",
+      "name": {
+        "en": "Qiyana",
+        "zh-CN": "元素女皇",
+        "ja-JP": "キヤナ",
+        "ko-KR": "키아나",
+        "es-MX": "Qiyana",
+        "zh-TW": "姬亞娜",
+        "vi-VN": "Qiyana"
+      },
+      "pickRate": 3.58,
+      "pickRateRank": 119,
+      "previousPickRate": 3.14,
+      "pickRateChange": 0.44,
+      "previousPickRateRank": 121,
+      "pickRateRankChange": 2,
+      "url": "https://arammayhem.com/build/qiyana/"
+    },
+    {
+      "championId": "Briar",
+      "slug": "briar",
+      "name": {
+        "en": "Briar",
+        "zh-CN": "狂厄蔷薇",
+        "ja-JP": "ブライアー",
+        "ko-KR": "브라이어",
+        "es-MX": "Briar",
+        "zh-TW": "布蕾爾",
+        "vi-VN": "Briar"
+      },
+      "pickRate": 3.56,
+      "pickRateRank": 122,
+      "previousPickRate": 3.04,
+      "pickRateChange": 0.52,
+      "previousPickRateRank": 124,
+      "pickRateRankChange": 2,
+      "url": "https://arammayhem.com/build/briar/"
+    },
+    {
+      "championId": "Soraka",
+      "slug": "soraka",
+      "name": {
+        "en": "Soraka",
+        "zh-CN": "众星之子",
+        "ja-JP": "ソラカ",
+        "ko-KR": "소라카",
+        "es-MX": "Soraka",
+        "zh-TW": "索拉卡",
+        "vi-VN": "Soraka"
+      },
+      "pickRate": 3.55,
+      "pickRateRank": 123,
+      "previousPickRate": 3.67,
+      "pickRateChange": -0.12,
+      "previousPickRateRank": 115,
+      "pickRateRankChange": -8,
+      "url": "https://arammayhem.com/build/soraka/"
+    },
+    {
+      "championId": "Heimerdinger",
+      "slug": "heimerdinger",
+      "name": {
+        "en": "Heimerdinger",
+        "zh-CN": "大发明家",
+        "ja-JP": "ハイマーディンガー",
+        "ko-KR": "하이머딩거",
+        "es-MX": "Heimerdinger",
+        "zh-TW": "漢默丁格",
+        "vi-VN": "Heimerdinger"
+      },
+      "pickRate": 3.5,
+      "pickRateRank": 124,
+      "previousPickRate": 3.65,
+      "pickRateChange": -0.15,
+      "previousPickRateRank": 117,
+      "pickRateRankChange": -7,
+      "url": "https://arammayhem.com/build/heimerdinger/"
+    },
+    {
+      "championId": "Kassadin",
+      "slug": "kassadin",
+      "name": {
+        "en": "Kassadin",
+        "zh-CN": "虚空行者",
+        "ja-JP": "カサディン",
+        "ko-KR": "카사딘",
+        "es-MX": "Kassadin",
+        "zh-TW": "卡薩丁",
+        "vi-VN": "Kassadin"
+      },
+      "pickRate": 3.47,
+      "pickRateRank": 125,
+      "previousPickRate": 2.9,
+      "pickRateChange": 0.57,
+      "previousPickRateRank": 127,
+      "pickRateRankChange": 2,
+      "url": "https://arammayhem.com/build/kassadin/"
+    },
+    {
+      "championId": "Orianna",
+      "slug": "orianna",
+      "name": {
+        "en": "Orianna",
+        "zh-CN": "发条魔灵",
+        "ja-JP": "オリアナ",
+        "ko-KR": "오리아나",
+        "es-MX": "Orianna",
+        "zh-TW": "奧莉安娜",
+        "vi-VN": "Orianna"
+      },
+      "pickRate": 3.43,
+      "pickRateRank": 126,
+      "previousPickRate": 3.19,
+      "pickRateChange": 0.24,
+      "previousPickRateRank": 120,
+      "pickRateRankChange": -6,
+      "url": "https://arammayhem.com/build/orianna/"
+    },
+    {
+      "championId": "Leblanc",
+      "slug": "leblanc",
+      "name": {
+        "en": "LeBlanc",
+        "zh-CN": "诡术妖姬",
+        "ja-JP": "ルブラン",
+        "ko-KR": "르블랑",
+        "es-MX": "LeBlanc",
+        "zh-TW": "勒布朗",
+        "vi-VN": "LeBlanc"
+      },
+      "pickRate": 3.41,
+      "pickRateRank": 127,
+      "previousPickRate": 3.06,
+      "pickRateChange": 0.35,
+      "previousPickRateRank": 123,
+      "pickRateRankChange": -4,
+      "url": "https://arammayhem.com/build/leblanc/"
+    },
+    {
+      "championId": "Urgot",
+      "slug": "urgot",
+      "name": {
+        "en": "Urgot",
+        "zh-CN": "无畏战车",
+        "ja-JP": "アーゴット",
+        "ko-KR": "우르곳",
+        "es-MX": "Urgot",
+        "zh-TW": "烏爾加特",
+        "vi-VN": "Urgot"
+      },
+      "pickRate": 3.4,
+      "pickRateRank": 128,
+      "previousPickRate": 4.25,
+      "pickRateChange": -0.85,
+      "previousPickRateRank": 105,
+      "pickRateRankChange": -23,
+      "url": "https://arammayhem.com/build/urgot/"
+    },
+    {
+      "championId": "Lissandra",
+      "slug": "lissandra",
+      "name": {
+        "en": "Lissandra",
+        "zh-CN": "冰霜女巫",
+        "ja-JP": "リサンドラ",
+        "ko-KR": "리산드라",
+        "es-MX": "Lissandra",
+        "zh-TW": "麗珊卓",
+        "vi-VN": "Lissandra"
+      },
+      "pickRate": 3.31,
+      "pickRateRank": 129,
+      "previousPickRate": 2.95,
+      "pickRateChange": 0.36,
+      "previousPickRateRank": 126,
+      "pickRateRankChange": -3,
+      "url": "https://arammayhem.com/build/lissandra/"
+    },
+    {
+      "championId": "Vi",
+      "slug": "vi",
+      "name": {
+        "en": "Vi",
+        "zh-CN": "皮城执法官",
+        "ja-JP": "ヴァイ",
+        "ko-KR": "바이",
+        "es-MX": "Vi",
+        "zh-TW": "菲艾",
+        "vi-VN": "Vi"
+      },
+      "pickRate": 3.23,
+      "pickRateRank": 130,
+      "previousPickRate": 2.79,
+      "pickRateChange": 0.44,
+      "previousPickRateRank": 130,
+      "pickRateRankChange": 0,
+      "url": "https://arammayhem.com/build/vi/"
+    },
+    {
+      "championId": "Kindred",
+      "slug": "kindred",
+      "name": {
+        "en": "Kindred",
+        "zh-CN": "永猎双子",
+        "ja-JP": "キンドレッド",
+        "ko-KR": "킨드레드",
+        "es-MX": "Kindred",
+        "zh-TW": "鏡爪",
+        "vi-VN": "Kindred"
+      },
+      "pickRate": 3.14,
+      "pickRateRank": 131,
+      "previousPickRate": 3.47,
+      "pickRateChange": -0.33,
+      "previousPickRateRank": 118,
+      "pickRateRankChange": -13,
+      "url": "https://arammayhem.com/build/kindred/"
+    },
+    {
+      "championId": "Riven",
+      "slug": "riven",
+      "name": {
+        "en": "Riven",
+        "zh-CN": "放逐之刃",
+        "ja-JP": "リヴェン",
+        "ko-KR": "리븐",
+        "es-MX": "Riven",
+        "zh-TW": "雷玟",
+        "vi-VN": "Riven"
+      },
+      "pickRate": 3.14,
+      "pickRateRank": 131,
+      "previousPickRate": 2.67,
+      "pickRateChange": 0.47,
+      "previousPickRateRank": 135,
+      "pickRateRankChange": 4,
+      "url": "https://arammayhem.com/build/riven/"
+    },
+    {
+      "championId": "Zaahen",
+      "slug": "zaahen",
+      "name": {
+        "en": "Zaahen",
+        "zh-CN": "不落魔锋",
+        "ja-JP": "ザーヘン",
+        "ko-KR": "자헨",
+        "es-MX": "Zaahen",
+        "zh-TW": "薩亨",
+        "vi-VN": "Zaahen"
+      },
+      "pickRate": 3.07,
+      "pickRateRank": 133,
+      "previousPickRate": 2.52,
+      "pickRateChange": 0.55,
+      "previousPickRateRank": 137,
+      "pickRateRankChange": 4,
+      "url": "https://arammayhem.com/build/zaahen/"
+    },
+    {
+      "championId": "Camille",
+      "slug": "camille",
+      "name": {
+        "en": "Camille",
+        "zh-CN": "青钢影",
+        "ja-JP": "カミール",
+        "ko-KR": "카밀",
+        "es-MX": "Camille",
+        "zh-TW": "卡蜜兒",
+        "vi-VN": "Camille"
+      },
+      "pickRate": 2.96,
+      "pickRateRank": 134,
+      "previousPickRate": 1.47,
+      "pickRateChange": 1.49,
+      "previousPickRateRank": 163,
+      "pickRateRankChange": 29,
+      "url": "https://arammayhem.com/build/camille/"
+    },
+    {
+      "championId": "KSante",
+      "slug": "ksante",
+      "name": {
+        "en": "K'Sante",
+        "zh-CN": "纳祖芒荣耀",
+        "ja-JP": "カ・サンテ",
+        "ko-KR": "크산테",
+        "es-MX": "K'Sante",
+        "zh-TW": "卡桑帝",
+        "vi-VN": "K'Sante"
+      },
+      "pickRate": 2.9,
+      "pickRateRank": 135,
+      "previousPickRate": 1.81,
+      "pickRateChange": 1.09,
+      "previousPickRateRank": 157,
+      "pickRateRankChange": 22,
+      "url": "https://arammayhem.com/build/ksante/"
+    },
+    {
+      "championId": "Yuumi",
+      "slug": "yuumi",
+      "name": {
+        "en": "Yuumi",
+        "zh-CN": "魔法猫咪",
+        "ja-JP": "ユーミ",
+        "ko-KR": "유미",
+        "es-MX": "Yuumi",
+        "zh-TW": "悠咪",
+        "vi-VN": "Yuumi"
+      },
+      "pickRate": 2.87,
+      "pickRateRank": 136,
+      "previousPickRate": 2.73,
+      "pickRateChange": 0.14,
+      "previousPickRateRank": 132,
+      "pickRateRankChange": -4,
+      "url": "https://arammayhem.com/build/yuumi/"
+    },
+    {
+      "championId": "Kennen",
+      "slug": "kennen",
+      "name": {
+        "en": "Kennen",
+        "zh-CN": "狂暴之心",
+        "ja-JP": "ケネン",
+        "ko-KR": "케넨",
+        "es-MX": "Kennen",
+        "zh-TW": "凱能",
+        "vi-VN": "Kennen"
+      },
+      "pickRate": 2.84,
+      "pickRateRank": 137,
+      "previousPickRate": 2.21,
+      "pickRateChange": 0.63,
+      "previousPickRateRank": 147,
+      "pickRateRankChange": 10,
+      "url": "https://arammayhem.com/build/kennen/"
+    },
+    {
+      "championId": "Naafiri",
+      "slug": "naafiri",
+      "name": {
+        "en": "Naafiri",
+        "zh-CN": "百裂冥犬",
+        "ja-JP": "ナフィーリ",
+        "ko-KR": "나피리",
+        "es-MX": "Naafiri",
+        "zh-TW": "娜菲芮",
+        "vi-VN": "Naafiri"
+      },
+      "pickRate": 2.83,
+      "pickRateRank": 138,
+      "previousPickRate": 2.8,
+      "pickRateChange": 0.03,
+      "previousPickRateRank": 129,
+      "pickRateRankChange": -9,
+      "url": "https://arammayhem.com/build/naafiri/"
+    },
+    {
+      "championId": "Akali",
+      "slug": "akali",
+      "name": {
+        "en": "Akali",
+        "zh-CN": "离群之刺",
+        "ja-JP": "アカリ",
+        "ko-KR": "아칼리",
+        "es-MX": "Akali",
+        "zh-TW": "阿卡莉",
+        "vi-VN": "Akali"
+      },
+      "pickRate": 2.81,
+      "pickRateRank": 139,
+      "previousPickRate": 2.41,
+      "pickRateChange": 0.4,
+      "previousPickRateRank": 139,
+      "pickRateRankChange": 0,
+      "url": "https://arammayhem.com/build/akali/"
+    },
+    {
+      "championId": "Akshan",
+      "slug": "akshan",
+      "name": {
+        "en": "Akshan",
+        "zh-CN": "影哨",
+        "ja-JP": "アクシャン",
+        "ko-KR": "아크샨",
+        "es-MX": "Akshan",
+        "zh-TW": "埃可尚",
+        "vi-VN": "Akshan"
+      },
+      "pickRate": 2.78,
+      "pickRateRank": 140,
+      "previousPickRate": 2.9,
+      "pickRateChange": -0.12,
+      "previousPickRateRank": 127,
+      "pickRateRankChange": -13,
+      "url": "https://arammayhem.com/build/akshan/"
+    },
+    {
+      "championId": "Kalista",
+      "slug": "kalista",
+      "name": {
+        "en": "Kalista",
+        "zh-CN": "复仇之矛",
+        "ja-JP": "カリスタ",
+        "ko-KR": "칼리스타",
+        "es-MX": "Kalista",
+        "zh-TW": "克黎思妲",
+        "vi-VN": "Kalista"
+      },
+      "pickRate": 2.52,
+      "pickRateRank": 141,
+      "previousPickRate": 2.43,
+      "pickRateChange": 0.09,
+      "previousPickRateRank": 138,
+      "pickRateRankChange": -3,
+      "url": "https://arammayhem.com/build/kalista/"
+    },
+    {
+      "championId": "Milio",
+      "slug": "milio",
+      "name": {
+        "en": "Milio",
+        "zh-CN": "明烛",
+        "ja-JP": "ミリオ",
+        "ko-KR": "밀리오",
+        "es-MX": "Milio",
+        "zh-TW": "米里歐",
+        "vi-VN": "Milio"
+      },
+      "pickRate": 2.5,
+      "pickRateRank": 142,
+      "previousPickRate": 1.88,
+      "pickRateChange": 0.62,
+      "previousPickRateRank": 155,
+      "pickRateRankChange": 13,
+      "url": "https://arammayhem.com/build/milio/"
+    },
+    {
+      "championId": "Neeko",
+      "slug": "neeko",
+      "name": {
+        "en": "Neeko",
+        "zh-CN": "万花通灵",
+        "ja-JP": "ニーコ",
+        "ko-KR": "니코",
+        "es-MX": "Neeko",
+        "zh-TW": "妮可",
+        "vi-VN": "Neeko"
+      },
+      "pickRate": 2.47,
+      "pickRateRank": 143,
+      "previousPickRate": 2.57,
+      "pickRateChange": -0.1,
+      "previousPickRateRank": 136,
+      "pickRateRankChange": -7,
+      "url": "https://arammayhem.com/build/neeko/"
+    },
+    {
+      "championId": "Renekton",
+      "slug": "renekton",
+      "name": {
+        "en": "Renekton",
+        "zh-CN": "荒漠屠夫",
+        "ja-JP": "レネクトン",
+        "ko-KR": "레넥톤",
+        "es-MX": "Renekton",
+        "zh-TW": "雷尼克頓",
+        "vi-VN": "Renekton"
+      },
+      "pickRate": 2.46,
+      "pickRateRank": 144,
+      "previousPickRate": 2.25,
+      "pickRateChange": 0.21,
+      "previousPickRateRank": 143,
+      "pickRateRankChange": -1,
+      "url": "https://arammayhem.com/build/renekton/"
+    },
+    {
+      "championId": "Anivia",
+      "slug": "anivia",
+      "name": {
+        "en": "Anivia",
+        "zh-CN": "冰晶凤凰",
+        "ja-JP": "アニビア",
+        "ko-KR": "애니비아",
+        "es-MX": "Anivia",
+        "zh-TW": "艾妮維亞",
+        "vi-VN": "Anivia"
+      },
+      "pickRate": 2.39,
+      "pickRateRank": 145,
+      "previousPickRate": 2.68,
+      "pickRateChange": -0.29,
+      "previousPickRateRank": 134,
+      "pickRateRankChange": -11,
+      "url": "https://arammayhem.com/build/anivia/"
+    },
+    {
+      "championId": "Zac",
+      "slug": "zac",
+      "name": {
+        "en": "Zac",
+        "zh-CN": "生化魔人",
+        "ja-JP": "ザック",
+        "ko-KR": "자크",
+        "es-MX": "Zac",
+        "zh-TW": "札克",
+        "vi-VN": "Zac"
+      },
+      "pickRate": 2.37,
+      "pickRateRank": 146,
+      "previousPickRate": 2.23,
+      "pickRateChange": 0.14,
+      "previousPickRateRank": 145,
+      "pickRateRankChange": -1,
+      "url": "https://arammayhem.com/build/zac/"
+    },
+    {
+      "championId": "Janna",
+      "slug": "janna",
+      "name": {
+        "en": "Janna",
+        "zh-CN": "风暴之怒",
+        "ja-JP": "ジャンナ",
+        "ko-KR": "잔나",
+        "es-MX": "Janna",
+        "zh-TW": "珍娜",
+        "vi-VN": "Janna"
+      },
+      "pickRate": 2.36,
+      "pickRateRank": 147,
+      "previousPickRate": 2.3,
+      "pickRateChange": 0.06,
+      "previousPickRateRank": 142,
+      "pickRateRankChange": -5,
+      "url": "https://arammayhem.com/build/janna/"
+    },
+    {
+      "championId": "Nunu",
+      "slug": "nunu",
+      "name": {
+        "en": "Nunu & Willump",
+        "zh-CN": "雪原双子",
+        "ja-JP": "ヌヌ＆ウィルンプ",
+        "ko-KR": "누누와 윌럼프",
+        "es-MX": "Nunu y Willump",
+        "zh-TW": "努努和威朗普",
+        "vi-VN": "Nunu & Willump"
+      },
+      "pickRate": 2.31,
+      "pickRateRank": 148,
+      "previousPickRate": 2.71,
+      "pickRateChange": -0.4,
+      "previousPickRateRank": 133,
+      "pickRateRankChange": -15,
+      "url": "https://arammayhem.com/build/nunu/"
+    },
+    {
+      "championId": "Taliyah",
+      "slug": "taliyah",
+      "name": {
+        "en": "Taliyah",
+        "zh-CN": "岩雀",
+        "ja-JP": "タリヤ",
+        "ko-KR": "탈리야",
+        "es-MX": "Taliyah",
+        "zh-TW": "塔莉雅",
+        "vi-VN": "Taliyah"
+      },
+      "pickRate": 2.3,
+      "pickRateRank": 149,
+      "previousPickRate": 2.12,
+      "pickRateChange": 0.18,
+      "previousPickRateRank": 152,
+      "pickRateRankChange": 3,
+      "url": "https://arammayhem.com/build/taliyah/"
+    },
+    {
+      "championId": "Zoe",
+      "slug": "zoe",
+      "name": {
+        "en": "Zoe",
+        "zh-CN": "暮光星灵",
+        "ja-JP": "ゾーイ",
+        "ko-KR": "조이",
+        "es-MX": "Zoe",
+        "zh-TW": "柔依",
+        "vi-VN": "Zoe"
+      },
+      "pickRate": 2.28,
+      "pickRateRank": 150,
+      "previousPickRate": 2.24,
+      "pickRateChange": 0.04,
+      "previousPickRateRank": 144,
+      "pickRateRankChange": -6,
+      "url": "https://arammayhem.com/build/zoe/"
+    },
+    {
+      "championId": "Annie",
+      "slug": "annie",
+      "name": {
+        "en": "Annie",
+        "zh-CN": "黑暗之女",
+        "ja-JP": "アニー",
+        "ko-KR": "애니",
+        "es-MX": "Annie",
+        "zh-TW": "安妮",
+        "vi-VN": "Annie"
+      },
+      "pickRate": 2.25,
+      "pickRateRank": 151,
+      "previousPickRate": 2.31,
+      "pickRateChange": -0.06,
+      "previousPickRateRank": 141,
+      "pickRateRankChange": -10,
+      "url": "https://arammayhem.com/build/annie/"
+    },
+    {
+      "championId": "Braum",
+      "slug": "braum",
+      "name": {
+        "en": "Braum",
+        "zh-CN": "弗雷尔卓德之心",
+        "ja-JP": "ブラウム",
+        "ko-KR": "브라움",
+        "es-MX": "Braum",
+        "zh-TW": "布郎姆",
+        "vi-VN": "Braum"
+      },
+      "pickRate": 2.25,
+      "pickRateRank": 151,
+      "previousPickRate": 1.71,
+      "pickRateChange": 0.54,
+      "previousPickRateRank": 159,
+      "pickRateRankChange": 8,
+      "url": "https://arammayhem.com/build/braum/"
+    },
+    {
+      "championId": "Warwick",
+      "slug": "warwick",
+      "name": {
+        "en": "Warwick",
+        "zh-CN": "祖安怒兽",
+        "ja-JP": "ワーウィック",
+        "ko-KR": "워윅",
+        "es-MX": "Warwick",
+        "zh-TW": "沃維克",
+        "vi-VN": "Warwick"
+      },
+      "pickRate": 2.19,
+      "pickRateRank": 153,
+      "previousPickRate": 2.15,
+      "pickRateChange": 0.04,
+      "previousPickRateRank": 149,
+      "pickRateRankChange": -4,
+      "url": "https://arammayhem.com/build/warwick/"
+    },
+    {
+      "championId": "Vex",
+      "slug": "vex",
+      "name": {
+        "en": "Vex",
+        "zh-CN": "愁云使者",
+        "ja-JP": "ヴェックス",
+        "ko-KR": "벡스",
+        "es-MX": "Vex",
+        "zh-TW": "薇可絲",
+        "vi-VN": "Vex"
+      },
+      "pickRate": 2.14,
+      "pickRateRank": 154,
+      "previousPickRate": 1.96,
+      "pickRateChange": 0.18,
+      "previousPickRateRank": 154,
+      "pickRateRankChange": 0,
+      "url": "https://arammayhem.com/build/vex/"
+    },
+    {
+      "championId": "Quinn",
+      "slug": "quinn",
+      "name": {
+        "en": "Quinn",
+        "zh-CN": "德玛西亚之翼",
+        "ja-JP": "クイン",
+        "ko-KR": "퀸",
+        "es-MX": "Quinn",
+        "zh-TW": "葵恩",
+        "vi-VN": "Quinn"
+      },
+      "pickRate": 2.13,
+      "pickRateRank": 155,
+      "previousPickRate": 2.36,
+      "pickRateChange": -0.23,
+      "previousPickRateRank": 140,
+      "pickRateRankChange": -15,
+      "url": "https://arammayhem.com/build/quinn/"
+    },
+    {
+      "championId": "Azir",
+      "slug": "azir",
+      "name": {
+        "en": "Azir",
+        "zh-CN": "沙漠皇帝",
+        "ja-JP": "アジール",
+        "ko-KR": "아지르",
+        "es-MX": "Azir",
+        "zh-TW": "阿祈爾",
+        "vi-VN": "Azir"
+      },
+      "pickRate": 2.09,
+      "pickRateRank": 156,
+      "previousPickRate": 2.23,
+      "pickRateChange": -0.14,
+      "previousPickRateRank": 145,
+      "pickRateRankChange": -11,
+      "url": "https://arammayhem.com/build/azir/"
+    },
+    {
+      "championId": "Zeri",
+      "slug": "zeri",
+      "name": {
+        "en": "Zeri",
+        "zh-CN": "祖安花火",
+        "ja-JP": "ゼリ",
+        "ko-KR": "제리",
+        "es-MX": "Zeri",
+        "zh-TW": "婕莉",
+        "vi-VN": "Zeri"
+      },
+      "pickRate": 2.06,
+      "pickRateRank": 157,
+      "previousPickRate": 2.15,
+      "pickRateChange": -0.09,
+      "previousPickRateRank": 149,
+      "pickRateRankChange": -8,
+      "url": "https://arammayhem.com/build/zeri/"
+    },
+    {
+      "championId": "Cassiopeia",
+      "slug": "cassiopeia",
+      "name": {
+        "en": "Cassiopeia",
+        "zh-CN": "魔蛇之拥",
+        "ja-JP": "カシオペア",
+        "ko-KR": "카시오페아",
+        "es-MX": "Cassiopeia",
+        "zh-TW": "卡莎碧雅",
+        "vi-VN": "Cassiopeia"
+      },
+      "pickRate": 2.04,
+      "pickRateRank": 158,
+      "previousPickRate": 2.21,
+      "pickRateChange": -0.17,
+      "previousPickRateRank": 147,
+      "pickRateRankChange": -11,
+      "url": "https://arammayhem.com/build/cassiopeia/"
+    },
+    {
+      "championId": "Skarner",
+      "slug": "skarner",
+      "name": {
+        "en": "Skarner",
+        "zh-CN": "上古领主",
+        "ja-JP": "スカーナー",
+        "ko-KR": "스카너",
+        "es-MX": "Skarner",
+        "zh-TW": "史加納",
+        "vi-VN": "Skarner"
+      },
+      "pickRate": 1.87,
+      "pickRateRank": 159,
+      "previousPickRate": 2.01,
+      "pickRateChange": -0.14,
+      "previousPickRateRank": 153,
+      "pickRateRankChange": -6,
+      "url": "https://arammayhem.com/build/skarner/"
+    },
+    {
+      "championId": "Olaf",
+      "slug": "olaf",
+      "name": {
+        "en": "Olaf",
+        "zh-CN": "狂战士",
+        "ja-JP": "オラフ",
+        "ko-KR": "올라프",
+        "es-MX": "Olaf",
+        "zh-TW": "歐拉夫",
+        "vi-VN": "Olaf"
+      },
+      "pickRate": 1.79,
+      "pickRateRank": 160,
+      "previousPickRate": 1.55,
+      "pickRateChange": 0.24,
+      "previousPickRateRank": 161,
+      "pickRateRankChange": 1,
+      "url": "https://arammayhem.com/build/olaf/"
+    },
+    {
+      "championId": "Renata",
+      "slug": "renata",
+      "name": {
+        "en": "Renata Glasc",
+        "zh-CN": "炼金男爵",
+        "ja-JP": "レナータ・グラスク",
+        "ko-KR": "레나타 글라스크",
+        "es-MX": "Renata Glasc",
+        "zh-TW": "睿娜妲‧格萊斯克",
+        "vi-VN": "Renata Glasc"
+      },
+      "pickRate": 1.64,
+      "pickRateRank": 161,
+      "previousPickRate": 1.7,
+      "pickRateChange": -0.06,
+      "previousPickRateRank": 160,
+      "pickRateRankChange": -1,
+      "url": "https://arammayhem.com/build/renata/"
+    },
+    {
+      "championId": "Lulu",
+      "slug": "lulu",
+      "name": {
+        "en": "Lulu",
+        "zh-CN": "仙灵女巫",
+        "ja-JP": "ルル",
+        "ko-KR": "룰루",
+        "es-MX": "Lulu",
+        "zh-TW": "露璐",
+        "vi-VN": "Lulu"
+      },
+      "pickRate": 1.63,
+      "pickRateRank": 162,
+      "previousPickRate": 1.49,
+      "pickRateChange": 0.14,
+      "previousPickRateRank": 162,
+      "pickRateRankChange": 0,
+      "url": "https://arammayhem.com/build/lulu/"
+    },
+    {
+      "championId": "Nami",
+      "slug": "nami",
+      "name": {
+        "en": "Nami",
+        "zh-CN": "唤潮鲛姬",
+        "ja-JP": "ナミ",
+        "ko-KR": "나미",
+        "es-MX": "Nami",
+        "zh-TW": "娜米",
+        "vi-VN": "Nami"
+      },
+      "pickRate": 1.61,
+      "pickRateRank": 163,
+      "previousPickRate": 1.76,
+      "pickRateChange": -0.15,
+      "previousPickRateRank": 158,
+      "pickRateRankChange": -5,
+      "url": "https://arammayhem.com/build/nami/"
+    },
+    {
+      "championId": "Taric",
+      "slug": "taric",
+      "name": {
+        "en": "Taric",
+        "zh-CN": "瓦洛兰之盾",
+        "ja-JP": "タリック",
+        "ko-KR": "타릭",
+        "es-MX": "Taric",
+        "zh-TW": "塔里克",
+        "vi-VN": "Taric"
+      },
+      "pickRate": 1.56,
+      "pickRateRank": 164,
+      "previousPickRate": 1.27,
+      "pickRateChange": 0.29,
+      "previousPickRateRank": 164,
+      "pickRateRankChange": 0,
+      "url": "https://arammayhem.com/build/taric/"
+    },
+    {
+      "championId": "Bard",
+      "slug": "bard",
+      "name": {
+        "en": "Bard",
+        "zh-CN": "星界游神",
+        "ja-JP": "バード",
+        "ko-KR": "바드",
+        "es-MX": "Bardo",
+        "zh-TW": "巴德",
+        "vi-VN": "Bard"
+      },
+      "pickRate": 1.21,
+      "pickRateRank": 165,
+      "previousPickRate": 0.8,
+      "pickRateChange": 0.41,
+      "previousPickRateRank": 170,
+      "pickRateRankChange": 5,
+      "url": "https://arammayhem.com/build/bard/"
+    },
+    {
+      "championId": "Rakan",
+      "slug": "rakan",
+      "name": {
+        "en": "Rakan",
+        "zh-CN": "幻翎",
+        "ja-JP": "ラカン",
+        "ko-KR": "라칸",
+        "es-MX": "Rakan",
+        "zh-TW": "銳空",
+        "vi-VN": "Rakan"
+      },
+      "pickRate": 1.14,
+      "pickRateRank": 166,
+      "previousPickRate": 1.13,
+      "pickRateChange": 0.01,
+      "previousPickRateRank": 165,
+      "pickRateRankChange": -1,
+      "url": "https://arammayhem.com/build/rakan/"
+    },
+    {
+      "championId": "Yorick",
+      "slug": "yorick",
+      "name": {
+        "en": "Yorick",
+        "zh-CN": "牧魂人",
+        "ja-JP": "ヨリック",
+        "ko-KR": "요릭",
+        "es-MX": "Yorick",
+        "zh-TW": "約瑞科",
+        "vi-VN": "Yorick"
+      },
+      "pickRate": 1.14,
+      "pickRateRank": 166,
+      "previousPickRate": 0.89,
+      "pickRateChange": 0.25,
+      "previousPickRateRank": 168,
+      "pickRateRankChange": 2,
+      "url": "https://arammayhem.com/build/yorick/"
+    },
+    {
+      "championId": "Kled",
+      "slug": "kled",
+      "name": {
+        "en": "Kled",
+        "zh-CN": "暴怒骑士",
+        "ja-JP": "クレッド",
+        "ko-KR": "클레드",
+        "es-MX": "Kled",
+        "zh-TW": "克雷德",
+        "vi-VN": "Kled"
+      },
+      "pickRate": 1.02,
+      "pickRateRank": 168,
+      "previousPickRate": 0.82,
+      "pickRateChange": 0.2,
+      "previousPickRateRank": 169,
+      "pickRateRankChange": 1,
+      "url": "https://arammayhem.com/build/kled/"
+    },
+    {
+      "championId": "Elise",
+      "slug": "elise",
+      "name": {
+        "en": "Elise",
+        "zh-CN": "蜘蛛女皇",
+        "ja-JP": "エリス",
+        "ko-KR": "엘리스",
+        "es-MX": "Elise",
+        "zh-TW": "伊莉絲",
+        "vi-VN": "Elise"
+      },
+      "pickRate": 0.98,
+      "pickRateRank": 169,
+      "previousPickRate": 0.93,
+      "pickRateChange": 0.05,
+      "previousPickRateRank": 166,
+      "pickRateRankChange": -3,
+      "url": "https://arammayhem.com/build/elise/"
+    },
+    {
+      "championId": "Nilah",
+      "slug": "nilah",
+      "name": {
+        "en": "Nilah",
+        "zh-CN": "不羁之悦",
+        "ja-JP": "ニーラ",
+        "ko-KR": "닐라",
+        "es-MX": "Nilah",
+        "zh-TW": "淣菈",
+        "vi-VN": "Nilah"
+      },
+      "pickRate": 0.86,
+      "pickRateRank": 170,
+      "previousPickRate": 0.9,
+      "pickRateChange": -0.04,
+      "previousPickRateRank": 167,
+      "pickRateRankChange": -3,
+      "url": "https://arammayhem.com/build/nilah/"
+    },
+    {
+      "championId": "Evelynn",
+      "slug": "evelynn",
+      "name": {
+        "en": "Evelynn",
+        "zh-CN": "痛苦之拥",
+        "ja-JP": "イブリン",
+        "ko-KR": "이블린",
+        "es-MX": "Evelynn",
+        "zh-TW": "伊芙琳",
+        "vi-VN": "Evelynn"
+      },
+      "pickRate": 0.81,
+      "pickRateRank": 171,
+      "previousPickRate": 0.75,
+      "pickRateChange": 0.06,
+      "previousPickRateRank": 171,
+      "pickRateRankChange": 0,
+      "url": "https://arammayhem.com/build/evelynn/"
+    },
+    {
+      "championId": "Ivern",
+      "slug": "ivern",
+      "name": {
+        "en": "Ivern",
+        "zh-CN": "翠神",
+        "ja-JP": "アイバーン",
+        "ko-KR": "아이번",
+        "es-MX": "Ivern",
+        "zh-TW": "埃爾文",
+        "vi-VN": "Ivern"
+      },
+      "pickRate": 0.7,
+      "pickRateRank": 172,
+      "previousPickRate": 0.74,
+      "pickRateChange": -0.04,
+      "previousPickRateRank": 172,
+      "pickRateRankChange": 0,
+      "url": "https://arammayhem.com/build/ivern/"
+    },
+    {
+      "championId": "RekSai",
+      "slug": "reksai",
+      "name": {
+        "en": "Rek'Sai",
+        "zh-CN": "虚空遁地兽",
+        "ja-JP": "レク＝サイ",
+        "ko-KR": "렉사이",
+        "es-MX": "Rek'Sai",
+        "zh-TW": "雷珂煞",
+        "vi-VN": "Rek'Sai"
+      },
+      "pickRate": 0.69,
+      "pickRateRank": 173,
+      "previousPickRate": 0.71,
+      "pickRateChange": -0.02,
+      "previousPickRateRank": 173,
+      "pickRateRankChange": 0,
+      "url": "https://arammayhem.com/build/reksai/"
+    }
+  ]
+}

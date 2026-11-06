@@ -1,0 +1,1212 @@
+{
+  "patch": "16.22.1",
+  "reviewStatus": "qualitative-editorial-review-not-statistical-certification",
+  "source": "Data Dragon descriptions plus champion ability records; candidates are not fixed builds",
+  "champions": {
+    "Poppy": {
+      "roles": [
+        "top",
+        "jungle"
+      ],
+      "capabilities": [
+        "cc",
+        "physical_ability",
+        "basic_attack",
+        "defensive_scaling"
+      ],
+      "archetypes": [
+        {
+          "id": "tank",
+          "identity": "tank",
+          "label": {
+            "es": "Tanque",
+            "en": "Tank"
+          }
+        },
+        {
+          "id": "offtank",
+          "identity": "bruiser",
+          "label": {
+            "es": "Offtank AD",
+            "en": "AD offtank"
+          }
+        },
+        {
+          "id": "lethality",
+          "identity": "assassin",
+          "experimental": true,
+          "label": {
+            "es": "Letalidad · experimental",
+            "en": "Lethality · experimental"
+          }
+        }
+      ],
+      "reviewStatus": "qualitative-editorial-reviewed-not-statistical",
+      "sources": [
+        "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Poppy.json"
+      ],
+      "limitations": "Stat affinities are editorial; no skill coefficient is inferred. Only listed capabilities were reviewed for the candidate effects."
+    },
+    "Ahri": {
+      "roles": [
+        "mid"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "basic_attack",
+        "cc"
+      ],
+      "archetypes": [
+        {
+          "id": "burst",
+          "identity": "burst",
+          "label": {
+            "es": "Daño explosivo",
+            "en": "Burst"
+          }
+        },
+        {
+          "id": "sustained",
+          "identity": "sustained",
+          "label": {
+            "es": "Daño sostenido",
+            "en": "Sustained damage"
+          }
+        }
+      ],
+      "reviewStatus": "qualitative-editorial-reviewed-not-statistical",
+      "sources": [
+        "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Ahri.json"
+      ],
+      "limitations": "Stat affinities are editorial; no skill coefficient is inferred. Only listed capabilities were reviewed for the candidate effects."
+    },
+    "Zed": {
+      "roles": [
+        "mid"
+      ],
+      "capabilities": [
+        "physical_ability",
+        "basic_attack"
+      ],
+      "archetypes": [
+        {
+          "id": "assassin",
+          "identity": "assassin",
+          "label": {
+            "es": "Asesino AD",
+            "en": "AD assassin"
+          }
+        },
+        {
+          "id": "bruiser",
+          "identity": "bruiser",
+          "label": {
+            "es": "Luchador AD · situacional",
+            "en": "AD bruiser · situational"
+          }
+        }
+      ],
+      "reviewStatus": "qualitative-editorial-reviewed-not-statistical",
+      "sources": [
+        "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Zed.json"
+      ],
+      "limitations": "Stat affinities are editorial; no skill coefficient is inferred. Only listed capabilities were reviewed for the candidate effects."
+    },
+    "Jinx": {
+      "roles": [
+        "adc"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "crit_scaling",
+        "attack_speed_scaling"
+      ],
+      "archetypes": [
+        {
+          "id": "crit",
+          "identity": "crit",
+          "label": {
+            "es": "Crítico",
+            "en": "Critical strike"
+          }
+        },
+        {
+          "id": "onhit",
+          "identity": "onhit",
+          "experimental": true,
+          "label": {
+            "es": "Al impacto · experimental",
+            "en": "On-hit · experimental"
+          }
+        }
+      ],
+      "reviewStatus": "qualitative-editorial-reviewed-not-statistical",
+      "sources": [
+        "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Jinx.json"
+      ],
+      "limitations": "Stat affinities are editorial; no skill coefficient is inferred. Only listed capabilities were reviewed for the candidate effects."
+    },
+    "Soraka": {
+      "roles": [
+        "support"
+      ],
+      "capabilities": [
+        "ally_heal",
+        "magic_ability",
+        "cc"
+      ],
+      "requiredItemId": "3870",
+      "archetypes": [
+        {
+          "id": "enchanter",
+          "identity": "enchanter",
+          "label": {
+            "es": "Curación y utilidad",
+            "en": "Healing and utility"
+          }
+        }
+      ],
+      "reviewStatus": "qualitative-editorial-reviewed-not-statistical",
+      "sources": [
+        "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Soraka.json"
+      ],
+      "limitations": "Stat affinities are editorial; no skill coefficient is inferred. Only listed capabilities were reviewed for the candidate effects."
+    },
+    "Leona": {
+      "roles": ["support"],
+      "capabilities": ["cc", "engage", "defensive_scaling"],
+      "requiredItemId": "3869",
+      "archetypes": [{"id":"engage-tank","identity":"tank","supportSubtype":"engage","label":{"es":"Tanque de iniciación","en":"Engage tank"}}],
+      "reviewStatus": "qualitative-editorial-reviewed-not-statistical",
+      "sources": ["https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Leona.json"],
+      "limitations": "Role and engage/control capabilities are reviewed from the 16.22.1 ability descriptions; no win rate or skill coefficient is inferred."
+    }
+  },
+  "items": {
+    "2065": {
+      "id": "2065",
+      "identities": [
+        "enchanter"
+      ],
+      "purposes": [
+        "team-mobility"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#2065",
+      "evidence": "<mainText><stats><attention>50</attention> Ability Power<br><attention>15</attention> Ability Haste<br><attention>4%</attention> Move Speed<br><attention>125%</attention> Base Mana Regen</stats><br><br><active>Inspiring Speech</active><br>Grant nearby allies <speed>30% Move Speed</speed> for 4 seconds.</mainText>",
+      "reviewedStatBlock": {
+        "haste": 15,
+        "manaRegen": 125
+      }
+    },
+    "2502": {
+      "id": "2502",
+      "identities": [
+        "tank"
+      ],
+      "purposes": [
+        "close-combat-sustain"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#2502",
+      "evidence": "<mainText><stats><attention>400</attention> Health<br><attention>50</attention> Armor<br><attention>15</attention> Ability Haste</stats><br><br><passive>Anguish</passive><br>Every 4 seconds while in combat with champions, deal <magicDamage>magic damage</magicDamage> to nearby enemy champions and <healing>heal for 250%</healing> of the damage dealt.</mainText>",
+      "counters": [
+        "physical-damage"
+      ],
+      "reviewedStatBlock": {
+        "haste": 15
+      }
+    },
+    "2503": {
+      "id": "2503",
+      "identities": [
+        "sustained"
+      ],
+      "activation": [
+        "magic_ability"
+      ],
+      "purposes": [
+        "burn",
+        "mana-engine"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#2503",
+      "evidence": "<mainText><stats><attention>80</attention> Ability Power<br><attention>600</attention> Mana<br><attention>20</attention> Ability Haste</stats><br><br><passive>Baleful Blaze</passive><br>Damaging Abilities deals <magicDamage>bonus magic damage</magicDamage> for 3 seconds.<br><br><passive>Blackfire</passive><br>For each enemy champion, epic and large monster affected by your <passive>Baleful Blaze</passive>, gain <scaleAP>4% Ability Power</scaleAP>. </mainText>",
+      "reviewedStatBlock": {
+        "haste": 20
+      }
+    },
+    "3006": {
+      "id": "3006",
+      "identities": [
+        "boots"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3006",
+      "evidence": "<mainText><stats><attention>30%</attention> Attack Speed<br><attention>45</attention> Move Speed</stats><br><br></mainText>"
+    },
+    "3009": {
+      "id": "3009",
+      "identities": [
+        "boots"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3009",
+      "evidence": "<mainText><stats><attention>55</attention> Move Speed</stats><br><br><passive>Fleetfooted</passive><br>Reduce the effectiveness of <keyword>Slows</keyword> by 25%.</mainText>"
+    },
+    "3020": {
+      "id": "3020",
+      "identities": [
+        "boots"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3020",
+      "evidence": "<mainText><stats><attention>12</attention> Magic Penetration<br><attention>45</attention> Move Speed</stats><br><br></mainText>",
+      "reviewedStatBlock": {
+        "magicPen": 12
+      }
+    },
+    "3026": {
+      "id": "3026",
+      "identities": [
+        "bruiser",
+        "assassin",
+        "crit",
+        "onhit"
+      ],
+      "purposes": [
+        "defense"
+      ],
+      "counters": [
+        "physical-burst"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3026",
+      "evidence": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>45</attention> Armor</stats><br><br><passive>Rebirth</passive><br>Upon taking lethal damage, restores <healing>50% base Health</healing> and <scaleMana>100% max Mana</scaleMana> after 4 seconds of <keyword>Stasis</keyword>.</mainText>"
+    },
+    "3031": {
+      "id": "3031",
+      "identities": [
+        "crit"
+      ],
+      "purposes": [
+        "crit-amplifier"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3031",
+      "evidence": "<mainText><stats><attention>75</attention> Attack Damage<br><attention>25%</attention> Critical Strike Chance<br><attention>30%</attention> Critical Strike Damage</stats><br><br></mainText>"
+    },
+    "3033": {
+      "id": "3033",
+      "identities": [
+        "crit"
+      ],
+      "counters": [
+        "healing"
+      ],
+      "conditional": true,
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3033",
+      "evidence": "<mainText><stats><attention>35</attention> Attack Damage<br><attention>30%</attention> Armor Penetration<br><attention>25%</attention> Critical Strike Chance</stats><br><br><passive>Grievous Wounds</passive><br>Dealing physical damage applies <keyword>40% Wounds</keyword> to enemy champions for 3 seconds.</mainText>",
+      "reviewedStatBlock": {
+        "armorPen": 30
+      }
+    },
+    "3036": {
+      "id": "3036",
+      "identities": [
+        "crit"
+      ],
+      "counters": [
+        "tank"
+      ],
+      "purposes": [
+        "percent-penetration"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3036",
+      "evidence": "<mainText><stats><attention>35</attention> Attack Damage<br><attention>35%</attention> Armor Penetration<br><attention>25%</attention> Critical Strike Chance</stats><br><br><passive>Giant Slayer</passive><br>Deal up to 15% bonus damage against champions based on their bonus Health. Maximum damage bonus reached at 1500 bonus Health.</mainText>",
+      "reviewedStatBlock": {
+        "armorPen": 35
+      }
+    },
+    "3047": {
+      "id": "3047",
+      "identities": [
+        "boots"
+      ],
+      "counters": [
+        "basic-attacks",
+        "physical-burst"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3047",
+      "evidence": "<mainText><stats><attention>25</attention> Armor<br><attention>45</attention> Move Speed</stats><br><br><passive>Plating</passive><br>Reduces incoming damage from Attacks by 10%.</mainText>"
+    },
+    "3053": {
+      "id": "3053",
+      "identities": [
+        "bruiser"
+      ],
+      "purposes": [
+        "shield",
+        "defense"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3053",
+      "evidence": "<mainText><stats><attention>400</attention> Health<br><attention>20%</attention> Tenacity</stats><br><br><passive>The Claws that Catch</passive><br>Gain <scaleAD>bonus Attack Damage</scaleAD>.<br><br><passive>Lifeline</passive><br>Taking damage that would reduce your Health below 30% grants a <shield>decaying Shield</shield> for 4.5 seconds.</mainText>"
+    },
+    "3065": {
+      "id": "3065",
+      "identities": [
+        "tank"
+      ],
+      "purposes": [
+        "self-heal-shield-amplification"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3065",
+      "evidence": "<mainText><stats><attention>400</attention> Health<br><attention>50</attention> Magic Resist<br><attention>10</attention> Ability Haste<br><attention>100%</attention> Base Health Regen</stats><br><br><passive>Boundless Vitality</passive><br>Heals and Shields on you are increased by 25%.</mainText>",
+      "counters": [
+        "magic-damage"
+      ],
+      "reviewedStatBlock": {
+        "haste": 10
+      }
+    },
+    "3068": {
+      "id": "3068",
+      "identities": [
+        "tank"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3068",
+      "evidence": "<mainText><stats><attention>350</attention> Health<br><attention>50</attention> Armor<br><attention>10</attention> Ability Haste</stats><br><br><passive>Immolate</passive><br>After taking or dealing damage, deal <magicDamage>magic damage</magicDamage> per second to nearby enemies for 3 seconds. </mainText>",
+      "counters": [
+        "physical-damage"
+      ],
+      "reviewedStatBlock": {
+        "haste": 10
+      }
+    },
+    "3071": {
+      "id": "3071",
+      "identities": [
+        "bruiser"
+      ],
+      "activation": [
+        "physical_ability"
+      ],
+      "purposes": [
+        "armor-shred"
+      ],
+      "counters": [
+        "tank"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3071",
+      "evidence": "<mainText><stats><attention>45</attention> Attack Damage<br><attention>400</attention> Health<br><attention>20</attention> Ability Haste</stats><br><br><passive>Carve</passive><br>Dealing <physicalDamage>physical damage</physicalDamage> to champions reduces the target's <scaleArmor>Armor by 6%</scaleArmor> for 6 seconds. (stacks 5 times).<br><br><passive>Fervor</passive><br>Dealing <physicalDamage>physical damage</physicalDamage> grants <speed> Move Speed</speed> for 2 seconds.</mainText>",
+      "reviewedStatBlock": {
+        "haste": 20
+      }
+    },
+    "3072": {
+      "id": "3072",
+      "identities": [
+        "crit",
+        "onhit"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3072",
+      "evidence": "<mainText><stats><attention>80</attention> Attack Damage<br><attention>15%</attention> Life Steal</stats><br><br><passive>Ichorshield</passive><br>Convert excess healing from your Lifesteal to a <shield>Shield</shield>.</mainText>"
+    },
+    "3075": {
+      "id": "3075",
+      "identities": [
+        "tank"
+      ],
+      "counters": [
+        "basic-attacks",
+        "healing"
+      ],
+      "conditional": true,
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3075",
+      "evidence": "<mainText><stats><attention>150</attention> Health<br><attention>75</attention> Armor</stats><br><br><passive>Thorns</passive><br>When struck by an Attack, deal <magicDamage>magic damage</magicDamage> to the attacker and apply 40% <keyword>Wounds</keyword> for 3 seconds if they are a champion.</mainText>"
+    },
+    "3084": {
+      "id": "3084",
+      "identities": [
+        "tank"
+      ],
+      "purposes": [
+        "health-stacking"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3084",
+      "purchaseTiming": {
+        "model": "long-term-stacking",
+        "evidence": "editorial-reviewed",
+        "patch": "16.22.1",
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3084",
+        "reason": "The health-granting passive requires combat time per target; an earlier purchase leaves more of the match to accrue its permanent health value."
+      },
+      "evidence": "<mainText><stats><attention>900</attention> Health<br><attention>100%</attention> Base Health Regen</stats><br><br><passive>Colossal Consumption</passive> (0s) per target<br>If an enemy champion is nearby for a few seconds, your next Attack against them deals <physicalDamage>70 plus 6%</physicalDamage> of your max Health as <physicalDamage>bonus physical damage</physicalDamage> and grants <scaleHealth>10%</scaleHealth> of the damage as <scaleHealth>max Health.</scaleHealth><br><br><passive>Goliath</passive><br>For each <scaleHealth>1000 max Health</scaleHealth>, gain 3% increased size, up to 30%. </mainText>"
+    },
+    "3085": {
+      "id": "3085",
+      "identities": [
+        "crit",
+        "onhit"
+      ],
+      "activation": [
+        "basic_attack"
+      ],
+      "purposes": [
+        "multi-target"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3085",
+      "evidence": "<mainText><stats><attention>40%</attention> Attack Speed<br><attention>25%</attention> Critical Strike Chance<br><attention>5%</attention> Move Speed</stats><br><br><passive>Wind's Fury</passive><br>Attacks fire bolts at 2 additional enemies near the target.<br>Each bolt deals <physicalDamage>physical damage</physicalDamage> and applies <OnHit>On-Hit</OnHit> effects.</mainText>"
+    },
+    "3089": {
+      "id": "3089",
+      "identities": [
+        "burst",
+        "sustained"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3089",
+      "evidence": "<mainText><stats><attention>130</attention> Ability Power</stats><br><br><passive>Magical Opus</passive><br>Increases your total <scaleAP>Ability Power by 30%</scaleAP>.</mainText>",
+      "purposes": [
+        "ap-amplifier"
+      ]
+    },
+    "3091": {
+      "id": "3091",
+      "identities": [
+        "onhit"
+      ],
+      "activation": [
+        "basic_attack"
+      ],
+      "purposes": [
+        "on-hit"
+      ],
+      "counters": [
+        "magic-damage"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3091",
+      "evidence": "<mainText><stats><attention>50%</attention> Attack Speed<br><attention>45</attention> Magic Resist<br><attention>20%</attention> Tenacity</stats><br><br><passive>Fray</passive><br>Attacks deal <magicDamage>bonus magic damage</magicDamage> <OnHit>On-Hit</OnHit>.</mainText>"
+    },
+    "3094": {
+      "id": "3094",
+      "identities": [
+        "crit"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3094",
+      "evidence": "<mainText><stats><attention>35%</attention> Attack Speed<br><attention>25%</attention> Critical Strike Chance<br><attention>4%</attention> Move Speed</stats><br><br><passive>Sharpshooter</passive><br>Your <keyword>Energized Attack</keyword> deals <magicDamage>40 bonus magic damage</magicDamage> and gains 35% bonus Attack Range.</mainText>"
+    },
+    "3102": {
+      "id": "3102",
+      "identities": [
+        "burst",
+        "sustained"
+      ],
+      "purposes": [
+        "spell-shield"
+      ],
+      "counters": [
+        "magic-burst",
+        "cc"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3102",
+      "evidence": "<mainText><stats><attention>105</attention> Ability Power<br><attention>40</attention> Magic Resist</stats><br><br><passive>Annul</passive><br>Grants a Spell Shield that blocks the next enemy Ability.</mainText>"
+    },
+    "3107": {
+      "id": "3107",
+      "identities": [
+        "enchanter"
+      ],
+      "purposes": [
+        "team-heal"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3107",
+      "evidence": "<mainText><stats><attention>30</attention> Ability Power<br><attention>15</attention> Ability Haste<br><attention>100%</attention> Base Mana Regen<br><attention>10%</attention> Heal and Shield Power</stats><br><br><active>Intervention</active><br>Restore <healing>150 - 350 Health</healing> to allied units and deal <trueDamage>10% max Health true damage</trueDamage> to enemy champions after 2.5 seconds.</mainText>",
+      "reviewedStatBlock": {
+        "haste": 15,
+        "healPower": 10,
+        "manaRegen": 100
+      }
+    },
+    "3109": {
+      "id":"3109","identities":["enchanter","tank"],"purposes":["protect-carry"],"counters":["single-target-dive","physical-burst"],"riskToUser":{"kind":"redirected-ally-damage","evidence":"editorial-reviewed","patch":"16.22.1","source":"https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3109"},"status":"editorial-reviewed","patch":"16.22.1","source":"https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3109","reviewedStatBlock":{"haste":10,"healthRegen":100},"evidence":"<mainText><stats><attention>200</attention> Health<br><attention>40</attention> Armor<br><attention>10</attention> Ability Haste<br><attention>100%</attention> Base Health Regen</stats><br><br><passive>Sacrifice</passive><br>While near your Worthy ally, take a portion of the damage they receive and heal based on their damage to champions.</mainText>"
+    },
+    "3111": {
+      "id": "3111",
+      "identities": [
+        "boots"
+      ],
+      "counters": [
+        "cc",
+        "magic-damage"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3111",
+      "evidence": "<mainText><stats><attention>20</attention> Magic Resist<br><attention>45</attention> Move Speed<br><attention>30%</attention> Tenacity</stats><br><br></mainText>"
+    },
+    "3116": {
+      "id": "3116",
+      "identities": [
+        "sustained"
+      ],
+      "activation": [
+        "magic_ability"
+      ],
+      "purposes": [
+        "control"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3116",
+      "evidence": "<mainText><stats><attention>65</attention> Ability Power<br><attention>400</attention> Health</stats><br><br><passive>Rimefrost</passive><br>Damaging Abilities <keyword>Slow</keyword> enemies by 30% for 1 second.</mainText>"
+    },
+    "3118": {
+      "id": "3118",
+      "identities": [
+        "burst"
+      ],
+      "activation": [
+        "magic_ability"
+      ],
+      "purposes": [
+        "ultimate-damage",
+        "mana-engine"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3118",
+      "evidence": "<mainText><stats><attention>90</attention> Ability Power<br><attention>600</attention> Mana<br><attention>15</attention> Ability Haste</stats><br><br><passive>Scorn</passive><br>Gain 20 Ultimate Ability Haste.<br><br><passive>Hatefog</passive><br>Damaging a champion with your Ultimate burns the ground beneath them for 3s, dealing <magicDamage>magic damage</magicDamage> per second and reducing their <scaleMR>Magic Resist</scaleMR>. <br></mainText>",
+      "reviewedStatBlock": {
+        "haste": 15
+      }
+    },
+    "3121": {
+      "id": "3121",
+      "identities": [
+        "tank"
+      ],
+      "activation": [
+        "cc"
+      ],
+      "purposes": [
+        "mana-defense",
+        "shield"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3121",
+      "evidence": "<mainText><stats><attention>550</attention> Health<br><attention>1000</attention> Mana<br><attention>15</attention> Ability Haste</stats><br><br><passive>Awe</passive><br>Gain <scaleHealth> Health</scaleHealth>.<br><br><passive>Everlasting</passive> (0s)<br><keyword>Immobilizing</keyword> or <keyword>Slowing</keyword> (Melee only) an enemy champion grants a <shield>Shield</shield> for 3 seconds. <br>The Shield is increased by 80% if more than one enemy is nearby.</mainText>",
+      "reviewedStatBlock": {
+        "haste": 15
+      }
+    },
+    "3124": {
+      "id": "3124",
+      "identities": [
+        "onhit"
+      ],
+      "activation": [
+        "basic_attack"
+      ],
+      "purposes": [
+        "on-hit"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3124",
+      "evidence": "<mainText><stats><attention>30</attention> Attack Damage<br><attention>30</attention> Ability Power<br><attention>25%</attention> Attack Speed</stats><br><br><passive>Wrath</passive><br>Attacks deal <magicDamage>30 bonus magic damage <OnHit>On-Hit</OnHit></magicDamage>.<br><br><passive>Seething Strike</passive><br>Attacks grant <attackSpeed>8% Attack Speed</attackSpeed> for 4 seconds. (stacks 4 times). <br>While fully stacked, every third Attack applies <OnHit>On-Hit</OnHit> effects twice.</mainText>"
+    },
+    "3135": {
+      "id": "3135",
+      "identities": [
+        "burst",
+        "sustained"
+      ],
+      "purposes": [
+        "percent-penetration"
+      ],
+      "counters": [
+        "tank"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3135",
+      "evidence": "<mainText><stats><attention>95</attention> Ability Power<br><attention>40%</attention> Magic Penetration</stats><br><br></mainText>",
+      "reviewedStatBlock": {
+        "magicPen": 40
+      }
+    },
+    "3142": {
+      "id": "3142",
+      "identities": [
+        "assassin"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3142",
+      "evidence": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>18</attention> Lethality<br><attention>4%</attention> Move Speed</stats><br><br><passive>Haunt</passive> <br>Gain <speed> Move Speed</speed> while out of combat.<br><br><active>Wraith Step</active><br>Gain <speed>Move Speed</speed> and <keyword>Ghosting</keyword> for  seconds.</mainText>",
+      "reviewedStatBlock": {
+        "lethality": 18
+      }
+    },
+    "3143": {
+      "id": "3143",
+      "identities": [
+        "tank"
+      ],
+      "counters": [
+        "crit",
+        "physical-burst"
+      ],
+      "conditional": true,
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3143",
+      "evidence": "<mainText><stats><attention>350</attention> Health<br><attention>75</attention> Armor</stats><br><br><passive>Resilience</passive><br>Receive 30% less damage from Critical Strikes.<br><active>Humility</active><br><keyword>Slow</keyword> nearby enemies by 70% for 2 seconds.</mainText>"
+    },
+    "3153": {
+      "id": "3153",
+      "identities": [
+        "onhit"
+      ],
+      "activation": [
+        "basic_attack"
+      ],
+      "counters": [
+        "tank"
+      ],
+      "purposes": [
+        "on-hit"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3153",
+      "evidence": "<mainText><stats><attention>40</attention> Attack Damage<br><attention>25%</attention> Attack Speed<br><attention>10%</attention> Life Steal</stats><br><br><passive>Mist's Edge</passive><br>Attacks deal <physicalDamage>a percentage</physicalDamage> of enemy's current Health as <physicalDamage>bonus physical damage</physicalDamage> <OnHit>On-Hit</OnHit>.<br><br><passive>Clawing Shadows</passive><br>Attacking a champion 3 times <status>Slows</status> them by 30% for 1 second.</mainText>"
+    },
+    "3156": {
+      "id": "3156",
+      "identities": [
+        "bruiser",
+        "assassin"
+      ],
+      "purposes": [
+        "defense"
+      ],
+      "counters": [
+        "magic-burst"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3156",
+      "evidence": "<mainText><stats><attention>60</attention> Attack Damage<br><attention>15</attention> Ability Haste<br><attention>40</attention> Magic Resist</stats><br><br><passive>Lifeline</passive><br>Taking magic damage that would reduce your Health below 30% grants a <shield>magic damage Shield</shield> for 3 seconds and <lifeSteal>10% Omnivamp</lifeSteal> until end of combat.</mainText>",
+      "reviewedStatBlock": {
+        "haste": 15
+      }
+    },
+    "3157": {
+      "id": "3157",
+      "identities": [
+        "burst",
+        "sustained"
+      ],
+      "purposes": [
+        "stasis"
+      ],
+      "counters": [
+        "physical-burst",
+        "burst"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3157",
+      "evidence": "<mainText><stats><attention>105</attention> Ability Power<br><attention>50</attention> Armor</stats><br><br><br><br><active>Time Stop</active><br>Enter <keyword>Stasis</keyword> for 2.5 seconds.</mainText>"
+    },
+    "3158": {
+      "id": "3158",
+      "identities": [
+        "boots"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3158",
+      "evidence": "<mainText><stats><attention>10</attention> Ability Haste<br><attention>45</attention> Move Speed</stats><br><br><passive>Ionian Insight</passive><br>Gain 10 Summoner Spell Haste.<br><br></mainText>",
+      "reviewedStatBlock": {
+        "haste": 10
+      }
+    },
+    "3165": {
+      "id": "3165",
+      "identities": [
+        "burst",
+        "sustained"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "counters": [
+        "healing"
+      ],
+      "conditional": true,
+      "purposes": [
+        "anti-heal"
+      ],
+      "activation": [
+        "magic_ability"
+      ],
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3165",
+      "evidence": "<mainText><stats><attention>75</attention> Ability Power<br><attention>350</attention> Health<br><attention>15</attention> Ability Haste</stats><br><br><passive>Grievous Wounds</passive><br>Dealing <magicDamage>magic damage</magicDamage> to champions applies <keyword>40% Wounds</keyword> for 3 seconds.</mainText>"
+    },
+    "3190": {
+      "id": "3190",
+      "identities": [
+        "enchanter"
+      ],
+      "purposes": [
+        "team-shield"
+      ],
+      "counters": [
+        "burst"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3190",
+      "evidence": "<mainText><stats><attention>200</attention> Health<br><attention>30</attention> Armor<br><attention>30</attention> Magic Resist<br><attention>10</attention> Ability Haste</stats><br><br><active>Devotion</active><br>Grant nearby allies a <shield>290 - 360 Shield</shield> that decays over 2.5 seconds.</mainText>",
+      "reviewedStatBlock": {
+        "haste": 10
+      }
+    },
+    "3222": {
+      "id": "3222",
+      "identities": [
+        "enchanter"
+      ],
+      "purposes": [
+        "ally-cleanse"
+      ],
+      "counters": [
+        "cc"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3222",
+      "cleansePolicy": {
+        "effect": "remove-crowd-control-from-ally",
+        "excludes": ["airborne", "suppression"],
+        "evidence": "documented-in-item-description",
+        "patch": "16.22.1",
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3222"
+      },
+      "evidence": "<mainText><stats><attention>250</attention> Health<br><attention>100%</attention> Base Mana Regen<br><attention>12%</attention> Heal and Shield Power<br><attention>15</attention> Ability Haste</stats><br><br><active>Purify</active><br>Remove all crowd control debuffs (excluding <keyword>Airborne</keyword> and <keyword>Suppression</keyword>) from an ally champion and restore <healing>100 - 250 Health</healing>.</mainText>",
+      "reviewedStatBlock": {
+        "haste": 15,
+        "healPower": 12,
+        "manaRegen": 100
+      }
+    },
+    "3302": {
+      "id": "3302",
+      "identities": [
+        "onhit"
+      ],
+      "activation": [
+        "basic_attack"
+      ],
+      "counters": [
+        "tank"
+      ],
+      "purposes": [
+        "percent-penetration"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3302",
+      "evidence": "<mainText><stats><attention>30</attention> Attack Damage<br><attention>35%</attention> Attack Speed</stats><br><br><passive>Shadow</passive><br>Attacks deal <magicDamage> bonus magic damage</magicDamage> <OnHit>On-Hit</OnHit>.<br><br><passive>Juxtaposition</passive><br>Alternate between <keywordMajor>Light</keywordMajor> and <keywordMajor>Dark</keywordMajor> Attacks against champions: <li><keywordMajor>Light</keywordMajor> Attacks grant <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR> for 5s. <li><keywordMajor>Dark</keywordMajor> Attacks grant 10% <scaleArmor>Armor Penetration</scaleArmor> and <scaleMR>Magic Penetration</scaleMR> for 5s. </mainText>"
+    },
+    "3504": {
+      "id": "3504",
+      "identities": [
+        "enchanter"
+      ],
+      "activation": [
+        "ally_heal"
+      ],
+      "purposes": [
+        "ally-attack-buff"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3504",
+      "evidence": "<mainText><stats><attention>45</attention> Ability Power<br><attention>10%</attention> Heal and Shield Power<br><attention>125%</attention> Base Mana Regen<br><attention>4%</attention> Move Speed</stats><br><br><passive>Sanctify</passive><br>Healing or Shielding an ally enhances you both for 6 seconds, granting <attackSpeed>25% Attack Speed</attackSpeed> and <magicDamage>20 magic damage</magicDamage> <OnHit>On-Hit</OnHit>.</mainText>",
+      "reviewedStatBlock": {
+        "healPower": 10,
+        "manaRegen": 125
+      }
+    },
+    "3748": {
+      "id": "3748",
+      "identities": [
+        "bruiser"
+      ],
+      "activation": [
+        "basic_attack"
+      ],
+      "purposes": [
+        "on-hit",
+        "waveclear"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3748",
+      "evidence": "<mainText><stats><attention>40</attention> Attack Damage<br><attention>600</attention> Health</stats><br><br><passive>Cleave</passive><br>Attacks deal <physicalDamage>physical damage</physicalDamage> on-hit and to enemies behind the target.<br><active>Titanic Crescent</active><br>Empower your next <passive>Cleave</passive> to deal <physicalDamage>bonus physical damage</physicalDamage> <OnHit>On-Hit</OnHit> and deal <physicalDamage>bonus physical damage</physicalDamage> to enemies behind the target.</mainText>"
+    },
+    "3814": {
+      "id": "3814",
+      "identities": [
+        "assassin"
+      ],
+      "purposes": [
+        "spell-shield"
+      ],
+      "counters": [
+        "cc",
+        "magic-burst"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3814",
+      "evidence": "<mainText><stats><attention>50</attention> Attack Damage<br><attention>15</attention> Lethality<br><attention>250</attention> Health</stats><br><br><passive>Annul</passive><br>Grants a Spell Shield that blocks the next enemy Ability.</mainText>",
+      "reviewedStatBlock": {
+        "lethality": 15
+      }
+    },
+    "3870": {
+      "id": "3870",
+      "identities": [
+        "enchanter"
+      ],
+      "activation": [
+        "ally_heal"
+      ],
+      "purposes": [
+        "support-quest"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3870",
+      "evidence": "<mainText><stats><attention>200</attention> Health<br><attention>75%</attention> Base Health Regen<br><attention>75%</attention> Base Mana Regen<br><attention>9</attention> Gold Per 10 Seconds</stats><br><br><passive>Dream Maker</passive><br>Healing or Shielding another ally blows Dream Bubbles to them for 3 seconds. Their next Attack deals <magicDamage>bonus magic damage</magicDamage> <OnHit>On-Hit</OnHit> and the next damage they take is reduced.<active>Active</active> (4 charges)<br>Places an <keyword>Invisible</keyword> Stealth Ward that grants vision.</mainText>",
+      "reviewedStatBlock": {
+        "manaRegen": 75
+      }
+    },
+    "3869": {
+      "id":"3869","identities":["tank"],"purposes":["support-quest"],"counters":["physical-burst","magic-burst"],"status":"editorial-reviewed","patch":"16.22.1","source":"https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#3869","evidence":"<mainText><stats><attention>200</attention> Health<br><attention>75%</attention> Base Health Regen<br><attention>75%</attention> Base Mana Regen<br><attention>9</attention> Gold Per 10 Seconds</stats><br><br><passive>Blessing of the Mountain</passive><br>Reduce incoming champion damage for 2 seconds after taking damage from a champion. When the effect ends, slow nearby enemies.<active>Active</active> (4 charges)<br>Places an invisible stealth ward.</mainText>"
+    },
+    "4401": {
+      "id": "4401",
+      "identities": [
+        "tank"
+      ],
+      "counters": [
+        "magic-damage"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#4401",
+      "evidence": "<mainText><stats><attention>400</attention> Health<br><attention>55</attention> Magic Resist<br><attention>4%</attention> Move Speed</stats><br><br><passive>Steadfast</passive><br>Gain <scaleMR>70 Magic Resist</scaleMR> and <speed>6% bonus Move Speed</speed> after taking magic damage from Champions 8 times.</mainText>"
+    },
+    "4645": {
+      "id": "4645",
+      "identities": [
+        "burst"
+      ],
+      "purposes": ["flat-magic-penetration","burst"],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#4645",
+      "evidence": "<mainText><stats><attention>110</attention> Ability Power<br><attention>15</attention> Magic Penetration</stats><br><br><passive>Cinderbloom</passive><br><magicDamage>Magic</magicDamage> and <trueDamage>true damage</trueDamage> <attention>Critically Strike</attention> enemies below 40% Health, dealing 20% increased damage. </mainText>",
+      "reviewedStatBlock": {
+        "magicPen": 15
+      }
+    },
+    "4646": {
+      "id": "4646",
+      "identities": [
+        "burst"
+      ],
+      "activation": [
+        "magic_ability"
+      ],
+      "purposes": [
+        "burst"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#4646",
+      "evidence": "<mainText><stats><attention>90</attention> Ability Power<br><attention>15</attention> Magic Penetration<br><attention>6%</attention> Move Speed</stats><br><br><passive>Stormraider</passive><br>Dealing 25% of a champion's maximum Health within 2.5s applies <passive>Squall</passive> to them.<br><br><passive>Squall</passive><br>After 2 seconds, deal <magicDamage>magic damage</magicDamage>. If the target dies before <passive>Squall</passive> triggers, it damages nearby enemies.</mainText>",
+      "reviewedStatBlock": {
+        "magicPen": 15
+      }
+    },
+    "6333": {
+      "id": "6333",
+      "identities": [
+        "bruiser"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#6333",
+      "evidence": "<mainText><stats><attention>60</attention> Attack Damage<br><attention>50</attention> Armor<br><attention>15</attention> Ability Haste</stats><br><br><passive>Ignore Pain</passive><br>A percentage of damage taken is dealt to you over 3 seconds instead.<br><br><passive>Defy</passive><br>When a champion that you damaged within 3 seconds dies, cleanse <passive>Ignore Pain's</passive> remaining damage and restore <healing>Health</healing> over 2 seconds.</mainText>",
+      "reviewedStatBlock": {
+        "haste": 15
+      }
+    },
+    "6610": {
+      "id": "6610",
+      "identities": [
+        "bruiser"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#6610",
+      "evidence": "<mainText><stats><attention>40</attention> Attack Damage<br><attention>400</attention> Health<br><attention>10</attention> Ability Haste</stats><br><br><passive>Lightshield Strike</passive><br>Your first Attack against a champion <attention>Critically Strikes</attention> and <healing>restores Health</healing>.</mainText>"
+    },
+    "6617": {
+      "id": "6617",
+      "identities": [
+        "enchanter"
+      ],
+      "activation": [
+        "ally_heal"
+      ],
+      "purposes": [
+        "heal-chain"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#6617",
+      "evidence": "<mainText><stats><attention>25</attention> Ability Power<br><attention>200</attention> Health<br><attention>20</attention> Ability Haste<br><attention>125%</attention> Base Mana Regen</stats><br><br><passive>Starlit Grace</passive><br>Healing or shielding an ally chains the effect to another ally (excluding yourself), <healing>healing 30%</healing> or <shield>shielding 35%</shield> of the original amount.</mainText>",
+      "reviewedStatBlock": {
+        "haste": 20,
+        "manaRegen": 125
+      }
+    },
+    "6620": {
+      "id": "6620",
+      "identities": [
+        "enchanter"
+      ],
+      "activation": [
+        "ally_heal",
+        "magic_ability"
+      ],
+      "purposes": [
+        "damage-to-heal"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#6620",
+      "evidence": "<mainText><stats><attention>35</attention> Ability Power<br><attention>200</attention> Health<br><attention>20</attention> Ability Haste<br><attention>125%</attention> Base Mana Regen</stats><br><br><passive>Soul Siphon</passive><br>Gain 30% of pre-mitigation damage dealt to champions as Soul Charges. Healing or Shielding an ally consumes all <passive>Soul Charges</passive> to restore <healing>Health</healing>.</mainText>",
+      "reviewedStatBlock": {
+        "haste": 20,
+        "manaRegen": 125
+      }
+    },
+    "6621": {
+      "id": "6621",
+      "identities": [
+        "enchanter"
+      ],
+      "activation": [
+        "ally_heal"
+      ],
+      "purposes": [
+        "healing-amplification"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#6621",
+      "evidence": "<mainText><stats><attention>45</attention> Ability Power<br><attention>16%</attention> Heal and Shield Power<br><attention>100%</attention> Base Mana Regen</stats><br><br><passive>First Light</passive><br>Gain <healing>2% Heal and Shield Power</healing> and <scaleAP>15 Ability Power</scaleAP> per 100% Base Mana Regen.</mainText>",
+      "reviewedStatBlock": {
+        "healPower": 16,
+        "manaRegen": 100
+      }
+    },
+    "6653": {
+      "id": "6653",
+      "identities": [
+        "sustained"
+      ],
+      "activation": [
+        "magic_ability"
+      ],
+      "purposes": [
+        "burn"
+      ],
+      "counters": [
+        "tank"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#6653",
+      "evidence": "<mainText><stats><attention>60</attention> Ability Power<br><attention>300</attention> Health</stats><br><br><passive>Torment</passive><br>Damaging Abilities burn enemies for <magicDamage>2% max Health magic damage</magicDamage> per second for 3 seconds.<br><br><passive>Suffering</passive><br>For each second in combat with enemy champions, deal 2% bonus damage, up to 6%.</mainText>"
+    },
+    "6655": {
+      "id": "6655",
+      "identities": [
+        "burst"
+      ],
+      "activation": [
+        "magic_ability"
+      ],
+      "purposes": [
+        "burst",
+        "mana-engine"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#6655",
+      "evidence": "<mainText><stats><attention>100</attention> Ability Power<br><attention>600</attention> Mana<br><attention>10</attention> Ability Haste</stats><br><br><passive>Echo</passive><br>Damaging Abilities fire 6 Echoes that deal <magicDamage>bonus magic damage</magicDamage> to the target and nearby enemies. Remaining Echoes fire on the primary target, dealing 20% damage.<br></mainText>",
+      "reviewedStatBlock": {
+        "haste": 10
+      }
+    },
+    "6672": {
+      "id": "6672",
+      "identities": [
+        "crit",
+        "onhit"
+      ],
+      "activation": [
+        "basic_attack"
+      ],
+      "purposes": [
+        "on-hit"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#6672",
+      "evidence": "<mainText><stats><attention>45</attention> Attack Damage<br><attention>40%</attention> Attack Speed<br><attention>4%</attention> Move Speed</stats><br><br><passive>Bring It Down</passive><br>Every third Attack deals <physicalDamage>bonus physical damage</physicalDamage> <OnHit>On-Hit</OnHit>, increased based on their missing Health.</mainText>"
+    },
+    "6692": {
+      "id": "6692",
+      "identities": [
+        "bruiser",
+        "assassin"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#6692",
+      "evidence": "<mainText><stats><attention>60</attention> Attack Damage<br><attention>15</attention> Ability Haste</stats><br><br><passive>Ever Rising Moon</passive><br>Hitting a champion with 2 separate Attacks or Abilities within 2 seconds grants you a <shield>Shield</shield> for 2 seconds.</mainText>",
+      "reviewedStatBlock": {
+        "haste": 15
+      }
+    },
+    "6694": {
+      "id": "6694",
+      "identities": [
+        "assassin"
+      ],
+      "activation": [
+        "physical_ability"
+      ],
+      "purposes": [
+        "percent-penetration"
+      ],
+      "counters": [
+        "tank"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#6694",
+      "evidence": "<mainText><stats><attention>45</attention> Attack Damage<br><attention>35%</attention> Armor Penetration<br><attention>15</attention> Ability Haste</stats><br><br><passive>Bitter Cold</passive><br>Damaging Abilities <status>Slow</status> enemies below 50% Health by 30% for 1 second.</mainText>",
+      "reviewedStatBlock": {
+        "haste": 15,
+        "armorPen": 35
+      }
+    },
+    "6695": {
+      "id": "6695",
+      "identities": [
+        "assassin"
+      ],
+      "counters": [
+        "shielding"
+      ],
+      "conditional": true,
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#6695",
+      "evidence": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>15</attention> Lethality</stats><br><br><passive>Shield Reaver</passive><br>Damaging an enemy champion reduces Shields they gain by % for 3 seconds. <br>If they were not already affected by <passive>Shield Reaver</passive>, reduce Shields on them by %.</mainText>",
+      "reviewedStatBlock": {
+        "lethality": 15
+      }
+    },
+    "6698": {
+      "id": "6698",
+      "identities": [
+        "assassin"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#6698",
+      "evidence": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>18</attention> Lethality<br><attention>10</attention> Ability Haste</stats><br><br><passive>Cleave</passive><br>Attacks deal <physicalDamage>physical damage</physicalDamage> to nearby enemies.<br><active>Heretical Cleave</active><br>Deal <physicalDamage>physical damage</physicalDamage> around you.</mainText>",
+      "reviewedStatBlock": {
+        "haste": 10,
+        "lethality": 18
+      }
+    },
+    "6699": {
+      "id": "6699",
+      "identities": [
+        "assassin"
+      ],
+      "status": "editorial-reviewed",
+      "patch": "16.22.1",
+      "source": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json#6699",
+      "evidence": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>10</attention> Lethality<br><attention>10</attention> Ability Haste</stats><br><br><passive>Galvanize</passive><br>Damaging an Enemy Champions with an ability triggers <keyword>Energized</keyword> if it is ready.<br><br><passive>Firmament</passive><br>Your <keyword>Energized Attack</keyword> deals <physicalDamage>% target's Current Health as bonus physical damage</physicalDamage> and grants you <scaleLethality>bonus Lethality</scaleLethality> for 4 seconds.</mainText>",
+      "reviewedStatBlock": {
+        "haste": 10,
+        "lethality": 10
+      }
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "mode": "ranked",
+  "mapId": "11",
+  "patch": "16.22.1",
+  "status": "verified",
+  "source": "League of Legends Wiki · Item group, cross-referenced against Riot Data Dragon and current official role-quest patch notes",
+  "sourceUrl": "https://wiki.leagueoflegends.com/en-us/Item_group",
+  "dataDragonUrl": "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/item.json",
+  "reviewedAt": "2026-11-04",
+  "reviewNote": "Every group member was resolved against exact name and current map-11 availability. Members absent from the normal shop are recorded as unavailable or role-quest/transformation entries; they are not silently treated as purchasable. Group reference is cross-checked against Riot Data Dragon 16.22.1 and official 26.1/26.2 role-quest notes. Transformed Archangel/Muramana finals inherit their Manaflow/Lifeline exclusivity groups.",
+  "groups": {
+    "Annul": [
+      "4632",
+      "3102",
+      "3814"
+    ],
+    "Blight": [
+      "4630",
+      "8010",
+      "3137",
+      "3302",
+      "3135"
+    ],
+    "Boots": [
+      "3174",
+      "3006",
+      "1001",
+      "3009",
+      "3173",
+      "3171",
+      "3008",
+      "3172",
+      "3168",
+      "3158",
+      "3111",
+      "3047",
+      "3020",
+      "3175",
+      "3170"
+    ],
+    "Dirk": [
+      "3134"
+    ],
+    "Elixir": [
+      "2138",
+      "2139",
+      "2140"
+    ],
+    "Eternity": [
+      "3803",
+      "6657"
+    ],
+    "Fatality": [
+      "3035",
+      "3071",
+      "3036",
+      "3033",
+      "6694",
+      "3302"
+    ],
+    "Glory": [
+      "1082",
+      "3041"
+    ],
+    "Guardian": [
+      "3177",
+      "3184",
+      "2051",
+      "3112"
+    ],
+    "Hydra": [
+      "3077",
+      "6698",
+      "3074",
+      "6631",
+      "3748"
+    ],
+    "Immolate": [
+      "6660",
+      "3068",
+      "6664"
+    ],
+    "Lifeline": [
+      "3003",
+      "3155",
+      "6673",
+      "3156",
+      "2525",
+      "3053",
+      "3040",
+      "3042"
+    ],
+    "Manaflow": [
+      "3003",
+      "3004",
+      "3070",
+      "2526",
+      "3119",
+      "3121",
+      "3040",
+      "3042"
+    ],
+    "Momentum": [
+      "3742"
+    ],
+    "Potion": [
+      "2003",
+      "2031"
+    ],
+    "Quicksilver": [
+      "3139",
+      "3140"
+    ],
+    "SoulAnchor": [],
+    "Spellblade": [
+      "3057",
+      "3877",
+      "2510",
+      "3508",
+      "6662",
+      "3100",
+      "3078"
+    ],
+    "Starter": [
+      "3877",
+      "3869",
+      "1055",
+      "1086",
+      "1120",
+      "1056",
+      "1054",
+      "3870",
+      "1102",
+      "1103",
+      "1101",
+      "3876",
+      "3865",
+      "3871"
+    ],
+    "Stasis": [
+      "2420",
+      "2421",
+      "3157"
+    ],
+    "Trinket": [
+      "3363",
+      "3364",
+      "3340"
+    ]
+  },
+  "roleQuestRules": {
+    "status": "verified",
+    "botRole": "bot",
+    "midRole": "mid",
+    "botBootsSeparate": true,
+    "midBootsTier3Upgrade": true,
+    "supportControlWardsSeparate": true,
+    "sources": [
+      "https://www.leagueoflegends.com/en-us/news/game-updates/patch-26-1-notes/",
+      "https://www.leagueoflegends.com/en-us/news/game-updates/patch-26-2-notes/"
+    ],
+    "note": "Quest inventory is represented separately. Only a Bot quest boot item may occupy the separate boot slot after quest completion; Mid tier-3 boots replace the equipped pair; support control wards are not main inventory slots.",
+    "supportFinalItemIds": [
+      "3869",
+      "3870",
+      "3871",
+      "3876",
+      "3877"
+    ],
+    "supportFinalItemSource": "Data Dragon 16.22.1 final support quest upgrades; explicit role required"
+  },
+  "supportingSources": [
+    "https://ddragon.leagueoflegends.com/api/versions.json",
+    "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-22-notes/",
+    "https://www.leagueoflegends.com/en-us/news/game-updates/patch-26-1-notes/",
+    "https://www.leagueoflegends.com/en-us/news/game-updates/patch-26-2-notes/"
+  ],
+  "excludedNames": {
+    "Slightly Magical Boots": "Not present as a current purchasable Summoner’s Rift item in Riot Data Dragon 16.22.1."
+  },
+  "missingNames": {
+    "SoulAnchor": [
+      "Lifeline",
+      "Spectral Cutlass"
+    ],
+    "Lifeline": [
+      "Seraph's Embrace"
+    ],
+    "Starter": [
+      "Bounty of Worlds",
+      "Runic Compass"
+    ]
+  },
+  "excludedUnavailableNames": {
+    "Seraph's Embrace": "Transformation-only; Riot Data Dragon marks it non-purchasable in map 11; the underlying Archangel's Staff membership remains enforced.",
+    "Symbiotic Soles / Synchronized Souls / Forever Forward": "Los registros antiguos de Data Dragon pueden conservar sus IDs y mapas, pero los objetos fueron retirados en el parche 26.1; no se habilitan como una ruta de compra del catálogo 16.22.1.",
+    "Lifeline": "Not purchasable on map 11 in the current static catalog.",
+    "Spectral Cutlass": "Not purchasable on map 11 in the current static catalog.",
+    "Bounty of Worlds": "Role-quest transformation, not a normal purchasable item slot.",
+    "Runic Compass": "Role-quest item, not a normal purchasable item slot."
+  },
+  "transformations": {
+    "3040": {
+      "fromItemId": "3003",
+      "status": "verified",
+      "patch": "16.22.1",
+      "kind": "mana-stack-evolution",
+      "condition": "Acumula 360 de maná máximo con Archangel's Staff.",
+      "purchaseNote": "Compra Archangel's Staff; se transforma automáticamente al acumular maná."
+    },
+    "3042": {
+      "fromItemId": "3004",
+      "status": "verified",
+      "patch": "16.22.1",
+      "kind": "mana-stack-evolution",
+      "condition": "Acumula 360 de maná máximo con Manamune.",
+      "purchaseNote": "Compra Manamune (3004); se transforma automáticamente al acumular maná."
+    },
+    "3121": {
+      "fromItemId": "3119",
+      "status": "verified",
+      "patch": "16.22.1",
+      "kind": "mana-stack-evolution",
+      "condition": "Acumula 360 de maná máximo con Winter's Approach.",
+      "purchaseNote": "Compra Lágrima de la diosa (3070), completa Winter's Approach (3119) y deja que evolucione a Fimbulwinter (3121)."
+    }
+  }
+}

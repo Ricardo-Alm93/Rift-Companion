@@ -1,0 +1,34 @@
+'use strict';
+const fs=require('node:fs');
+const path=require('node:path');
+const {normalizeChampionAbilityProfile}=require('../src/domain/champion-abilities');
+const {createChampionMechanicsProfile}=require('../src/engine/champion-mechanics-profiler');
+const {evaluateChampionBuildSynergy}=require('../src/engine/champion-item-synergy');
+const {buildItemCatalog,validateBuildItems}=require('../src/engine/item-eligibility');
+const {planPurchasePath}=require('../src/engine/purchase-path-planner');
+const interactionCatalog=require('../data/ranked/champion-item-interactions-16.22.1.json');
+const profiles=fs.existsSync(path.join(__dirname,'../data/ranked/pilot-build-profiles-16.22.1.json'))?require('../data/ranked/pilot-build-profiles-16.22.1.json').champions:{};
+const itemData=require('../data/dragon/cdn/16.22.1/data/en_US/item.json');
+const taxonomy=require('../data/item-taxonomy.json');
+const exclusiveGroups=require('../data/ranked/item-groups-16.22.1.json');
+const patch='16.22.1', itemCatalog=buildItemCatalog({itemData,taxonomy,patch,exclusiveGroups});
+const champions=[];
+for(const [championId,champion] of Object.entries(profiles))for(const [role,options] of Object.entries(champion.roles||{})){
+  const path=`../data/dragon/cdn/${patch}/data/en_US/champion/${championId}.json`;
+  const ability=normalizeChampionAbilityProfile(JSON.parse(fs.readFileSync(require.resolve(path))),{championId,version:patch,locale:'en_US'});
+  const mechanics=createChampionMechanicsProfile(ability,{role});
+  const builds=options.map(profile=>{
+    const itemIds=(profile.itemIds||[]).map(String);
+    const validation=validateBuildItems(itemIds,itemCatalog,{patch,exclusiveGroups,championId,role});
+    const purchaseOrder=planPurchasePath(itemIds,itemCatalog,{exclusiveGroups,sourceKind:'editorial',orderIds:profile.purchaseOrderIds,championId,role,archetype:profile.style});
+    const evaluation=evaluateChampionBuildSynergy({itemIds,itemCatalog,mechanics,role,buildId:profile.id,validation,purchaseOrder});
+    return {buildId:profile.id,label:profile.label_es,sourceKind:profile.evidence?.source?'published core + editorial completion':'editorial profile',itemIds,legality:{status:validation.valid?'legal':'invalid',errors:validation.errors||[]},purchaseOrder:{count:purchaseOrder.length,items:purchaseOrder.map(row=>String(row.finalItemId||row.purchaseItemId||''))},evidence:{documented:evaluation.rows.filter(row=>row.evidenceLevel==='documented').length,editorialReviewed:evaluation.rows.filter(row=>row.evidenceLevel==='editorial-reviewed').length,unknown:evaluation.rows.filter(row=>row.evidenceLevel==='unknown').length},certification:evaluation.certification,items:evaluation.rows.map(row=>({itemId:row.itemId,evidenceLevel:row.evidenceLevel,interactionIds:(row.interactionCandidates||[]).map(candidate=>candidate.id),reason:row.fit}))};
+  });
+  champions.push({championId,role,mechanics:{abilityCount:mechanics.abilityFacts.length,abilities:mechanics.abilityFacts.map(row=>({key:row.abilityKey,name:row.abilityName,damageTypes:row.damageTypes,effects:row.effects,scalings:row.scalings.map(x=>x.stat),onHit:row.onHit.status,source:row.source,sourcePatch:row.sourcePatch})),warnings:mechanics.warnings},builds});
+}
+const summary={patch,dataDragonVersion:patch,reviewedAt:interactionCatalog.reviewedAt,interactionRecords:interactionCatalog.interactions.length,documentedInteractions:interactionCatalog.interactions.filter(row=>row.evidenceLevel==='documented').length,editorialInteractions:interactionCatalog.interactions.filter(row=>row.evidenceLevel==='editorial-reviewed').length,unknownInteractions:interactionCatalog.interactions.filter(row=>row.evidenceLevel==='unknown').length,champions:champions.length,builds:champions.reduce((sum,row)=>sum+row.builds.length,0),legalBuilds:champions.reduce((sum,row)=>sum+row.builds.filter(build=>build.legality.status==='legal').length,0),invalidBuilds:champions.reduce((sum,row)=>sum+row.builds.filter(build=>build.legality.status==='invalid').length,0),strategicallyReviewedBuilds:champions.reduce((sum,row)=>sum+row.builds.filter(build=>build.certification.status==='strategically-reviewed').length,0),partialStrategicReviews:champions.reduce((sum,row)=>sum+row.builds.filter(build=>build.certification.reviewStatus==='partial').length,0),limitations:['Legality is the local Data Dragon/item-rule validation, not a live-client purchase test.','Every build review remains partial; none is certified as a strategically complete best build.','Published cores and editorial completions remain separate; no win rate is transferred to the assembled set.','Game-specific effect details are documented only at the ability/item interaction granularity recorded in the evidence catalog.']};
+const report={summary,champions,sources:{catalog:'data/ranked/champion-item-interactions-16.22.1.json',dataDragon:'data/dragon/cdn/16.22.1/data/en_US',pilotProfiles:'data/ranked/pilot-build-profiles-16.22.1.json'}};
+const target='data/ranked/champion-strategic-certification-report-16.22.1.json';fs.writeFileSync(target,JSON.stringify(report,null,2)+'\n');
+const markdown=['# Ranked strategic certification · Data Dragon 16.22.1','',`Reviewed ${summary.reviewedAt}: ${summary.champions} champion/role profiles, ${summary.builds} complete build variants.`,``,`- Legally valid in local catalog: ${summary.legalBuilds}/${summary.builds}`,'- Invalid: '+summary.invalidBuilds+'/'+summary.builds,'- Fully strategically certified: '+summary.strategicallyReviewedBuilds+'/'+summary.builds,'- Partial strategic review: '+summary.partialStrategicReviews+'/'+summary.builds,'','Interactions: '+summary.interactionRecords+' total ('+summary.documentedInteractions+' documented, '+summary.editorialInteractions+' editorially reviewed, '+summary.unknownInteractions+' unknown).','All reviewed builds are educational/editorial or published-core completions; no assembled build inherits a win rate.','',...champions.flatMap(champion=>['## '+champion.championId+' · '+champion.role,'',`Abilities with Data Dragon descriptions: ${champion.mechanics.abilityCount}/5.`,`Explicit damage: ${[...new Set(champion.mechanics.abilities.flatMap(ability=>ability.damageTypes))].join(', ')||'not established'}; effects: ${[...new Set(champion.mechanics.abilities.flatMap(ability=>ability.effects))].join(', ')||'not established'}.`,'',...champion.builds.map(build=>`- **${build.label}** (${build.buildId}): legality ${build.legality.status}; certification ${build.certification.status}; evidence in six slots: ${build.evidence.documented} documented, ${build.evidence.editorialReviewed} editorial, ${build.evidence.unknown} unknown. ${build.certification.findings.join(' ')}`),''])].join('\n');
+fs.writeFileSync('data/ranked/champion-strategic-certification-report-16.22.1.md',markdown+'\n');
+console.log(JSON.stringify({report:target,markdown:'data/ranked/champion-strategic-certification-report-16.22.1.md',...summary},null,2));

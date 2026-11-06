@@ -1,0 +1,3070 @@
+{
+  "schemaVersion": 1,
+  "attribution": "Data: arammayhem.com",
+  "source": "https://arammayhem.com/data/",
+  "license": "CC BY 4.0: free to use, copy and republish, including commercially, with attribution.",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "dataSource": "ARAM: Mayhem match statistics from a limited sample. Not worldwide data.",
+  "meta": {
+    "releaseId": "website:20261101_155626:312303056369"
+  },
+  "fields": [
+    {
+      "field": "patch",
+      "type": "string",
+      "description": "Game patch the stats describe: the patch live on statsDate."
+    },
+    {
+      "field": "patchReleaseDate",
+      "type": "date",
+      "description": "Release date of that patch."
+    },
+    {
+      "field": "statsDate",
+      "type": "date",
+      "description": "Day of play the aggregate covers."
+    },
+    {
+      "field": "statsDateSource",
+      "type": "release | estimated",
+      "description": "Whether the statistics date is recorded with the release or estimated."
+    },
+    {
+      "field": "comparedTo",
+      "type": "object | null",
+      "description": "The previous patch snapshot the change columns compare against."
+    },
+    {
+      "field": "releaseId",
+      "type": "string",
+      "description": "Site data release the file was generated from."
+    },
+    {
+      "field": "itemId",
+      "type": "string",
+      "description": "Item slug used by arammayhem.com."
+    },
+    {
+      "field": "gameItemId",
+      "type": "string | null",
+      "description": "Riot numeric item id."
+    },
+    {
+      "field": "name / name_<locale>",
+      "type": "string",
+      "description": "Item name per site locale."
+    },
+    {
+      "field": "category",
+      "type": "string | null",
+      "description": "starter, basic, epic, legendary, consumable, trinket or vision."
+    },
+    {
+      "field": "cost",
+      "type": "integer | null",
+      "description": "Total gold cost."
+    }
+  ],
+  "rows": [
+    {
+      "itemId": "abyssal_mask",
+      "gameItemId": "8020",
+      "name": {
+        "en": "Abyssal Mask",
+        "zh-CN": "深渊面具",
+        "ja-JP": "アビサル マスク",
+        "ko-KR": "심연의 가면",
+        "es-MX": "Máscara Abisal",
+        "zh-TW": "深淵面具",
+        "vi-VN": "Mặt Nạ Vực Thẳm"
+      },
+      "category": "legendary",
+      "cost": 2650
+    },
+    {
+      "itemId": "actualizer",
+      "gameItemId": "2522",
+      "name": {
+        "en": "Actualizer",
+        "zh-CN": "实现器",
+        "ja-JP": "アクチュアライザー",
+        "ko-KR": "실체화 장비",
+        "es-MX": "Actualizador",
+        "zh-TW": "時現者",
+        "vi-VN": "Đồng Hồ Thời Không"
+      },
+      "category": "legendary",
+      "cost": 3100
+    },
+    {
+      "itemId": "aether_wisp",
+      "gameItemId": "3113",
+      "name": {
+        "en": "Aether Wisp",
+        "zh-CN": "以太精魂",
+        "ja-JP": "エーテル ウィスプ",
+        "ko-KR": "에테르 환영",
+        "es-MX": "Brisa de Éter",
+        "zh-TW": "蒼穹神火",
+        "vi-VN": "Linh Hồn Lạc Lõng"
+      },
+      "category": "epic",
+      "cost": 900
+    },
+    {
+      "itemId": "amplifying_tome",
+      "gameItemId": "1052",
+      "name": {
+        "en": "Amplifying Tome",
+        "zh-CN": "增幅典籍",
+        "ja-JP": "増魔の書",
+        "ko-KR": "증폭의 고서",
+        "es-MX": "Libro Amplificador",
+        "zh-TW": "增幅典籍",
+        "vi-VN": "Sách Cũ"
+      },
+      "category": "basic",
+      "cost": 400
+    },
+    {
+      "itemId": "archangels_staff",
+      "gameItemId": "3003",
+      "name": {
+        "en": "Archangel's Staff",
+        "zh-CN": "大天使之杖",
+        "ja-JP": "アークエンジェル スタッフ",
+        "ko-KR": "대천사의 지팡이",
+        "es-MX": "Báculo del Arcángel",
+        "zh-TW": "大天使之杖",
+        "vi-VN": "Quyền Trượng Thiên Thần"
+      },
+      "category": "legendary",
+      "cost": 2900
+    },
+    {
+      "itemId": "ardent_censer",
+      "gameItemId": "3504",
+      "name": {
+        "en": "Ardent Censer",
+        "zh-CN": "炽热香炉",
+        "ja-JP": "アーデント センサー",
+        "ko-KR": "불타는 향로",
+        "es-MX": "Pebetero Ardiente",
+        "zh-TW": "熾灼魔器",
+        "vi-VN": "Lư Hương Sôi Sục"
+      },
+      "category": "legendary",
+      "cost": 2200
+    },
+    {
+      "itemId": "atmas_reckoning",
+      "gameItemId": "3039",
+      "name": {
+        "en": "Atma's Reckoning",
+        "zh-CN": "阿塔玛的清算",
+        "ja-JP": "アトマの報い",
+        "ko-KR": "아트마의 심판",
+        "es-MX": "Juicio de Atma",
+        "zh-TW": "終末戰戟",
+        "vi-VN": "Trường Thương Atma"
+      },
+      "category": "legendary",
+      "cost": 2900
+    },
+    {
+      "itemId": "axiom_arc",
+      "gameItemId": "6696",
+      "name": {
+        "en": "Axiom Arc",
+        "zh-CN": "公理圆弧",
+        "ja-JP": "アクシオム アーク",
+        "ko-KR": "원칙의 원형낫",
+        "es-MX": "Arco Axiomático",
+        "zh-TW": "公理弧刃",
+        "vi-VN": "Nguyên Tố Luân"
+      },
+      "category": "legendary",
+      "cost": 2750
+    },
+    {
+      "itemId": "b_f_sword",
+      "gameItemId": "1038",
+      "name": {
+        "en": "B. F. Sword",
+        "zh-CN": "暴风之剑",
+        "ja-JP": "B. F. ソード",
+        "ko-KR": "B.F. 대검",
+        "es-MX": "Espadón",
+        "zh-TW": "暴風之劍",
+        "vi-VN": "Kiếm B.F."
+      },
+      "category": "basic",
+      "cost": 1300
+    },
+    {
+      "itemId": "bamis_cinder",
+      "gameItemId": "6660",
+      "name": {
+        "en": "Bami's Cinder",
+        "zh-CN": "斑比的熔渣",
+        "ja-JP": "バミ シンダー",
+        "ko-KR": "바미의 불씨",
+        "es-MX": "Ceniza de Bami",
+        "zh-TW": "巴米灰燼",
+        "vi-VN": "Tàn Tích Bami"
+      },
+      "category": "epic",
+      "cost": 900
+    },
+    {
+      "itemId": "bandleglass_mirror",
+      "gameItemId": "4642",
+      "name": {
+        "en": "Bandleglass Mirror",
+        "zh-CN": "班德尔玻璃镜",
+        "ja-JP": "バンドルグラスの鏡",
+        "ko-KR": "밴들유리 거울",
+        "es-MX": "Espejo de Vitrobandle",
+        "zh-TW": "班德爾玻璃之鏡",
+        "vi-VN": "Gương Thần Bandle"
+      },
+      "category": "epic",
+      "cost": 900
+    },
+    {
+      "itemId": "bandlepipes",
+      "gameItemId": "2524",
+      "name": {
+        "en": "Bandlepipes",
+        "zh-CN": "班德尔音管",
+        "ja-JP": "バンドルパイプ",
+        "ko-KR": "밴들파이프",
+        "es-MX": "Flautas de Bandle",
+        "zh-TW": "班德爾笛子",
+        "vi-VN": "Kèn Túi Bandle"
+      },
+      "category": "legendary",
+      "cost": 2000
+    },
+    {
+      "itemId": "banshees_veil",
+      "gameItemId": "3102",
+      "name": {
+        "en": "Banshee's Veil",
+        "zh-CN": "女妖面纱",
+        "ja-JP": "バンシー ヴェール",
+        "ko-KR": "밴시의 장막",
+        "es-MX": "Velo de la Banshee",
+        "zh-TW": "女妖面紗",
+        "vi-VN": "Dây Chuyền Chữ Thập"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "bastionbreaker",
+      "gameItemId": "2520",
+      "name": {
+        "en": "Bastionbreaker",
+        "zh-CN": "破垒者",
+        "ja-JP": "バスティオンブレイカー",
+        "ko-KR": "요새파괴자",
+        "es-MX": "Rompebastiones",
+        "zh-TW": "破堡者",
+        "vi-VN": "Lưỡi Hái Công Phá"
+      },
+      "category": "legendary",
+      "cost": 3200
+    },
+    {
+      "itemId": "berserkers_greaves",
+      "gameItemId": "3006",
+      "name": {
+        "en": "Berserker's Greaves",
+        "zh-CN": "狂战士胫甲",
+        "ja-JP": "バーサーカー ブーツ",
+        "ko-KR": "광전사의 군화",
+        "es-MX": "Grebas del Berserker",
+        "zh-TW": "狂戰士護脛",
+        "vi-VN": "Giày Cuồng Nộ"
+      },
+      "category": "boots_tier2",
+      "cost": 1100
+    },
+    {
+      "itemId": "black_cleaver",
+      "gameItemId": "3071",
+      "name": {
+        "en": "Black Cleaver",
+        "zh-CN": "黑色切割者",
+        "ja-JP": "ブラック クリーバー",
+        "ko-KR": "칠흑의 양날 도끼",
+        "es-MX": "Cuchilla Oscura",
+        "zh-TW": "黑色切割者",
+        "vi-VN": "Rìu Đen"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "blackfire_torch",
+      "gameItemId": "2503",
+      "name": {
+        "en": "Blackfire Torch",
+        "zh-CN": "黯炎火炬",
+        "ja-JP": "黒炎のトーチ",
+        "ko-KR": "어둠불꽃 횃불",
+        "es-MX": "Antorcha de Fuegoscuro",
+        "zh-TW": "黑焰火炬",
+        "vi-VN": "Đuốc Lửa Đen"
+      },
+      "category": "legendary",
+      "cost": 2800
+    },
+    {
+      "itemId": "blade_of_the_ruined_king",
+      "gameItemId": "3153",
+      "name": {
+        "en": "Blade of The Ruined King",
+        "zh-CN": "破败王者之刃",
+        "ja-JP": "ルインドキング ブレード",
+        "ko-KR": "몰락한 왕의 검",
+        "es-MX": "Espada del Rey Arruinado",
+        "zh-TW": "殞落王者之劍",
+        "vi-VN": "Gươm Suy Vong"
+      },
+      "category": "legendary",
+      "cost": 3200
+    },
+    {
+      "itemId": "blasting_wand",
+      "gameItemId": "1026",
+      "name": {
+        "en": "Blasting Wand",
+        "zh-CN": "爆裂魔杖",
+        "ja-JP": "ブラスティング ワンド",
+        "ko-KR": "방출의 마법봉",
+        "es-MX": "Varita Explosiva",
+        "zh-TW": "爆裂魔杖",
+        "vi-VN": "Gậy Bùng Nổ"
+      },
+      "category": "basic",
+      "cost": 850
+    },
+    {
+      "itemId": "blighting_jewel",
+      "gameItemId": "4630",
+      "name": {
+        "en": "Blighting Jewel",
+        "zh-CN": "枯萎珠宝",
+        "ja-JP": "枯死の宝石",
+        "ko-KR": "역병의 보석",
+        "es-MX": "Joya Maldita",
+        "zh-TW": "枯萎寶石",
+        "vi-VN": "Đá Hắc Hóa"
+      },
+      "category": "epic",
+      "cost": 1100
+    },
+    {
+      "itemId": "bloodletters_curse",
+      "gameItemId": "8010",
+      "name": {
+        "en": "Bloodletter's Curse",
+        "zh-CN": "放血者的诅咒",
+        "ja-JP": "ブラッドレターの呪い",
+        "ko-KR": "핏빛 저주",
+        "es-MX": "Maldición de la Vampiresa",
+        "zh-TW": "血書詛咒",
+        "vi-VN": "Lời Nguyền Huyết Tự"
+      },
+      "category": "legendary",
+      "cost": 2900
+    },
+    {
+      "itemId": "bloodthirster",
+      "gameItemId": "3072",
+      "name": {
+        "en": "Bloodthirster",
+        "zh-CN": "饮血剑",
+        "ja-JP": "ブラッドサースター",
+        "ko-KR": "피바라기",
+        "es-MX": "La Sanguinaria",
+        "zh-TW": "嗜血者",
+        "vi-VN": "Huyết Kiếm"
+      },
+      "category": "legendary",
+      "cost": 3400
+    },
+    {
+      "itemId": "boots",
+      "gameItemId": "1001",
+      "name": {
+        "en": "Boots",
+        "zh-CN": "鞋子",
+        "ja-JP": "ブーツ",
+        "ko-KR": "장화",
+        "es-MX": "Botas",
+        "zh-TW": "鞋子",
+        "vi-VN": "Giày"
+      },
+      "category": "boots_basic",
+      "cost": 300
+    },
+    {
+      "itemId": "boots_of_swiftness",
+      "gameItemId": "3009",
+      "name": {
+        "en": "Boots of Swiftness",
+        "zh-CN": "轻灵之靴",
+        "ja-JP": "スイフトネス ブーツ",
+        "ko-KR": "신속의 장화",
+        "es-MX": "Botas de Rapidez",
+        "zh-TW": "輕靈之靴",
+        "vi-VN": "Giày Bạc"
+      },
+      "category": "boots_tier2",
+      "cost": 1000
+    },
+    {
+      "itemId": "bramble_vest",
+      "gameItemId": "3076",
+      "name": {
+        "en": "Bramble Vest",
+        "zh-CN": "棘刺背心",
+        "ja-JP": "ブランブル ベスト",
+        "ko-KR": "덤불 조끼",
+        "es-MX": "Vesta Espinosa",
+        "zh-TW": "刺藤胸甲",
+        "vi-VN": "Áo Choàng Gai"
+      },
+      "category": "epic",
+      "cost": 800
+    },
+    {
+      "itemId": "cappa_juice",
+      "gameItemId": "2141",
+      "name": {
+        "en": "Cappa Juice",
+        "zh-CN": "帽子饮品",
+        "ja-JP": "帽子ジュース",
+        "ko-KR": "카파 주스",
+        "es-MX": "Juguito de Gorrito",
+        "zh-TW": "帽帽果汁",
+        "vi-VN": "Nước Cappa"
+      },
+      "category": "consumable",
+      "cost": 300
+    },
+    {
+      "itemId": "catalyst_of_aeons",
+      "gameItemId": "3803",
+      "name": {
+        "en": "Catalyst of Aeons",
+        "zh-CN": "万世催化石",
+        "ja-JP": "久遠のカタリスト",
+        "ko-KR": "억겁의 카탈리스트",
+        "es-MX": "Catalizador de Eones",
+        "zh-TW": "催化魔方",
+        "vi-VN": "Đá Vĩnh Hằng"
+      },
+      "category": "epic",
+      "cost": 1300
+    },
+    {
+      "itemId": "caulfields_warhammer",
+      "gameItemId": "3133",
+      "name": {
+        "en": "Caulfield's Warhammer",
+        "zh-CN": "考尔菲德的战锤",
+        "ja-JP": "コールフィールド ウォーハンマー",
+        "ko-KR": "콜필드의 전투 망치",
+        "es-MX": "Martillo de Guerra de Caulfield",
+        "zh-TW": "考菲爾德的戰槌",
+        "vi-VN": "Búa Chiến Caulfield"
+      },
+      "category": "epic",
+      "cost": 1050
+    },
+    {
+      "itemId": "chain_vest",
+      "gameItemId": "1031",
+      "name": {
+        "en": "Chain Vest",
+        "zh-CN": "锁子甲",
+        "ja-JP": "チェイン ベスト",
+        "ko-KR": "쇠사슬 조끼",
+        "es-MX": "Cota de Malla",
+        "zh-TW": "鎖子甲",
+        "vi-VN": "Giáp Lưới"
+      },
+      "category": "epic",
+      "cost": 800
+    },
+    {
+      "itemId": "chempunk_chainsword",
+      "gameItemId": "6609",
+      "name": {
+        "en": "Chempunk Chainsword",
+        "zh-CN": "炼金朋克链锯剑",
+        "ja-JP": "ケミパンク チェーンソード",
+        "ko-KR": "화공 펑크 사슬검",
+        "es-MX": "Sierraespada Quimpunk",
+        "zh-TW": "生化龐克鏈鋸之劍",
+        "vi-VN": "Cưa Xích Hóa Kỹ"
+      },
+      "category": "legendary",
+      "cost": 3100
+    },
+    {
+      "itemId": "cloak_of_agility",
+      "gameItemId": "1018",
+      "name": {
+        "en": "Cloak of Agility",
+        "zh-CN": "灵巧披风",
+        "ja-JP": "アジリティ クローク",
+        "ko-KR": "민첩성의 망토",
+        "es-MX": "Capa de Agilidad",
+        "zh-TW": "靈巧披風",
+        "vi-VN": "Áo Choàng Tím"
+      },
+      "category": "basic",
+      "cost": 600
+    },
+    {
+      "itemId": "cloth_armor",
+      "gameItemId": "1029",
+      "name": {
+        "en": "Cloth Armor",
+        "zh-CN": "布甲",
+        "ja-JP": "クロース アーマー",
+        "ko-KR": "천 갑옷",
+        "es-MX": "Armadura de Tela",
+        "zh-TW": "布甲",
+        "vi-VN": "Giáp Lụa"
+      },
+      "category": "basic",
+      "cost": 300
+    },
+    {
+      "itemId": "cosmic_drive",
+      "gameItemId": "4629",
+      "name": {
+        "en": "Cosmic Drive",
+        "zh-CN": "星界驱驰",
+        "ja-JP": "コズミック ドライブ",
+        "ko-KR": "우주의 추진력",
+        "es-MX": "Impulso Cósmico",
+        "zh-TW": "星河馳騁",
+        "vi-VN": "Động Cơ Vũ Trụ"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "cryptbloom",
+      "gameItemId": "3137",
+      "name": {
+        "en": "Cryptbloom",
+        "zh-CN": "蜕生",
+        "ja-JP": "クリプトブルーム",
+        "ko-KR": "무덤꽃",
+        "es-MX": "Criptorretoño",
+        "zh-TW": "死墓之花",
+        "vi-VN": "Hoa Tử Linh"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "crystalline_bracer",
+      "gameItemId": "3801",
+      "name": {
+        "en": "Crystalline Bracer",
+        "zh-CN": "晶体护腕",
+        "ja-JP": "クリスタル ブレーサー",
+        "ko-KR": "수정 팔 보호구",
+        "es-MX": "Brazal Cristalino",
+        "zh-TW": "水晶護腕",
+        "vi-VN": "Vòng Tay Pha Lê"
+      },
+      "category": "epic",
+      "cost": 800
+    },
+    {
+      "itemId": "dagger",
+      "gameItemId": "1042",
+      "name": {
+        "en": "Dagger",
+        "zh-CN": "短剑",
+        "ja-JP": "ダガー",
+        "ko-KR": "단검",
+        "es-MX": "Daga",
+        "zh-TW": "短劍",
+        "vi-VN": "Dao Găm"
+      },
+      "category": "basic",
+      "cost": 250
+    },
+    {
+      "itemId": "dawncore",
+      "gameItemId": "6621",
+      "name": {
+        "en": "Dawncore",
+        "zh-CN": "黎明核心",
+        "ja-JP": "ドーンコア",
+        "ko-KR": "새벽심장",
+        "es-MX": "Esfera del Amanecer",
+        "zh-TW": "破曉之核",
+        "vi-VN": "Lõi Bình Minh"
+      },
+      "category": "legendary",
+      "cost": 2500
+    },
+    {
+      "itemId": "dead_mans_plate",
+      "gameItemId": "3742",
+      "name": {
+        "en": "Dead Man's Plate",
+        "zh-CN": "亡者的板甲",
+        "ja-JP": "デッド マン プレート",
+        "ko-KR": "망자의 갑옷",
+        "es-MX": "Placa del Hombre Muerto",
+        "zh-TW": "死者肩甲",
+        "vi-VN": "Giáp Liệt Sĩ"
+      },
+      "category": "legendary",
+      "cost": 2900
+    },
+    {
+      "itemId": "deaths_dance",
+      "gameItemId": "6333",
+      "name": {
+        "en": "Death's Dance",
+        "zh-CN": "死亡之舞",
+        "ja-JP": "デス ダンス",
+        "ko-KR": "죽음의 무도",
+        "es-MX": "Danza de la Muerte",
+        "zh-TW": "死亡之舞",
+        "vi-VN": "Vũ Điệu Tử Thần"
+      },
+      "category": "legendary",
+      "cost": 3300
+    },
+    {
+      "itemId": "diadem_of_songs",
+      "gameItemId": "2530",
+      "name": {
+        "en": "Diadem of Songs",
+        "zh-CN": "歌之权冠",
+        "ja-JP": "旋律のダイアデム",
+        "ko-KR": "악곡의 왕관",
+        "es-MX": "Diadema Musical",
+        "zh-TW": "歌謠之冠",
+        "vi-VN": "Vương Miện Khúc Ca"
+      },
+      "category": "legendary",
+      "cost": 2250
+    },
+    {
+      "itemId": "dorans_blade",
+      "gameItemId": "1055",
+      "name": {
+        "en": "Doran's Blade",
+        "zh-CN": "多兰之刃",
+        "ja-JP": "ドラン ブレード",
+        "ko-KR": "도란의 검",
+        "es-MX": "Espada de Doran",
+        "zh-TW": "多蘭之劍",
+        "vi-VN": "Kiếm Doran"
+      },
+      "category": "starter",
+      "cost": 450
+    },
+    {
+      "itemId": "dorans_ring",
+      "gameItemId": "1056",
+      "name": {
+        "en": "Doran's Ring",
+        "zh-CN": "多兰之戒",
+        "ja-JP": "ドラン リング",
+        "ko-KR": "도란의 반지",
+        "es-MX": "Sortija de Doran",
+        "zh-TW": "多蘭之戒",
+        "vi-VN": "Nhẫn Doran"
+      },
+      "category": "starter",
+      "cost": 400
+    },
+    {
+      "itemId": "dorans_shield",
+      "gameItemId": "1054",
+      "name": {
+        "en": "Doran's Shield",
+        "zh-CN": "多兰之盾",
+        "ja-JP": "ドラン シールド",
+        "ko-KR": "도란의 방패",
+        "es-MX": "Escudo de Doran",
+        "zh-TW": "多蘭之盾",
+        "vi-VN": "Khiên Doran"
+      },
+      "category": "starter",
+      "cost": 450
+    },
+    {
+      "itemId": "dusk_and_dawn",
+      "gameItemId": "2510",
+      "name": {
+        "en": "Dusk and Dawn",
+        "zh-CN": "黄昏与黎明",
+        "ja-JP": "黄昏と暁",
+        "ko-KR": "황혼과 새벽",
+        "es-MX": "Ocaso y Alba",
+        "zh-TW": "暮夜與黎明",
+        "vi-VN": "Bình Minh & Hoàng Hôn"
+      },
+      "category": "legendary",
+      "cost": 3100
+    },
+    {
+      "itemId": "echoes_of_helia",
+      "gameItemId": "6620",
+      "name": {
+        "en": "Echoes of Helia",
+        "zh-CN": "海力亚的回响",
+        "ja-JP": "ヘリアの残響",
+        "ko-KR": "헬리아의 메아리",
+        "es-MX": "Ecos de Helia",
+        "zh-TW": "希利亞的迴響",
+        "vi-VN": "Vọng Âm Helia"
+      },
+      "category": "legendary",
+      "cost": 2200
+    },
+    {
+      "itemId": "eclipse",
+      "gameItemId": "6692",
+      "name": {
+        "en": "Eclipse",
+        "zh-CN": "星蚀",
+        "ja-JP": "赤月の刃",
+        "ko-KR": "월식",
+        "es-MX": "Eclipse",
+        "zh-TW": "星蝕",
+        "vi-VN": "Nguyệt Đao"
+      },
+      "category": "legendary",
+      "cost": 2900
+    },
+    {
+      "itemId": "edge_of_night",
+      "gameItemId": "3814",
+      "name": {
+        "en": "Edge of Night",
+        "zh-CN": "夜之锋刃",
+        "ja-JP": "ナイト エッジ",
+        "ko-KR": "밤의 끝자락",
+        "es-MX": "Filo de la Noche",
+        "zh-TW": "夜色緣界",
+        "vi-VN": "Áo Choàng Bóng Tối"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "elixir_of_iron",
+      "gameItemId": "2138",
+      "name": {
+        "en": "Elixir of Iron",
+        "zh-CN": "钢铁合剂",
+        "ja-JP": "アイアン エリクサー",
+        "ko-KR": "강철의 영약",
+        "es-MX": "Elixir de Hierro",
+        "zh-TW": "抗擊藥劑",
+        "vi-VN": "Dược Phẩm Cứng Cáp"
+      },
+      "category": "consumable",
+      "cost": 500
+    },
+    {
+      "itemId": "elixir_of_sorcery",
+      "gameItemId": "2139",
+      "name": {
+        "en": "Elixir of Sorcery",
+        "zh-CN": "巫术合剂",
+        "ja-JP": "ソーサリー エリクサー",
+        "ko-KR": "마법의 영약",
+        "es-MX": "Elixir de Brujería",
+        "zh-TW": "巫魔藥劑",
+        "vi-VN": "Dược Phẩm Thuật Pháp"
+      },
+      "category": "consumable",
+      "cost": 500
+    },
+    {
+      "itemId": "elixir_of_wrath",
+      "gameItemId": "2140",
+      "name": {
+        "en": "Elixir of Wrath",
+        "zh-CN": "愤怒合剂",
+        "ja-JP": "ラース エリクサー",
+        "ko-KR": "분노의 영약",
+        "es-MX": "Elixir de Furia",
+        "zh-TW": "憤怒藥劑",
+        "vi-VN": "Dược Phẩm Phẫn Nộ"
+      },
+      "category": "consumable",
+      "cost": 500
+    },
+    {
+      "itemId": "endless_hunger",
+      "gameItemId": "2517",
+      "name": {
+        "en": "Endless Hunger",
+        "zh-CN": "无穷饥渴",
+        "ja-JP": "終わりなき飢え",
+        "ko-KR": "끝없는 갈망",
+        "es-MX": "Hambre Infinita",
+        "zh-TW": "無盡飢渴",
+        "vi-VN": "Liềm Xích Huyết Thực"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "essence_reaver",
+      "gameItemId": "3508",
+      "name": {
+        "en": "Essence Reaver",
+        "zh-CN": "夺萃之镰",
+        "ja-JP": "エッセンス リーバー",
+        "ko-KR": "정수 약탈자",
+        "es-MX": "Saqueador de Esencias",
+        "zh-TW": "奪魄之鐮",
+        "vi-VN": "Lưỡi Hái Linh Hồn"
+      },
+      "category": "legendary",
+      "cost": 2900
+    },
+    {
+      "itemId": "executioners_calling",
+      "gameItemId": "3123",
+      "name": {
+        "en": "Executioner's Calling",
+        "zh-CN": "死刑宣告",
+        "ja-JP": "エクスキューショナー コーリング",
+        "ko-KR": "처형인의 대검",
+        "es-MX": "El Llamado del Verdugo",
+        "zh-TW": "死刑宣告",
+        "vi-VN": "Gươm Đồ Tể"
+      },
+      "category": "epic",
+      "cost": 800
+    },
+    {
+      "itemId": "experimental_hexplate",
+      "gameItemId": "3073",
+      "name": {
+        "en": "Experimental Hexplate",
+        "zh-CN": "海克斯注力刚壁",
+        "ja-JP": "実験的ヘクスプレート",
+        "ko-KR": "실험적 마공학판",
+        "es-MX": "Placa Hexperimental",
+        "zh-TW": "實驗型海克斯板甲",
+        "vi-VN": "Khiên Hextech Thử Nghiệm"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "faerie_charm",
+      "gameItemId": "1004",
+      "name": {
+        "en": "Faerie Charm",
+        "zh-CN": "仙女护符",
+        "ja-JP": "フェアリー チャーム",
+        "ko-KR": "요정의 부적",
+        "es-MX": "Amuleto de las Hadas",
+        "zh-TW": "仙女護符",
+        "vi-VN": "Bùa Tiên"
+      },
+      "category": "basic",
+      "cost": 200
+    },
+    {
+      "itemId": "farsight_alteration",
+      "gameItemId": "3363",
+      "name": {
+        "en": "Farsight Alteration",
+        "zh-CN": "远见改造",
+        "ja-JP": "ファーサイト オルタレーション",
+        "ko-KR": "망원형 개조",
+        "es-MX": "Alteración de Visión Lejana",
+        "zh-TW": "鷹眼晶球",
+        "vi-VN": "Thấu Kính Viễn Thị"
+      },
+      "category": "trinket",
+      "cost": 0
+    },
+    {
+      "itemId": "fated_ashes",
+      "gameItemId": "2508",
+      "name": {
+        "en": "Fated Ashes",
+        "zh-CN": "命定灰烬",
+        "ja-JP": "運命の灰",
+        "ko-KR": "운명의 재",
+        "es-MX": "Cenizas Predestinadas",
+        "zh-TW": "命定灰燼",
+        "vi-VN": "Tro Tàn Định Mệnh"
+      },
+      "category": "epic",
+      "cost": 900
+    },
+    {
+      "itemId": "fiendhunter_bolts",
+      "gameItemId": "2512",
+      "name": {
+        "en": "Fiendhunter Bolts",
+        "zh-CN": "猎魔人弩箭",
+        "ja-JP": "フィーンドハンターの矢",
+        "ko-KR": "악마사냥꾼의 화살",
+        "es-MX": "Proyectiles Cazademonios",
+        "zh-TW": "獵魔弩箭",
+        "vi-VN": "Cung Tiễn Diệt Quỷ"
+      },
+      "category": "legendary",
+      "cost": 2650
+    },
+    {
+      "itemId": "fiendish_codex",
+      "gameItemId": "3108",
+      "name": {
+        "en": "Fiendish Codex",
+        "zh-CN": "恶魔法典",
+        "ja-JP": "フィンディッシュの古書",
+        "ko-KR": "악마의 마법서",
+        "es-MX": "Códice Diabólico",
+        "zh-TW": "惡魔法典",
+        "vi-VN": "Sách Quỷ"
+      },
+      "category": "epic",
+      "cost": 850
+    },
+    {
+      "itemId": "fimbulwinter",
+      "gameItemId": "3121",
+      "name": {
+        "en": "Fimbulwinter",
+        "zh-CN": "末日寒冬",
+        "ja-JP": "フィンブルウィンター",
+        "ko-KR": "종말의 겨울",
+        "es-MX": "Invierno Nórdico",
+        "zh-TW": "芬布爾之冬",
+        "vi-VN": "Băng Giáp Vĩnh Cửu"
+      },
+      "category": "legendary",
+      "cost": 2400
+    },
+    {
+      "itemId": "forbidden_idol",
+      "gameItemId": "3114",
+      "name": {
+        "en": "Forbidden Idol",
+        "zh-CN": "禁忌雕像",
+        "ja-JP": "フォビドゥン アイドル",
+        "ko-KR": "금지된 우상",
+        "es-MX": "Ídolo Prohibido",
+        "zh-TW": "禁忌之像",
+        "vi-VN": "Dị Vật Tai Ương"
+      },
+      "category": "epic",
+      "cost": 600
+    },
+    {
+      "itemId": "force_of_nature",
+      "gameItemId": "4401",
+      "name": {
+        "en": "Force of Nature",
+        "zh-CN": "自然之力",
+        "ja-JP": "自然の力",
+        "ko-KR": "대자연의 힘",
+        "es-MX": "Fuerza de la Naturaleza",
+        "zh-TW": "自然之力",
+        "vi-VN": "Giáp Thiên Nhiên"
+      },
+      "category": "legendary",
+      "cost": 2800
+    },
+    {
+      "itemId": "frozen_heart",
+      "gameItemId": "3110",
+      "name": {
+        "en": "Frozen Heart",
+        "zh-CN": "冰霜之心",
+        "ja-JP": "フローズン ハート",
+        "ko-KR": "얼어붙은 심장",
+        "es-MX": "Corazón de Hielo",
+        "zh-TW": "冰霜之心",
+        "vi-VN": "Tim Băng"
+      },
+      "category": "legendary",
+      "cost": 2500
+    },
+    {
+      "itemId": "giants_belt",
+      "gameItemId": "1011",
+      "name": {
+        "en": "Giant's Belt",
+        "zh-CN": "巨人腰带",
+        "ja-JP": "ジャイアント ベルト",
+        "ko-KR": "거인의 허리띠",
+        "es-MX": "Cinturón de Gigante",
+        "zh-TW": "巨人腰帶",
+        "vi-VN": "Đai Khổng Lồ"
+      },
+      "category": "epic",
+      "cost": 900
+    },
+    {
+      "itemId": "glacial_buckler",
+      "gameItemId": "3024",
+      "name": {
+        "en": "Glacial Buckler",
+        "zh-CN": "冰川圆盾",
+        "ja-JP": "グレイシャル バックラー",
+        "ko-KR": "얼음 방패",
+        "es-MX": "Escudo Glacial",
+        "zh-TW": "冰川圓盾",
+        "vi-VN": "Lá Chắn Mãnh Sư"
+      },
+      "category": "epic",
+      "cost": 900
+    },
+    {
+      "itemId": "glowing_mote",
+      "gameItemId": "2022",
+      "name": {
+        "en": "Glowing Mote",
+        "zh-CN": "荧尘",
+        "ja-JP": "輝きのモート",
+        "ko-KR": "빛나는 티끌",
+        "es-MX": "Mena Brillante",
+        "zh-TW": "發光結晶",
+        "vi-VN": "Bụi Lấp Lánh"
+      },
+      "category": "basic",
+      "cost": 250
+    },
+    {
+      "itemId": "golden_spatula",
+      "gameItemId": "994403",
+      "name": {
+        "en": "Golden Spatula",
+        "zh-CN": "金铲铲",
+        "ja-JP": "金のへら",
+        "ko-KR": "황금 뒤집개",
+        "es-MX": "Espátula Dorada",
+        "zh-TW": "黃金鍋鏟",
+        "vi-VN": "Xẻng Vàng"
+      },
+      "category": "basic",
+      "cost": 2500
+    },
+    {
+      "itemId": "guardians_blade",
+      "gameItemId": "3177",
+      "name": {
+        "en": "Guardian's Blade",
+        "zh-CN": "守护者之刃",
+        "ja-JP": "ガーディアン ブレード",
+        "ko-KR": "수호자의 검",
+        "es-MX": "Espada del Guardián",
+        "zh-TW": "保衛者之刃",
+        "vi-VN": "Kiếm Vệ Quân"
+      },
+      "category": "starter",
+      "cost": 950
+    },
+    {
+      "itemId": "guardians_hammer",
+      "gameItemId": "3184",
+      "name": {
+        "en": "Guardian's Hammer",
+        "zh-CN": "守护者战锤",
+        "ja-JP": "ガーディアン ハンマー",
+        "ko-KR": "수호자의 망치",
+        "es-MX": "Martillo del Guardián",
+        "zh-TW": "保衛者戰鎚",
+        "vi-VN": "Búa Vệ Quân"
+      },
+      "category": "starter",
+      "cost": 950
+    },
+    {
+      "itemId": "guardians_horn",
+      "gameItemId": "2051",
+      "name": {
+        "en": "Guardian's Horn",
+        "zh-CN": "守护者号角",
+        "ja-JP": "ガーディアン ホーン",
+        "ko-KR": "수호자의 뿔피리",
+        "es-MX": "Cuerno del Guardián",
+        "zh-TW": "保衛者號角",
+        "vi-VN": "Tù Và Vệ Quân"
+      },
+      "category": "starter",
+      "cost": 950
+    },
+    {
+      "itemId": "guardians_orb",
+      "gameItemId": "3112",
+      "name": {
+        "en": "Guardian's Orb",
+        "zh-CN": "守护者法球",
+        "ja-JP": "ガーディアン オーブ",
+        "ko-KR": "수호자의 보주",
+        "es-MX": "Orbe del Guardián",
+        "zh-TW": "保衛者冰玉",
+        "vi-VN": "Băng Cầu Vệ Quân"
+      },
+      "category": "starter",
+      "cost": 950
+    },
+    {
+      "itemId": "guinsoos_rageblade",
+      "gameItemId": "3124",
+      "name": {
+        "en": "Guinsoo's Rageblade",
+        "zh-CN": "鬼索的狂暴之刃",
+        "ja-JP": "グインソー レイジブレード",
+        "ko-KR": "구인수의 격노검",
+        "es-MX": "Espadafuria de Guinsoo",
+        "zh-TW": "鬼索的狂暴之刃",
+        "vi-VN": "Cuồng Đao Guinsoo"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "haunting_guise",
+      "gameItemId": "3147",
+      "name": {
+        "en": "Haunting Guise",
+        "zh-CN": "幽魂面具",
+        "ja-JP": "悲愴な仮面",
+        "ko-KR": "기괴한 가면",
+        "es-MX": "Antifaz Embrujado",
+        "zh-TW": "幽魂面具",
+        "vi-VN": "Mặt Nạ Ma Ám"
+      },
+      "category": "epic",
+      "cost": 1300
+    },
+    {
+      "itemId": "health_potion",
+      "gameItemId": "2003",
+      "name": {
+        "en": "Health Potion",
+        "zh-CN": "生命药水",
+        "ja-JP": "体力ポーション",
+        "ko-KR": "체력 물약",
+        "es-MX": "Poción de Vida",
+        "zh-TW": "生命藥水",
+        "vi-VN": "Bình Máu"
+      },
+      "category": "consumable",
+      "cost": 50
+    },
+    {
+      "itemId": "hearthbound_axe",
+      "gameItemId": "3051",
+      "name": {
+        "en": "Hearthbound Axe",
+        "zh-CN": "缚炉之斧",
+        "ja-JP": "ハースバウンド アックス",
+        "ko-KR": "온기가 필요한 자의 도끼",
+        "es-MX": "Hacha Hogareña",
+        "zh-TW": "爐縛之斧",
+        "vi-VN": "Rìu Nhanh Nhẹn"
+      },
+      "category": "epic",
+      "cost": 1200
+    },
+    {
+      "itemId": "heartsteel",
+      "gameItemId": "3084",
+      "name": {
+        "en": "Heartsteel",
+        "zh-CN": "心之钢",
+        "ja-JP": "心の鋼",
+        "ko-KR": "강철심장",
+        "es-MX": "Corazón de Acero",
+        "zh-TW": "雄心之鋼",
+        "vi-VN": "Trái Tim Khổng Thần"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "hexdrinker",
+      "gameItemId": "3155",
+      "name": {
+        "en": "Hexdrinker",
+        "zh-CN": "海克斯饮魔刀",
+        "ja-JP": "ヘクスドリンカー",
+        "ko-KR": "주문포식자",
+        "es-MX": "Sorbechizos",
+        "zh-TW": "吸魔劍",
+        "vi-VN": "Kiếm Răng Cưa"
+      },
+      "category": "epic",
+      "cost": 1300
+    },
+    {
+      "itemId": "hexoptics_c44",
+      "gameItemId": "2523",
+      "name": {
+        "en": "Hexoptics C44",
+        "zh-CN": "海克斯镜片 C44",
+        "ja-JP": "ヘクスオプティックC44",
+        "ko-KR": "마법광학 장치 C44",
+        "es-MX": "Hexóptica C44",
+        "zh-TW": "海克斯光學C44",
+        "vi-VN": "Quang Kính Hextech C44"
+      },
+      "category": "legendary",
+      "cost": 2800
+    },
+    {
+      "itemId": "hextech_alternator",
+      "gameItemId": "3145",
+      "name": {
+        "en": "Hextech Alternator",
+        "zh-CN": "海克斯科技发电机",
+        "ja-JP": "ヘクステック オルタネーター",
+        "ko-KR": "마법공학 교류 발전기",
+        "es-MX": "Alternador Hextech",
+        "zh-TW": "海克斯科技發電機",
+        "vi-VN": "Máy Chuyển Pha Hextech"
+      },
+      "category": "epic",
+      "cost": 1100
+    },
+    {
+      "itemId": "hextech_gunblade",
+      "gameItemId": "3146",
+      "name": {
+        "en": "Hextech Gunblade",
+        "zh-CN": "海克斯科技枪刃",
+        "ja-JP": "ヘクステック ガンブレード",
+        "ko-KR": "마법공학 총검",
+        "es-MX": "Sablepistola Hextech",
+        "zh-TW": "海克斯科技槍刃",
+        "vi-VN": "Kiếm Súng Hextech"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "hextech_rocketbelt",
+      "gameItemId": "3152",
+      "name": {
+        "en": "Hextech Rocketbelt",
+        "zh-CN": "海克斯科技火箭腰带",
+        "ja-JP": "ヘクステック ロケットベルト",
+        "ko-KR": "마법공학 로켓 벨트",
+        "es-MX": "Cinturón Cohete Hextech",
+        "zh-TW": "海克斯科技火箭腰帶",
+        "vi-VN": "Đai Tên Lửa Hextech"
+      },
+      "category": "legendary",
+      "cost": 2650
+    },
+    {
+      "itemId": "hollow_radiance",
+      "gameItemId": "6664",
+      "name": {
+        "en": "Hollow Radiance",
+        "zh-CN": "璀璨回响",
+        "ja-JP": "ホロウ レディアンス",
+        "ko-KR": "공허한 광휘",
+        "es-MX": "Resplandor Vacío",
+        "zh-TW": "虛偽光彩",
+        "vi-VN": "Áo Choàng Hắc Quang"
+      },
+      "category": "legendary",
+      "cost": 2800
+    },
+    {
+      "itemId": "horizon_focus",
+      "gameItemId": "4628",
+      "name": {
+        "en": "Horizon Focus",
+        "zh-CN": "视界专注",
+        "ja-JP": "ホライゾン フォーカス",
+        "ko-KR": "지평선의 초점",
+        "es-MX": "Enfoque al Horizonte",
+        "zh-TW": "視界專注",
+        "vi-VN": "Kính Nhắm Ma Pháp"
+      },
+      "category": "legendary",
+      "cost": 2700
+    },
+    {
+      "itemId": "hubris",
+      "gameItemId": "126697",
+      "name": {
+        "en": "Hubris",
+        "zh-CN": "狂妄",
+        "ja-JP": "ヒュブリス",
+        "ko-KR": "오만",
+        "es-MX": "Arrogancia",
+        "zh-TW": "傲慢",
+        "vi-VN": "Nguyệt Quế Cao Ngạo"
+      },
+      "category": "legendary",
+      "cost": 2950
+    },
+    {
+      "itemId": "hullbreaker",
+      "gameItemId": "3181",
+      "name": {
+        "en": "Hullbreaker",
+        "zh-CN": "破舰者",
+        "ja-JP": "ハルブレイカー",
+        "ko-KR": "선체파괴자",
+        "es-MX": "Rompecascos",
+        "zh-TW": "破船戰斧",
+        "vi-VN": "Búa Tiến Công "
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "iceborn_gauntlet",
+      "gameItemId": "6662",
+      "name": {
+        "en": "Iceborn Gauntlet",
+        "zh-CN": "冰脉护手",
+        "ja-JP": "アイスボーン ガントレット",
+        "ko-KR": "얼어붙은 건틀릿",
+        "es-MX": "Guantelete del Hijo del Hielo",
+        "zh-TW": "寒冰霸拳",
+        "vi-VN": "Găng Tay Băng Giá"
+      },
+      "category": "legendary",
+      "cost": 2900
+    },
+    {
+      "itemId": "immortal_shieldbow",
+      "gameItemId": "6673",
+      "name": {
+        "en": "Immortal Shieldbow",
+        "zh-CN": "不朽盾弓",
+        "ja-JP": "イモータル シールドボウ",
+        "ko-KR": "불멸의 철갑궁",
+        "es-MX": "Arcoescudo Inmortal",
+        "zh-TW": "不朽盾弓",
+        "vi-VN": "Nỏ Tử Thủ"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "imperial_mandate",
+      "gameItemId": "4005",
+      "name": {
+        "en": "Imperial Mandate",
+        "zh-CN": "帝国指令",
+        "ja-JP": "帝国の指令",
+        "ko-KR": "제국의 명령",
+        "es-MX": "Mandato Imperial",
+        "zh-TW": "帝王命令",
+        "vi-VN": "Trát Lệnh Đế Vương"
+      },
+      "category": "legendary",
+      "cost": 2250
+    },
+    {
+      "itemId": "infinity_edge",
+      "gameItemId": "3031",
+      "name": {
+        "en": "Infinity Edge",
+        "zh-CN": "无尽之刃",
+        "ja-JP": "インフィニティ エッジ",
+        "ko-KR": "무한의 대검",
+        "es-MX": "Filo del Infinito",
+        "zh-TW": "無盡之刃",
+        "vi-VN": "Vô Cực Kiếm"
+      },
+      "category": "epic",
+      "cost": 3500
+    },
+    {
+      "itemId": "ionian_boots_of_lucidity",
+      "gameItemId": "3158",
+      "name": {
+        "en": "Ionian Boots of Lucidity",
+        "zh-CN": "明朗之靴",
+        "ja-JP": "アイオニア ブーツ",
+        "ko-KR": "명석함의 아이오니아 장화",
+        "es-MX": "Botas Jonias de la Lucidez",
+        "zh-TW": "愛歐尼亞之靴",
+        "vi-VN": "Giày Khai Sáng Ionia"
+      },
+      "category": "boots_tier2",
+      "cost": 900
+    },
+    {
+      "itemId": "jaksho_the_protean",
+      "gameItemId": "6665",
+      "name": {
+        "en": "Jak'Sho, The Protean",
+        "zh-CN": "千变者贾修",
+        "ja-JP": "変幻自在のジャック＝ショー",
+        "ko-KR": "해신 작쇼",
+        "es-MX": "Jak'Sho, el Proteico",
+        "zh-TW": "千變萬化之賈克修",
+        "vi-VN": "Jak'Sho, Vỏ Bọc Thích Nghi"
+      },
+      "category": "legendary",
+      "cost": 3200
+    },
+    {
+      "itemId": "kaenic_rookern",
+      "gameItemId": "2504",
+      "name": {
+        "en": "Kaenic Rookern",
+        "zh-CN": "败魔",
+        "ja-JP": "ケイニック ルーケルン",
+        "ko-KR": "케이닉 루컨",
+        "es-MX": "Rukerno Kaénico",
+        "zh-TW": "凱尼克欺瞞者",
+        "vi-VN": "Vòng Sắt Cổ Tự"
+      },
+      "category": "legendary",
+      "cost": 2900
+    },
+    {
+      "itemId": "kalistas_black_spear",
+      "gameItemId": "3600",
+      "name": {
+        "en": "Kalista's Black Spear",
+        "zh-CN": "卡莉丝塔的黑色长矛",
+        "ja-JP": "カリスタの復讐の黒槍",
+        "ko-KR": "칼리스타의 칠흑의 창",
+        "es-MX": "Lanza Negra de Kalista",
+        "zh-TW": "克黎思妲的靈魂黑矛",
+        "vi-VN": "Mũi Giáo Hắc Ám (Kalista)"
+      },
+      "category": "consumable",
+      "cost": 0
+    },
+    {
+      "itemId": "kindlegem",
+      "gameItemId": "3067",
+      "name": {
+        "en": "Kindlegem",
+        "zh-CN": "燃烧宝石",
+        "ja-JP": "キンドルジェム",
+        "ko-KR": "점화석",
+        "es-MX": "Gemaluz",
+        "zh-TW": "燃燒寶石",
+        "vi-VN": "Hỏa Ngọc"
+      },
+      "category": "epic",
+      "cost": 800
+    },
+    {
+      "itemId": "knights_vow",
+      "gameItemId": "3109",
+      "name": {
+        "en": "Knight's Vow",
+        "zh-CN": "骑士之誓",
+        "ja-JP": "騎士の誓い",
+        "ko-KR": "기사의 맹세",
+        "es-MX": "Promesa del Caballero",
+        "zh-TW": "騎士誓願",
+        "vi-VN": "Lời Thề Hiệp Sĩ"
+      },
+      "category": "legendary",
+      "cost": 2300
+    },
+    {
+      "itemId": "kraken_slayer",
+      "gameItemId": "6672",
+      "name": {
+        "en": "Kraken Slayer",
+        "zh-CN": "海妖杀手",
+        "ja-JP": "クラーケン スレイヤー",
+        "ko-KR": "크라켄 학살자",
+        "es-MX": "Matakrakens",
+        "zh-TW": "海妖殺手",
+        "vi-VN": "Móc Diệt Thủy Quái"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "last_whisper",
+      "gameItemId": "3035",
+      "name": {
+        "en": "Last Whisper",
+        "zh-CN": "最后的轻语",
+        "ja-JP": "ラスト ウィスパー",
+        "ko-KR": "최후의 속삭임",
+        "es-MX": "Último Suspiro",
+        "zh-TW": "最後耳語",
+        "vi-VN": "Cung Xanh"
+      },
+      "category": "epic",
+      "cost": 1450
+    },
+    {
+      "itemId": "liandrys_torment",
+      "gameItemId": "6653",
+      "name": {
+        "en": "Liandry's Torment",
+        "zh-CN": "兰德里的折磨",
+        "ja-JP": "ライアンドリーの仮面",
+        "ko-KR": "리안드리의 고통",
+        "es-MX": "El Tormento de Liandry",
+        "zh-TW": "黎安卓的折磨",
+        "vi-VN": "Mặt Nạ Đọa Đày Liandry"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "lich_bane",
+      "gameItemId": "3100",
+      "name": {
+        "en": "Lich Bane",
+        "zh-CN": "巫妖之祸",
+        "ja-JP": "リッチ ベイン",
+        "ko-KR": "리치베인",
+        "es-MX": "Maldición del Liche",
+        "zh-TW": "巫妖之禍",
+        "vi-VN": "Kiếm Tai Ương"
+      },
+      "category": "legendary",
+      "cost": 2900
+    },
+    {
+      "itemId": "lifeline",
+      "gameItemId": "4003",
+      "name": {
+        "en": "Lifeline",
+        "zh-CN": "救生索",
+        "ja-JP": "ライフライン",
+        "ko-KR": "생명선",
+        "es-MX": "Salvavidas",
+        "zh-TW": "生命之索",
+        "vi-VN": "Móng Vuốt Hộ Mệnh"
+      },
+      "category": "legendary",
+      "cost": 1600
+    },
+    {
+      "itemId": "locket_of_the_iron_solari",
+      "gameItemId": "3190",
+      "name": {
+        "en": "Locket of the Iron Solari",
+        "zh-CN": "钢铁烈阳之匣",
+        "ja-JP": "ソラリのロケット",
+        "ko-KR": "강철의 솔라리 펜던트",
+        "es-MX": "Relicario de los Solari de Hierro",
+        "zh-TW": "日輪的加冕",
+        "vi-VN": "Dây Chuyền Iron Solari"
+      },
+      "category": "legendary",
+      "cost": 2200
+    },
+    {
+      "itemId": "long_sword",
+      "gameItemId": "1036",
+      "name": {
+        "en": "Long Sword",
+        "zh-CN": "长剑",
+        "ja-JP": "ロング ソード",
+        "ko-KR": "롱소드",
+        "es-MX": "Espada Larga",
+        "zh-TW": "長劍",
+        "vi-VN": "Kiếm Dài"
+      },
+      "category": "basic",
+      "cost": 350
+    },
+    {
+      "itemId": "lord_dominiks_regards",
+      "gameItemId": "3036",
+      "name": {
+        "en": "Lord Dominik's Regards",
+        "zh-CN": "多米尼克领主的致意",
+        "ja-JP": "ドミニク リガード",
+        "ko-KR": "도미닉 경의 인사",
+        "es-MX": "Recuerdos de Lord Dominik",
+        "zh-TW": "多明尼克的問候",
+        "vi-VN": "Nỏ Thần Dominik"
+      },
+      "category": "legendary",
+      "cost": 3300
+    },
+    {
+      "itemId": "lost_chapter",
+      "gameItemId": "3802",
+      "name": {
+        "en": "Lost Chapter",
+        "zh-CN": "遗失的章节",
+        "ja-JP": "ロスト チャプター",
+        "ko-KR": "사라진 양피지",
+        "es-MX": "Capítulo Perdido",
+        "zh-TW": "失落之章",
+        "vi-VN": "Bí Chương Thất Truyền"
+      },
+      "category": "epic",
+      "cost": 1200
+    },
+    {
+      "itemId": "ludens_echo",
+      "gameItemId": "6655",
+      "name": {
+        "en": "Luden's Echo",
+        "zh-CN": "卢登的回声",
+        "ja-JP": "ルーデン エコー",
+        "ko-KR": "루덴의 메아리",
+        "es-MX": "Eco de Luden",
+        "zh-TW": "盧登回音",
+        "vi-VN": "Vọng Âm Luden"
+      },
+      "category": "legendary",
+      "cost": 2750
+    },
+    {
+      "itemId": "malignance",
+      "gameItemId": "3118",
+      "name": {
+        "en": "Malignance",
+        "zh-CN": "残疫",
+        "ja-JP": "マリグナンス",
+        "ko-KR": "악의",
+        "es-MX": "Maldad",
+        "zh-TW": "惡意",
+        "vi-VN": "Hỏa Khuẩn"
+      },
+      "category": "legendary",
+      "cost": 2700
+    },
+    {
+      "itemId": "manamune",
+      "gameItemId": "3004",
+      "name": {
+        "en": "Manamune",
+        "zh-CN": "魔宗",
+        "ja-JP": "マナムネ",
+        "ko-KR": "마나무네",
+        "es-MX": "Manamune",
+        "zh-TW": "魔劍正宗",
+        "vi-VN": "Kiếm Manamune"
+      },
+      "category": "legendary",
+      "cost": 2900
+    },
+    {
+      "itemId": "maw_of_malmortius",
+      "gameItemId": "3156",
+      "name": {
+        "en": "Maw of Malmortius",
+        "zh-CN": "玛莫提乌斯之噬",
+        "ja-JP": "マルモティウスの胃袋",
+        "ko-KR": "맬모셔스의 아귀",
+        "es-MX": "Fauces de Malmortius",
+        "zh-TW": "魔提斯深淵",
+        "vi-VN": "Chùy Gai Malmortius"
+      },
+      "category": "legendary",
+      "cost": 3100
+    },
+    {
+      "itemId": "mercurial_scimitar",
+      "gameItemId": "3139",
+      "name": {
+        "en": "Mercurial Scimitar",
+        "zh-CN": "水银弯刀",
+        "ja-JP": "マーキュリアル シミター",
+        "ko-KR": "헤르메스의 시미터",
+        "es-MX": "Cimitarra Mercurial",
+        "zh-TW": "水星彎刀",
+        "vi-VN": "Đao Thủy Ngân"
+      },
+      "category": "legendary",
+      "cost": 3200
+    },
+    {
+      "itemId": "mercurys_treads",
+      "gameItemId": "3111",
+      "name": {
+        "en": "Mercury's Treads",
+        "zh-CN": "水银之靴",
+        "ja-JP": "マーキュリー ブーツ",
+        "ko-KR": "헤르메스의 발걸음",
+        "es-MX": "Botas de Mercurio",
+        "zh-TW": "水星之靴",
+        "vi-VN": "Giày Thủy Ngân"
+      },
+      "category": "boots_tier2",
+      "cost": 1250
+    },
+    {
+      "itemId": "mikaels_blessing",
+      "gameItemId": "3222",
+      "name": {
+        "en": "Mikael's Blessing",
+        "zh-CN": "米凯尔的祝福",
+        "ja-JP": "ミカエルの祝福",
+        "ko-KR": "미카엘의 축복",
+        "es-MX": "Bendición de Mikael",
+        "zh-TW": "米凱的祝福",
+        "vi-VN": "Chuông Bảo Hộ Mikael"
+      },
+      "category": "legendary",
+      "cost": 2300
+    },
+    {
+      "itemId": "moonstone_renewer",
+      "gameItemId": "6617",
+      "name": {
+        "en": "Moonstone Renewer",
+        "zh-CN": "月石再生器",
+        "ja-JP": "ムーンストーンの再生",
+        "ko-KR": "월석 재생기",
+        "es-MX": "Renovador de Piedra Lunar",
+        "zh-TW": "月之石再生裝置",
+        "vi-VN": "Bùa Nguyệt Thạch"
+      },
+      "category": "legendary",
+      "cost": 2200
+    },
+    {
+      "itemId": "morellonomicon",
+      "gameItemId": "3165",
+      "name": {
+        "en": "Morellonomicon",
+        "zh-CN": "莫雷洛秘典",
+        "ja-JP": "モレロノミコン",
+        "ko-KR": "모렐로노미콘",
+        "es-MX": "Morellonomicón",
+        "zh-TW": "黑魔禁書",
+        "vi-VN": "Quỷ Thư Morello"
+      },
+      "category": "legendary",
+      "cost": 2850
+    },
+    {
+      "itemId": "mortal_reminder",
+      "gameItemId": "3033",
+      "name": {
+        "en": "Mortal Reminder",
+        "zh-CN": "凡性的提醒",
+        "ja-JP": "モータル リマインダー",
+        "ko-KR": "필멸자의 운명",
+        "es-MX": "Recordatorio Mortal",
+        "zh-TW": "致死宣告",
+        "vi-VN": "Lời Nhắc Tử Vong"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "nashors_tooth",
+      "gameItemId": "3115",
+      "name": {
+        "en": "Nashor's Tooth",
+        "zh-CN": "纳什之牙",
+        "ja-JP": "ナッシャー トゥース",
+        "ko-KR": "내셔의 이빨",
+        "es-MX": "Diente de Nashor",
+        "zh-TW": "納什之牙",
+        "vi-VN": "Nanh Nashor"
+      },
+      "category": "legendary",
+      "cost": 2900
+    },
+    {
+      "itemId": "navori_flickerblade",
+      "gameItemId": "6675",
+      "name": {
+        "en": "Navori Flickerblade",
+        "zh-CN": "纳沃利烁刃",
+        "ja-JP": "ナヴォリ フリッカーブレード",
+        "ko-KR": "나보리 명멸검",
+        "es-MX": "Cuchilla Rauda de Navori",
+        "zh-TW": "那歐閃刃",
+        "vi-VN": "Đao Chớp Navori"
+      },
+      "category": "legendary",
+      "cost": 2650
+    },
+    {
+      "itemId": "needlessly_large_rod",
+      "gameItemId": "1058",
+      "name": {
+        "en": "Needlessly Large Rod",
+        "zh-CN": "无用大棒",
+        "ja-JP": "ムダニ デカイ ロッド",
+        "ko-KR": "쓸데없이 큰 지팡이",
+        "es-MX": "Vara Innecesariamente Grande",
+        "zh-TW": "巨型魔棒",
+        "vi-VN": "Gậy Quá Khổ"
+      },
+      "category": "basic",
+      "cost": 1200
+    },
+    {
+      "itemId": "negatron_cloak",
+      "gameItemId": "1057",
+      "name": {
+        "en": "Negatron Cloak",
+        "zh-CN": "负极斗篷",
+        "ja-JP": "ネガトロン クローク",
+        "ko-KR": "음전자 망토",
+        "es-MX": "Capa de Negatrones",
+        "zh-TW": "負極斗篷",
+        "vi-VN": "Áo Choàng Bạc"
+      },
+      "category": "epic",
+      "cost": 850
+    },
+    {
+      "itemId": "noonquiver",
+      "gameItemId": "6670",
+      "name": {
+        "en": "Noonquiver",
+        "zh-CN": "正午箭袋",
+        "ja-JP": "ヌーンクィヴァー",
+        "ko-KR": "절정의 화살",
+        "es-MX": "Carcaj de Mediodía",
+        "zh-TW": "正午箭筒",
+        "vi-VN": "Bó Tên Ánh Sáng"
+      },
+      "category": "epic",
+      "cost": 1300
+    },
+    {
+      "itemId": "null_magic_mantle",
+      "gameItemId": "1033",
+      "name": {
+        "en": "Null-Magic Mantle",
+        "zh-CN": "抗魔斗篷",
+        "ja-JP": "ヌルマジック マント",
+        "ko-KR": "마법무효화의 망토",
+        "es-MX": "Manto Anulamagia",
+        "zh-TW": "抗魔斗篷",
+        "vi-VN": "Áo Vải"
+      },
+      "category": "basic",
+      "cost": 400
+    },
+    {
+      "itemId": "oblivion_orb",
+      "gameItemId": "3916",
+      "name": {
+        "en": "Oblivion Orb",
+        "zh-CN": "湮灭宝珠",
+        "ja-JP": "忘却のオーブ",
+        "ko-KR": "망각의 구",
+        "es-MX": "Orbe del Olvido",
+        "zh-TW": "遺忘寶珠",
+        "vi-VN": "Ngọc Quên Lãng"
+      },
+      "category": "epic",
+      "cost": 800
+    },
+    {
+      "itemId": "opportunity",
+      "gameItemId": "6701",
+      "name": {
+        "en": "Opportunity",
+        "zh-CN": "禁忌时机",
+        "ja-JP": "オポチュニティー",
+        "ko-KR": "기회",
+        "es-MX": "Oportunidades",
+        "zh-TW": "機會",
+        "vi-VN": "Gươm Thức Thời"
+      },
+      "category": "legendary",
+      "cost": 2700
+    },
+    {
+      "itemId": "overlords_bloodmail",
+      "gameItemId": "2501",
+      "name": {
+        "en": "Overlord's Bloodmail",
+        "zh-CN": "霸王血铠",
+        "ja-JP": "覇王のブラッドメイル",
+        "ko-KR": "지배자의 피갑옷",
+        "es-MX": "Cota Sangrienta del Soberano",
+        "zh-TW": "狂霸血甲",
+        "vi-VN": "Huyết Giáp Chúa Tể"
+      },
+      "category": "legendary",
+      "cost": 3300
+    },
+    {
+      "itemId": "phage",
+      "gameItemId": "3044",
+      "name": {
+        "en": "Phage",
+        "zh-CN": "净蚀",
+        "ja-JP": "ファージ",
+        "ko-KR": "탐식의 망치",
+        "es-MX": "Bacteriófago",
+        "zh-TW": "淨蝕之槌",
+        "vi-VN": "Búa Gỗ"
+      },
+      "category": "epic",
+      "cost": 1100
+    },
+    {
+      "itemId": "phantom_dancer",
+      "gameItemId": "3046",
+      "name": {
+        "en": "Phantom Dancer",
+        "zh-CN": "幻影之舞",
+        "ja-JP": "ファントム ダンサー",
+        "ko-KR": "유령 무희",
+        "es-MX": "Bailarín Espectral",
+        "zh-TW": "幻影之舞",
+        "vi-VN": "Ma Vũ Song Kiếm"
+      },
+      "category": "legendary",
+      "cost": 2650
+    },
+    {
+      "itemId": "pickaxe",
+      "gameItemId": "1037",
+      "name": {
+        "en": "Pickaxe",
+        "zh-CN": "十字镐",
+        "ja-JP": "ピッケル",
+        "ko-KR": "곡괭이",
+        "es-MX": "Picacha",
+        "zh-TW": "十字鎬",
+        "vi-VN": "Cuốc Chim"
+      },
+      "category": "basic",
+      "cost": 875
+    },
+    {
+      "itemId": "plated_steelcaps",
+      "gameItemId": "3047",
+      "name": {
+        "en": "Plated Steelcaps",
+        "zh-CN": "铁板靴",
+        "ja-JP": "プレート スチールキャップ",
+        "ko-KR": "판금 장화",
+        "es-MX": "Punteras de Acero Revestidas",
+        "zh-TW": "鍍板鋼蓋",
+        "vi-VN": "Giày Thép Gai"
+      },
+      "category": "boots_tier2",
+      "cost": 1200
+    },
+    {
+      "itemId": "profane_hydra",
+      "gameItemId": "6698",
+      "name": {
+        "en": "Profane Hydra",
+        "zh-CN": "亵渎九头蛇",
+        "ja-JP": "プロフェイン ハイドラ",
+        "ko-KR": "불경한 히드라",
+        "es-MX": "Hidra Profana",
+        "zh-TW": "瀆神九頭蛇",
+        "vi-VN": "Mãng Xà Kích"
+      },
+      "category": "legendary",
+      "cost": 2850
+    },
+    {
+      "itemId": "protoplasm_harness",
+      "gameItemId": "2525",
+      "name": {
+        "en": "Protoplasm Harness",
+        "zh-CN": "原生质护带",
+        "ja-JP": "プロトプラズム ハーネス",
+        "ko-KR": "원형질 안전벨트",
+        "es-MX": "Arnés de Protoplasma",
+        "zh-TW": "原質馭帶",
+        "vi-VN": "Đai Nguyên Sinh"
+      },
+      "category": "legendary",
+      "cost": 2500
+    },
+    {
+      "itemId": "quicksilver_sash",
+      "gameItemId": "3140",
+      "name": {
+        "en": "Quicksilver Sash",
+        "zh-CN": "水银饰带",
+        "ja-JP": "クイックシルバー サッシュ",
+        "ko-KR": "수은 장식띠",
+        "es-MX": "Fajín de Mercurio",
+        "zh-TW": "水銀飾帶",
+        "vi-VN": "Khăn Giải Thuật"
+      },
+      "category": "epic",
+      "cost": 1300
+    },
+    {
+      "itemId": "rabadons_deathcap",
+      "gameItemId": "3089",
+      "name": {
+        "en": "Rabadon's Deathcap",
+        "zh-CN": "灭世者的死亡之帽",
+        "ja-JP": "ラバドン デスキャップ",
+        "ko-KR": "라바돈의 죽음모자",
+        "es-MX": "Sombrero Mortífero de Rabadon",
+        "zh-TW": "死亡之帽",
+        "vi-VN": "Mũ Phù Thủy Rabadon"
+      },
+      "category": "epic",
+      "cost": 3500
+    },
+    {
+      "itemId": "randuins_omen",
+      "gameItemId": "3143",
+      "name": {
+        "en": "Randuin's Omen",
+        "zh-CN": "兰顿之兆",
+        "ja-JP": "ランデュイン オーメン",
+        "ko-KR": "란두인의 예언",
+        "es-MX": "Presagio de Randuin",
+        "zh-TW": "蘭頓之兆",
+        "vi-VN": "Khiên Băng Randuin"
+      },
+      "category": "legendary",
+      "cost": 2700
+    },
+    {
+      "itemId": "rapid_firecannon",
+      "gameItemId": "3094",
+      "name": {
+        "en": "Rapid Firecannon",
+        "zh-CN": "疾射火炮",
+        "ja-JP": "ラピッド ファイアキャノン",
+        "ko-KR": "고속 연사포",
+        "es-MX": "Cañón de Fuego Rápido",
+        "zh-TW": "衝擊火炮",
+        "vi-VN": "Đại Bác Liên Thanh"
+      },
+      "category": "legendary",
+      "cost": 2650
+    },
+    {
+      "itemId": "ravenous_hydra",
+      "gameItemId": "3074",
+      "name": {
+        "en": "Ravenous Hydra",
+        "zh-CN": "贪欲九头蛇",
+        "ja-JP": "ラヴァナス ハイドラ",
+        "ko-KR": "굶주린 히드라",
+        "es-MX": "Hidra Voraz",
+        "zh-TW": "狂怒九頭蛇",
+        "vi-VN": "Rìu Mãng Xà"
+      },
+      "category": "legendary",
+      "cost": 3300
+    },
+    {
+      "itemId": "rectrix",
+      "gameItemId": "6690",
+      "name": {
+        "en": "Rectrix",
+        "zh-CN": "剑翎",
+        "ja-JP": "レクトリクス",
+        "ko-KR": "꽁지깃",
+        "es-MX": "Rectriz",
+        "zh-TW": "導翔之羽",
+        "vi-VN": "Lông Đuôi"
+      },
+      "category": "epic",
+      "cost": 775
+    },
+    {
+      "itemId": "recurve_bow",
+      "gameItemId": "1043",
+      "name": {
+        "en": "Recurve Bow",
+        "zh-CN": "反曲之弓",
+        "ja-JP": "リカーブ ボウ",
+        "ko-KR": "곡궁",
+        "es-MX": "Arco Recurvado",
+        "zh-TW": "反曲弓",
+        "vi-VN": "Cung Gỗ"
+      },
+      "category": "epic",
+      "cost": 700
+    },
+    {
+      "itemId": "redemption",
+      "gameItemId": "3107",
+      "name": {
+        "en": "Redemption",
+        "zh-CN": "救赎",
+        "ja-JP": "リデンプション",
+        "ko-KR": "구원",
+        "es-MX": "Redención",
+        "zh-TW": "贖罪神石",
+        "vi-VN": "Dây Chuyền Chuộc Tội"
+      },
+      "category": "legendary",
+      "cost": 2300
+    },
+    {
+      "itemId": "refillable_potion",
+      "gameItemId": "2031",
+      "name": {
+        "en": "Refillable Potion",
+        "zh-CN": "复用型药水",
+        "ja-JP": "詰め替えポーション",
+        "ko-KR": "충전형 물약",
+        "es-MX": "Poción Reutilizable",
+        "zh-TW": "回復藥水",
+        "vi-VN": "Thuốc Tái Sử Dụng"
+      },
+      "category": "consumable",
+      "cost": 150
+    },
+    {
+      "itemId": "rejuvenation_bead",
+      "gameItemId": "1006",
+      "name": {
+        "en": "Rejuvenation Bead",
+        "zh-CN": "治疗宝珠",
+        "ja-JP": "再生の珠",
+        "ko-KR": "원기 회복의 구슬",
+        "es-MX": "Perla de Rejuvenecimiento",
+        "zh-TW": "治療寶珠",
+        "vi-VN": "Ngọc Lục Bảo"
+      },
+      "category": "basic",
+      "cost": 300
+    },
+    {
+      "itemId": "riftmaker",
+      "gameItemId": "4633",
+      "name": {
+        "en": "Riftmaker",
+        "zh-CN": "裂隙制造者",
+        "ja-JP": "リフトメーカー",
+        "ko-KR": "균열 생성기",
+        "es-MX": "Agrietador",
+        "zh-TW": "峽谷製造者",
+        "vi-VN": "Quyền Trượng Ác Thần"
+      },
+      "category": "legendary",
+      "cost": 3100
+    },
+    {
+      "itemId": "rite_of_ruin",
+      "gameItemId": "123430",
+      "name": {
+        "en": "Rite of Ruin",
+        "zh-CN": "毁坏仪式",
+        "ja-JP": "破滅の儀式",
+        "ko-KR": "파멸의식 고서",
+        "es-MX": "Rito de Ruina",
+        "zh-TW": "殞落之祭",
+        "vi-VN": "Nghi Thức Suy Vong"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "rod_of_ages",
+      "gameItemId": "6657",
+      "name": {
+        "en": "Rod of Ages",
+        "zh-CN": "时光之杖",
+        "ja-JP": "ロッド オブ エイジス",
+        "ko-KR": "영겁의 지팡이",
+        "es-MX": "Vara de las Edades",
+        "zh-TW": "時光之杖",
+        "vi-VN": "Trượng Trường Sinh"
+      },
+      "category": "legendary",
+      "cost": 2600
+    },
+    {
+      "itemId": "ruby_crystal",
+      "gameItemId": "1028",
+      "name": {
+        "en": "Ruby Crystal",
+        "zh-CN": "红水晶",
+        "ja-JP": "ルビー クリスタル",
+        "ko-KR": "루비 수정",
+        "es-MX": "Cristal de Rubí",
+        "zh-TW": "紅水晶",
+        "vi-VN": "Hồng Ngọc"
+      },
+      "category": "basic",
+      "cost": 400
+    },
+    {
+      "itemId": "runaans_hurricane",
+      "gameItemId": "3085",
+      "name": {
+        "en": "Runaan's Hurricane",
+        "zh-CN": "卢安娜的飓风",
+        "ja-JP": "ルナーン ハリケーン",
+        "ko-KR": "루난의 허리케인",
+        "es-MX": "Huracán de Runaan",
+        "zh-TW": "芮蘭颶風箭",
+        "vi-VN": "Cuồng Cung Runaan"
+      },
+      "category": "legendary",
+      "cost": 2650
+    },
+    {
+      "itemId": "rylais_crystal_scepter",
+      "gameItemId": "3116",
+      "name": {
+        "en": "Rylai's Crystal Scepter",
+        "zh-CN": "瑞莱的冰晶节杖",
+        "ja-JP": "リーライ クリスタル セプター",
+        "ko-KR": "라일라이의 수정홀",
+        "es-MX": "Cetro de Cristal de Rylai",
+        "zh-TW": "瑞萊的冰晶節杖",
+        "vi-VN": "Trượng Pha Lê Rylai"
+      },
+      "category": "legendary",
+      "cost": 2600
+    },
+    {
+      "itemId": "sapphire_crystal",
+      "gameItemId": "1027",
+      "name": {
+        "en": "Sapphire Crystal",
+        "zh-CN": "蓝水晶",
+        "ja-JP": "サファイア クリスタル",
+        "ko-KR": "사파이어 수정",
+        "es-MX": "Cristal de Zafiro",
+        "zh-TW": "藍水晶",
+        "vi-VN": "Lam Ngọc"
+      },
+      "category": "basic",
+      "cost": 300
+    },
+    {
+      "itemId": "scarecrow_effigy",
+      "gameItemId": "3330",
+      "name": {
+        "en": "Scarecrow Effigy",
+        "zh-CN": "草间人",
+        "ja-JP": "身代わり人形",
+        "ko-KR": "허수아비",
+        "es-MX": "Efigie de Espantapájaros",
+        "zh-TW": "稻草人",
+        "vi-VN": "Bù Nhìn Kỳ Quái"
+      },
+      "category": "trinket",
+      "cost": 0
+    },
+    {
+      "itemId": "scouts_slingshot",
+      "gameItemId": "3144",
+      "name": {
+        "en": "Scout's Slingshot",
+        "zh-CN": "斥候弹弓",
+        "ja-JP": "偵察兵のパチンコ",
+        "ko-KR": "정찰병의 새총",
+        "es-MX": "Honda del Explorador",
+        "zh-TW": "斥候彈弓",
+        "vi-VN": "Ná Cao Su Trinh Sát"
+      },
+      "category": "epic",
+      "cost": 600
+    },
+    {
+      "itemId": "seekers_armguard",
+      "gameItemId": "2420",
+      "name": {
+        "en": "Seeker's Armguard",
+        "zh-CN": "探索者的护臂",
+        "ja-JP": "シーカー アームガード",
+        "ko-KR": "추적자의 팔목 보호대",
+        "es-MX": "Guardabrazo del Buscador",
+        "zh-TW": "探索者護腕",
+        "vi-VN": "Giáp Tay Seeker"
+      },
+      "category": "epic",
+      "cost": 1600
+    },
+    {
+      "itemId": "serpents_fang",
+      "gameItemId": "6695",
+      "name": {
+        "en": "Serpent's Fang",
+        "zh-CN": "巨蛇之牙",
+        "ja-JP": "毒蛇の牙",
+        "ko-KR": "독사의 송곳니",
+        "es-MX": "Colmillo de Serpiente",
+        "zh-TW": "巨蛇鋒牙",
+        "vi-VN": "Kiếm Ác Xà"
+      },
+      "category": "legendary",
+      "cost": 2500
+    },
+    {
+      "itemId": "serrated_dirk",
+      "gameItemId": "3134",
+      "name": {
+        "en": "Serrated Dirk",
+        "zh-CN": "锯齿短匕",
+        "ja-JP": "セレイテッド ダーク",
+        "ko-KR": "톱날 단검",
+        "es-MX": "Puñal Serrado",
+        "zh-TW": "殘暴之力",
+        "vi-VN": "Dao Hung Tàn"
+      },
+      "category": "epic",
+      "cost": 1000
+    },
+    {
+      "itemId": "seryldas_grudge",
+      "gameItemId": "6694",
+      "name": {
+        "en": "Serylda's Grudge",
+        "zh-CN": "赛瑞尔达的怨恨",
+        "ja-JP": "セリルダの怨恨",
+        "ko-KR": "세릴다의 원한",
+        "es-MX": "Rencor de Serylda",
+        "zh-TW": "席利妲咒怨",
+        "vi-VN": "Thương Phục Hận Serylda"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "shadowflame",
+      "gameItemId": "4645",
+      "name": {
+        "en": "Shadowflame",
+        "zh-CN": "影焰",
+        "ja-JP": "シャドウフレイム",
+        "ko-KR": "그림자불꽃",
+        "es-MX": "Lumbría",
+        "zh-TW": "黯影之炎",
+        "vi-VN": "Ngọn Lửa Hắc Hóa"
+      },
+      "category": "legendary",
+      "cost": 3200
+    },
+    {
+      "itemId": "shattered_armguard",
+      "gameItemId": "2421",
+      "name": {
+        "en": "Shattered Armguard",
+        "zh-CN": "碎裂的护臂",
+        "ja-JP": "砕けたアームガード",
+        "ko-KR": "부서진 팔목 보호대",
+        "es-MX": "Guardabrazo Fragmentado",
+        "zh-TW": "破碎的護腕",
+        "vi-VN": "Giáp Tay Vỡ Nát"
+      },
+      "category": "epic",
+      "cost": 1600
+    },
+    {
+      "itemId": "sheen",
+      "gameItemId": "3057",
+      "name": {
+        "en": "Sheen",
+        "zh-CN": "耀光",
+        "ja-JP": "シーン",
+        "ko-KR": "광휘의 검",
+        "es-MX": "Brillo",
+        "zh-TW": "閃耀劍",
+        "vi-VN": "Thủy Kiếm"
+      },
+      "category": "epic",
+      "cost": 900
+    },
+    {
+      "itemId": "shurelyas_battlesong",
+      "gameItemId": "2065",
+      "name": {
+        "en": "Shurelya's Battlesong",
+        "zh-CN": "舒瑞娅的战歌",
+        "ja-JP": "シュレリアの戦歌",
+        "ko-KR": "슈렐리아의 군가",
+        "es-MX": "Canto de Guerra de Shurelya",
+        "zh-TW": "蘇瑞亞的戰歌",
+        "vi-VN": "Vương Miện Shurelya"
+      },
+      "category": "legendary",
+      "cost": 2200
+    },
+    {
+      "itemId": "sorcerers_shoes",
+      "gameItemId": "3020",
+      "name": {
+        "en": "Sorcerer's Shoes",
+        "zh-CN": "法师之靴",
+        "ja-JP": "ソーサラー シューズ",
+        "ko-KR": "마법사의 신발",
+        "es-MX": "Botas del Hechicero",
+        "zh-TW": "法師之靴",
+        "vi-VN": "Giày Pháp Sư"
+      },
+      "category": "boots_tier2",
+      "cost": 1100
+    },
+    {
+      "itemId": "spear_of_shojin",
+      "gameItemId": "3161",
+      "name": {
+        "en": "Spear of Shojin",
+        "zh-CN": "朔极之矛",
+        "ja-JP": "ショウジンの矛",
+        "ko-KR": "쇼진의 창",
+        "es-MX": "Lanza de Shojin",
+        "zh-TW": "精進之矛",
+        "vi-VN": "Ngọn Giáo Shojin"
+      },
+      "category": "legendary",
+      "cost": 3100
+    },
+    {
+      "itemId": "spectral_cutlass",
+      "gameItemId": "4004",
+      "name": {
+        "en": "Spectral Cutlass",
+        "zh-CN": "幽魂弯刀",
+        "ja-JP": "スペクトラル カトラス",
+        "ko-KR": "망령 해적검",
+        "es-MX": "Sable Espectral",
+        "zh-TW": "鬼使彎刀",
+        "vi-VN": "Gươm Biến Ảnh"
+      },
+      "category": "legendary",
+      "cost": 2800
+    },
+    {
+      "itemId": "spectres_cowl",
+      "gameItemId": "3211",
+      "name": {
+        "en": "Spectre's Cowl",
+        "zh-CN": "幽魂斗篷",
+        "ja-JP": "スペクター カウル",
+        "ko-KR": "망령의 두건",
+        "es-MX": "Hábito del Espectro",
+        "zh-TW": "亡靈斗篷",
+        "vi-VN": "Áo Choàng Ám Ảnh"
+      },
+      "category": "epic",
+      "cost": 1250
+    },
+    {
+      "itemId": "spirit_visage",
+      "gameItemId": "3065",
+      "name": {
+        "en": "Spirit Visage",
+        "zh-CN": "振奋盔甲",
+        "ja-JP": "スピリット ビサージュ",
+        "ko-KR": "정령의 형상",
+        "es-MX": "Apariencia Espiritual",
+        "zh-TW": "振奮盔甲",
+        "vi-VN": "Giáp Tâm Linh"
+      },
+      "category": "legendary",
+      "cost": 2700
+    },
+    {
+      "itemId": "staff_of_flowing_water",
+      "gameItemId": "6616",
+      "name": {
+        "en": "Staff of Flowing Water",
+        "zh-CN": "流水法杖",
+        "ja-JP": "フロー ウォーター スタッフ",
+        "ko-KR": "흐르는 물의 지팡이",
+        "es-MX": "Báculo de Agua Fluyente",
+        "zh-TW": "流水之杖",
+        "vi-VN": "Trượng Lưu Thủy"
+      },
+      "category": "legendary",
+      "cost": 2250
+    },
+    {
+      "itemId": "stat_bonus",
+      "gameItemId": "6032",
+      "name": {
+        "en": "Stat Bonus",
+        "zh-CN": "属性加成",
+        "ja-JP": "ステータスボーナス",
+        "ko-KR": "추가 능력치",
+        "es-MX": "Estadística adicional",
+        "zh-TW": "能力值加成",
+        "vi-VN": "Thưởng Chỉ Số"
+      },
+      "category": "consumable",
+      "cost": 750
+    },
+    {
+      "itemId": "statikk_shiv",
+      "gameItemId": "3087",
+      "name": {
+        "en": "Statikk Shiv",
+        "zh-CN": "斯塔缇克电刃",
+        "ja-JP": "スタティック シヴ",
+        "ko-KR": "스태틱의 단검",
+        "es-MX": "Navaja de Statikk",
+        "zh-TW": "史提克彈簧刀",
+        "vi-VN": "Dao Điện Statikk"
+      },
+      "category": "legendary",
+      "cost": 2700
+    },
+    {
+      "itemId": "steel_sigil",
+      "gameItemId": "2019",
+      "name": {
+        "en": "Steel Sigil",
+        "zh-CN": "钢铁印章",
+        "ja-JP": "スチール シジル",
+        "ko-KR": "강철 인장",
+        "es-MX": "Sello de Acero",
+        "zh-TW": "鋼鐵紋章",
+        "vi-VN": "Ấn Thép"
+      },
+      "category": "epic",
+      "cost": 1100
+    },
+    {
+      "itemId": "steraks_gage",
+      "gameItemId": "3053",
+      "name": {
+        "en": "Sterak's Gage",
+        "zh-CN": "斯特拉克的挑战护手",
+        "ja-JP": "ステラックの篭手",
+        "ko-KR": "스테락의 도전",
+        "es-MX": "Guantelete de Sterak",
+        "zh-TW": "史特拉克手套",
+        "vi-VN": "Móng Vuốt Sterak"
+      },
+      "category": "legendary",
+      "cost": 3200
+    },
+    {
+      "itemId": "stormrazor",
+      "gameItemId": "3097",
+      "name": {
+        "en": "Stormrazor",
+        "zh-CN": "岚切",
+        "ja-JP": "ストームレイザー",
+        "ko-KR": "폭풍갈퀴",
+        "es-MX": "Filo de la Tormenta",
+        "zh-TW": "狂暴利刃",
+        "vi-VN": "Phong Thần Kiếm"
+      },
+      "category": "legendary",
+      "cost": 3200
+    },
+    {
+      "itemId": "stormsurge",
+      "gameItemId": "4646",
+      "name": {
+        "en": "Stormsurge",
+        "zh-CN": "风暴狂涌",
+        "ja-JP": "ストームサージ",
+        "ko-KR": "폭풍 쇄도",
+        "es-MX": "Descarga Tormentosa",
+        "zh-TW": "雷霆風暴",
+        "vi-VN": "Quyền Trượng Bão Tố"
+      },
+      "category": "legendary",
+      "cost": 2800
+    },
+    {
+      "itemId": "stridebreaker",
+      "gameItemId": "6631",
+      "name": {
+        "en": "Stridebreaker",
+        "zh-CN": "挺进破坏者",
+        "ja-JP": "ストライドブレイカー",
+        "ko-KR": "발걸음 분쇄기",
+        "es-MX": "Rompeavances",
+        "zh-TW": "步履破壞者",
+        "vi-VN": "Chùy Phản Kích"
+      },
+      "category": "legendary",
+      "cost": 3300
+    },
+    {
+      "itemId": "sundered_sky",
+      "gameItemId": "6610",
+      "name": {
+        "en": "Sundered Sky",
+        "zh-CN": "焚天",
+        "ja-JP": "サンダード スカイ",
+        "ko-KR": "갈라진 하늘",
+        "es-MX": "Cielo Desgarrado",
+        "zh-TW": "突破天際",
+        "vi-VN": "Giáo Thiên Ly"
+      },
+      "category": "legendary",
+      "cost": 3100
+    },
+    {
+      "itemId": "sunfire_aegis",
+      "gameItemId": "3068",
+      "name": {
+        "en": "Sunfire Aegis",
+        "zh-CN": "日炎圣盾",
+        "ja-JP": "サンファイア イージス",
+        "ko-KR": "태양불꽃 방패",
+        "es-MX": "Égida de Fuego Solar",
+        "zh-TW": "日炎聖盾",
+        "vi-VN": "Khiên Thái Dương"
+      },
+      "category": "legendary",
+      "cost": 2700
+    },
+    {
+      "itemId": "sword_of_blossoming_dawn",
+      "gameItemId": "124011",
+      "name": {
+        "en": "Sword of Blossoming Dawn",
+        "zh-CN": "花晓之剑",
+        "ja-JP": "花咲く夜明けの剣",
+        "ko-KR": "꽃피는 새벽의 검",
+        "es-MX": "Espada del Amanecer Floreciente",
+        "zh-TW": "破曉綻放之劍",
+        "vi-VN": "Kiếm Bình Minh Nở Rộ"
+      },
+      "category": "legendary",
+      "cost": 2350
+    },
+    {
+      "itemId": "tear_of_the_goddess",
+      "gameItemId": "3070",
+      "name": {
+        "en": "Tear of the Goddess",
+        "zh-CN": "女神之泪",
+        "ja-JP": "女神の涙",
+        "ko-KR": "여신의 눈물",
+        "es-MX": "Lágrima de la Diosa",
+        "zh-TW": "女神之淚",
+        "vi-VN": "Nước Mắt Nữ Thần"
+      },
+      "category": "starter",
+      "cost": 400
+    },
+    {
+      "itemId": "terminus",
+      "gameItemId": "3302",
+      "name": {
+        "en": "Terminus",
+        "zh-CN": "界弓",
+        "ja-JP": "テルミヌス",
+        "ko-KR": "경계",
+        "es-MX": "Terminus",
+        "zh-TW": "臨界點",
+        "vi-VN": "Cung Chạng Vạng"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "the_brutalizer",
+      "gameItemId": "2020",
+      "name": {
+        "en": "The Brutalizer",
+        "zh-CN": "残暴之力",
+        "ja-JP": "ブルータライザー",
+        "ko-KR": "야수화",
+        "es-MX": "El Brutalizador",
+        "zh-TW": "兇殘之柄",
+        "vi-VN": "Gậy Hung Ác"
+      },
+      "category": "epic",
+      "cost": 1337
+    },
+    {
+      "itemId": "the_collector",
+      "gameItemId": "6676",
+      "name": {
+        "en": "The Collector",
+        "zh-CN": "收集者",
+        "ja-JP": "コレクター",
+        "ko-KR": "징수의 총",
+        "es-MX": "El Coleccionista",
+        "zh-TW": "蒐集者",
+        "vi-VN": "Súng Hải Tặc"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "thornmail",
+      "gameItemId": "3075",
+      "name": {
+        "en": "Thornmail",
+        "zh-CN": "荆棘之甲",
+        "ja-JP": "ソーンメイル",
+        "ko-KR": "가시 갑옷",
+        "es-MX": "Cota de Espinas",
+        "zh-TW": "荊棘之甲",
+        "vi-VN": "Giáp Gai"
+      },
+      "category": "legendary",
+      "cost": 2450
+    },
+    {
+      "itemId": "tiamat",
+      "gameItemId": "3077",
+      "name": {
+        "en": "Tiamat",
+        "zh-CN": "提亚马特",
+        "ja-JP": "ティアマット",
+        "ko-KR": "티아맷",
+        "es-MX": "Tiamat",
+        "zh-TW": "海神之斧",
+        "vi-VN": "Rìu Tiamat"
+      },
+      "category": "epic",
+      "cost": 1200
+    },
+    {
+      "itemId": "titanic_hydra",
+      "gameItemId": "3748",
+      "name": {
+        "en": "Titanic Hydra",
+        "zh-CN": "巨型九头蛇",
+        "ja-JP": "タイタン ハイドラ",
+        "ko-KR": "거대한 히드라",
+        "es-MX": "Hidra Titánica",
+        "zh-TW": "泰坦九頭蛇",
+        "vi-VN": "Rìu Đại Mãng Xà"
+      },
+      "category": "legendary",
+      "cost": 3300
+    },
+    {
+      "itemId": "trailblazer",
+      "gameItemId": "3002",
+      "name": {
+        "en": "Trailblazer",
+        "zh-CN": "引路者",
+        "ja-JP": "先人の道標",
+        "ko-KR": "개척자",
+        "es-MX": "Abrecaminos",
+        "zh-TW": "開拓者",
+        "vi-VN": "Hành Trang Thám Hiểm"
+      },
+      "category": "legendary",
+      "cost": 2400
+    },
+    {
+      "itemId": "trinity_force",
+      "gameItemId": "3078",
+      "name": {
+        "en": "Trinity Force",
+        "zh-CN": "三相之力",
+        "ja-JP": "トリニティ フォース",
+        "ko-KR": "삼위일체",
+        "es-MX": "Fuerza de la Trinidad",
+        "zh-TW": "三相之力",
+        "vi-VN": "Tam Hợp Kiếm"
+      },
+      "category": "legendary",
+      "cost": 3333
+    },
+    {
+      "itemId": "tunneler",
+      "gameItemId": "2021",
+      "name": {
+        "en": "Tunneler",
+        "zh-CN": "掘道钻头",
+        "ja-JP": "トンネル掘り",
+        "ko-KR": "땅굴 채굴기",
+        "es-MX": "Excavador de Túneles",
+        "zh-TW": "鑽掘機",
+        "vi-VN": "Mũi Khoan"
+      },
+      "category": "epic",
+      "cost": 1150
+    },
+    {
+      "itemId": "umbral_glaive",
+      "gameItemId": "3179",
+      "name": {
+        "en": "Umbral Glaive",
+        "zh-CN": "黯影阔剑",
+        "ja-JP": "アンブラル グレイブ",
+        "ko-KR": "그림자 검",
+        "es-MX": "Espada de la Penumbra",
+        "zh-TW": "闇影戰戟",
+        "vi-VN": "Kiếm Âm U"
+      },
+      "category": "vision",
+      "cost": 2800
+    },
+    {
+      "itemId": "unending_despair",
+      "gameItemId": "2502",
+      "name": {
+        "en": "Unending Despair",
+        "zh-CN": "无终恨意",
+        "ja-JP": "終わりなき絶望",
+        "ko-KR": "끝없는 절망",
+        "es-MX": "Desesperación Eterna",
+        "zh-TW": "無盡絕望",
+        "vi-VN": "Áo Choàng Diệt Vong"
+      },
+      "category": "legendary",
+      "cost": 2800
+    },
+    {
+      "itemId": "vampiric_scepter",
+      "gameItemId": "1053",
+      "name": {
+        "en": "Vampiric Scepter",
+        "zh-CN": "吸血鬼节杖",
+        "ja-JP": "ヴァンパイア セプター",
+        "ko-KR": "흡혈의 낫",
+        "es-MX": "Cetro Vampírico",
+        "zh-TW": "吸血鬼權杖",
+        "vi-VN": "Huyết Trượng"
+      },
+      "category": "epic",
+      "cost": 900
+    },
+    {
+      "itemId": "verdant_barrier",
+      "gameItemId": "4632",
+      "name": {
+        "en": "Verdant Barrier",
+        "zh-CN": "翠绿屏障",
+        "ja-JP": "ヴァーダント バリア",
+        "ko-KR": "신록의 장벽",
+        "es-MX": "Barrera Esmeralda",
+        "zh-TW": "蒼翠屏障",
+        "vi-VN": "Dây Chuyền Sự Sống"
+      },
+      "category": "epic",
+      "cost": 1600
+    },
+    {
+      "itemId": "void_staff",
+      "gameItemId": "3135",
+      "name": {
+        "en": "Void Staff",
+        "zh-CN": "虚空之杖",
+        "ja-JP": "ヴォイド スタッフ",
+        "ko-KR": "공허의 지팡이",
+        "es-MX": "Báculo del Vacío",
+        "zh-TW": "虛空之杖",
+        "vi-VN": "Trượng Hư Vô"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "voltaic_cyclosword",
+      "gameItemId": "6699",
+      "name": {
+        "en": "Voltaic Cyclosword",
+        "zh-CN": "电震涡流剑",
+        "ja-JP": "ボルテイク サイクロソード",
+        "ko-KR": "벼락폭풍검",
+        "es-MX": "Cicloespada Voltaica",
+        "zh-TW": "電流旋風劍",
+        "vi-VN": "Kiếm Điện Phong"
+      },
+      "category": "legendary",
+      "cost": 3000
+    },
+    {
+      "itemId": "wardens_mail",
+      "gameItemId": "3082",
+      "name": {
+        "en": "Warden's Mail",
+        "zh-CN": "守望者铠甲",
+        "ja-JP": "ワーデン メイル",
+        "ko-KR": "파수꾼의 갑옷",
+        "es-MX": "Cota del Guardabosques",
+        "zh-TW": "守望者鎧甲",
+        "vi-VN": "Giáp Cai Ngục"
+      },
+      "category": "epic",
+      "cost": 1000
+    },
+    {
+      "itemId": "warmogs_armor",
+      "gameItemId": "3083",
+      "name": {
+        "en": "Warmog's Armor",
+        "zh-CN": "狂徒铠甲",
+        "ja-JP": "ワーモグ アーマー",
+        "ko-KR": "워모그의 갑옷",
+        "es-MX": "Armadura de Warmog",
+        "zh-TW": "好戰者鎧甲",
+        "vi-VN": "Giáp Máu Warmog"
+      },
+      "category": "legendary",
+      "cost": 3100
+    },
+    {
+      "itemId": "whispering_circlet",
+      "gameItemId": "2526",
+      "name": {
+        "en": "Whispering Circlet",
+        "zh-CN": "耳语头环",
+        "ja-JP": "囁きのサークレット",
+        "ko-KR": "속삭이는 머리띠",
+        "es-MX": "Tiara Susurrante",
+        "zh-TW": "低語之環",
+        "vi-VN": "Vòng Thì Thầm"
+      },
+      "category": "legendary",
+      "cost": 2250
+    },
+    {
+      "itemId": "winged_moonplate",
+      "gameItemId": "3066",
+      "name": {
+        "en": "Winged Moonplate",
+        "zh-CN": "带翼的月板甲",
+        "ja-JP": "翼のムーンプレート",
+        "ko-KR": "비상의 월갑",
+        "es-MX": "Placa Lunar Alada",
+        "zh-TW": "飛翼月甲",
+        "vi-VN": "Đai Thanh Thoát"
+      },
+      "category": "epic",
+      "cost": 800
+    },
+    {
+      "itemId": "winters_approach",
+      "gameItemId": "3119",
+      "name": {
+        "en": "Winter's Approach",
+        "zh-CN": "凛冬之临",
+        "ja-JP": "冬の訪れ",
+        "ko-KR": "혹한의 손길",
+        "es-MX": "Umbral del Invierno",
+        "zh-TW": "凜冬將至",
+        "vi-VN": "Băng Giáp"
+      },
+      "category": "legendary",
+      "cost": 2400
+    },
+    {
+      "itemId": "wits_end",
+      "gameItemId": "3091",
+      "name": {
+        "en": "Wit's End",
+        "zh-CN": "智慧末刃",
+        "ja-JP": "ウィッツ エンド",
+        "ko-KR": "마법사의 최후",
+        "es-MX": "Al Filo de la Cordura",
+        "zh-TW": "智慧末刃",
+        "vi-VN": "Đao Tím"
+      },
+      "category": "legendary",
+      "cost": 2800
+    },
+    {
+      "itemId": "wooglets_witchcap",
+      "gameItemId": "228002",
+      "name": {
+        "en": "Wooglet's Witchcap",
+        "zh-CN": "沃格勒特的巫师帽",
+        "ja-JP": "ウーグレット ウィッチキャップ",
+        "ko-KR": "우글렛의 마녀 모자",
+        "es-MX": "Sombrero de Wooglet",
+        "zh-TW": "烏莉特的法帽",
+        "vi-VN": "Mũ Phù Thủy Wooglet"
+      },
+      "category": "basic",
+      "cost": 6000
+    },
+    {
+      "itemId": "youmuus_ghostblade",
+      "gameItemId": "3142",
+      "name": {
+        "en": "Youmuu's Ghostblade",
+        "zh-CN": "幽梦之灵",
+        "ja-JP": "妖夢の霊剣",
+        "ko-KR": "요우무의 유령검",
+        "es-MX": "Espada Fantasma de Youmuu",
+        "zh-TW": "妖夢鬼刀",
+        "vi-VN": "Kiếm Ma Youmuu"
+      },
+      "category": "legendary",
+      "cost": 2800
+    },
+    {
+      "itemId": "yun_tal_wildarrows",
+      "gameItemId": "3032",
+      "name": {
+        "en": "Yun Tal Wildarrows",
+        "zh-CN": "育恩塔尔荒野箭",
+        "ja-JP": "ユン・タル ワイルドアロー",
+        "ko-KR": "윤 탈 야생화살",
+        "es-MX": "Flechas Salvajes de Yun Tal",
+        "zh-TW": "雲陶狂箭",
+        "vi-VN": "Mũi Tên Yun Tal"
+      },
+      "category": "legendary",
+      "cost": 3100
+    },
+    {
+      "itemId": "zeal",
+      "gameItemId": "3086",
+      "name": {
+        "en": "Zeal",
+        "zh-CN": "狂热",
+        "ja-JP": "ジール",
+        "ko-KR": "열정의 검",
+        "es-MX": "Fervor",
+        "zh-TW": "狂熱雙刀",
+        "vi-VN": "Song Kiếm"
+      },
+      "category": "epic",
+      "cost": 1200
+    },
+    {
+      "itemId": "zekes_convergence",
+      "gameItemId": "3050",
+      "name": {
+        "en": "Zeke's Convergence",
+        "zh-CN": "基克的聚合",
+        "ja-JP": "ジーク コンバージェンス",
+        "ko-KR": "지크의 융합",
+        "es-MX": "Convergencia de Zeke",
+        "zh-TW": "錫柯的聚合之力",
+        "vi-VN": "Tụ Bão Zeke"
+      },
+      "category": "legendary",
+      "cost": 2200
+    },
+    {
+      "itemId": "zhonyas_hourglass",
+      "gameItemId": "3157",
+      "name": {
+        "en": "Zhonya's Hourglass",
+        "zh-CN": "中娅沙漏",
+        "ja-JP": "ゾーニャの砂時計",
+        "ko-KR": "존야의 모래시계",
+        "es-MX": "Reloj de Arena de Zhonya",
+        "zh-TW": "中婭沙漏",
+        "vi-VN": "Đồng Hồ Cát Zhonya"
+      },
+      "category": "legendary",
+      "cost": 3250
+    }
+  ]
+}

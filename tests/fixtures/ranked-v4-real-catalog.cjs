@@ -1,0 +1,12 @@
+'use strict';
+const patch='16.22.1';
+const {buildItemCatalog}=require('../../src/engine/item-eligibility');
+const {createBuildAdvisor}=require('../../src/engine/build-candidate-generator');
+const {createThreatProfiler}=require('../../src/engine/champion-threat-profiler');
+const champions=require('../../data/dragon/cdn/16.22.1/data/en_US/champion.json').data;
+const exclusiveGroups=require('../../data/ranked/item-groups-16.22.1.json');
+const itemCatalog=buildItemCatalog({itemData:require('../../data/dragon/cdn/16.22.1/data/en_US/item.json'),taxonomy:require('../../data/item-taxonomy.json'),patch,exclusiveGroups});
+const threatProfiles=require('../../data/champion-threat-profiles.json');
+const advisor=createBuildAdvisor({buildProfiles:require('../../data/champion-build-profiles.json'),archetypeSeed:require('../../data/ranked/champion-role-seed-16.21.1.json'),itemCatalog,championDefinitions:champions,threatProfiles,profileChampion:createThreatProfiler({champions,threatProfiles}),itemActivationRules:require('../../data/ranked/item-activation-rules-16.22.1.json'),itemPurposeCatalog:require('../../data/ranked/item-purposes-16.22.1.json'),patch,exclusiveGroups});
+const roster=ids=>ids.map((championId,slot)=>({championId,slot,confirmed:true,visible:true,team:'enemy'}));
+module.exports={patch,itemCatalog,champions,exclusiveGroups,advisor,roster};

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "mode": "ARAM Mayhem",
+  "patch": "26.22",
+  "status": "official-list-minimum",
+  "source": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-21-notes/",
+  "catalogCompleteness": "Riot's patch notes present these eight bands and say more are coming; list is a verified minimum, not an exhaustive guarantee.",
+  "rows": [
+    { "id": "kda", "name": { "en": "K/DA", "es-MX": "K/DA" }, "effect": { "en": "Collect 4 K/DA augments to gain an additional augment.", "es-MX": "Reúne 4 aumentos K/DA para obtener un aumento adicional." }, "provenance": "official-patch-notes", "sourcePatch": "26.21", "verification": "official" },
+    { "id": "heartsteel", "name": { "en": "HEARTSTEEL", "es-MX": "HEARTSTEEL" }, "effect": { "en": "Modifies augment effects.", "es-MX": "Modifica los efectos de los aumentos." }, "provenance": "official-patch-notes", "sourcePatch": "26.21", "verification": "official-effect-summary" },
+    { "id": "true-damage", "name": { "en": "True Damage", "es-MX": "True Damage" }, "effect": { "en": "Takedowns and towers drop anvils.", "es-MX": "Los asesinatos y las torretas dejan yunques." }, "provenance": "official-patch-notes", "sourcePatch": "26.21", "verification": "official" },
+    { "id": "pentakill", "name": { "en": "Pentakill", "es-MX": "Pentakill" }, "effect": { "en": "Empowers one ability at game start and again at level 18.", "es-MX": "Potencia una habilidad al inicio de la partida y otra vez en el nivel 18." }, "provenance": "official-patch-notes", "sourcePatch": "26.21", "verification": "official" },
+    { "id": "disco", "name": { "en": "Disco", "es-MX": "Disco" }, "effect": { "en": "Dancing under the ball earns team gold.", "es-MX": "Bailar bajo la bola otorga oro al equipo." }, "provenance": "official-patch-notes", "sourcePatch": "26.21", "verification": "official" },
+    { "id": "cafe-cuties", "name": { "en": "Cafe Cuties", "es-MX": "Cafetería de Monerías" }, "effect": { "en": "Relics are more powerful.", "es-MX": "Las reliquias son más poderosas." }, "provenance": "official-patch-notes", "sourcePatch": "26.21", "verification": "official-effect-summary" },
+    { "id": "bees", "name": { "en": "Bees", "es-MX": "Abejas" }, "effect": { "en": "Honey pots and flying bees appear.", "es-MX": "Aparecen tarros de miel y abejas voladoras." }, "provenance": "official-patch-notes", "sourcePatch": "26.21", "verification": "official" },
+    { "id": "command-line", "name": { "en": "Command Line", "es-MX": "Línea de Comandos" }, "effect": { "en": "Rerolls one offered augment to a higher tier at each selection.", "es-MX": "Cambia una de las opciones por otra de mayor rareza en cada elección." }, "provenance": "official-patch-notes", "sourcePatch": "26.21", "verification": "official-effect-summary" }
+  ]
+}

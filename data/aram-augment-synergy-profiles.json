@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "method": "manual-editorial-tag-overlap",
+  "note": "Illustrative editorial profiles, not measured outcomes. Unknown augments remain unevaluated.",
+  "patch": "26.21",
+  "source": "Rift Companion editorial rules; descriptions cross-checked against the bundled ARAM Mayhem snapshot.",
+  "champions": {
+    "*": {
+      "augments": {
+        "archmage": { "name": "Archmage", "championTags": ["Mage"], "buildTags": ["spelldamage"], "synergyTags": ["spell-scaling"], "tradeoffs": ["Synergy depends on the build prioritizing ability damage."], "tradeoffsEs": ["La sinergia depende de que la build priorice el daño de habilidades."] },
+        "jeweled-gauntlet": { "name": "Jeweled Gauntlet", "championTags": ["Mage", "Assassin"], "buildTags": ["spelldamage"], "synergyTags": ["spell-crit"], "tradeoffs": ["Its value depends on how much ability damage can critically strike."], "tradeoffsEs": ["Su valor depende de cuánto daño de habilidades pueda hacer impacto crítico."] },
+        "scopier-weapons": { "name": "Scoped Weapons", "championTags": ["Marksman"], "buildTags": ["attackspeed", "damage"], "synergyTags": ["range-auto"], "tradeoffs": ["Ranged-attack focus may be less useful for ability-focused champions."], "tradeoffsEs": ["El enfoque en ataques a distancia puede rendir menos en campeones centrados en habilidades."] },
+        "twin-fire": { "name": "Twin Fire", "championTags": ["Marksman"], "buildTags": ["attackspeed", "damage"], "synergyTags": ["repeated-attacks"], "tradeoffs": ["Requires safe opportunities to apply attacks."], "tradeoffsEs": ["Necesitas oportunidades seguras para conectar ataques."] },
+        "goliath": { "name": "Goliath", "championTags": ["Tank", "Fighter"], "buildTags": ["health", "armor", "spellblock"], "synergyTags": ["large-health-pool"], "tradeoffs": ["Health affinity does not replace the right resistances against mixed damage."], "tradeoffsEs": ["La afinidad por vida no sustituye las resistencias adecuadas contra daño mixto."] },
+        "tank-engine": { "name": "Tank Engine", "championTags": ["Tank", "Fighter"], "buildTags": ["health", "armor", "spellblock"], "synergyTags": ["durability"], "tradeoffs": ["A defensive build may lack damage if your team relies on you to start fights."], "tradeoffsEs": ["Una build defensiva puede quedarse corta de daño si tu equipo depende de ti para iniciar peleas."] },
+        "soul-siphon": { "name": "Soul Siphon", "championTags": ["Mage", "Fighter", "Assassin"], "buildTags": ["spellvamp", "lifesteal"], "synergyTags": ["sustain"], "tradeoffs": ["Healing depends on the effective damage you deal."], "tradeoffsEs": ["La curación depende del daño efectivo que consigas infligir."] }
+      }
+    }
+  }
+}

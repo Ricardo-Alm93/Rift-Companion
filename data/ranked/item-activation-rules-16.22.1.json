@@ -1,0 +1,26 @@
+{
+  "patch": "16.22.1",
+  "source": "Data Dragon 16.22.1 item effects and champion Data Dragon ability/resource data",
+  "rules": [
+    {
+      "itemId": "2522",
+      "id": "actualizer-mana-resource",
+      "requires": ["mana-resource"],
+      "status": "editorial-reviewed",
+      "reason": {
+        "es": "La activa consume maná adicional; un campeón de Energía o sin maná no puede aprovechar esta condición.",
+        "en": "Its active spends additional mana; an Energy or manaless champion cannot use that condition."
+      }
+    },
+    {
+      "itemId": "3504",
+      "id": "ardent-censer-ally-heal-shield",
+      "requires": ["ally-heal-or-shield"],
+      "status": "editorial-reviewed",
+      "reason": {
+        "es": "Su pasiva requiere curar o escudar a un aliado; las estadísticas AP no sustituyen ese activador.",
+        "en": "Its passive requires healing or shielding an ally; AP stats do not replace that trigger."
+      }
+    }
+  ]
+}

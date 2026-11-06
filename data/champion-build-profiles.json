@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 2,
+  "description": "Perfiles editoriales orientativos. Cada opción es una propuesta revisable, nunca una combinación estadística. La compatibilidad se valida contra el Data Dragon incluido.",
+  "champions": {
+    "Ahri": {
+      "archetypes": [
+        "mobile-mage",
+        "magic-burst"
+      ],
+      "damageProfile": "magic",
+      "source": "Rift Companion · perfil editorial",
+      "patch": "16.21.1",
+      "roles": {
+        "mid": [
+          {
+            "id": "standard",
+            "label": "Standard AP",
+            "label_es": "AP estándar",
+            "style": "standard",
+            "itemIds": [
+              6655,
+              3020,
+              3089,
+              3135,
+              4645,
+              3157
+            ],
+            "when": [],
+            "source": "Rift Companion · reglas de clase y etiquetas Data Dragon",
+            "confidence": "curated",
+            "tradeoffs": [
+              "Daño de habilidades; poca resistencia antes del objeto defensivo."
+            ]
+          },
+          {
+            "id": "vs-physical-burst",
+            "label": "Against physical burst",
+            "label_es": "Contra ráfaga física",
+            "style": "survival",
+            "itemIds": [
+              6655,
+              3020,
+              3157,
+              3135,
+              3089,
+              3116
+            ],
+            "when": [
+              "physical-burst"
+            ],
+            "source": "Rift Companion · regla condicional y etiquetas Data Dragon",
+            "confidence": "rules",
+            "tradeoffs": [
+              "Retrasa potencia mágica para incluir armadura y vida."
+            ]
+          },
+          {
+            "id": "vs-magic-burst",
+            "label": "Against magic burst",
+            "label_es": "Contra ráfaga mágica",
+            "style": "survival",
+            "itemIds": [
+              6655,
+              3020,
+              3102,
+              3157,
+              3089,
+              3135
+            ],
+            "when": [
+              "magic-burst"
+            ],
+            "source": "Rift Companion · regla condicional y etiquetas Data Dragon",
+            "confidence": "rules",
+            "tradeoffs": [
+              "Incluye dos defensas; el daño temprano baja."
+            ]
+          },
+          {
+            "id": "anti-tank",
+            "label": "Against durable teams",
+            "label_es": "Contra equipos resistentes",
+            "style": "anti-tank",
+            "itemIds": [
+              6655,
+              3020,
+              3157,
+              "6653",
+              4645,
+              3135
+            ],
+            "when": [
+              "durable-frontline"
+            ],
+            "source": "Rift Companion · regla condicional y etiquetas Data Dragon",
+            "confidence": "rules",
+            "tradeoffs": [
+              "Liandry reemplaza Rabadon para priorizar daño sostenido; se pierde su amplificación de poder de habilidad. Mantiene Zhonya contra amenazas de entrada y Void Staff frente a resistencia mágica. No es una combinación publicada ni tiene estadísticas propias."
+            ]
+          },
+          {
+            "id": "durable-frontline-preserve-rabadon",
+            "label": "Sustained damage vs durable frontline",
+            "label_es": "Daño sostenido conservando Rabadon",
+            "style": "anti-tank-sustained",
+            "itemIds": [
+              6655,
+              3020,
+              3157,
+              3089,
+              6653,
+              3135
+            ],
+            "when": [
+              "durable-frontline"
+            ],
+            "source": "Rift Companion · propuesta editorial de conjunto basada en efectos Data Dragon 16.22.1",
+            "patch": "16.22.1",
+            "confidence": "editorial",
+            "tradeoffs": [
+              "Conserva Rabadon y Void Staff; cambia Shadowflame por Liandry para mantener daño sostenido contra objetivos resistentes. Pierde el daño adicional de Shadowflame contra objetivos con poca vida. No es una combinación publicada ni tiene estadísticas propias."
+            ]
+          }
+        ]
+      }
+    },
+    "Malphite": {
+      "archetypes": [
+        "tank",
+        "engage",
+        "physical-counter"
+      ],
+      "damageProfile": "mixed",
+      "source": "Rift Companion · perfil editorial",
+      "patch": "16.21.1",
+      "roles": {
+        "top": [
+          {
+            "id": "standard-tank",
+            "label": "Standard tank",
+            "label_es": "Tanque estándar",
+            "style": "standard",
+            "itemIds": [
+              3068,
+              3111,
+              3143,
+              6665,
+              3065,
+              3084
+            ],
+            "when": [],
+            "source": "Rift Companion · reglas de clase y etiquetas Data Dragon",
+            "confidence": "curated",
+            "tradeoffs": [
+              "Prioriza aguante; daño de habilidad menor que una ruta AP."
+            ]
+          },
+          {
+            "id": "vs-physical",
+            "label": "Against physical damage",
+            "label_es": "Contra daño físico",
+            "style": "survival",
+            "itemIds": [
+              3068,
+              3111,
+              3143,
+              3075,
+              6665,
+              3084
+            ],
+            "when": [
+              "physical-heavy"
+            ],
+            "source": "Rift Companion · regla condicional y etiquetas Data Dragon",
+            "confidence": "rules",
+            "tradeoffs": [
+              "Invierte más en armadura; menos resistencia mágica."
+            ]
+          },
+          {
+            "id": "vs-magic",
+            "label": "Against magic damage",
+            "label_es": "Contra daño mágico",
+            "style": "survival",
+            "itemIds": [
+              3068,
+              3173,
+              3065,
+              4401,
+              6665,
+              3084
+            ],
+            "when": [
+              "magic-heavy"
+            ],
+            "source": "Rift Companion · regla condicional y etiquetas Data Dragon",
+            "confidence": "rules",
+            "tradeoffs": [
+              "Invierte más en resistencia mágica; menos armadura."
+            ]
+          },
+          {
+            "id": "ap",
+            "label": "AP burst",
+            "label_es": "Ráfaga AP",
+            "style": "damage",
+            "itemIds": [
+              6655,
+              3020,
+              3089,
+              3135,
+              3157,
+              4645
+            ],
+            "when": [],
+            "source": "Rift Companion · variante editorial; ajustar a la partida",
+            "confidence": "curated",
+            "tradeoffs": [
+              "Menor durabilidad; requiere elegir bien la entrada."
+            ]
+          }
+        ]
+      }
+    },
+    "Twitch": {
+      "archetypes": [
+        "ranged-carry",
+        "on-hit",
+        "hybrid-capable"
+      ],
+      "damageProfile": "physical-magic",
+      "source": "Rift Companion · perfil editorial; AP enlazado a guía comunitaria",
+      "patch": "16.21.1",
+      "roles": {
+        "adc": [
+          {
+            "id": "standard-on-hit",
+            "label": "Standard on-hit",
+            "label_es": "Impacto estándar",
+            "style": "standard",
+            "itemIds": [
+              3006,
+              3124,
+              3091,
+              3031,
+              3085,
+              3036
+            ],
+            "when": [],
+            "source": "Rift Companion · reglas de clase y etiquetas Data Dragon",
+            "confidence": "curated",
+            "tradeoffs": [
+              "Depende de ataques sostenidos; menos daño inmediato de habilidades."
+            ]
+          },
+          {
+            "id": "full-ap",
+            "label": "Full AP",
+            "label_es": "Full AP",
+            "style": "magic",
+            "itemIds": [
+              3115,
+              3020,
+              3089,
+              4645,
+              3157,
+              3135
+            ],
+            "when": [],
+            "source": "https://www.mobafire.com/league-of-legends/build/26-21-best-twitch-guide-best-twitch-build-for-ap-amp-ad-649594",
+            "confidence": "curated",
+            "tradeoffs": [
+              "Enfoque de habilidades y veneno; menor daño sostenido de ataques físicos."
+            ]
+          },
+          {
+            "id": "anti-tank-on-hit",
+            "label": "On-hit vs durable teams",
+            "label_es": "Impacto contra equipos resistentes",
+            "style": "anti-tank",
+            "itemIds": [
+              3006,
+              3124,
+              3091,
+              3036,
+              "3153",
+              3156
+            ],
+            "when": [
+              "durable-frontline"
+            ],
+            "source": "Rift Companion · regla condicional y etiquetas Data Dragon",
+            "confidence": "rules",
+            "tradeoffs": [
+              "Menos movilidad que una compra defensiva de botas situacional."
+            ]
+          }
+        ]
+      }
+    },
+    "Zed": {
+      "archetypes": [
+        "physical-assassin",
+        "ad-scaling",
+        "ability-burst"
+      ],
+      "damageProfile": "physical",
+      "source": "Rift Companion · ejemplo de propuesta previa del motor; no es una build publicada ni validada manualmente",
+      "patch": "16.22.1",
+      "roles": {
+        "mid": [
+          {
+            "id": "prior-engine-proposal-mid-review-baseline",
+            "label": "Prior engine proposal · review required",
+            "label_es": "Propuesta previa del motor · requiere revisión",
+            "style": "ad_assassin",
+            "itemIds": [
+              "6699",
+              "2520",
+              "3036",
+              "3158",
+              "3814",
+              "2517"
+            ],
+            "when": [],
+            "source": "Rift Companion · propuesta previa usada en un ejemplo de desarrollo; no es una build publicada ni validada manualmente",
+            "patch": "16.22.1",
+            "confidence": "prior-engine-proposal",
+            "provenanceKind": "prior_engine_proposal",
+            "tradeoffs": [
+              "Es una propuesta previa del motor usada como ejemplo de desarrollo: la legalidad se valida para el catálogo local, pero la calidad estratégica y el rendimiento estadístico no están certificados."
+            ]
+          }
+        ]
+      }
+    },
+    "Sona": {
+      "archetypes": [
+        "enchanter",
+        "healer",
+        "team-utility"
+      ],
+      "damageProfile": "magic",
+      "source": "Rift Companion · perfil editorial",
+      "patch": "16.21.1",
+      "roles": {
+        "support": [
+          {
+            "id": "standard-enchanter",
+            "label": "Standard enchanter",
+            "label_es": "Encantadora estándar",
+            "style": "standard",
+            "itemIds": [
+              6617,
+              3158,
+              2065,
+              3107,
+              3504,
+              3222
+            ],
+            "when": [],
+            "source": "Rift Companion · reglas de clase y etiquetas Data Dragon",
+            "confidence": "curated",
+            "tradeoffs": [
+              "Potencia curación y utilidad; daño personal limitado."
+            ]
+          },
+          {
+            "id": "team-protection",
+            "label": "Team protection",
+            "label_es": "Protección de equipo",
+            "style": "protection",
+            "itemIds": [
+              6617,
+              3158,
+              3190,
+              3109,
+              3222,
+              3107
+            ],
+            "when": [
+              "physical-burst",
+              "magic-burst",
+              "engage"
+            ],
+            "source": "Rift Companion · regla condicional y etiquetas Data Dragon",
+            "confidence": "rules",
+            "tradeoffs": [
+              "Más herramientas de equipo; menos velocidad de movimiento grupal."
+            ]
+          },
+          {
+            "id": "team-speed",
+            "label": "Team movement",
+            "label_es": "Movilidad de equipo",
+            "style": "utility",
+            "itemIds": [
+              6617,
+              3158,
+              2065,
+              3504,
+              3107,
+              3190
+            ],
+            "when": [
+              "ally-engage"
+            ],
+            "source": "Rift Companion · regla condicional y etiquetas Data Dragon",
+            "confidence": "rules",
+            "tradeoffs": [
+              "Menos resistencia individual; prioriza iniciar o reposicionar aliados."
+            ]
+          }
+        ]
+      }
+    },
+    "Jinx": {
+      "archetypes": [
+        "ranged-carry",
+        "crit",
+        "attack-speed"
+      ],
+      "damageProfile": "physical",
+      "source": "Rift Companion · perfil editorial",
+      "patch": "16.21.1",
+      "roles": {
+        "adc": [
+          {
+            "id": "standard-crit",
+            "label": "Standard critical strike",
+            "label_es": "Crítico estándar",
+            "style": "standard",
+            "itemIds": [
+              3006,
+              3031,
+              3085,
+              3036,
+              3091,
+              "3094"
+            ],
+            "when": [],
+            "source": "Rift Companion · reglas de clase y etiquetas Data Dragon",
+            "confidence": "curated",
+            "tradeoffs": [
+              "Necesita tiempo y espacio para sostener ataques."
+            ]
+          },
+          {
+            "id": "anti-tank-crit",
+            "label": "Critical strike vs durable teams",
+            "label_es": "Crítico contra equipos resistentes",
+            "style": "anti-tank",
+            "itemIds": [
+              3006,
+              3031,
+              3036,
+              "3153",
+              3085,
+              6672
+            ],
+            "when": [
+              "durable-frontline"
+            ],
+            "source": "Rift Companion · regla condicional y etiquetas Data Dragon",
+            "confidence": "rules",
+            "tradeoffs": [
+              "Menos protección frente a ráfaga directa."
+            ]
+          },
+          {
+            "id": "survival-crit",
+            "label": "Survival and range",
+            "label_es": "Supervivencia y alcance",
+            "style": "survival",
+            "itemIds": [
+              3006,
+              3031,
+              3085,
+              6673,
+              3036,
+              "3094"
+            ],
+            "when": [
+              "physical-burst",
+              "magic-burst"
+            ],
+            "source": "Rift Companion · regla condicional y etiquetas Data Dragon",
+            "confidence": "rules",
+            "tradeoffs": [
+              "El escudo retrasa otra pieza ofensiva."
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+document.addEventListener('error',event=>{const image=event.target;if(!(image instanceof HTMLImageElement))return;if(image.closest('.overlay-item')){const fallback=document.createElement('span');fallback.className='overlay-item-fallback';fallback.textContent='?';image.replaceWith(fallback)}else image.hidden=true},true);

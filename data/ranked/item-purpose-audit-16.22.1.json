@@ -1,0 +1,1329 @@
+{
+  "patch": "16.22.1",
+  "eligibleItems": 249,
+  "counts": {
+    "needs-editorial-review": 229,
+    "editorially-reviewed-from-datadragon": 20
+  },
+  "reviewedIds": [
+    {
+      "id": "1082",
+      "name": "Sello oscuro",
+      "purpose": "snowball",
+      "categories": [
+        "snowball"
+      ]
+    },
+    {
+      "id": "3033",
+      "name": "Recordatorio letal",
+      "purpose": "anti-heal-physical-penetration",
+      "categories": [
+        "reduce-healing",
+        "penetration-resists"
+      ]
+    },
+    {
+      "id": "3036",
+      "name": "Recuerdos de lord Dominik",
+      "purpose": "percent-armor-penetration-and-health-damage",
+      "categories": [
+        "penetration-resists",
+        "damage-high-health"
+      ]
+    },
+    {
+      "id": "3041",
+      "name": "Robaalmas de Mejai",
+      "purpose": "snowball-upgrade",
+      "categories": [
+        "snowball"
+      ]
+    },
+    {
+      "id": "3065",
+      "name": "Rostro espiritual",
+      "purpose": "magic-resistance-and-healing-amplification",
+      "categories": [
+        "magic-resist",
+        "prolonged-fights",
+        "ally-utility"
+      ]
+    },
+    {
+      "id": "3071",
+      "name": "Cuchilla negra",
+      "purpose": "physical-resist-shred",
+      "categories": [
+        "penetration-resists",
+        "prolonged-fights"
+      ]
+    },
+    {
+      "id": "3075",
+      "name": "Malla de espinas",
+      "purpose": "anti-basic-attack-armor",
+      "categories": [
+        "physical-resist"
+      ]
+    },
+    {
+      "id": "3100",
+      "name": "Perdición del liche",
+      "purpose": "spellblade-on-hit",
+      "categories": [
+        "basic-attacks-onhit"
+      ]
+    },
+    {
+      "id": "3102",
+      "name": "Velo del hada de la muerte",
+      "purpose": "spell-shield",
+      "categories": [
+        "survive-burst",
+        "magic-resist"
+      ]
+    },
+    {
+      "id": "3107",
+      "name": "Redención",
+      "purpose": "ally-healing-and-shielding",
+      "categories": [
+        "ally-utility"
+      ]
+    },
+    {
+      "id": "3115",
+      "name": "Diente de Nashor",
+      "purpose": "ap-attack-speed-onhit",
+      "categories": [
+        "basic-attacks-onhit",
+        "prolonged-fights"
+      ]
+    },
+    {
+      "id": "3135",
+      "name": "Bastón del Vacío",
+      "purpose": "percent-magic-penetration",
+      "categories": [
+        "penetration-resists"
+      ]
+    },
+    {
+      "id": "3143",
+      "name": "Presagio de Randuin",
+      "purpose": "anti-crit-armor-active",
+      "categories": [
+        "physical-resist",
+        "survive-burst"
+      ]
+    },
+    {
+      "id": "3155",
+      "name": "Sorbemaleficios",
+      "purpose": "anti-magic-burst-component",
+      "categories": [
+        "magic-resist",
+        "survive-burst"
+      ]
+    },
+    {
+      "id": "3157",
+      "name": "Reloj de arena de Zhonya",
+      "purpose": "active-stasis-defense",
+      "categories": [
+        "survive-burst",
+        "physical-resist"
+      ]
+    },
+    {
+      "id": "3165",
+      "name": "Morellonomicón",
+      "purpose": "anti-heal",
+      "categories": [
+        "reduce-healing"
+      ]
+    },
+    {
+      "id": "3190",
+      "name": "Medallón de los Solari de Hierro",
+      "purpose": "team-shield-protection",
+      "categories": [
+        "ally-utility",
+        "survive-burst"
+      ]
+    },
+    {
+      "id": "4401",
+      "name": "Fuerza de la naturaleza",
+      "purpose": "sustained-magic-resistance",
+      "categories": [
+        "magic-resist",
+        "prolonged-fights"
+      ]
+    },
+    {
+      "id": "6694",
+      "name": "Rencor de Serylda",
+      "purpose": "lethality-and-slow",
+      "categories": [
+        "penetration-resists"
+      ]
+    },
+    {
+      "id": "6695",
+      "name": "Colmillo de serpiente",
+      "purpose": "anti-shield",
+      "categories": [
+        "reduce-shields"
+      ]
+    }
+  ],
+  "ambiguities": [
+    {
+      "id": "1001",
+      "name": "Botas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1004",
+      "name": "Amuleto de las hadas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1006",
+      "name": "Perla de rejuvenecimiento",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1011",
+      "name": "Cinturón de gigante",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1018",
+      "name": "Capa de agilidad",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1026",
+      "name": "Vara explosiva",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1027",
+      "name": "Cristal de zafiro",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1028",
+      "name": "Cristal de rubí",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1029",
+      "name": "Armadura de tela",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1031",
+      "name": "Chaleco de cadenas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1033",
+      "name": "Manto de anulación de magia",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1036",
+      "name": "Espada larga",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1037",
+      "name": "Pico",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1038",
+      "name": "Espadón",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1042",
+      "name": "Daga",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1043",
+      "name": "Arco curvo",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1052",
+      "name": "Tomo amplificador",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1053",
+      "name": "Cetro vampírico",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1054",
+      "name": "Escudo de Doran",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1055",
+      "name": "Espada de Doran",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1056",
+      "name": "Anillo de Doran",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1057",
+      "name": "Capa negatrón",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1058",
+      "name": "Vara innecesariamente grande",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1083",
+      "name": "Preferencia",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1086",
+      "name": "Arco de Doran",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1101",
+      "name": "Cachorro de Garra ígnea",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1102",
+      "name": "Cría de Caminabrisas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1103",
+      "name": "Brote de Brincamontes",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1105",
+      "name": "Brote de Brincamontes",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1106",
+      "name": "Cría de Caminabrisas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1107",
+      "name": "Cachorro de Garra ígnea",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "1120",
+      "name": "Yelmo de Doran",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2003",
+      "name": "Poción de vida",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2019",
+      "name": "Sello de acero",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2020",
+      "name": "Embrutecedor",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2021",
+      "name": "Tuneladora",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2022",
+      "name": "Mota brillante",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2031",
+      "name": "Poción reutilizable",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2051",
+      "name": "Cuerno del guardián",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2055",
+      "name": "Guardián de control",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2065",
+      "name": "Canción de batalla de Shurelya",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2138",
+      "name": "Elixir de hierro",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2139",
+      "name": "Elixir de brujería",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2140",
+      "name": "Elixir de cólera",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2141",
+      "name": "Zumito de la risa",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2420",
+      "name": "Brazalete de la buscadora",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2501",
+      "name": "Sangría del soberano",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2502",
+      "name": "Desesperanza eterna",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2503",
+      "name": "Antorcha de fuego negro",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2504",
+      "name": "Rookern kaénico",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2508",
+      "name": "Cenizas predestinadas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2510",
+      "name": "Amanecer y anochecer",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2512",
+      "name": "Dardos rastreademonios",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2517",
+      "name": "Hambre insaciable",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2520",
+      "name": "Quiebrabastiones",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2522",
+      "name": "Actualizador",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2523",
+      "name": "Óptica hextech C44",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2524",
+      "name": "Bandlemusa",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2525",
+      "name": "Arnés de protoplasma",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "2526",
+      "name": "Diadema susurrante",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3003",
+      "name": "Bastón del arcángel",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3004",
+      "name": "Manamune",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3006",
+      "name": "Grebas de berserker",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3008",
+      "name": "Grebas codiciosas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3009",
+      "name": "Botas de rapidez",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3020",
+      "name": "Botas de hechicero",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3024",
+      "name": "Broquel glacial",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3026",
+      "name": "Ángel de la guarda",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3031",
+      "name": "Filo infinito",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3032",
+      "name": "Flechas de los Yun Tal",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3035",
+      "name": "Últimas palabras",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3044",
+      "name": "Bacteriófago",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3046",
+      "name": "Bailarín espectral",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3047",
+      "name": "Botas blindadas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3050",
+      "name": "Convergencia de Zeke",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3051",
+      "name": "Hacha hogareña",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3053",
+      "name": "Calibrador de Sterak",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3057",
+      "name": "Brillo",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3066",
+      "name": "Armadura lunar alada",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3067",
+      "name": "Gema avivadora",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3068",
+      "name": "Égida de fuego solar",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3070",
+      "name": "Lágrima de la diosa",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3072",
+      "name": "Sanguinaria",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3073",
+      "name": "Experimento de hexarmadura",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3074",
+      "name": "Hidra voraz",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3076",
+      "name": "Chaleco de zarzas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3077",
+      "name": "Tiamat",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3078",
+      "name": "Fuerza de trinidad",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3082",
+      "name": "Malla del guardián",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3083",
+      "name": "Armadura de Warmog",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3084",
+      "name": "Corazón de acero",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3085",
+      "name": "Huracán de Runaan",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3086",
+      "name": "Fervor",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3087",
+      "name": "Puñal de Statikk",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3089",
+      "name": "Sombrero mortal de Rabadon",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3091",
+      "name": "Final del ingenio",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3094",
+      "name": "Cañón de fuego rápido",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3095",
+      "name": "Navaja de asalto",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3108",
+      "name": "Códice diabólico",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3109",
+      "name": "Promesa de caballero",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3110",
+      "name": "Corazón de hielo",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3111",
+      "name": "Botas de mercurio",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3112",
+      "name": "Orbe del guardián",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3113",
+      "name": "Brisa de éter",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3114",
+      "name": "Ídolo prohibido",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3116",
+      "name": "Cetro de cristal de Rylai",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3118",
+      "name": "Malignidad",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3119",
+      "name": "Llegada del invierno",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3123",
+      "name": "Llamada del verdugo",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3124",
+      "name": "Hoja de furia de Guinsoo",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3133",
+      "name": "Martillo de guerra de Caulfield",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3134",
+      "name": "Daga dentada",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3137",
+      "name": "Florescencia sepulcral",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3139",
+      "name": "Cimitarra mercurial",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3140",
+      "name": "Fajín de mercurio",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3142",
+      "name": "Filo fantasmal de Youmuu",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3144",
+      "name": "Honda de explorador",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3145",
+      "name": "Alternador hextech",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3146",
+      "name": "Sable-pistola hextech",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3147",
+      "name": "Disfraz encantado",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3152",
+      "name": "Cintomisil hextech",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3153",
+      "name": "Hoja del rey arruinado",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3156",
+      "name": "Fauces de Malmortius",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3158",
+      "name": "Botas jonias de la lucidez",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3161",
+      "name": "Lanza de Shojin",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3168",
+      "name": "Senda inmortal",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3170",
+      "name": "Marcha veloz",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3171",
+      "name": "Lucidez carmesí",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3172",
+      "name": "Grebas de metal",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3173",
+      "name": "Trituradoras encadenadas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3174",
+      "name": "Avance blindado",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3175",
+      "name": "Botas del lanzahechizos",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3177",
+      "name": "Espada del guardián",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3179",
+      "name": "Guja sombría",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3181",
+      "name": "Rompecascos",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3184",
+      "name": "Martillo del guardián",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3211",
+      "name": "Hábito del espectro",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3222",
+      "name": "Bendición de Mikael",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3302",
+      "name": "El final",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3504",
+      "name": "Incensario ardiente",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3508",
+      "name": "Segador de esencia",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3599",
+      "name": "La lanza negra de Kalista",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3600",
+      "name": "La lanza negra de Kalista",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3742",
+      "name": "Coraza del muerto",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3748",
+      "name": "Hidra titánica",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3801",
+      "name": "Brazal cristalino",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3802",
+      "name": "Capítulo perdido",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3803",
+      "name": "Catalizador de eones",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3814",
+      "name": "Filo de la noche",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3865",
+      "name": "Atlas mundial",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3869",
+      "name": "Detracción celestial",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3870",
+      "name": "Tejesueños",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3871",
+      "name": "Perforaplanos de Zaz'Zak",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3876",
+      "name": "Trineo del solsticio",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3877",
+      "name": "Tonada sanguina",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "3916",
+      "name": "Orbe del olvido",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "4005",
+      "name": "Mandato imperial",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "4628",
+      "name": "Precisión infalible",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "4629",
+      "name": "Impulso cósmico",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "4630",
+      "name": "Joya de la plaga",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "4632",
+      "name": "Barrera frondosa",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "4633",
+      "name": "Creagrietas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "4642",
+      "name": "Espejo de cristal de Bandle",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "4645",
+      "name": "Llamasombría",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "4646",
+      "name": "Sobrecarga tormentosa",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6333",
+      "name": "Baile de la muerte",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6609",
+      "name": "Mecanoespada punki",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6610",
+      "name": "Firmamento desgarrado",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6616",
+      "name": "Bastón de aguas fluidas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6617",
+      "name": "Renovación de piedra lunar",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6620",
+      "name": "Ecos de Helia",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6621",
+      "name": "Núcleo albar",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6631",
+      "name": "Cortasendas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6653",
+      "name": "Tormento de Liandry",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6655",
+      "name": "Eco de Luden",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6657",
+      "name": "Vara de las edades",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6660",
+      "name": "Rescoldo de Bami",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6662",
+      "name": "Guantelete de hielo",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6664",
+      "name": "Fulgor vano",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6665",
+      "name": "Jak'Sho el Proteico",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6670",
+      "name": "Carcaj del mediodía",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6672",
+      "name": "Verdugo de krakens",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6673",
+      "name": "Arcoescudo inmortal",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6675",
+      "name": "Filofugaz de Navori",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6676",
+      "name": "Recaudadora",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6690",
+      "name": "Réctrice",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6692",
+      "name": "Eclipse",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6696",
+      "name": "Arco axiomático",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6697",
+      "name": "Soberbia",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6698",
+      "name": "Hidra profana",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "6699",
+      "name": "Espada ciclovoltaica",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "8010",
+      "name": "Maldición sanguinolenta",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "8020",
+      "name": "Máscara abisal",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "322065",
+      "name": "Canción de batalla de Shurelya",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "322526",
+      "name": "Diadema susurrante",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "323003",
+      "name": "Bastón del arcángel",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "323004",
+      "name": "Manamune",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "323050",
+      "name": "Convergencia de Zeke",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "323070",
+      "name": "Lágrima de la diosa",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "323075",
+      "name": "Malla de espinas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "323107",
+      "name": "Redención",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "323109",
+      "name": "Promesa de caballero",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "323110",
+      "name": "Corazón de hielo",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "323119",
+      "name": "Llegada del invierno",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "323190",
+      "name": "Medallón de los Solari de Hierro",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "323222",
+      "name": "Bendición de Mikael",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "323504",
+      "name": "Incensario ardiente",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "324005",
+      "name": "Mandato imperial",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "326616",
+      "name": "Bastón de aguas fluidas",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "326617",
+      "name": "Renovación de piedra lunar",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "326620",
+      "name": "Ecos de Helia",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "326621",
+      "name": "Núcleo albar",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "326657",
+      "name": "Vara de las edades",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "328020",
+      "name": "Máscara abisal",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "663039",
+      "name": "Juicio de Atma",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "663056",
+      "name": "Corona del rey demonio",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "663058",
+      "name": "Escudo de roca fundida",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "663059",
+      "name": "Capa de la noche estrellada",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "663060",
+      "name": "Espada de los dioses",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "663064",
+      "name": "Emblema de la ascensión de Veigar",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "663146",
+      "name": "Sable-pistola hextech",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "663172",
+      "name": "Céfiro",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "663193",
+      "name": "Protector pétreo de gárgola",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "664011",
+      "name": "Espada del amanecer floreciente",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "664644",
+      "name": "Corona de la reina quebrada",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "667101",
+      "name": "Espada del apostador",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "667109",
+      "name": "Crueldad",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "667112",
+      "name": "Comecarne",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    },
+    {
+      "id": "667666",
+      "name": "Recaudadora",
+      "reason": "Requiere revisión editorial de función principal; no recomendar automáticamente por estadísticas secundarias."
+    }
+  ]
+}

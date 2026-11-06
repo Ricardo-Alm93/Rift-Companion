@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "patch": "26.22",
+  "source": "Rift Companion reviewed interactions; effects checked against the official ARAM Mayhem patch notes and champion data.",
+  "interactions": [
+    {
+      "id": "weapon-of-destiny-first-item",
+      "augmentId": "weapon-of-destiny",
+      "evidenceLevel": "documented",
+      "confidence": "high",
+      "patch": "26.22",
+      "source": "https://support.riotgames.com/en-us/league-of-legends/events/aram-mayhem-journey-to-stardom",
+      "evidence": "Riot describes Weapon of Destiny as takedowns strengthening the first item. The 26.22 patch notes also document its penetration nerfs.",
+      "en": { "what": "Takedowns strengthen the first completed item.", "fit": "This is a general item-order effect, not a champion-specific damage synergy.", "combination": "No augment pair is assumed without an explicit interaction.", "style": "Complete the most important core item first if it is not already owned.", "tradeoff": "Committing to an early first item can delay a defensive response; an item already bought is not retroactively enhanced." },
+      "es": { "what": "Los asesinatos fortalecen el primer objeto completado.", "fit": "Es un efecto general sobre el orden de objetos, no una sinergia de daño exclusiva del campeón.", "combination": "No se presupone una combinación con otros aumentos sin una interacción explícita.", "style": "Completa primero el objeto núcleo más importante si todavía no lo tienes.", "tradeoff": "Acelerar ese objeto puede retrasar una respuesta defensiva; un objeto ya comprado no recibe la mejora retroactivamente." },
+      "buildDirective": { "action": "purchase-order-guidance", "preferredItemIds": [] }
+    },
+    {
+      "id": "jinx-rise-ultimate-reset",
+      "augmentId": "rise",
+      "championIds": ["Jinx"],
+      "evidenceLevel": "editorial-reviewed",
+      "confidence": "medium",
+      "patch": "26.22",
+      "source": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-22-notes/; Data Dragon 16.22.1 Jinx champion data.",
+      "evidence": "RISE! resets ultimate cooldown on champion takedown. Jinx's Super Mega Death Rocket is a long-range execute; this supports a reviewed opportunity for follow-up resets, not a guaranteed chain.",
+      "en": { "what": "Champion takedowns with your ultimate reset its cooldown, up to three times.", "fit": "Jinx's Super Mega Death Rocket can finish low-health targets from range, creating a chance to continue with another cast.", "combination": "The value depends on getting a takedown with the ultimate; no synergy with another selected augment is asserted.", "style": "Keep a coherent Jinx damage core; the augment alone does not justify replacing items.", "tradeoff": "This offers less item-specific value if your ultimate rarely secures takedowns; do not sacrifice attack damage or survivability on this basis alone." },
+      "es": { "what": "Los asesinatos con la definitiva reinician su enfriamiento, hasta tres veces.", "fit": "La Supermegacohete Mortal de Jinx puede rematar objetivos con poca vida a distancia y abrir una oportunidad para otro lanzamiento.", "combination": "Depende de conseguir un asesinato con la definitiva; no se atribuye una sinergia con otro aumento elegido.", "style": "Conserva un núcleo coherente de daño para Jinx; este aumento por sí solo no justifica cambiar objetos.", "tradeoff": "Aporta menos si rara vez rematas con la definitiva; no sacrifiques daño de ataque o supervivencia solo por esta posibilidad." },
+      "buildDirective": { "action": "keep-current-build" }
+    },
+    {
+      "id": "jinx-jeweled-bracelet-ultimate-critical",
+      "augmentId": "jeweled-bracelet",
+      "championIds": ["Jinx"],
+      "evidenceLevel": "editorial-reviewed",
+      "confidence": "medium",
+      "patch": "26.22",
+      "source": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-21-notes/; Data Dragon 16.22.1 Jinx champion data.",
+      "evidence": "The augment allows the ultimate to critically strike; Jinx's R is a damaging projectile. No item-specific crit formula or damage increase is inferred.",
+      "en": { "what": "Your ultimate can critically strike.", "fit": "Jinx's Super Mega Death Rocket deals damage and can benefit from an augment that enables ultimate critical strikes.", "combination": "No extra interaction with another selected augment is recorded.", "style": "A critical-strike direction remains plausible, but this augment alone does not certify a six-item crit build.", "tradeoff": "A crit-focused setup can give up attack range, utility, or defense; keep the current build unless other evidence supports changing it." },
+      "es": { "what": "Tu definitiva puede hacer impactos críticos.", "fit": "La Supermegacohete Mortal de Jinx inflige daño y puede aprovechar un aumento que permite impactos críticos en definitivas.", "combination": "No se registra una interacción adicional con otro aumento elegido.", "style": "Una orientación de crítico sigue siendo plausible, pero este aumento por sí solo no certifica una build completa de crítico.", "tradeoff": "Una configuración de crítico puede sacrificar alcance, utilidad o defensa; conserva la build actual si no hay más evidencia para cambiarla." },
+      "buildDirective": { "action": "keep-current-build" }
+    },
+    {
+      "id": "soraka-group-hug-healing",
+      "augmentId": "group-hug",
+      "championIds": ["Soraka"],
+      "evidenceLevel": "editorial-reviewed",
+      "confidence": "medium",
+      "patch": "26.22",
+      "source": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-21-notes/; Data Dragon 16.22.1 Soraka champion data.",
+      "evidence": "Group Hug copies one healing or shielding ability to nearby allies. Soraka's W directly heals an ally. This does not establish an interaction with every heal-related augment.",
+      "en": { "what": "One of your healing or shielding abilities also affects nearby allies.", "fit": "Soraka's Astral Infusion is an ally heal, so the augment's stated trigger matches a core ability.", "combination": "No additional augment pair is assumed.", "style": "Supports a team-healing direction; it does not by itself justify replacing all damage or defensive slots.", "tradeoff": "You give up another augment option and may need to manage Soraka's health cost when repeatedly healing." },
+      "es": { "what": "Una de tus habilidades de curación o escudo también afecta a aliados cercanos.", "fit": "La Infusión Astral de Soraka cura a un aliado, por lo que coincide con el activador descrito.", "combination": "No se presupone una combinación con otros aumentos.", "style": "Favorece el apoyo de curación al equipo; no justifica reemplazar por sí solo todos los espacios de daño o defensa.", "tradeoff": "Renuncias a otra opción de aumento y debes administrar el coste de vida de Soraka al curar repetidamente." },
+      "buildDirective": { "action": "keep-current-build" }
+    },
+    {
+      "id": "ornn-armored-impact-followup",
+      "augmentId": "armored-impact",
+      "championIds": ["Ornn"],
+      "evidenceLevel": "editorial-reviewed",
+      "confidence": "low",
+      "patch": "26.22",
+      "source": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-22-notes/; Data Dragon 16.22.1 Ornn champion data.",
+      "evidence": "The augment's next-attack damage scales with bonus Armor. Ornn is a tank champion, but Data Dragon does not verify attack timing or an item-level interaction; this is a low-confidence fit, not a build instruction.",
+      "en": { "what": "After using an ability, your next attack deals bonus damage based on bonus Armor.", "fit": "The Armor scaling is compatible with a durable Ornn setup, but there is no special proc interaction verified for Ornn.", "combination": "No paired augment effect is established.", "style": "Do not change Ornn's build for this augment; consider the effect only when Armor is already useful against the enemy team.", "tradeoff": "Armor bought only for this augment may be less valuable against magic-heavy enemies." },
+      "es": { "what": "Después de usar una habilidad, tu siguiente ataque inflige daño adicional según la Armadura adicional.", "fit": "El escalado con Armadura es compatible con una configuración resistente de Ornn, pero no se verificó una activación especial del campeón.", "combination": "No se establece un efecto combinado con otro aumento.", "style": "No cambies la build de Ornn por este aumento; considéralo solo si la Armadura ya sirve contra el equipo rival.", "tradeoff": "Comprar Armadura solo por este aumento puede rendir menos contra enemigos con mucho daño mágico." },
+      "buildDirective": { "action": "keep-current-build" }
+    }
+  ]
+}

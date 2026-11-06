@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "patch": "16.21.1",
+  "description": "Etiquetas tácticas editoriales y limitadas. Solo aplican a campeones revelados y confirmados; no describen picks ocultos.",
+  "champions": {
+    "Zed":{"tags":["physical","physical-burst","single-target-dive","assassin","mobility"],"source":"Rift Companion · perfil manual del kit; daño físico explosivo y acceso a un objetivo","sourcePatch":"16.22.1","abilityKeys":["Q","W","E","R"],"damageTypes":["physical-damage"],"targetPatterns":["single-target","area"],"confidence":"curated"},
+    "Brand":{"tags":["magic","magic-burst","magic-aoe","control","range"],"source":"Rift Companion · perfil revisado de habilidades de área y daño mágico","sourcePatch":"16.22.1","abilityKeys":["P","W","E","R"],"damageTypes":["magic-damage"],"targetPatterns":["area"],"controlEffects":[{"abilityKey":"Q","abilityName":"Sear","controlType":"stun","condition":"target is Ablaze","evidence":"editorial-reviewed","source":"https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Brand.json","patch":"16.22.1"}],"confidence":"curated"},
+    "Malphite":{"tags":["magic","magic-burst","magic-aoe","engage","control","durable-frontline"],"source":"Rift Companion · perfil revisado de definitiva de iniciación en área","sourcePatch":"16.22.1","abilityKeys":["Q","E","R"],"damageTypes":["magic-damage"],"targetPatterns":["area","engage"],"controlEffects":[{"abilityKey":"R","abilityName":"Unstoppable Force","controlType":"airborne","evidence":"editorial-reviewed","source":"https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion/Malphite.json","patch":"16.22.1"}],"confidence":"curated"},
+    "Talon":{"tags":["physical","physical-burst","assassin","mobility"],"source":"Rift Companion · perfil manual de kit","confidence":"curated"},
+    "Syndra":{"tags":["magic","magic-burst","control","range"],"source":"Rift Companion · perfil manual de kit","confidence":"curated"},
+    "Annie":{"tags":["magic","magic-burst","control","engage"],"source":"Rift Companion · perfil manual de kit","confidence":"curated"},
+    "Warwick":{"tags":["physical","mixed","sustain","healing","engage"],"source":"Rift Companion · perfil manual de kit","confidence":"curated"},
+    "Soraka":{"tags":["magic","healing","sustain","enchanter"],"source":"Rift Companion · perfil manual de kit","confidence":"curated"},
+    "Ornn":{"tags":["mixed","durable-frontline","engage","control"],"source":"Rift Companion · perfil manual de kit","confidence":"curated"},
+    "Rammus":{"tags":["physical-heavy","durable-frontline","engage","control"],"source":"Rift Companion · perfil manual de kit","confidence":"curated"},
+    "Leona":{"tags":["magic","engage","control","durable-frontline"],"source":"Rift Companion · perfil manual de kit","confidence":"curated"},
+    "Vi":{"tags":["physical","physical-burst","engage","control"],"source":"Rift Companion · perfil manual de kit","confidence":"curated"},
+    "MasterYi":{"tags":["physical","physical-burst","dive","mobility","sustained-damage","true-damage","reset-threat"],"source":"Rift Companion · perfil manual del kit: entrada con Alpha Strike, daño sostenido y reinicios","confidence":"curated"}
+  }
+}

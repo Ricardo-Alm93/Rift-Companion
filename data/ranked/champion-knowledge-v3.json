@@ -1,0 +1,3834 @@
+{
+  "meta": {
+    "source": "original qualitative editorial draft for Rift Companion",
+    "patch": "26.22",
+    "count": 58,
+    "warning": "Not a verified per-champion patch database. Never invent scalings, win rates or trigger compatibility from these labels. The current 173-champion seed in the project remains the roster source; merge after verification."
+  },
+  "profiles": [
+    {
+      "championId": "Ahri",
+      "resource": "mana",
+      "candidateRoles": [
+        "MID"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "mobility"
+      ],
+      "generalPurposes": [
+        "burst",
+        "control",
+        "magic_damage"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 0.8,
+        "mana": 0.6,
+        "manaRegen": 0.4,
+        "health": 0.35,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [
+        "burst_magic",
+        "pick"
+      ],
+      "archetypes": [
+        {
+          "id": "burst_mage",
+          "purposes": [
+            "burst",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "control_mage",
+          "purposes": [
+            "control",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Akali",
+      "resource": "energy",
+      "candidateRoles": [
+        "MID",
+        "TOP"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "mobility"
+      ],
+      "generalPurposes": [
+        "ap_dps",
+        "burst",
+        "magic_damage",
+        "survival"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 0.8,
+        "mana": 0,
+        "manaRegen": 0,
+        "health": 0.35,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "ap_assassin",
+          "purposes": [
+            "burst",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0,
+            "manaRegen": 0,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ap_bruiser",
+          "purposes": [
+            "ap_dps",
+            "survival"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0,
+            "manaRegen": 0,
+            "health": 0.8,
+            "armor": 0.55,
+            "mr": 0.55,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Azir",
+      "resource": "mana",
+      "candidateRoles": [
+        "MID"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "soldier_attacks",
+        "mobility"
+      ],
+      "generalPurposes": [
+        "ap_dps",
+        "haste",
+        "magic_damage"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 1,
+        "mana": 0.6,
+        "manaRegen": 0.4,
+        "health": 0.35,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "ap_dps",
+          "purposes": [
+            "ap_dps",
+            "magic_damage",
+            "haste"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 1,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Cassiopeia",
+      "resource": "mana",
+      "candidateRoles": [
+        "MID"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "dot"
+      ],
+      "generalPurposes": [
+        "ap_dps",
+        "haste",
+        "magic_damage"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 1,
+        "mana": 0.6,
+        "manaRegen": 0.4,
+        "health": 0.35,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "ap_dps",
+          "purposes": [
+            "ap_dps",
+            "magic_damage",
+            "haste"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 1,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Jinx",
+      "resource": "mana",
+      "candidateRoles": [
+        "ADC"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "crit_scaling",
+        "attack_speed_scaling"
+      ],
+      "generalPurposes": [
+        "anti_tank",
+        "attack_speed",
+        "crit",
+        "dps",
+        "onhit"
+      ],
+      "statAffinity": {
+        "ad": 1,
+        "crit": 1,
+        "attackSpeed": 0.85,
+        "armorPen": 0.8,
+        "lifeSteal": 0.7,
+        "movement": 0.75,
+        "health": 0.25,
+        "armor": 0.25,
+        "mr": 0.25
+      },
+      "enemyThreatTags": [
+        "dps",
+        "crit"
+      ],
+      "archetypes": [
+        {
+          "id": "crit_adc",
+          "purposes": [
+            "crit",
+            "attack_speed",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "crit": 1,
+            "attackSpeed": 0.85,
+            "armorPen": 0.8,
+            "lifeSteal": 0.7,
+            "movement": 0.75,
+            "health": 0.25,
+            "armor": 0.25,
+            "mr": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "onhit_adc",
+          "purposes": [
+            "onhit",
+            "dps",
+            "anti_tank"
+          ],
+          "statAffinity": {
+            "ad": 0.8,
+            "ap": 0.55,
+            "attackSpeed": 1,
+            "onHit": 1,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.75,
+            "health": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "KaiSa",
+      "resource": "mana",
+      "candidateRoles": [
+        "ADC"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "evolution",
+        "onhit_ability"
+      ],
+      "generalPurposes": [
+        "anti_tank",
+        "attack_speed",
+        "crit",
+        "dps",
+        "magic_damage",
+        "onhit"
+      ],
+      "statAffinity": {
+        "ad": 0.8,
+        "ap": 0.55,
+        "attackSpeed": 1,
+        "onHit": 1,
+        "armorPen": 0.65,
+        "lifeSteal": 0.5,
+        "movement": 0.75,
+        "health": 0.25
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "onhit_adc",
+          "purposes": [
+            "onhit",
+            "dps",
+            "anti_tank"
+          ],
+          "statAffinity": {
+            "ad": 0.8,
+            "ap": 0.55,
+            "attackSpeed": 1,
+            "onHit": 1,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.75,
+            "health": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "hybrid_adc",
+          "purposes": [
+            "onhit",
+            "dps",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ad": 0.9,
+            "ap": 0.9,
+            "attackSpeed": 1,
+            "onHit": 1,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.75,
+            "health": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "crit_adc",
+          "purposes": [
+            "crit",
+            "attack_speed",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "crit": 1,
+            "attackSpeed": 0.85,
+            "armorPen": 0.8,
+            "lifeSteal": 0.7,
+            "movement": 0.75,
+            "health": 0.25,
+            "armor": 0.25,
+            "mr": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Ornn",
+      "resource": "mana",
+      "candidateRoles": [
+        "TOP"
+      ],
+      "capabilities": [
+        "cc",
+        "defensive_scaling",
+        "item_upgrade"
+      ],
+      "generalPurposes": [
+        "cc",
+        "survival",
+        "tank"
+      ],
+      "statAffinity": {
+        "health": 1,
+        "armor": 1,
+        "mr": 1,
+        "haste": 0.75,
+        "movement": 0.65,
+        "ad": 0.25,
+        "ap": 0.25
+      },
+      "enemyThreatTags": [
+        "armor",
+        "tank",
+        "cc"
+      ],
+      "archetypes": [
+        {
+          "id": "tank",
+          "purposes": [
+            "tank",
+            "survival",
+            "cc"
+          ],
+          "statAffinity": {
+            "health": 1,
+            "armor": 1,
+            "mr": 1,
+            "haste": 0.75,
+            "movement": 0.65,
+            "ad": 0.25,
+            "ap": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Soraka",
+      "resource": "mana",
+      "candidateRoles": [
+        "SUPPORT"
+      ],
+      "capabilities": [
+        "ally_heal",
+        "magic_ability"
+      ],
+      "generalPurposes": [
+        "enchanter",
+        "healing",
+        "utility"
+      ],
+      "statAffinity": {
+        "ap": 0.65,
+        "healPower": 1,
+        "manaRegen": 1,
+        "mana": 0.65,
+        "haste": 1,
+        "health": 0.6,
+        "armor": 0.65,
+        "mr": 0.65,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [
+        "healing"
+      ],
+      "archetypes": [
+        {
+          "id": "enchanter",
+          "purposes": [
+            "healing",
+            "enchanter",
+            "utility"
+          ],
+          "statAffinity": {
+            "ap": 0.65,
+            "healPower": 1,
+            "manaRegen": 1,
+            "mana": 0.65,
+            "haste": 1,
+            "health": 0.6,
+            "armor": 0.65,
+            "mr": 0.65,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Ryze",
+      "resource": "mana",
+      "candidateRoles": [
+        "MID"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "mana_scaling"
+      ],
+      "generalPurposes": [
+        "haste",
+        "mana_scaling",
+        "survival"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 1,
+        "mana": 1,
+        "manaRegen": 0.4,
+        "health": 0.65,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "mana_battlemage",
+          "purposes": [
+            "mana_scaling",
+            "haste",
+            "survival"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 1,
+            "mana": 1,
+            "manaRegen": 0.4,
+            "health": 0.65,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Zed",
+      "resource": "energy",
+      "candidateRoles": [
+        "MID"
+      ],
+      "capabilities": [
+        "physical_ability",
+        "basic_attack",
+        "mobility"
+      ],
+      "generalPurposes": [
+        "assassin",
+        "bruiser",
+        "burst",
+        "dps",
+        "lethality",
+        "survival"
+      ],
+      "statAffinity": {
+        "ad": 1,
+        "lethality": 0.8,
+        "armorPen": 0.8,
+        "haste": 0.8,
+        "health": 0.4,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7,
+        "mana": 0,
+        "manaRegen": 0
+      },
+      "enemyThreatTags": [
+        "burst_physical",
+        "assassination"
+      ],
+      "archetypes": [
+        {
+          "id": "ad_assassin",
+          "purposes": [
+            "burst",
+            "assassin",
+            "lethality"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "lethality": 0.8,
+            "armorPen": 0.8,
+            "haste": 0.8,
+            "health": 0.4,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ad_bruiser",
+          "purposes": [
+            "survival",
+            "bruiser",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 0.9,
+            "health": 0.85,
+            "armor": 0.65,
+            "mr": 0.65,
+            "haste": 0.8,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.65,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Poppy",
+      "resource": "mana",
+      "candidateRoles": [
+        "TOP",
+        "JUNGLE"
+      ],
+      "capabilities": [
+        "cc",
+        "physical_ability",
+        "defensive_scaling"
+      ],
+      "generalPurposes": [
+        "assassin",
+        "bruiser",
+        "burst",
+        "cc",
+        "dps",
+        "lethality",
+        "survival",
+        "tank"
+      ],
+      "statAffinity": {
+        "health": 1,
+        "armor": 1,
+        "mr": 1,
+        "haste": 0.75,
+        "movement": 0.65,
+        "ad": 0.25,
+        "ap": 0.25
+      },
+      "enemyThreatTags": [
+        "cc",
+        "tank"
+      ],
+      "archetypes": [
+        {
+          "id": "tank",
+          "purposes": [
+            "tank",
+            "survival",
+            "cc"
+          ],
+          "statAffinity": {
+            "health": 1,
+            "armor": 1,
+            "mr": 1,
+            "haste": 0.75,
+            "movement": 0.65,
+            "ad": 0.25,
+            "ap": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ad_bruiser",
+          "purposes": [
+            "survival",
+            "bruiser",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 0.9,
+            "health": 0.85,
+            "armor": 0.65,
+            "mr": 0.65,
+            "haste": 0.8,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.65
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ad_assassin_experimental",
+          "purposes": [
+            "burst",
+            "assassin",
+            "lethality"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "lethality": 0.8,
+            "armorPen": 0.8,
+            "haste": 0.8,
+            "health": 0.4,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Talon",
+      "resource": "mana",
+      "candidateRoles": [
+        "MID",
+        "JUNGLE"
+      ],
+      "capabilities": [
+        "physical_ability",
+        "mobility"
+      ],
+      "generalPurposes": [
+        "assassin",
+        "bruiser",
+        "burst",
+        "dps",
+        "lethality",
+        "survival"
+      ],
+      "statAffinity": {
+        "ad": 1,
+        "lethality": 0.8,
+        "armorPen": 0.8,
+        "haste": 0.8,
+        "health": 0.4,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [
+        "burst_physical"
+      ],
+      "archetypes": [
+        {
+          "id": "ad_assassin",
+          "purposes": [
+            "burst",
+            "assassin",
+            "lethality"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "lethality": 0.8,
+            "armorPen": 0.8,
+            "haste": 0.8,
+            "health": 0.4,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ad_bruiser",
+          "purposes": [
+            "survival",
+            "bruiser",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 0.9,
+            "health": 0.85,
+            "armor": 0.65,
+            "mr": 0.65,
+            "haste": 0.8,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.65
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Viktor",
+      "resource": "mana",
+      "candidateRoles": [
+        "MID"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "control"
+      ],
+      "generalPurposes": [
+        "ap_dps",
+        "burst",
+        "haste",
+        "magic_damage"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 0.8,
+        "mana": 0.6,
+        "manaRegen": 0.4,
+        "health": 0.35,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [
+        "burst_magic",
+        "dps"
+      ],
+      "archetypes": [
+        {
+          "id": "burst_mage",
+          "purposes": [
+            "burst",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ap_dps",
+          "purposes": [
+            "ap_dps",
+            "magic_damage",
+            "haste"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 1,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Nami",
+      "resource": "mana",
+      "candidateRoles": [
+        "SUPPORT"
+      ],
+      "capabilities": [
+        "ally_heal",
+        "ally_buff",
+        "cc"
+      ],
+      "generalPurposes": [
+        "enchanter",
+        "healing",
+        "utility"
+      ],
+      "statAffinity": {
+        "ap": 0.65,
+        "healPower": 1,
+        "manaRegen": 1,
+        "mana": 0.65,
+        "haste": 1,
+        "health": 0.6,
+        "armor": 0.65,
+        "mr": 0.65,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [
+        "healing",
+        "cc"
+      ],
+      "archetypes": [
+        {
+          "id": "enchanter",
+          "purposes": [
+            "healing",
+            "enchanter",
+            "utility"
+          ],
+          "statAffinity": {
+            "ap": 0.65,
+            "healPower": 1,
+            "manaRegen": 1,
+            "mana": 0.65,
+            "haste": 1,
+            "health": 0.6,
+            "armor": 0.65,
+            "mr": 0.65,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "KogMaw",
+      "resource": "mana",
+      "candidateRoles": [
+        "ADC",
+        "MID"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "onhit_ability",
+        "magic_ability"
+      ],
+      "generalPurposes": [
+        "anti_tank",
+        "dps",
+        "magic_damage",
+        "onhit",
+        "poke"
+      ],
+      "statAffinity": {
+        "ad": 0.8,
+        "ap": 0.55,
+        "attackSpeed": 1,
+        "onHit": 1,
+        "armorPen": 0.65,
+        "lifeSteal": 0.5,
+        "movement": 0.75,
+        "health": 0.25
+      },
+      "enemyThreatTags": [
+        "dps",
+        "anti_tank"
+      ],
+      "archetypes": [
+        {
+          "id": "onhit_adc",
+          "purposes": [
+            "onhit",
+            "dps",
+            "anti_tank"
+          ],
+          "statAffinity": {
+            "ad": 0.8,
+            "ap": 0.55,
+            "attackSpeed": 1,
+            "onHit": 1,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.75,
+            "health": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ap_poke",
+          "purposes": [
+            "poke",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Sejuani",
+      "resource": "mana",
+      "candidateRoles": [
+        "JUNGLE"
+      ],
+      "capabilities": [
+        "cc",
+        "defensive_scaling",
+        "magic_ability"
+      ],
+      "generalPurposes": [
+        "cc",
+        "survival",
+        "tank"
+      ],
+      "statAffinity": {
+        "health": 1,
+        "armor": 1,
+        "mr": 1,
+        "haste": 0.75,
+        "movement": 0.65,
+        "ad": 0.25,
+        "ap": 0.25
+      },
+      "enemyThreatTags": [
+        "cc",
+        "engage",
+        "tank"
+      ],
+      "archetypes": [
+        {
+          "id": "tank",
+          "purposes": [
+            "tank",
+            "survival",
+            "cc"
+          ],
+          "statAffinity": {
+            "health": 1,
+            "armor": 1,
+            "mr": 1,
+            "haste": 0.75,
+            "movement": 0.65,
+            "ad": 0.25,
+            "ap": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Jhin",
+      "resource": "mana",
+      "candidateRoles": [
+        "ADC"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "crit_special",
+        "physical_ability"
+      ],
+      "generalPurposes": [
+        "ad_damage",
+        "attack_speed",
+        "burst",
+        "crit",
+        "dps"
+      ],
+      "statAffinity": {
+        "ad": 1,
+        "crit": 1,
+        "attackSpeed": 0.85,
+        "armorPen": 0.8,
+        "lifeSteal": 0.7,
+        "movement": 0.75,
+        "health": 0.25,
+        "armor": 0.25,
+        "mr": 0.25
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "crit_adc",
+          "purposes": [
+            "crit",
+            "attack_speed",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "crit": 1,
+            "attackSpeed": 0.85,
+            "armorPen": 0.8,
+            "lifeSteal": 0.7,
+            "movement": 0.75,
+            "health": 0.25,
+            "armor": 0.25,
+            "mr": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ad_burst",
+          "purposes": [
+            "burst",
+            "ad_damage"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "lethality": 0.8,
+            "armorPen": 0.8,
+            "haste": 0.8,
+            "health": 0.4,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Rammus",
+      "resource": "mana",
+      "candidateRoles": [
+        "JUNGLE"
+      ],
+      "capabilities": [
+        "cc",
+        "armor_scaling"
+      ],
+      "generalPurposes": [
+        "cc",
+        "survival",
+        "tank"
+      ],
+      "statAffinity": {
+        "health": 1,
+        "armor": 1,
+        "mr": 1,
+        "haste": 0.75,
+        "movement": 0.65,
+        "ad": 0.25,
+        "ap": 0.25
+      },
+      "enemyThreatTags": [
+        "armor",
+        "tank",
+        "cc"
+      ],
+      "archetypes": [
+        {
+          "id": "tank",
+          "purposes": [
+            "tank",
+            "survival",
+            "cc"
+          ],
+          "statAffinity": {
+            "health": 1,
+            "armor": 1,
+            "mr": 1,
+            "haste": 0.75,
+            "movement": 0.65,
+            "ad": 0.25,
+            "ap": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Malphite",
+      "resource": "mana",
+      "candidateRoles": [
+        "TOP",
+        "MID"
+      ],
+      "capabilities": [
+        "cc",
+        "armor_scaling",
+        "magic_ability"
+      ],
+      "generalPurposes": [
+        "burst",
+        "cc",
+        "magic_damage",
+        "survival",
+        "tank"
+      ],
+      "statAffinity": {
+        "health": 1,
+        "armor": 1,
+        "mr": 1,
+        "haste": 0.75,
+        "movement": 0.65,
+        "ad": 0.25,
+        "ap": 0.25
+      },
+      "enemyThreatTags": [
+        "burst_magic",
+        "armor",
+        "engage"
+      ],
+      "archetypes": [
+        {
+          "id": "tank",
+          "purposes": [
+            "tank",
+            "survival",
+            "cc"
+          ],
+          "statAffinity": {
+            "health": 1,
+            "armor": 1,
+            "mr": 1,
+            "haste": 0.75,
+            "movement": 0.65,
+            "ad": 0.25,
+            "ap": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "burst_mage",
+          "purposes": [
+            "burst",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Leona",
+      "resource": "mana",
+      "candidateRoles": [
+        "SUPPORT"
+      ],
+      "capabilities": [
+        "cc",
+        "ally_protection"
+      ],
+      "generalPurposes": [
+        "cc",
+        "tank",
+        "utility"
+      ],
+      "statAffinity": {
+        "health": 1,
+        "armor": 1,
+        "mr": 1,
+        "haste": 0.75,
+        "movement": 0.65,
+        "ad": 0.25,
+        "ap": 0.25
+      },
+      "enemyThreatTags": [
+        "cc",
+        "engage"
+      ],
+      "archetypes": [
+        {
+          "id": "engage_support_tank",
+          "purposes": [
+            "tank",
+            "cc",
+            "utility"
+          ],
+          "statAffinity": {
+            "health": 1,
+            "armor": 1,
+            "mr": 1,
+            "haste": 0.75,
+            "movement": 0.65,
+            "ad": 0.25,
+            "ap": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Sona",
+      "resource": "mana",
+      "candidateRoles": [
+        "SUPPORT"
+      ],
+      "capabilities": [
+        "ally_heal",
+        "ally_shield",
+        "ally_buff",
+        "magic_ability"
+      ],
+      "generalPurposes": [
+        "enchanter",
+        "healing",
+        "utility"
+      ],
+      "statAffinity": {
+        "ap": 0.65,
+        "healPower": 1,
+        "manaRegen": 1,
+        "mana": 0.65,
+        "haste": 1,
+        "health": 0.6,
+        "armor": 0.65,
+        "mr": 0.65,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [
+        "healing",
+        "shielding"
+      ],
+      "archetypes": [
+        {
+          "id": "enchanter",
+          "purposes": [
+            "healing",
+            "enchanter",
+            "utility"
+          ],
+          "statAffinity": {
+            "ap": 0.65,
+            "healPower": 1,
+            "manaRegen": 1,
+            "mana": 0.65,
+            "haste": 1,
+            "health": 0.6,
+            "armor": 0.65,
+            "mr": 0.65,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Twitch",
+      "resource": "mana",
+      "candidateRoles": [
+        "ADC"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "dot",
+        "attack_speed_scaling"
+      ],
+      "generalPurposes": [
+        "anti_tank",
+        "attack_speed",
+        "crit",
+        "dps",
+        "onhit"
+      ],
+      "statAffinity": {
+        "ad": 0.8,
+        "ap": 0.55,
+        "attackSpeed": 1,
+        "onHit": 1,
+        "armorPen": 0.65,
+        "lifeSteal": 0.5,
+        "movement": 0.75,
+        "health": 0.25
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "onhit_adc",
+          "purposes": [
+            "onhit",
+            "dps",
+            "anti_tank"
+          ],
+          "statAffinity": {
+            "ad": 0.8,
+            "ap": 0.55,
+            "attackSpeed": 1,
+            "onHit": 1,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.75,
+            "health": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "crit_adc",
+          "purposes": [
+            "crit",
+            "attack_speed",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "crit": 1,
+            "attackSpeed": 0.85,
+            "armorPen": 0.8,
+            "lifeSteal": 0.7,
+            "movement": 0.75,
+            "health": 0.25,
+            "armor": 0.25,
+            "mr": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Garen",
+      "resource": "none",
+      "candidateRoles": [
+        "TOP"
+      ],
+      "capabilities": [
+        "physical_ability",
+        "defensive_scaling"
+      ],
+      "generalPurposes": [
+        "bruiser",
+        "cc",
+        "dps",
+        "survival",
+        "tank"
+      ],
+      "statAffinity": {
+        "ad": 0.9,
+        "health": 0.85,
+        "armor": 0.65,
+        "mr": 0.65,
+        "haste": 0.8,
+        "armorPen": 0.65,
+        "lifeSteal": 0.5,
+        "movement": 0.65,
+        "mana": 0,
+        "manaRegen": 0
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "ad_bruiser",
+          "purposes": [
+            "survival",
+            "bruiser",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 0.9,
+            "health": 0.85,
+            "armor": 0.65,
+            "mr": 0.65,
+            "haste": 0.8,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.65,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "tank",
+          "purposes": [
+            "tank",
+            "survival",
+            "cc"
+          ],
+          "statAffinity": {
+            "health": 1,
+            "armor": 1,
+            "mr": 1,
+            "haste": 0.75,
+            "movement": 0.65,
+            "ad": 0.25,
+            "ap": 0.25,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Viego",
+      "resource": "none",
+      "candidateRoles": [
+        "JUNGLE"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "physical_ability"
+      ],
+      "generalPurposes": [
+        "bruiser",
+        "dps",
+        "onhit",
+        "survival"
+      ],
+      "statAffinity": {
+        "ad": 0.8,
+        "ap": 0.55,
+        "attackSpeed": 1,
+        "onHit": 1,
+        "armorPen": 0.65,
+        "lifeSteal": 0.5,
+        "movement": 0.75,
+        "health": 0.25,
+        "mana": 0,
+        "manaRegen": 0
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "onhit_fighter",
+          "purposes": [
+            "onhit",
+            "bruiser",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 0.8,
+            "ap": 0.55,
+            "attackSpeed": 1,
+            "onHit": 1,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.75,
+            "health": 0.25,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ad_bruiser",
+          "purposes": [
+            "survival",
+            "bruiser",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 0.9,
+            "health": 0.85,
+            "armor": 0.65,
+            "mr": 0.65,
+            "haste": 0.8,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.65,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Caitlyn",
+      "resource": "mana",
+      "candidateRoles": [
+        "ADC"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "crit_scaling",
+        "physical_ability"
+      ],
+      "generalPurposes": [
+        "ad_damage",
+        "attack_speed",
+        "burst",
+        "crit",
+        "dps"
+      ],
+      "statAffinity": {
+        "ad": 1,
+        "crit": 1,
+        "attackSpeed": 0.85,
+        "armorPen": 0.8,
+        "lifeSteal": 0.7,
+        "movement": 0.75,
+        "health": 0.25,
+        "armor": 0.25,
+        "mr": 0.25
+      },
+      "enemyThreatTags": [
+        "poke_physical",
+        "crit"
+      ],
+      "archetypes": [
+        {
+          "id": "crit_adc",
+          "purposes": [
+            "crit",
+            "attack_speed",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "crit": 1,
+            "attackSpeed": 0.85,
+            "armorPen": 0.8,
+            "lifeSteal": 0.7,
+            "movement": 0.75,
+            "health": 0.25,
+            "armor": 0.25,
+            "mr": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ad_burst",
+          "purposes": [
+            "burst",
+            "ad_damage"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "lethality": 0.8,
+            "armorPen": 0.8,
+            "haste": 0.8,
+            "health": 0.4,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Amumu",
+      "resource": "mana",
+      "candidateRoles": [
+        "JUNGLE",
+        "SUPPORT"
+      ],
+      "capabilities": [
+        "cc",
+        "magic_ability",
+        "dot"
+      ],
+      "generalPurposes": [
+        "ap_dps",
+        "cc",
+        "survival",
+        "tank"
+      ],
+      "statAffinity": {
+        "health": 1,
+        "armor": 1,
+        "mr": 1,
+        "haste": 0.75,
+        "movement": 0.65,
+        "ad": 0.25,
+        "ap": 0.25
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "tank",
+          "purposes": [
+            "tank",
+            "survival",
+            "cc"
+          ],
+          "statAffinity": {
+            "health": 1,
+            "armor": 1,
+            "mr": 1,
+            "haste": 0.75,
+            "movement": 0.65,
+            "ad": 0.25,
+            "ap": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ap_bruiser",
+          "purposes": [
+            "ap_dps",
+            "survival"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.8,
+            "armor": 0.55,
+            "mr": 0.55,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Lux",
+      "resource": "mana",
+      "candidateRoles": [
+        "MID",
+        "SUPPORT"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "ally_shield",
+        "cc"
+      ],
+      "generalPurposes": [
+        "burst",
+        "magic_damage",
+        "utility"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 0.8,
+        "mana": 0.6,
+        "manaRegen": 0.4,
+        "health": 0.35,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "burst_mage",
+          "purposes": [
+            "burst",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "utility_mage",
+          "purposes": [
+            "utility",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Syndra",
+      "resource": "mana",
+      "candidateRoles": [
+        "MID"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "cc"
+      ],
+      "generalPurposes": [
+        "burst",
+        "magic_damage"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 0.8,
+        "mana": 0.6,
+        "manaRegen": 0.4,
+        "health": 0.35,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "burst_mage",
+          "purposes": [
+            "burst",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Ezreal",
+      "resource": "mana",
+      "candidateRoles": [
+        "ADC"
+      ],
+      "capabilities": [
+        "physical_ability",
+        "magic_ability",
+        "skillshot_onhit"
+      ],
+      "generalPurposes": [
+        "dps",
+        "haste",
+        "magic_damage",
+        "onhit",
+        "physical_ability"
+      ],
+      "statAffinity": {
+        "ad": 1,
+        "lethality": 0.8,
+        "armorPen": 0.8,
+        "haste": 0.8,
+        "health": 0.4,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "ad_caster",
+          "purposes": [
+            "haste",
+            "physical_ability"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "lethality": 0.8,
+            "armorPen": 0.8,
+            "haste": 0.8,
+            "health": 0.4,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "hybrid_adc",
+          "purposes": [
+            "onhit",
+            "dps",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ad": 0.9,
+            "ap": 0.9,
+            "attackSpeed": 1,
+            "onHit": 1,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.75,
+            "health": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Vladimir",
+      "resource": "health",
+      "candidateRoles": [
+        "MID",
+        "TOP"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "healing_self"
+      ],
+      "generalPurposes": [
+        "ap_dps",
+        "haste",
+        "survival"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 0.8,
+        "mana": 0,
+        "manaRegen": 0,
+        "health": 0.8,
+        "armor": 0.55,
+        "mr": 0.55,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [
+        "healing",
+        "burst_magic"
+      ],
+      "archetypes": [
+        {
+          "id": "ap_battlemage",
+          "purposes": [
+            "ap_dps",
+            "survival",
+            "haste"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0,
+            "manaRegen": 0,
+            "health": 0.8,
+            "armor": 0.55,
+            "mr": 0.55,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Katarina",
+      "resource": "none",
+      "candidateRoles": [
+        "MID"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "mobility",
+        "onhit_ability"
+      ],
+      "generalPurposes": [
+        "burst",
+        "magic_damage",
+        "onhit"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 0.8,
+        "mana": 0,
+        "manaRegen": 0,
+        "health": 0.35,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [
+        "burst_magic"
+      ],
+      "archetypes": [
+        {
+          "id": "ap_assassin",
+          "purposes": [
+            "burst",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0,
+            "manaRegen": 0,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "onhit_ap_special",
+          "purposes": [
+            "onhit",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ad": 0.8,
+            "ap": 0.55,
+            "attackSpeed": 1,
+            "onHit": 1,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.75,
+            "health": 0.25,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Yasuo",
+      "resource": "flow",
+      "candidateRoles": [
+        "MID",
+        "TOP"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "crit_scaling",
+        "mobility"
+      ],
+      "generalPurposes": [
+        "crit",
+        "dps",
+        "survival"
+      ],
+      "statAffinity": {
+        "ad": 1,
+        "crit": 1,
+        "attackSpeed": 0.85,
+        "armorPen": 0.8,
+        "lifeSteal": 0.7,
+        "movement": 0.75,
+        "health": 0.25,
+        "armor": 0.25,
+        "mr": 0.25,
+        "mana": 0,
+        "manaRegen": 0
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "crit_fighter",
+          "purposes": [
+            "crit",
+            "dps",
+            "survival"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "crit": 1,
+            "attackSpeed": 0.85,
+            "armorPen": 0.8,
+            "lifeSteal": 0.7,
+            "movement": 0.75,
+            "health": 0.25,
+            "armor": 0.25,
+            "mr": 0.25,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Yone",
+      "resource": "flow",
+      "candidateRoles": [
+        "MID",
+        "TOP"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "crit_scaling",
+        "mobility"
+      ],
+      "generalPurposes": [
+        "crit",
+        "dps",
+        "survival"
+      ],
+      "statAffinity": {
+        "ad": 1,
+        "crit": 1,
+        "attackSpeed": 0.85,
+        "armorPen": 0.8,
+        "lifeSteal": 0.7,
+        "movement": 0.75,
+        "health": 0.25,
+        "armor": 0.25,
+        "mr": 0.25,
+        "mana": 0,
+        "manaRegen": 0
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "crit_fighter",
+          "purposes": [
+            "crit",
+            "dps",
+            "survival"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "crit": 1,
+            "attackSpeed": 0.85,
+            "armorPen": 0.8,
+            "lifeSteal": 0.7,
+            "movement": 0.75,
+            "health": 0.25,
+            "armor": 0.25,
+            "mr": 0.25,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "LeeSin",
+      "resource": "energy",
+      "candidateRoles": [
+        "JUNGLE"
+      ],
+      "capabilities": [
+        "physical_ability",
+        "mobility",
+        "ally_shield"
+      ],
+      "generalPurposes": [
+        "assassin",
+        "bruiser",
+        "burst",
+        "dps",
+        "lethality",
+        "survival"
+      ],
+      "statAffinity": {
+        "ad": 0.9,
+        "health": 0.85,
+        "armor": 0.65,
+        "mr": 0.65,
+        "haste": 0.8,
+        "armorPen": 0.65,
+        "lifeSteal": 0.5,
+        "movement": 0.65,
+        "mana": 0,
+        "manaRegen": 0
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "ad_bruiser",
+          "purposes": [
+            "survival",
+            "bruiser",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 0.9,
+            "health": 0.85,
+            "armor": 0.65,
+            "mr": 0.65,
+            "haste": 0.8,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.65,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ad_assassin",
+          "purposes": [
+            "burst",
+            "assassin",
+            "lethality"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "lethality": 0.8,
+            "armorPen": 0.8,
+            "haste": 0.8,
+            "health": 0.4,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Kennen",
+      "resource": "energy",
+      "candidateRoles": [
+        "TOP",
+        "MID"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "cc"
+      ],
+      "generalPurposes": [
+        "aoe",
+        "magic_damage"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 0.85,
+        "mana": 0,
+        "manaRegen": 0,
+        "health": 0.35,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "ap_aoe",
+          "purposes": [
+            "magic_damage",
+            "aoe"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.85,
+            "mana": 0,
+            "manaRegen": 0,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Irelia",
+      "resource": "mana",
+      "candidateRoles": [
+        "TOP",
+        "MID"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "onhit_ability",
+        "mobility"
+      ],
+      "generalPurposes": [
+        "bruiser",
+        "dps",
+        "onhit",
+        "survival"
+      ],
+      "statAffinity": {
+        "ad": 0.8,
+        "ap": 0.55,
+        "attackSpeed": 1,
+        "onHit": 1,
+        "armorPen": 0.65,
+        "lifeSteal": 0.5,
+        "movement": 0.75,
+        "health": 0.25
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "onhit_fighter",
+          "purposes": [
+            "onhit",
+            "bruiser",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 0.8,
+            "ap": 0.55,
+            "attackSpeed": 1,
+            "onHit": 1,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.75,
+            "health": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ad_bruiser",
+          "purposes": [
+            "survival",
+            "bruiser",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 0.9,
+            "health": 0.85,
+            "armor": 0.65,
+            "mr": 0.65,
+            "haste": 0.8,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.65
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Karma",
+      "resource": "mana",
+      "candidateRoles": [
+        "SUPPORT",
+        "MID"
+      ],
+      "capabilities": [
+        "ally_shield",
+        "magic_ability",
+        "cc"
+      ],
+      "generalPurposes": [
+        "enchanter",
+        "healing",
+        "magic_damage",
+        "poke",
+        "utility"
+      ],
+      "statAffinity": {
+        "ap": 0.65,
+        "healPower": 1,
+        "manaRegen": 1,
+        "mana": 0.65,
+        "haste": 1,
+        "health": 0.6,
+        "armor": 0.65,
+        "mr": 0.65,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "enchanter",
+          "purposes": [
+            "healing",
+            "enchanter",
+            "utility"
+          ],
+          "statAffinity": {
+            "ap": 0.65,
+            "healPower": 1,
+            "manaRegen": 1,
+            "mana": 0.65,
+            "haste": 1,
+            "health": 0.6,
+            "armor": 0.65,
+            "mr": 0.65,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ap_poke",
+          "purposes": [
+            "poke",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Milio",
+      "resource": "mana",
+      "candidateRoles": [
+        "SUPPORT"
+      ],
+      "capabilities": [
+        "ally_heal",
+        "ally_shield",
+        "ally_buff"
+      ],
+      "generalPurposes": [
+        "enchanter",
+        "healing",
+        "utility"
+      ],
+      "statAffinity": {
+        "ap": 0.65,
+        "healPower": 1,
+        "manaRegen": 1,
+        "mana": 0.65,
+        "haste": 1,
+        "health": 0.6,
+        "armor": 0.65,
+        "mr": 0.65,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [
+        "healing",
+        "shielding"
+      ],
+      "archetypes": [
+        {
+          "id": "enchanter",
+          "purposes": [
+            "healing",
+            "enchanter",
+            "utility"
+          ],
+          "statAffinity": {
+            "ap": 0.65,
+            "healPower": 1,
+            "manaRegen": 1,
+            "mana": 0.65,
+            "haste": 1,
+            "health": 0.6,
+            "armor": 0.65,
+            "mr": 0.65,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Thresh",
+      "resource": "mana",
+      "candidateRoles": [
+        "SUPPORT"
+      ],
+      "capabilities": [
+        "ally_shield",
+        "cc"
+      ],
+      "generalPurposes": [
+        "cc",
+        "tank",
+        "utility"
+      ],
+      "statAffinity": {
+        "health": 1,
+        "armor": 1,
+        "mr": 1,
+        "haste": 0.75,
+        "movement": 0.65,
+        "ad": 0.25,
+        "ap": 0.25
+      },
+      "enemyThreatTags": [
+        "cc",
+        "pick"
+      ],
+      "archetypes": [
+        {
+          "id": "engage_support_tank",
+          "purposes": [
+            "tank",
+            "cc",
+            "utility"
+          ],
+          "statAffinity": {
+            "health": 1,
+            "armor": 1,
+            "mr": 1,
+            "haste": 0.75,
+            "movement": 0.65,
+            "ad": 0.25,
+            "ap": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Senna",
+      "resource": "mana",
+      "candidateRoles": [
+        "SUPPORT",
+        "ADC"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "ally_heal",
+        "ally_shield"
+      ],
+      "generalPurposes": [
+        "ad_damage",
+        "attack_speed",
+        "crit",
+        "dps",
+        "utility"
+      ],
+      "statAffinity": {
+        "ad": 1,
+        "lethality": 0.8,
+        "armorPen": 0.8,
+        "haste": 0.85,
+        "health": 0.6,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "ad_support",
+          "purposes": [
+            "utility",
+            "ad_damage"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "lethality": 0.8,
+            "armorPen": 0.8,
+            "haste": 0.85,
+            "health": 0.6,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "crit_adc",
+          "purposes": [
+            "crit",
+            "attack_speed",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "crit": 1,
+            "attackSpeed": 0.85,
+            "armorPen": 0.8,
+            "lifeSteal": 0.7,
+            "movement": 0.75,
+            "health": 0.25,
+            "armor": 0.25,
+            "mr": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Shen",
+      "resource": "energy",
+      "candidateRoles": [
+        "TOP"
+      ],
+      "capabilities": [
+        "ally_shield",
+        "cc",
+        "defensive_scaling"
+      ],
+      "generalPurposes": [
+        "cc",
+        "survival",
+        "tank"
+      ],
+      "statAffinity": {
+        "health": 1,
+        "armor": 1,
+        "mr": 1,
+        "haste": 0.75,
+        "movement": 0.65,
+        "ad": 0.25,
+        "ap": 0.25,
+        "mana": 0,
+        "manaRegen": 0
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "tank",
+          "purposes": [
+            "tank",
+            "survival",
+            "cc"
+          ],
+          "statAffinity": {
+            "health": 1,
+            "armor": 1,
+            "mr": 1,
+            "haste": 0.75,
+            "movement": 0.65,
+            "ad": 0.25,
+            "ap": 0.25,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Riven",
+      "resource": "none",
+      "candidateRoles": [
+        "TOP"
+      ],
+      "capabilities": [
+        "physical_ability",
+        "mobility",
+        "self_shield"
+      ],
+      "generalPurposes": [
+        "bruiser",
+        "dps",
+        "survival"
+      ],
+      "statAffinity": {
+        "ad": 0.9,
+        "health": 0.85,
+        "armor": 0.65,
+        "mr": 0.65,
+        "haste": 0.8,
+        "armorPen": 0.65,
+        "lifeSteal": 0.5,
+        "movement": 0.65,
+        "mana": 0,
+        "manaRegen": 0
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "ad_bruiser",
+          "purposes": [
+            "survival",
+            "bruiser",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 0.9,
+            "health": 0.85,
+            "armor": 0.65,
+            "mr": 0.65,
+            "haste": 0.8,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.65,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Darius",
+      "resource": "mana",
+      "candidateRoles": [
+        "TOP"
+      ],
+      "capabilities": [
+        "physical_ability",
+        "healing_self"
+      ],
+      "generalPurposes": [
+        "bruiser",
+        "cc",
+        "dps",
+        "survival",
+        "tank"
+      ],
+      "statAffinity": {
+        "ad": 0.9,
+        "health": 0.85,
+        "armor": 0.65,
+        "mr": 0.65,
+        "haste": 0.8,
+        "armorPen": 0.65,
+        "lifeSteal": 0.5,
+        "movement": 0.65
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "ad_bruiser",
+          "purposes": [
+            "survival",
+            "bruiser",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 0.9,
+            "health": 0.85,
+            "armor": 0.65,
+            "mr": 0.65,
+            "haste": 0.8,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.65
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "tank",
+          "purposes": [
+            "tank",
+            "survival",
+            "cc"
+          ],
+          "statAffinity": {
+            "health": 1,
+            "armor": 1,
+            "mr": 1,
+            "haste": 0.75,
+            "movement": 0.65,
+            "ad": 0.25,
+            "ap": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Vayne",
+      "resource": "mana",
+      "candidateRoles": [
+        "ADC",
+        "TOP"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "onhit_ability",
+        "mobility"
+      ],
+      "generalPurposes": [
+        "anti_tank",
+        "attack_speed",
+        "crit",
+        "dps",
+        "onhit"
+      ],
+      "statAffinity": {
+        "ad": 0.8,
+        "ap": 0.55,
+        "attackSpeed": 1,
+        "onHit": 1,
+        "armorPen": 0.65,
+        "lifeSteal": 0.5,
+        "movement": 0.75,
+        "health": 0.25
+      },
+      "enemyThreatTags": [
+        "true_damage",
+        "dps"
+      ],
+      "archetypes": [
+        {
+          "id": "onhit_adc",
+          "purposes": [
+            "onhit",
+            "dps",
+            "anti_tank"
+          ],
+          "statAffinity": {
+            "ad": 0.8,
+            "ap": 0.55,
+            "attackSpeed": 1,
+            "onHit": 1,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.75,
+            "health": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "crit_adc",
+          "purposes": [
+            "crit",
+            "attack_speed",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "crit": 1,
+            "attackSpeed": 0.85,
+            "armorPen": 0.8,
+            "lifeSteal": 0.7,
+            "movement": 0.75,
+            "health": 0.25,
+            "armor": 0.25,
+            "mr": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Fiora",
+      "resource": "mana",
+      "candidateRoles": [
+        "TOP"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "physical_ability",
+        "mobility"
+      ],
+      "generalPurposes": [
+        "dps",
+        "duelist",
+        "survival"
+      ],
+      "statAffinity": {
+        "ad": 0.9,
+        "health": 0.85,
+        "armor": 0.65,
+        "mr": 0.65,
+        "haste": 0.8,
+        "armorPen": 0.65,
+        "lifeSteal": 0.5,
+        "movement": 0.65
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "duelist",
+          "purposes": [
+            "duelist",
+            "dps",
+            "survival"
+          ],
+          "statAffinity": {
+            "ad": 0.9,
+            "health": 0.85,
+            "armor": 0.65,
+            "mr": 0.65,
+            "haste": 0.8,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.65
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Morgana",
+      "resource": "mana",
+      "candidateRoles": [
+        "SUPPORT",
+        "MID"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "ally_shield",
+        "cc",
+        "dot"
+      ],
+      "generalPurposes": [
+        "dot",
+        "magic_damage",
+        "utility"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 0.8,
+        "mana": 0.6,
+        "manaRegen": 0.4,
+        "health": 0.35,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "utility_mage",
+          "purposes": [
+            "utility",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ap_dot",
+          "purposes": [
+            "dot",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Annie",
+      "resource": "mana",
+      "candidateRoles": [
+        "MID"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "cc"
+      ],
+      "generalPurposes": [
+        "burst",
+        "magic_damage"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 0.8,
+        "mana": 0.6,
+        "manaRegen": 0.4,
+        "health": 0.35,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "burst_mage",
+          "purposes": [
+            "burst",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Veigar",
+      "resource": "mana",
+      "candidateRoles": [
+        "MID"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "cc",
+        "stacking_ap"
+      ],
+      "generalPurposes": [
+        "magic_damage",
+        "scaling"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 0.8,
+        "mana": 0.6,
+        "manaRegen": 0.4,
+        "health": 0.35,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "scaling_mage",
+          "purposes": [
+            "magic_damage",
+            "scaling"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Brand",
+      "resource": "mana",
+      "candidateRoles": [
+        "MID",
+        "SUPPORT",
+        "JUNGLE"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "dot"
+      ],
+      "generalPurposes": [
+        "dot",
+        "magic_damage"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 0.8,
+        "mana": 0.6,
+        "manaRegen": 0.4,
+        "health": 0.35,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [
+        "dot",
+        "burst_magic"
+      ],
+      "archetypes": [
+        {
+          "id": "ap_dot",
+          "purposes": [
+            "dot",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Swain",
+      "resource": "mana",
+      "candidateRoles": [
+        "MID",
+        "SUPPORT"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "healing_self"
+      ],
+      "generalPurposes": [
+        "ap_dps",
+        "haste",
+        "survival"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 0.8,
+        "mana": 0.6,
+        "manaRegen": 0.4,
+        "health": 0.8,
+        "armor": 0.55,
+        "mr": 0.55,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [
+        "healing",
+        "dps"
+      ],
+      "archetypes": [
+        {
+          "id": "ap_battlemage",
+          "purposes": [
+            "ap_dps",
+            "survival",
+            "haste"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.8,
+            "armor": 0.55,
+            "mr": 0.55,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Varus",
+      "resource": "mana",
+      "candidateRoles": [
+        "ADC"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "onhit_ability",
+        "physical_ability",
+        "magic_ability"
+      ],
+      "generalPurposes": [
+        "anti_tank",
+        "burst",
+        "dps",
+        "magic_damage",
+        "onhit"
+      ],
+      "statAffinity": {
+        "ad": 0.8,
+        "ap": 0.55,
+        "attackSpeed": 1,
+        "onHit": 1,
+        "armorPen": 0.65,
+        "lifeSteal": 0.5,
+        "movement": 0.75,
+        "health": 0.25
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "onhit_adc",
+          "purposes": [
+            "onhit",
+            "dps",
+            "anti_tank"
+          ],
+          "statAffinity": {
+            "ad": 0.8,
+            "ap": 0.55,
+            "attackSpeed": 1,
+            "onHit": 1,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.75,
+            "health": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ad_poke",
+          "purposes": [],
+          "statAffinity": {
+            "ad": 1,
+            "lethality": 0.8,
+            "armorPen": 0.8,
+            "haste": 0.8,
+            "health": 0.4,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ap_burst",
+          "purposes": [
+            "burst",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0.6,
+            "manaRegen": 0.4,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Draven",
+      "resource": "mana",
+      "candidateRoles": [
+        "ADC"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "physical_ability"
+      ],
+      "generalPurposes": [
+        "ad_damage",
+        "attack_speed",
+        "burst",
+        "crit",
+        "dps"
+      ],
+      "statAffinity": {
+        "ad": 1,
+        "lethality": 0.8,
+        "armorPen": 0.8,
+        "haste": 0.8,
+        "health": 0.4,
+        "armor": 0.35,
+        "mr": 0.35,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [
+        "burst_physical"
+      ],
+      "archetypes": [
+        {
+          "id": "ad_burst",
+          "purposes": [
+            "burst",
+            "ad_damage"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "lethality": 0.8,
+            "armorPen": 0.8,
+            "haste": 0.8,
+            "health": 0.4,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "crit_adc",
+          "purposes": [
+            "crit",
+            "attack_speed",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "crit": 1,
+            "attackSpeed": 0.85,
+            "armorPen": 0.8,
+            "lifeSteal": 0.7,
+            "movement": 0.75,
+            "health": 0.25,
+            "armor": 0.25,
+            "mr": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Samira",
+      "resource": "mana",
+      "candidateRoles": [
+        "ADC"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "physical_ability",
+        "mobility"
+      ],
+      "generalPurposes": [
+        "ad_damage",
+        "attack_speed",
+        "burst",
+        "crit",
+        "dps"
+      ],
+      "statAffinity": {
+        "ad": 1,
+        "crit": 1,
+        "attackSpeed": 0.85,
+        "armorPen": 0.8,
+        "lifeSteal": 0.7,
+        "movement": 0.75,
+        "health": 0.25,
+        "armor": 0.25,
+        "mr": 0.25
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "crit_adc",
+          "purposes": [
+            "crit",
+            "attack_speed",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "crit": 1,
+            "attackSpeed": 0.85,
+            "armorPen": 0.8,
+            "lifeSteal": 0.7,
+            "movement": 0.75,
+            "health": 0.25,
+            "armor": 0.25,
+            "mr": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ad_burst",
+          "purposes": [
+            "burst",
+            "ad_damage"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "lethality": 0.8,
+            "armorPen": 0.8,
+            "haste": 0.8,
+            "health": 0.4,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Zeri",
+      "resource": "mana",
+      "candidateRoles": [
+        "ADC"
+      ],
+      "capabilities": [
+        "basic_attack",
+        "attack_speed_scaling",
+        "mobility"
+      ],
+      "generalPurposes": [
+        "anti_tank",
+        "attack_speed",
+        "crit",
+        "dps",
+        "onhit"
+      ],
+      "statAffinity": {
+        "ad": 1,
+        "crit": 1,
+        "attackSpeed": 0.85,
+        "armorPen": 0.8,
+        "lifeSteal": 0.7,
+        "movement": 0.75,
+        "health": 0.25,
+        "armor": 0.25,
+        "mr": 0.25
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "crit_adc",
+          "purposes": [
+            "crit",
+            "attack_speed",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 1,
+            "crit": 1,
+            "attackSpeed": 0.85,
+            "armorPen": 0.8,
+            "lifeSteal": 0.7,
+            "movement": 0.75,
+            "health": 0.25,
+            "armor": 0.25,
+            "mr": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "onhit_adc",
+          "purposes": [
+            "onhit",
+            "dps",
+            "anti_tank"
+          ],
+          "statAffinity": {
+            "ad": 0.8,
+            "ap": 0.55,
+            "attackSpeed": 1,
+            "onHit": 1,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.75,
+            "health": 0.25
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Janna",
+      "resource": "mana",
+      "candidateRoles": [
+        "SUPPORT"
+      ],
+      "capabilities": [
+        "ally_shield",
+        "ally_heal",
+        "cc"
+      ],
+      "generalPurposes": [
+        "enchanter",
+        "healing",
+        "utility"
+      ],
+      "statAffinity": {
+        "ap": 0.65,
+        "healPower": 1,
+        "manaRegen": 1,
+        "mana": 0.65,
+        "haste": 1,
+        "health": 0.6,
+        "armor": 0.65,
+        "mr": 0.65,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [
+        "shielding",
+        "cc"
+      ],
+      "archetypes": [
+        {
+          "id": "enchanter",
+          "purposes": [
+            "healing",
+            "enchanter",
+            "utility"
+          ],
+          "statAffinity": {
+            "ap": 0.65,
+            "healPower": 1,
+            "manaRegen": 1,
+            "mana": 0.65,
+            "haste": 1,
+            "health": 0.6,
+            "armor": 0.65,
+            "mr": 0.65,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Aatrox",
+      "resource": "none",
+      "candidateRoles": [
+        "TOP"
+      ],
+      "capabilities": [
+        "physical_ability",
+        "healing_self"
+      ],
+      "generalPurposes": [
+        "bruiser",
+        "dps",
+        "survival"
+      ],
+      "statAffinity": {
+        "ad": 0.9,
+        "health": 0.85,
+        "armor": 0.65,
+        "mr": 0.65,
+        "haste": 0.8,
+        "armorPen": 0.65,
+        "lifeSteal": 0.5,
+        "movement": 0.65,
+        "mana": 0,
+        "manaRegen": 0
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "ad_bruiser",
+          "purposes": [
+            "survival",
+            "bruiser",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 0.9,
+            "health": 0.85,
+            "armor": 0.65,
+            "mr": 0.65,
+            "haste": 0.8,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.65,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Sett",
+      "resource": "grit",
+      "candidateRoles": [
+        "TOP"
+      ],
+      "capabilities": [
+        "physical_ability",
+        "defensive_scaling"
+      ],
+      "generalPurposes": [
+        "bruiser",
+        "cc",
+        "dps",
+        "survival",
+        "tank"
+      ],
+      "statAffinity": {
+        "ad": 0.9,
+        "health": 0.85,
+        "armor": 0.65,
+        "mr": 0.65,
+        "haste": 0.8,
+        "armorPen": 0.65,
+        "lifeSteal": 0.5,
+        "movement": 0.65,
+        "mana": 0,
+        "manaRegen": 0
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "ad_bruiser",
+          "purposes": [
+            "survival",
+            "bruiser",
+            "dps"
+          ],
+          "statAffinity": {
+            "ad": 0.9,
+            "health": 0.85,
+            "armor": 0.65,
+            "mr": 0.65,
+            "haste": 0.8,
+            "armorPen": 0.65,
+            "lifeSteal": 0.5,
+            "movement": 0.65,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "tank",
+          "purposes": [
+            "tank",
+            "survival",
+            "cc"
+          ],
+          "statAffinity": {
+            "health": 1,
+            "armor": 1,
+            "mr": 1,
+            "haste": 0.75,
+            "movement": 0.65,
+            "ad": 0.25,
+            "ap": 0.25,
+            "mana": 0,
+            "manaRegen": 0
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    },
+    {
+      "championId": "Rumble",
+      "resource": "heat",
+      "candidateRoles": [
+        "TOP",
+        "MID"
+      ],
+      "capabilities": [
+        "magic_ability",
+        "dot"
+      ],
+      "generalPurposes": [
+        "ap_dps",
+        "dot",
+        "magic_damage",
+        "survival"
+      ],
+      "statAffinity": {
+        "ap": 1,
+        "magicPen": 0.9,
+        "haste": 0.8,
+        "mana": 0,
+        "manaRegen": 0,
+        "health": 0.8,
+        "armor": 0.55,
+        "mr": 0.55,
+        "movement": 0.7
+      },
+      "enemyThreatTags": [],
+      "archetypes": [
+        {
+          "id": "ap_bruiser",
+          "purposes": [
+            "ap_dps",
+            "survival"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0,
+            "manaRegen": 0,
+            "health": 0.8,
+            "armor": 0.55,
+            "mr": 0.55,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        },
+        {
+          "id": "ap_dot",
+          "purposes": [
+            "dot",
+            "magic_damage"
+          ],
+          "statAffinity": {
+            "ap": 1,
+            "magicPen": 0.9,
+            "haste": 0.8,
+            "mana": 0,
+            "manaRegen": 0,
+            "health": 0.35,
+            "armor": 0.35,
+            "mr": 0.35,
+            "movement": 0.7
+          },
+          "evidenceStatus": "editorial-unverified"
+        }
+      ],
+      "verification": "editorial-unverified",
+      "note": "Qualitative knowledge seed only: validate patch, role and ability interactions before treating as verified."
+    }
+  ]
+}

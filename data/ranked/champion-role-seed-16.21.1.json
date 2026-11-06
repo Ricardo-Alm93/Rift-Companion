@@ -1,0 +1,6293 @@
+{
+  "schemaVersion": 1,
+  "type": "RANKED_CHAMPION_ROLE_ARCHETYPE_SEED",
+  "sourceDataDragonPatch": "16.21.1",
+  "sourceDataDragonUrl": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json",
+  "targetPatch": "16.22.1",
+  "sourceStatus": "EXTRACTED_FROM_USER_ARCHIVE_2026_11_03",
+  "disclaimer": "173 perfiles iniciales por campeón a partir del roster de Data Dragon del ZIP aportado. Roles/arquetipos son editoriales aproximados, NO build recomendada validada, ni meta actualizado, ni datos estadísticos. Cada uno debe verificarse con muestras de campeón/rol/parche. No generar build de 6 objetos solo con este seed.",
+  "champions": {
+    "Aatrox": {
+      "name": "Aatrox",
+      "championKey": 266,
+      "riotTags": [
+        "Fighter"
+      ],
+      "resourceType": "Blood Well",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_spell_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_spell_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Ahri": {
+      "name": "Ahri",
+      "championKey": 103,
+      "riotTags": [
+        "Mage",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_burst_mobile",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Akali": {
+      "name": "Akali",
+      "championKey": 84,
+      "riotTags": [
+        "Assassin"
+      ],
+      "resourceType": "Energy",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ap_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Akshan": {
+      "name": "Akshan",
+      "championKey": 166,
+      "riotTags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_ranged_caster",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ad_ranged_caster",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Alistar": {
+      "name": "Alistar",
+      "championKey": 12,
+      "riotTags": [
+        "Tank",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Ambessa": {
+      "name": "Ambessa",
+      "championKey": 799,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Energy",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_spell_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_spell_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Amumu": {
+      "name": "Amumu",
+      "championKey": 32,
+      "riotTags": [
+        "Tank",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Anivia": {
+      "name": "Anivia",
+      "championKey": 34,
+      "riotTags": [
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_mana_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "mana_scaling_or_sustain",
+            "ability_haste",
+            "crowd_control_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Annie": {
+      "name": "Annie",
+      "championKey": 1,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_burst",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "ap_burst",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "support_economy",
+            "team_utility",
+            "burst_window",
+            "spell_rotation_timing"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Aphelios": {
+      "name": "Aphelios",
+      "championKey": 523,
+      "riotTags": [
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_crit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "weapon_cycle_and_attack_scaling"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Ashe": {
+      "name": "Ashe",
+      "championKey": 22,
+      "riotTags": [
+        "Marksman",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_utility_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "ad_poke_utility",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "support_economy",
+            "team_utility",
+            "ranged_poke",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "AurelionSol": {
+      "name": "Aurelion Sol",
+      "championKey": 136,
+      "riotTags": [
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_scaling_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage",
+            "late_game_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Aurora": {
+      "name": "Aurora",
+      "championKey": 893,
+      "riotTags": [
+        "Mage",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_mobile_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ap_mobile_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Azir": {
+      "name": "Azir",
+      "championKey": 268,
+      "riotTags": [
+        "Mage",
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_attack_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage",
+            "repeated_attack_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "soldier_attack_pattern",
+        "attack_speed_value"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Bard": {
+      "name": "Bard",
+      "championKey": 432,
+      "riotTags": [
+        "Support",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "support_utility",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "support_economy",
+            "team_utility"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Belveth": {
+      "name": "Bel'Veth",
+      "championKey": 200,
+      "riotTags": [
+        "Fighter"
+      ],
+      "resourceType": "",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_onhit_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Blitzcrank": {
+      "name": "Blitzcrank",
+      "championKey": 53,
+      "riotTags": [
+        "Tank",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "tank_pick",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Brand": {
+      "name": "Brand",
+      "championKey": 63,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "ap_dot_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "support_economy",
+            "team_utility",
+            "sustained_damage",
+            "damage_over_time_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_dot_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage",
+            "damage_over_time_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_dot_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage",
+            "damage_over_time_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "dot_and_spell_effects"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Braum": {
+      "name": "Braum",
+      "championKey": 201,
+      "riotTags": [
+        "Tank",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "tank_peel",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility",
+            "ally_protection"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Briar": {
+      "name": "Briar",
+      "championKey": 233,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Fury",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_auto_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ad_auto_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Caitlyn": {
+      "name": "Caitlyn",
+      "championKey": 51,
+      "riotTags": [
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_crit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Camille": {
+      "name": "Camille",
+      "championKey": 164,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_duelist",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Cassiopeia": {
+      "name": "Cassiopeia",
+      "championKey": 69,
+      "riotTags": [
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_sustained_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ap_sustained_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "sustained_spells",
+        "mana_sustain_priority",
+        "boots_allowed_since_26_01"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Chogath": {
+      "name": "Cho'Gath",
+      "championKey": 31,
+      "riotTags": [
+        "Tank",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "tank_scaling",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "late_game_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_burst",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Corki": {
+      "name": "Corki",
+      "championKey": 42,
+      "riotTags": [
+        "Marksman",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_caster_mixed",
+          "alternatives": [
+            "crit_caster_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting",
+            "mixed_damage_validation"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_caster_mixed",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting",
+            "mixed_damage_validation"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "mixed_damage_do_not_assume_physical_only"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Darius": {
+      "name": "Darius",
+      "championKey": 122,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_juggernaut",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "melee_sustained_pressure",
+            "health_and_damage_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Diana": {
+      "name": "Diana",
+      "championKey": 131,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_diver",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Draven": {
+      "name": "Draven",
+      "championKey": 119,
+      "riotTags": [
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_crit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "DrMundo": {
+      "name": "Dr. Mundo",
+      "championKey": 36,
+      "riotTags": [
+        "Tank",
+        "Fighter"
+      ],
+      "resourceType": "None",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "tank_health_juggernaut",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "melee_sustained_pressure",
+            "health_and_damage_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "tank_health_juggernaut",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "melee_sustained_pressure",
+            "health_and_damage_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Ekko": {
+      "name": "Ekko",
+      "championKey": 245,
+      "riotTags": [
+        "Assassin",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Elise": {
+      "name": "Elise",
+      "championKey": 60,
+      "riotTags": [
+        "Assassin",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_burst_mobile",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Evelynn": {
+      "name": "Evelynn",
+      "championKey": 28,
+      "riotTags": [
+        "Assassin",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Ezreal": {
+      "name": "Ezreal",
+      "championKey": 81,
+      "riotTags": [
+        "Marksman",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_spell_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Fiddlesticks": {
+      "name": "Fiddlesticks",
+      "championKey": 9,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_aoe_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Fiora": {
+      "name": "Fiora",
+      "championKey": 114,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_duelist",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Fizz": {
+      "name": "Fizz",
+      "championKey": 105,
+      "riotTags": [
+        "Assassin",
+        "Fighter"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Galio": {
+      "name": "Galio",
+      "championKey": 3,
+      "riotTags": [
+        "Tank",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_tank_burst",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "durability",
+            "health_and_resistances",
+            "burst_window",
+            "spell_rotation_timing"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "tank_peel",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility",
+            "ally_protection"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Gangplank": {
+      "name": "Gangplank",
+      "championKey": 41,
+      "riotTags": [
+        "Fighter"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_crit_caster",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling",
+            "ability_damage_and_casting"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Garen": {
+      "name": "Garen",
+      "championKey": 86,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "None",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_juggernaut",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "melee_sustained_pressure",
+            "health_and_damage_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "no_mana_sustain_items"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Gnar": {
+      "name": "Gnar",
+      "championKey": 150,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Rage",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_transform_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff",
+            "variant_confirmation_required"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Gragas": {
+      "name": "Gragas",
+      "championKey": 79,
+      "riotTags": [
+        "Fighter",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_burst_bruiser",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ap_burst_bruiser",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_burst",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Graves": {
+      "name": "Graves",
+      "championKey": 104,
+      "riotTags": [
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_ranged_bruiser",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Gwen": {
+      "name": "Gwen",
+      "championKey": 887,
+      "riotTags": [
+        "Fighter"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ap_duelist",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_duelist",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Hecarim": {
+      "name": "Hecarim",
+      "championKey": 120,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_diver",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Heimerdinger": {
+      "name": "Heimerdinger",
+      "championKey": 74,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_sustained_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ap_sustained_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "ap_poke",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "support_economy",
+            "team_utility",
+            "ranged_poke",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Hwei": {
+      "name": "Hwei",
+      "championKey": 910,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "bot",
+          "primaryArchetype": "ap_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Illaoi": {
+      "name": "Illaoi",
+      "championKey": 420,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_juggernaut",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "melee_sustained_pressure",
+            "health_and_damage_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Irelia": {
+      "name": "Irelia",
+      "championKey": 39,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_onhit_duelist",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_onhit_duelist",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Ivern": {
+      "name": "Ivern",
+      "championKey": 427,
+      "riotTags": [
+        "Support",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "enchanter_utility",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "heal_shield_utility",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Janna": {
+      "name": "Janna",
+      "championKey": 40,
+      "riotTags": [
+        "Support",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "enchanter_peel",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "heal_shield_utility",
+            "ability_haste",
+            "support_economy",
+            "team_utility",
+            "ally_protection"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "JarvanIV": {
+      "name": "Jarvan IV",
+      "championKey": 59,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_diver",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ad_diver",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Jax": {
+      "name": "Jax",
+      "championKey": 24,
+      "riotTags": [
+        "Fighter"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_duelist",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_duelist",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Jayce": {
+      "name": "Jayce",
+      "championKey": 126,
+      "riotTags": [
+        "Fighter",
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_poke_caster",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ranged_poke",
+            "ability_haste",
+            "ability_damage_and_casting"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_poke_caster",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ranged_poke",
+            "ability_haste",
+            "ability_damage_and_casting"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Jhin": {
+      "name": "Jhin",
+      "championKey": 202,
+      "riotTags": [
+        "Marksman",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_crit_caster",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling",
+            "ability_damage_and_casting"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "attack_speed_is_conversion_not_standard_auto_carry"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Jinx": {
+      "name": "Jinx",
+      "championKey": 222,
+      "riotTags": [
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_crit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "crit_auto_attack_spikes"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Kaisa": {
+      "name": "Kai'Sa",
+      "championKey": 145,
+      "riotTags": [
+        "Marksman",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "hybrid_onhit_carry",
+          "alternatives": [
+            "ap_poke_variant",
+            "ad_crit_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "repeated_attack_synergy",
+            "mixed_damage_validation"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "evolutions_conditioned_by_stats",
+        "hybrid_damage"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Kalista": {
+      "name": "Kalista",
+      "championKey": 429,
+      "riotTags": [
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_onhit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "attack_speed_and_mobility"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Karma": {
+      "name": "Karma",
+      "championKey": 43,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "enchanter_poke",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "heal_shield_utility",
+            "ability_haste",
+            "support_economy",
+            "team_utility",
+            "ranged_poke"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_poke",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "ranged_poke",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Karthus": {
+      "name": "Karthus",
+      "championKey": 30,
+      "riotTags": [
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_dps_mana",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "mana_scaling_or_sustain",
+            "ability_haste",
+            "sustained_damage"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_dps_mana",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "mana_scaling_or_sustain",
+            "ability_haste",
+            "sustained_damage"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "bot",
+          "primaryArchetype": "ap_dps_mana",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "mana_scaling_or_sustain",
+            "ability_haste",
+            "sustained_damage"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Kassadin": {
+      "name": "Kassadin",
+      "championKey": 38,
+      "riotTags": [
+        "Assassin",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_mana_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "mana_scaling_or_sustain",
+            "ability_haste",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Katarina": {
+      "name": "Katarina",
+      "championKey": 55,
+      "riotTags": [
+        "Assassin",
+        "Mage"
+      ],
+      "resourceType": "None",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_assassin_onhit",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "repeated_attack_synergy",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Kayle": {
+      "name": "Kayle",
+      "championKey": 10,
+      "riotTags": [
+        "Marksman",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ap_onhit_scaling",
+          "alternatives": [
+            "ad_onhit_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "repeated_attack_synergy",
+            "late_game_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_onhit_scaling",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "repeated_attack_synergy",
+            "late_game_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Kayn": {
+      "name": "Kayn",
+      "championKey": 141,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_transform_fighter",
+          "alternatives": [
+            "assassin_form",
+            "bruiser_form"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff",
+            "variant_confirmation_required"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "form_choice_required"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Kennen": {
+      "name": "Kennen",
+      "championKey": 85,
+      "riotTags": [
+        "Mage"
+      ],
+      "resourceType": "Energy",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ap_aoe_burst",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Khazix": {
+      "name": "Kha'Zix",
+      "championKey": 121,
+      "riotTags": [
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Kindred": {
+      "name": "Kindred",
+      "championKey": 203,
+      "riotTags": [
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_crit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Kled": {
+      "name": "Kled",
+      "championKey": 240,
+      "riotTags": [
+        "Fighter"
+      ],
+      "resourceType": "Courage",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_diver",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "KogMaw": {
+      "name": "Kog'Maw",
+      "championKey": 96,
+      "riotTags": [
+        "Marksman",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_onhit_carry",
+          "alternatives": [
+            "ap_poke_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_poke",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "ranged_poke",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "KSante": {
+      "name": "K'Sante",
+      "championKey": 897,
+      "riotTags": [
+        "Tank",
+        "Fighter"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "tank_duelist",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Leblanc": {
+      "name": "LeBlanc",
+      "championKey": 7,
+      "riotTags": [
+        "Assassin",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_burst_mobile",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "LeeSin": {
+      "name": "Lee Sin",
+      "championKey": 64,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Energy",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_early_diver",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Leona": {
+      "name": "Leona",
+      "championKey": 89,
+      "riotTags": [
+        "Tank",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Lillia": {
+      "name": "Lillia",
+      "championKey": 876,
+      "riotTags": [
+        "Fighter",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_dot_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage",
+            "damage_over_time_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ap_dot_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage",
+            "damage_over_time_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Lissandra": {
+      "name": "Lissandra",
+      "championKey": 127,
+      "riotTags": [
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_control_burst",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Locke": {
+      "name": "Locke",
+      "championKey": 805,
+      "riotTags": [
+        "Assassin",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "unclassified",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "unclassified_do_not_auto_generate"
+      ],
+      "dataQuality": "HIGH_PRIORITY_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Lucian": {
+      "name": "Lucian",
+      "championKey": 236,
+      "riotTags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_caster_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_caster_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Lulu": {
+      "name": "Lulu",
+      "championKey": 117,
+      "riotTags": [
+        "Support",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "enchanter_peel",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "heal_shield_utility",
+            "ability_haste",
+            "support_economy",
+            "team_utility",
+            "ally_protection"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Lux": {
+      "name": "Lux",
+      "championKey": 99,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_burst_poke",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing",
+            "ranged_poke",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "ap_burst_poke",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "support_economy",
+            "team_utility",
+            "burst_window",
+            "spell_rotation_timing",
+            "ranged_poke",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Malphite": {
+      "name": "Malphite",
+      "championKey": 54,
+      "riotTags": [
+        "Tank",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "tank_armor",
+          "alternatives": [
+            "ap_burst_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_aoe_burst",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Malzahar": {
+      "name": "Malzahar",
+      "championKey": 90,
+      "riotTags": [
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_dot_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage",
+            "damage_over_time_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Maokai": {
+      "name": "Maokai",
+      "championKey": 57,
+      "riotTags": [
+        "Tank",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "MasterYi": {
+      "name": "Master Yi",
+      "championKey": 11,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_onhit_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Mel": {
+      "name": "Mel",
+      "championKey": 800,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_burst_poke",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing",
+            "ranged_poke",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "26_22_midscope_requires_review"
+      ],
+      "dataQuality": "HIGH_PRIORITY_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Milio": {
+      "name": "Milio",
+      "championKey": 902,
+      "riotTags": [
+        "Support",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "enchanter_heal_shield",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "heal_shield_utility",
+            "ability_haste",
+            "support_economy",
+            "team_utility"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "MissFortune": {
+      "name": "Miss Fortune",
+      "championKey": 21,
+      "riotTags": [
+        "Marksman",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_caster_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "MonkeyKing": {
+      "name": "Wukong",
+      "championKey": 62,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_diver",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_diver",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Mordekaiser": {
+      "name": "Mordekaiser",
+      "championKey": 82,
+      "riotTags": [
+        "Fighter",
+        "Mage"
+      ],
+      "resourceType": "Shield",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ap_juggernaut",
+          "alternatives": [
+            "tankier_ap_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "melee_sustained_pressure",
+            "health_and_damage_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_juggernaut",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "melee_sustained_pressure",
+            "health_and_damage_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Morgana": {
+      "name": "Morgana",
+      "championKey": 25,
+      "riotTags": [
+        "Support",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "ap_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "support_economy",
+            "team_utility",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Naafiri": {
+      "name": "Naafiri",
+      "championKey": 950,
+      "riotTags": [
+        "Assassin",
+        "Fighter"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Nami": {
+      "name": "Nami",
+      "championKey": 267,
+      "riotTags": [
+        "Support",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "enchanter_heal_shield",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "heal_shield_utility",
+            "ability_haste",
+            "support_economy",
+            "team_utility"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Nasus": {
+      "name": "Nasus",
+      "championKey": 75,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_scaling_juggernaut",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "melee_sustained_pressure",
+            "health_and_damage_tradeoff",
+            "late_game_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Nautilus": {
+      "name": "Nautilus",
+      "championKey": 111,
+      "riotTags": [
+        "Tank",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Neeko": {
+      "name": "Neeko",
+      "championKey": 518,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_burst_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "ap_burst_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "support_economy",
+            "team_utility",
+            "burst_window",
+            "spell_rotation_timing",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Nidalee": {
+      "name": "Nidalee",
+      "championKey": 76,
+      "riotTags": [
+        "Assassin",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_burst_mobile",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Nilah": {
+      "name": "Nilah",
+      "championKey": 895,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_melee_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Nocturne": {
+      "name": "Nocturne",
+      "championKey": 56,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_diver",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Nunu": {
+      "name": "Nunu & Willump",
+      "championKey": 20,
+      "riotTags": [
+        "Tank",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Olaf": {
+      "name": "Olaf",
+      "championKey": 2,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_juggernaut",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "melee_sustained_pressure",
+            "health_and_damage_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_juggernaut",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "melee_sustained_pressure",
+            "health_and_damage_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Orianna": {
+      "name": "Orianna",
+      "championKey": 61,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Ornn": {
+      "name": "Ornn",
+      "championKey": 516,
+      "riotTags": [
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "item_upgrades_are_not_extra_slot"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Pantheon": {
+      "name": "Pantheon",
+      "championKey": 80,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_early_burst",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "burst_window",
+            "spell_rotation_timing"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "ad_early_burst",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "support_economy",
+            "team_utility",
+            "burst_window",
+            "spell_rotation_timing"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_early_burst",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "burst_window",
+            "spell_rotation_timing"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Poppy": {
+      "name": "Poppy",
+      "championKey": 78,
+      "riotTags": [
+        "Tank",
+        "Fighter"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "tank_duelist",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Pyke": {
+      "name": "Pyke",
+      "championKey": 555,
+      "riotTags": [
+        "Support",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "ad_assassin_support",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "support_economy",
+            "team_utility",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Qiyana": {
+      "name": "Qiyana",
+      "championKey": 246,
+      "riotTags": [
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Quinn": {
+      "name": "Quinn",
+      "championKey": 133,
+      "riotTags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_ranged_caster",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Rakan": {
+      "name": "Rakan",
+      "championKey": 497,
+      "riotTags": [
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "tank_enchanter_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "heal_shield_utility",
+            "ability_haste",
+            "support_economy",
+            "team_utility",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Rammus": {
+      "name": "Rammus",
+      "championKey": 33,
+      "riotTags": [
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "tank_armor",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "RekSai": {
+      "name": "Rek'Sai",
+      "championKey": 421,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Rage",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_diver",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Rell": {
+      "name": "Rell",
+      "championKey": 526,
+      "riotTags": [
+        "Tank",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Renata": {
+      "name": "Renata Glasc",
+      "championKey": 888,
+      "riotTags": [
+        "Support",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "enchanter_utility",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "heal_shield_utility",
+            "ability_haste",
+            "support_economy",
+            "team_utility"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Renekton": {
+      "name": "Renekton",
+      "championKey": 58,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Fury",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_early_bruiser",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Rengar": {
+      "name": "Rengar",
+      "championKey": 107,
+      "riotTags": [
+        "Assassin",
+        "Fighter"
+      ],
+      "resourceType": "Ferocity",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_assassin",
+          "alternatives": [
+            "bruiser_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ad_bruiser",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Riven": {
+      "name": "Riven",
+      "championKey": 92,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "None",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_spell_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Rumble": {
+      "name": "Rumble",
+      "championKey": 68,
+      "riotTags": [
+        "Fighter",
+        "Mage"
+      ],
+      "resourceType": "Heat",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ap_dot_bruiser",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage",
+            "damage_over_time_synergy",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_dot_bruiser",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage",
+            "damage_over_time_synergy",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "heat_not_mana"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Ryze": {
+      "name": "Ryze",
+      "championKey": 13,
+      "riotTags": [
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_mana_scaling",
+          "alternatives": [
+            "defensive_mana_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "mana_scaling_or_sustain",
+            "ability_haste",
+            "late_game_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ap_mana_scaling",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "mana_scaling_or_sustain",
+            "ability_haste",
+            "late_game_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "mana_scaling_core",
+        "do_not_substitute_generic_ap_burst"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Samira": {
+      "name": "Samira",
+      "championKey": 360,
+      "riotTags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_melee_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Sejuani": {
+      "name": "Sejuani",
+      "championKey": 113,
+      "riotTags": [
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Senna": {
+      "name": "Senna",
+      "championKey": 235,
+      "riotTags": [
+        "Support",
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "ad_scaling_support",
+          "alternatives": [
+            "enchanter_utility_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "support_economy",
+            "team_utility",
+            "late_game_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_scaling_support",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "support_economy",
+            "team_utility",
+            "late_game_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "support_economy_and_scaling"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Seraphine": {
+      "name": "Seraphine",
+      "championKey": 147,
+      "riotTags": [
+        "Support",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "enchanter_poke",
+          "alternatives": [
+            "ap_damage_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "heal_shield_utility",
+            "ability_haste",
+            "support_economy",
+            "team_utility",
+            "ranged_poke"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "bot",
+          "primaryArchetype": "ap_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Sett": {
+      "name": "Sett",
+      "championKey": 875,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Grit",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_juggernaut",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "melee_sustained_pressure",
+            "health_and_damage_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Shaco": {
+      "name": "Shaco",
+      "championKey": 35,
+      "riotTags": [
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_assassin",
+          "alternatives": [
+            "ap_trap_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "ap_trap",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "support_economy",
+            "team_utility"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Shen": {
+      "name": "Shen",
+      "championKey": 98,
+      "riotTags": [
+        "Tank"
+      ],
+      "resourceType": "Energy",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "tank_duelist",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "tank_peel",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility",
+            "ally_protection"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Shyvana": {
+      "name": "Shyvana",
+      "championKey": 102,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Fury",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "adaptive_transform_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "extended_trade_value",
+            "durability_tradeoff",
+            "variant_confirmation_required"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "form_and_build_variant_matter"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Singed": {
+      "name": "Singed",
+      "championKey": 27,
+      "riotTags": [
+        "Tank",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ap_dot_tank",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "durability",
+            "health_and_resistances",
+            "sustained_damage",
+            "damage_over_time_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Sion": {
+      "name": "Sion",
+      "championKey": 14,
+      "riotTags": [
+        "Tank",
+        "Fighter"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "tank_scaling",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "late_game_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Sivir": {
+      "name": "Sivir",
+      "championKey": 15,
+      "riotTags": [
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_crit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Skarner": {
+      "name": "Skarner",
+      "championKey": 72,
+      "riotTags": [
+        "Tank",
+        "Fighter"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Smolder": {
+      "name": "Smolder",
+      "championKey": 901,
+      "riotTags": [
+        "Marksman",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_spell_scaling",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting",
+            "late_game_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_spell_scaling",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting",
+            "late_game_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "ability_stack_scaling"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Sona": {
+      "name": "Sona",
+      "championKey": 37,
+      "riotTags": [
+        "Support",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "enchanter_heal_shield",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "heal_shield_utility",
+            "ability_haste",
+            "support_economy",
+            "team_utility"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Soraka": {
+      "name": "Soraka",
+      "championKey": 16,
+      "riotTags": [
+        "Support",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "enchanter_heal_shield",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "heal_shield_utility",
+            "ability_haste",
+            "support_economy",
+            "team_utility"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Swain": {
+      "name": "Swain",
+      "championKey": 50,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_sustain_battlemage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "ap_sustain_battlemage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "support_economy",
+            "team_utility"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "bot",
+          "primaryArchetype": "ap_sustain_battlemage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Sylas": {
+      "name": "Sylas",
+      "championKey": 517,
+      "riotTags": [
+        "Mage",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_bruiser",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ap_bruiser",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_bruiser",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Syndra": {
+      "name": "Syndra",
+      "championKey": 134,
+      "riotTags": [
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_burst_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "TahmKench": {
+      "name": "Tahm Kench",
+      "championKey": 223,
+      "riotTags": [
+        "Tank",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "tank_peel",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility",
+            "ally_protection"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "tank_duelist",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Taliyah": {
+      "name": "Taliyah",
+      "championKey": 163,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Talon": {
+      "name": "Talon",
+      "championKey": 91,
+      "riotTags": [
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Taric": {
+      "name": "Taric",
+      "championKey": 44,
+      "riotTags": [
+        "Support",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "tank_enchanter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "heal_shield_utility",
+            "ability_haste",
+            "support_economy",
+            "team_utility"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Teemo": {
+      "name": "Teemo",
+      "championKey": 17,
+      "riotTags": [
+        "Marksman",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ap_dot_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage",
+            "damage_over_time_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_dot_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage",
+            "damage_over_time_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "ap_dot_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "support_economy",
+            "team_utility",
+            "sustained_damage",
+            "damage_over_time_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Thresh": {
+      "name": "Thresh",
+      "championKey": 412,
+      "riotTags": [
+        "Support",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "tank_pick",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "support_economy",
+            "team_utility"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Tristana": {
+      "name": "Tristana",
+      "championKey": 18,
+      "riotTags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_crit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_crit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Trundle": {
+      "name": "Trundle",
+      "championKey": 48,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_duelist",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_duelist",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Tryndamere": {
+      "name": "Tryndamere",
+      "championKey": 23,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Fury",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_crit_melee",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "TwistedFate": {
+      "name": "Twisted Fate",
+      "championKey": 4,
+      "riotTags": [
+        "Mage",
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_control",
+          "alternatives": [
+            "ad_onhit_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ad_onhit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Twitch": {
+      "name": "Twitch",
+      "championKey": 29,
+      "riotTags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_onhit_carry",
+          "alternatives": [
+            "ap_onhit_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Udyr": {
+      "name": "Udyr",
+      "championKey": 77,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "adaptive_stance_fighter",
+          "alternatives": [
+            "ap_tank_variant",
+            "ad_auto_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "extended_trade_value",
+            "durability_tradeoff",
+            "variant_confirmation_required"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "adaptive_stance_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "extended_trade_value",
+            "durability_tradeoff",
+            "variant_confirmation_required"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "stance_priority_and_build_variant_matter"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Urgot": {
+      "name": "Urgot",
+      "championKey": 6,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_juggernaut",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "melee_sustained_pressure",
+            "health_and_damage_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Varus": {
+      "name": "Varus",
+      "championKey": 110,
+      "riotTags": [
+        "Marksman",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_onhit_carry",
+          "alternatives": [
+            "ad_poke_variant",
+            "ap_onhit_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_poke_caster",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ranged_poke",
+            "ability_haste",
+            "ability_damage_and_casting"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Vayne": {
+      "name": "Vayne",
+      "championKey": 67,
+      "riotTags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_onhit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ad_onhit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Veigar": {
+      "name": "Veigar",
+      "championKey": 45,
+      "riotTags": [
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_burst_scaling",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing",
+            "late_game_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "bot",
+          "primaryArchetype": "ap_burst_scaling",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing",
+            "late_game_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Velkoz": {
+      "name": "Vel'Koz",
+      "championKey": 161,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_poke",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "ranged_poke",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "ap_poke",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "support_economy",
+            "team_utility",
+            "ranged_poke",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Vex": {
+      "name": "Vex",
+      "championKey": 711,
+      "riotTags": [
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_burst_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Vi": {
+      "name": "Vi",
+      "championKey": 254,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_diver",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Viego": {
+      "name": "Viego",
+      "championKey": 234,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "None",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_auto_fighter",
+          "alternatives": [
+            "bruiser_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Viktor": {
+      "name": "Viktor",
+      "championKey": 112,
+      "riotTags": [
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_control_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "crowd_control_synergy",
+            "ability_haste",
+            "sustained_damage"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Vladimir": {
+      "name": "Vladimir",
+      "championKey": 8,
+      "riotTags": [
+        "Mage",
+        "Fighter"
+      ],
+      "resourceType": "Crimson Rush",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_sustain_battlemage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ap_sustain_battlemage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "no_mana_sustain_items"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Volibear": {
+      "name": "Volibear",
+      "championKey": 106,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "adaptive_bruiser",
+          "alternatives": [
+            "ap_bruiser_variant",
+            "tank_variant"
+          ],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "extended_trade_value",
+            "durability_tradeoff",
+            "variant_confirmation_required"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "adaptive_bruiser",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "extended_trade_value",
+            "durability_tradeoff",
+            "variant_confirmation_required"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Warwick": {
+      "name": "Warwick",
+      "championKey": 19,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_onhit_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ad_onhit_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Xayah": {
+      "name": "Xayah",
+      "championKey": 498,
+      "riotTags": [
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_crit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Xerath": {
+      "name": "Xerath",
+      "championKey": 101,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_poke",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "ranged_poke",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "support",
+          "primaryArchetype": "ap_poke",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "support_economy",
+            "team_utility",
+            "ranged_poke",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "XinZhao": {
+      "name": "Xin Zhao",
+      "championKey": 5,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_early_diver",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Yasuo": {
+      "name": "Yasuo",
+      "championKey": 157,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Flow",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_crit_melee",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ad_crit_melee",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "crit_melee_special_scaling"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Yone": {
+      "name": "Yone",
+      "championKey": 777,
+      "riotTags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "resourceType": "Flow",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_crit_melee",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "ad_crit_melee",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "crit_melee_special_scaling"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Yorick": {
+      "name": "Yorick",
+      "championKey": 83,
+      "riotTags": [
+        "Fighter",
+        "Tank"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_summoner_juggernaut",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "melee_sustained_pressure",
+            "health_and_damage_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Yunara": {
+      "name": "Yunara",
+      "championKey": 804,
+      "riotTags": [
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_onhit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "repeated_attack_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "requires_current_patch_review"
+      ],
+      "dataQuality": "HIGH_PRIORITY_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Yuumi": {
+      "name": "Yuumi",
+      "championKey": 350,
+      "riotTags": [
+        "Support",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "enchanter_heal_shield",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "heal_shield_utility",
+            "ability_haste",
+            "support_economy",
+            "team_utility"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "support_attachment_playstyle"
+      ],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Zaahen": {
+      "name": "Zaahen",
+      "championKey": 904,
+      "riotTags": [
+        "Fighter"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "top",
+          "primaryArchetype": "ad_spell_fighter",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "ability_damage_and_casting",
+            "extended_trade_value",
+            "durability_tradeoff"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [
+        "requires_current_patch_review"
+      ],
+      "dataQuality": "HIGH_PRIORITY_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Zac": {
+      "name": "Zac",
+      "championKey": 154,
+      "riotTags": [
+        "Tank",
+        "Fighter"
+      ],
+      "resourceType": "None",
+      "candidateProfiles": [
+        {
+          "role": "jungle",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "top",
+          "primaryArchetype": "tank_engage",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "durability",
+            "health_and_resistances",
+            "initiation",
+            "cc_and_survival"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Zed": {
+      "name": "Zed",
+      "championKey": 238,
+      "riotTags": [
+        "Assassin"
+      ],
+      "resourceType": "Energy",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ad_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ad_assassin",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "short_kill_window",
+            "mobility_or_access"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Zeri": {
+      "name": "Zeri",
+      "championKey": 221,
+      "riotTags": [
+        "Marksman"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "bot",
+          "primaryArchetype": "ad_crit_carry",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "attack_damage",
+            "physical_damage_access",
+            "critical_strike_scaling"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Ziggs": {
+      "name": "Ziggs",
+      "championKey": 115,
+      "riotTags": [
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_poke",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "ranged_poke",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "bot",
+          "primaryArchetype": "ap_poke",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "ranged_poke",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Zilean": {
+      "name": "Zilean",
+      "championKey": 26,
+      "riotTags": [
+        "Support",
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "enchanter_utility",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "heal_shield_utility",
+            "ability_haste",
+            "support_economy",
+            "team_utility"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_control",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "crowd_control_synergy",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Zoe": {
+      "name": "Zoe",
+      "championKey": 142,
+      "riotTags": [
+        "Mage"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "mid",
+          "primaryArchetype": "ap_burst_poke",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "burst_window",
+            "spell_rotation_timing",
+            "ranged_poke",
+            "ability_haste"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    },
+    "Zyra": {
+      "name": "Zyra",
+      "championKey": 143,
+      "riotTags": [
+        "Mage",
+        "Support"
+      ],
+      "resourceType": "Mana",
+      "candidateProfiles": [
+        {
+          "role": "support",
+          "primaryArchetype": "ap_dot_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "support_economy",
+            "team_utility",
+            "sustained_damage",
+            "damage_over_time_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        },
+        {
+          "role": "jungle",
+          "primaryArchetype": "ap_dot_dps",
+          "alternatives": [],
+          "reviewStatus": "EDITORIAL_SEED_REQUIRES_VERIFICATION",
+          "editorialFunctionGoals": [
+            "ability_power",
+            "magic_damage_access",
+            "sustained_damage",
+            "damage_over_time_synergy"
+          ],
+          "functionGoalsAreHardRestrictions": false
+        }
+      ],
+      "hardConstraints": {},
+      "softPreferences": [],
+      "dataQuality": "REQUIRES_CHAMPION_ROLE_PATCH_REVIEW",
+      "statisticalBuilds": [],
+      "sourceEvidence": []
+    }
+  }
+}
