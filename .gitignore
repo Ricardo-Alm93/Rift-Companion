@@ -48,8 +48,7 @@ data/dragon/cdn/16.21.1/
 docs/BUILD_ENGINE_V4_RESULTS.md
 docs/RANKED_GENERALIZATION_REPORT.md
 
-# Generated/debug screenshots. Keep only the two reviewed synthetic README examples.
+# Generated/debug screenshots. Keep only the explicitly reviewed portfolio screenshots.
 docs/assets/screenshots/*.png
-!docs/assets/screenshots/ranked-v41-ahri-zed-slot2-app-final.png
-!docs/assets/screenshots/ranked-v41-ahri-zed-slot2-overlay-final.png
+!docs/assets/screenshots/portfolio-*.png
 data/ranked/generalization-report-*.json

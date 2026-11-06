@@ -31,4 +31,4 @@ OP.GG's Help Center says crawling/use is generally not prohibited with proper at
 
 ## Recommended publication boundary
 
-Keep source code and authored editorial rules separate from Riot-derived datasets, CC BY data, and remote-source snapshots. Do not commit OP.GG response captures or derivative reports unless OP.GG's terms clearly permit republication. Do not place a single MIT/Apache/GPL license over third-party data without the right to do so. The repository currently has no `LICENSE` file pending that boundary and review.
+The repository's MIT license applies only to original source code authored for Rift Companion. Keep it separate from Riot-derived datasets, CC BY data, and remote-source snapshots. Do not commit OP.GG response captures or derivative reports unless OP.GG's terms clearly permit republication. The repository license does not relicense third-party data or assets.

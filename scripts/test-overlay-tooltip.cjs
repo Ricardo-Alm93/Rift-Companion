@@ -122,8 +122,15 @@ app.whenReady().then(async () => {
     assert.equal(win.isVisible(), true, 'ARAM item tooltip visible after size report');
     assert.equal(await win.webContents.executeJavaScript("!!document.querySelector('.item-recipe-details')&&document.querySelector('.item-recipe-details').open===false"), true, 'ARAM tooltip retains its collapsed technical recipe/source section');
 
+    // Keep the measured tooltip alive while the pointer crosses from the
+    // overlay item to its detached window. Without this explicit pointer state,
+    // the production hide timer may fire before the test starts listening.
+    await win.webContents.executeJavaScript('window.rift.setTooltipPointerInside(true)');
     const aramHide = timeout(new Promise(resolve => win.once('hide', resolve)), 'ARAM item tooltip hide');
     await overlay.webContents.executeJavaScript("document.querySelector('.overlay-item').dispatchEvent(new PointerEvent('pointerout',{bubbles:true}))");
+    await new Promise(resolve=>setTimeout(resolve,120));
+    assert.equal(win.isVisible(), true, 'ARAM tooltip remains visible while the pointer crosses to its detached window');
+    await win.webContents.executeJavaScript('window.rift.setTooltipPointerInside(false)');
     await aramHide;
     const requestBeforeAugment = context.tooltipRequestId;
     const augmentMeasured = waitForMeasure(win, requestBeforeAugment);

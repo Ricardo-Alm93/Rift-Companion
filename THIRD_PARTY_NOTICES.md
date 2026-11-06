@@ -10,4 +10,4 @@
 
 All source-derived records should retain source, source patch, retrieval date, and verification state. An unknown or mismatched source patch must not override current Data Dragon data.
 
-No repository-wide `LICENSE` is included yet. Do not interpret this file as granting a license over Riot content, third-party source data, or the ARAM Mayhem snapshot beyond its stated CC BY terms.
+The repository's MIT `LICENSE` applies only to original source code authored for Rift Companion. Do not interpret it as granting a license over Riot content, third-party source data, or the ARAM Mayhem snapshot beyond its stated CC BY terms.

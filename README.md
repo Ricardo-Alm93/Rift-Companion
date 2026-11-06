@@ -1,12 +1,8 @@
 # Rift Companion
 
-Rift Companion is a free, local-first desktop study tool for League of Legends builds. It uses standard Electron and helps players compare published build data with clearly labeled educational recommendations. The project is personal, non-commercial, and not affiliated with Riot Games.
+Rift Companion is a free, local-first desktop study tool for League of Legends builds. It uses standard Electron and helps its author compare published build data with clearly labeled educational recommendations. This is a personal, non-commercial project. It is not affiliated with Riot Games.
 
 **Spanish:** [README en español](README.es.md)
-
-![Ranked study mode with a synthetic Ahri vs. Zed example](docs/assets/screenshots/ranked-v41-ahri-zed-slot2-app-final.png)
-
-![Ranked overlay with the same synthetic build and selected-item explanation](docs/assets/screenshots/ranked-v41-ahri-zed-slot2-overlay-final.png)
 
 > Rift Companion is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
 
@@ -19,6 +15,22 @@ Rift Companion is a free, local-first desktop study tool for League of Legends b
 - **Local persistence:** guides, settings, and source-response caches live in the Electron user-data directory, not in a hosted Rift Companion account.
 
 Builds labeled **observed**, **curated**, **partial**, or **educational proposal** have different evidence. A generated proposal is not a measured statistical combination; do not interpret its order or fit score as a win rate.
+
+## Screenshots
+
+These English-language examples use synthetic study data.
+
+| Ranked study | Ranked overlay |
+|---|---|
+| ![Ranked matchup and build](docs/assets/screenshots/portfolio-ranked-en.png) | ![Ranked overlay](docs/assets/screenshots/portfolio-ranked-overlay-en.png) |
+
+| ARAM Mayhem study | ARAM Mayhem overlay |
+|---|---|
+| ![ARAM Mayhem builds and augments](docs/assets/screenshots/portfolio-mayhem-en.png) | ![ARAM Mayhem overlay](docs/assets/screenshots/portfolio-mayhem-overlay-en.png) |
+
+| Build creator |
+|---|
+| ![Build creator](docs/assets/screenshots/portfolio-build-creator-en.png) |
 
 ### Ranked coverage
 
@@ -105,15 +117,7 @@ See [Data sources and notices](docs/DATA_SOURCES.md) and [third-party notices](T
 - **CommunityDragon:** adapter is disabled for ingestion; no extracted CommunityDragon dataset is bundled.
 - **Electron and transitive npm packages:** lockfile-resolved dependencies are public npm packages. Run `npm ls --all` and inspect each package notice before distributing a binary.
 
-No final repository-wide source license is included yet. The source code, Riot-derived assets/data, and CC BY snapshot have different terms; see the readiness audit before proposing a license or publishing.
-
-## Roadmap
-
-1. Finish the GitHub security/provenance review, especially the unavailable local Git history and OP.GG response snapshots.
-2. Keep Ranked mode-study quality and coverage improving with explicit provenance.
-3. Keep Mayhem study content separate from live-play automation.
-4. Revisit automatic augment adaptation only if a permitted, confirmed event source becomes available and the use is compatible with Riot policy.
-5. Preserve the Electron app; no Overwolf migration is planned.
+The original source code authored for Rift Companion is licensed under the [MIT License](LICENSE). This license does not grant rights to Riot Games IP, Data Dragon artwork or data, the ARAM Mayhem dataset, or other third-party content; those remain subject to their own notices and terms. See [Data sources and notices](docs/DATA_SOURCES.md) before reuse or redistribution.
 
 ## Known limits
 
@@ -123,7 +127,3 @@ No final repository-wide source license is included yet. The source code, Riot-d
 - LCU is an experimental local interface, not an officially supported third-party API.
 - Automatic Mayhem augment selection detection is **not implemented** because no confirmed allowed local signal was observed.
 - Riot's current developer policies require registration of player-facing products and place restrictions on live-session information and decision-dictating recommendations. Public release needs a separate compliance review.
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md). Contributions should include reproducible tests, source/patch provenance for game knowledge, and must not add secrets, personal caches, unpublished OP.GG data, hidden-opponent data, or in-game automation.

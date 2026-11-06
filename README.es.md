@@ -1,12 +1,8 @@
 # Rift Companion
 
-Rift Companion es una herramienta de escritorio gratuita y local para estudiar builds de League of Legends. Usa Electron estándar y permite comparar datos publicados con recomendaciones educativas identificadas por su procedencia. Es un proyecto personal, no comercial y no afiliado a Riot Games.
+Rift Companion es una herramienta de escritorio gratuita y local para estudiar builds de League of Legends. Usa Electron estándar y permite comparar datos publicados con recomendaciones educativas identificadas por su procedencia. Es un proyecto personal y no comercial, sin afiliación con Riot Games.
 
 **English:** [README in English](README.md)
-
-![Modo Ranked con ejemplo sintético de Ahri contra Zed](docs/assets/screenshots/ranked-v41-ahri-zed-slot2-app-final.png)
-
-![Overlay Ranked con la misma build sintética y explicación del objeto seleccionado](docs/assets/screenshots/ranked-v41-ahri-zed-slot2-overlay-final.png)
 
 > Rift Companion no está avalada por Riot Games ni refleja las opiniones de Riot Games o de quienes producen o administran sus propiedades. Riot Games y las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.
 
@@ -19,6 +15,22 @@ Rift Companion es una herramienta de escritorio gratuita y local para estudiar b
 - **Persistencia local:** guías, ajustes y cachés se guardan en el perfil local de Electron, sin una cuenta alojada por Rift Companion.
 
 Las etiquetas **observada**, **curada**, **parcial** y **propuesta educativa** representan niveles de evidencia distintos. Una build generada no es una combinación estadística medida; su orden o puntuación no es un win rate.
+
+## Capturas de pantalla
+
+Estos ejemplos en español utilizan datos sintéticos de estudio.
+
+| Estudio Ranked | Overlay Ranked |
+|---|---|
+| ![Matchup y build Ranked](docs/assets/screenshots/portfolio-ranked-es.png) | ![Overlay Ranked](docs/assets/screenshots/portfolio-ranked-overlay-es.png) |
+
+| Estudio ARAM Mayhem | Overlay ARAM Mayhem |
+|---|---|
+| ![Builds y aumentos de ARAM Mayhem](docs/assets/screenshots/portfolio-mayhem-es.png) | ![Overlay ARAM Mayhem](docs/assets/screenshots/portfolio-mayhem-overlay-es.png) |
+
+| Creador de builds |
+|---|
+| ![Creador de builds](docs/assets/screenshots/portfolio-build-creator-es.png) |
 
 ### Cobertura Ranked
 
@@ -105,15 +117,7 @@ Consulta [Fuentes de datos y avisos](docs/DATA_SOURCES.md) y [avisos de terceros
 - **CommunityDragon:** su adaptador está desactivado para ingesta; no se incluye un dataset extraído de CommunityDragon.
 - **Electron y paquetes npm transitivos:** el lockfile usa paquetes públicos de npm. Antes de redistribuir un binario, revisa los avisos de licencia de cada paquete.
 
-Todavía no se incluye una licencia única para todo el repositorio. Código, contenido derivado de Riot y el snapshot CC BY tienen términos diferentes; consulta la auditoría antes de proponer una licencia o publicar.
-
-## Hoja de ruta
-
-1. Completar la revisión de seguridad y procedencia para GitHub, especialmente el historial Git local no disponible y los snapshots de OP.GG.
-2. Mejorar la cobertura y calidad del modo de estudio Ranked con procedencia explícita.
-3. Mantener separado el estudio de Mayhem de la automatización durante partidas.
-4. Retomar la adaptación automática de aumentos solo si existe una fuente permitida y confirmada, compatible con las políticas de Riot.
-5. Mantener Electron estándar; no hay migración a Overwolf planificada.
+El código fuente original creado para Rift Companion se distribuye bajo la [licencia MIT](LICENSE). Esta licencia no concede derechos sobre la propiedad intelectual de Riot Games, las imágenes o datos de Data Dragon, el conjunto de datos de ARAM Mayhem ni otros contenidos de terceros; cada uno conserva sus propios avisos y condiciones. Consulta [Fuentes de datos y avisos](docs/DATA_SOURCES.md) antes de reutilizar o redistribuir contenido.
 
 ## Limitaciones conocidas
 
@@ -123,7 +127,3 @@ Todavía no se incluye una licencia única para todo el repositorio. Código, co
 - LCU es una interfaz local experimental, no una API oficialmente soportada para terceros.
 - La detección automática de aumentos Mayhem **no está implementada** porque no se observó una señal local permitida y confirmada.
 - Las políticas actuales de Riot requieren registrar productos destinados a jugadores y limitan información de sesión y recomendaciones que dicten decisiones. Una publicación pública requiere revisar cumplimiento por separado.
-
-## Contribuir
-
-Consulta [CONTRIBUTING.md](CONTRIBUTING.md). Las contribuciones deben incluir pruebas reproducibles y procedencia/parche de conocimiento del juego. No añadas secretos, cachés personales, snapshots OP.GG no publicados, datos ocultos de rivales ni automatización dentro del juego.
