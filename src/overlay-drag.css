@@ -93,3 +93,5 @@
 #overlay-inner{min-height:0;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;-ms-overflow-style:none}
 
 #overlay-inner>.overlay-mayhem-pane[hidden]{display:none!important}
+
+.overlay-resize-grip{width:24px;height:24px;right:1px;bottom:1px;background:#101923dd;border:1px solid #364754;border-radius:5px 0 0 0;cursor:nwse-resize;touch-action:none}

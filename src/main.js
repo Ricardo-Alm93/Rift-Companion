@@ -91,9 +91,9 @@ async function getAdvisor() {
 
 let mainWindow;
 let overlayWindow;
-// The user asked for an interactive guide by default. It is shown inactive so
-// opening it does not activate the window; Ctrl+Alt+I switches to click-through.
-let overlayInteractive=false;
+// Keep the overlay usable by default. Ctrl+Alt+I enables click-through when the
+// player wants to use League controls underneath it.
+let overlayInteractive=true;
 let launcherWindow;
 let tooltipWindow;
 let pendingTooltipHtml='';

@@ -53,13 +53,14 @@ test('Ranked and Mayhem overlays hide scrollbar chrome while keeping content scr
   assert.match(css,/\.overlay-selected-build>\.overlay-items>\.overlay-item\.selected\{[^}]*outline:0/);
 });
 
-test('overlay passes mouse and focus through to League until interaction mode is enabled',()=>{
+test('overlay starts interactive and can pass clicks through to League',()=>{
   const main=read('src/main.js'),overlay=read('src/overlay.js'),html=read('src/overlay.html');
   assert.match(main,/show: false, frame: false, alwaysOnTop: true, focusable: false/);
-  assert.match(main,/let overlayInteractive=false[\s\S]*overlayWindow\.setIgnoreMouseEvents\(!overlayInteractive,\{forward:true\}\)/);
+  assert.match(main,/let overlayInteractive=true[\s\S]*overlayWindow\.setIgnoreMouseEvents\(!overlayInteractive,\{forward:true\}\)/);
   assert.match(main,/globalShortcut\.register\('Control\+Alt\+I'/);
   assert.match(main,/function setOverlayInteractive\(active\)/);
+
   assert.match(main,/const TOOLTIP_HIDE_DELAY_MS=700/);
   assert.match(overlay,/onOverlayInteractionState\(active=>/);
-  assert.match(html,/Ctrl \+ Shift \+ Espacio para mostrar\/ocultar/);
+  assert.match(html,/Ctrl \+ Alt \+ I cambia la interacción/);
 });

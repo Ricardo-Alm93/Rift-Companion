@@ -5,7 +5,7 @@
     const scroll=host.firstElementChild,tooltip=scroll?.firstElementChild;if(!scroll||!tooltip)return;
     // Measure the natural content, not the viewport-sized wrapper. If the
     // tooltip is taller than the display, the wrapper becomes the scroller.
-    const box=tooltip.getBoundingClientRect(),screenWidth=window.screen?.availWidth||window.innerWidth||480,screenHeight=window.screen?.availHeight||window.innerHeight||700,maxHeight=Math.max(220,Math.min(Math.floor(screenHeight*.84),screenHeight-24,680)),contentHeight=Math.max(tooltip.scrollHeight,tooltip.offsetHeight,box.height),contentWidth=Math.max(tooltip.scrollWidth,tooltip.offsetWidth,box.width),isItem=tooltip.classList.contains('build-item-tooltip'),minHeight=isItem?520:320;
+    const box=tooltip.getBoundingClientRect(),screenWidth=window.screen?.availWidth||window.innerWidth||480,screenHeight=window.screen?.availHeight||window.innerHeight||700,maxHeight=Math.max(220,screenHeight-24),contentHeight=Math.max(tooltip.scrollHeight,tooltip.offsetHeight,box.height),contentWidth=Math.max(tooltip.scrollWidth,tooltip.offsetWidth,box.width),isItem=tooltip.classList.contains('build-item-tooltip'),minHeight=isItem?520:320;
     // The tooltip window resizes itself after each hover. Measuring against
     // innerHeight traps it at the previous short height, so use the display's
     // available dimensions and let the main process clamp to the work area.
